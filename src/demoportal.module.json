@@ -1,0 +1,24 @@
+{
+    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "xmCloudDemo",
+    "items": {
+        "includes": [
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Project/Demo Site - For Estimations",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "contentRoot",
+                "path": "/sitecore/content",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            },
+            {
+                "name": "media",
+                "path": "/sitecore/media library/Project/Demo Site - For Estimations",
+                "allowedPushOperations": "CreateUpdateAndDelete"
+            }
+        
+        ]   
+    }
+}
