@@ -1,24 +1,36 @@
 {
-    "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
-    "namespace": "xmCloudDemo",
-    "items": {
-        "includes": [
-            {
-                "name": "templates",
-                "path": "/sitecore/templates/Project/Demo Site - For Estimations",
-                "allowedPushOperations": "CreateUpdateAndDelete"
-            },
-            {
-                "name": "contentRoot",
-                "path": "/sitecore/content",
-                "allowedPushOperations": "CreateUpdateAndDelete"
-            },
-            {
-                "name": "media",
-                "path": "/sitecore/media library/Project/Demo Site - For Estimations",
-                "allowedPushOperations": "CreateUpdateAndDelete"
-            }
-        
-        ]   
-    }
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "xmCloudDemo",
+  "items": {
+    "includes": [
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Project/Demo Site - For Estimations",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "contentRoot",
+        "path": "/sitecore/content",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "renderings",
+        "path": "/sitecore/layout/Renderings/Project",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "media",
+        "path": "/sitecore/media library/Project/Demo Site - For Estimations",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+
+    ],
+
+    "excludedFields": [
+      {
+        "fieldID": "{F57099A3-526A-49F2-AEBD-635453E48875}",
+        "description": "Predefined application rendering host"
+      }
+    ]
+  }
 }
