@@ -47,7 +47,9 @@ export const Default = (props: PromoProps): JSX.Element => {
             <div className="field-promolink">
               <JssLink field={props.fields.PromoLink} />
             </div>
-            <div>I changed this text on 21-6-2023</div>
+            <div>
+              Now i Changed here date 21
+            </div>
           </div>
         </div>
       </div>
