@@ -6,7 +6,6 @@ import {
   ImageField,
   Field,
   LinkField,
-  Text,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 interface Fields {
@@ -47,9 +46,6 @@ export const Default = (props: PromoProps): JSX.Element => {
             <div className="field-promolink">
               <JssLink field={props.fields.PromoLink} />
             </div>
-            <div>
-              Now i Changed here date 21
-            </div>
           </div>
         </div>
       </div>
@@ -71,11 +67,11 @@ export const WithText = (props: PromoProps): JSX.Element => {
           <div className="promo-text">
             <div>
               <div className="field-promotext">
-                <Text className="promo-text" field={props.fields.PromoText} />
+                <JssRichText className="promo-text" field={props.fields.PromoText} />
               </div>
             </div>
             <div className="field-promotext">
-              <Text className="promo-text" field={props.fields.PromoText2} />
+              <JssRichText className="promo-text" field={props.fields.PromoText2} />
             </div>
           </div>
         </div>
