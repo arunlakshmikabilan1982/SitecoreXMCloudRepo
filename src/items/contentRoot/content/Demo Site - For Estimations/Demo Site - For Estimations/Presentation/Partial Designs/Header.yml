@@ -1,0 +1,61 @@
+﻿---
+ID: "164497ad-38b2-4f7c-b612-720f0c901aca"
+Parent: "65bd80d6-5d10-4cc3-8d58-7921a32b46c4"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: "/sitecore/content/Demo Site - For Estimations/Demo Site - For Estimations/Presentation/Partial Designs/Header"
+BranchID: "c755de9b-1e44-4c8f-b830-168212b57fe7"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: header
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{26DBD4D8-D8A4-48FB-BE56-31E1090AF6E4}"
+          p:before="*"
+          s:ds="local:/Data/Title"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7b0C9E4DFD-CA3C-4E31-BFA5-9A54D2B55F01%7d&amp;FieldNames=%7b50C8D063-CC8D-43FD-A938-67B964C798BA%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b81225C08-5783-4BED-A86A-AB2B87198885%7d"
+          s:ph="headless-header" />
+        <r
+          uid="{B68E0E68-8482-47F5-8BB3-1867373F7716}"
+          p:after="*[1=2]"
+          s:id="{1DEB067F-0BB1-405E-94F5-2ABB537A6160}"
+          s:par="?LevelFrom={1BB88840-5FB3-4353-AD8D-81136F6FF75A}&amp;LevelTo={1BB88840-5FB3-4353-AD8D-81136F6FF75A}&amp;FieldNames=%7b160C8F77-CF7E-4F75-AACA-FD1B6B83C086%7d&amp;AddRoot=1&amp;Styles=%7bAB3F42D8-CEB6-434F-A751-38B4A3CED090%7d%7c%7b7205327A-3EBF-4A18-84CE-BE60912A2230%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;NavigationRoot=%7bA90DA1EC-E382-410F-A464-3889766C440C%7d"
+          s:ph="headless-header" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{D044EFED-079F-4CB1-9D22-E7BFF1DB5A8F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221201T092123Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Anonymous
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8cc469ef-ac38-49a7-974c-7ca17d00c250"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221201T092137Z
