@@ -29,6 +29,11 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
+        "name": "feature.renderings",
+        "path": "/sitecore/layout/Renderings/Feature/CNX",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
         "name": "media",
         "path": "/sitecore/media library/Project/Demo Site - For Estimations",
         "allowedPushOperations": "CreateUpdateAndDelete"
