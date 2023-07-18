@@ -9,6 +9,16 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
+        "name": "feature.templates",
+        "path": "/sitecore/templates/Feature/CNX",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "foundation.templates",
+        "path": "/sitecore/templates/Foundation/CNX",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
         "name": "contentRoot",
         "path": "/sitecore/content",
         "allowedPushOperations": "CreateUpdateAndDelete"
@@ -16,6 +26,11 @@
       {
         "name": "renderings",
         "path": "/sitecore/layout/Renderings/Project",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "feature.renderings",
+        "path": "/sitecore/layout/Renderings/Feature/CNX",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
