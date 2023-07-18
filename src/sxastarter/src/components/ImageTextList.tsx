@@ -2,7 +2,7 @@ import React from 'react';
 import { Image as JssImage, ImageField, Text, TextField } from '@sitecore-jss/sitecore-jss-nextjs';
 
 type ResultsFieldLink = {
-  fields:{
+  fields: {
     Image: ImageField;
     Title: TextField;
   };
@@ -10,7 +10,7 @@ type ResultsFieldLink = {
 
 interface Fields {
   Heading: TextField;
-  ImageList:  ResultsFieldLink[];      
+  ImageList: ResultsFieldLink[];
 }
 
 type ImageTextListProps = {
@@ -35,7 +35,6 @@ const ImageDefault = (props: ImageTextListItemProps): JSX.Element => (
 );
 
 const ImageTextListItem = (props: ImageTextListItemProps) => {
-
   if (props.field.fields) {
     const Image = () => <JssImage field={props.field.fields.Image} />;
     const id = props.params.RenderingIdentifier;
@@ -70,17 +69,17 @@ export const Default = (props: ImageTextListProps): JSX.Element => {
   const styles = `component link-list ${props.params.styles}`.trimEnd();
   const id = props.params.RenderingIdentifier;
   if (props.fields) {
-    const list = props.fields.ImageList
-      .filter((element: ResultsFieldLink) => element?.fields.Title)
-      .map((element: ResultsFieldLink, key: number) => (
-        <ImageTextListItem
-          params={ props.params }
-          index={key}
-          key={`${key}${element.fields.Title}`}
-          total={props.fields.ImageList.length}
-          field={ element }
-        />
-      ));
+    const list = props.fields.ImageList.filter(
+      (element: ResultsFieldLink) => element?.fields.Title
+    ).map((element: ResultsFieldLink, key: number) => (
+      <ImageTextListItem
+        params={props.params}
+        index={key}
+        key={`${key}${element.fields.Title}`}
+        total={props.fields.ImageList.length}
+        field={element}
+      />
+    ));
     return (
       <div className={styles} id={id ? id : undefined}>
         <div className="component-content">
