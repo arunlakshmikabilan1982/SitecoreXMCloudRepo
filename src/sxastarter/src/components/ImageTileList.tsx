@@ -1,5 +1,12 @@
 import React from 'react';
-import { Image as JssImage, ImageField, Text, TextField, LinkField, Link } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  Image as JssImage,
+  ImageField,
+  Text,
+  TextField,
+  LinkField,
+  Link,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 
 type ResultsFieldLink = {
   fields: {
