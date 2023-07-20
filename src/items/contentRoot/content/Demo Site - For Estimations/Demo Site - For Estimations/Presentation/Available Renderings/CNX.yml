@@ -6,7 +6,9 @@ Path: "/sitecore/content/Demo Site - For Estimations/Demo Site - For Estimations
 SharedFields:
 - ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
   Hint: Renderings
-  Value: "{CE9ECA69-CC1F-4606-A35B-3C9D87C81629}"
+  Value: |
+    {CE9ECA69-CC1F-4606-A35B-3C9D87C81629}
+    {EA7DC2B6-66FA-465F-877C-76F0C5F36152}
 Languages:
 - Language: en
   Versions:
@@ -25,11 +27,11 @@ Languages:
         sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "af7bbdef-b80a-4013-8a94-dc20f8d83944"
+      Value: "d27d4e03-eb0e-486b-82f0-dec700650ab3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\mageshwari.muralidoss@concentrix.com
+        sitecore\amruta.kulkarni@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230718T051105Z
+      Value: 20230719T105357Z
