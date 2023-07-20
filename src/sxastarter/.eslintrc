@@ -19,7 +19,7 @@
     "jsx-a11y/alt-text": ["warn", { "elements": ["img"] }], // Don't force alt for <Image/> (sourced from Sitecore media)
     "no-unused-vars": "off",
     "@typescript-eslint/no-unused-vars": "error",
-    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-explicit-any": "off",
     "jsx-quotes": ["error", "prefer-double"]
   }
 }
