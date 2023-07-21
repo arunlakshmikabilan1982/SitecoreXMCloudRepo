@@ -1,10 +1,18 @@
 import React from 'react';
-import { Image as JssImage, ImageField, Text, TextField } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  Image as JssImage,
+  ImageField,
+  Text,
+  TextField,
+  LinkField,
+  Link,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 
 type ResultsFieldLink = {
   fields: {
     Image: ImageField;
-    Title: TextField;
+    ImageTitle: TextField;
+    TargetUrl: LinkField;
   };
 };
 
@@ -13,10 +21,10 @@ interface Fields {
   ImageList: ResultsFieldLink[];
 }
 
-interface ImageTextListProps {
+type ImageTileListProps = {
   params: { [key: string]: string };
   fields: Fields;
-}
+};
 
 type ImageTextListItemProps = {
   params: { [key: string]: string };
@@ -34,48 +42,64 @@ const ImageDefault = (props: ImageTextListItemProps): JSX.Element => (
   </div>
 );
 
-const ImageTextListItem = (props: ImageTextListItemProps) => {
+const ImageTileListItem = (props: ImageTextListItemProps) => {
   if (props.field.fields) {
     const Image = () => <JssImage field={props.field.fields.Image} />;
+    const id = props.params.RenderingIdentifier;
+    let className = `item${props.index}`;
+    className += (props.index + 1) % 2 == 0 ? ' even' : ' odd';
+    if (props.index == 0) {
+      className += ' first';
+    }
+    if (props.index + 1 == props.total) {
+      className += ' last';
+    }
     return (
-      <div
-        className={`component-content col-12 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 `}
-      >
-        <div className={'p-5'}>
-          <Image />
-          <Text
-            tag="p"
-            className="image-caption field-imagecaption"
-            field={props.field.fields.Title}
-          />
+      <li className={className}>
+        <div className={`component image ${props.params.styles}`} id={id ? id : undefined}>
+          <div className="component-content">
+            {props.field.fields.TargetUrl ? (
+              <Link field={props.field.fields.TargetUrl}>
+                <Image />
+              </Link>
+            ) : (
+              <Image />
+            )}
+            <Text
+              tag="span"
+              className="image-caption field-imagecaption"
+              field={props.field.fields.ImageTitle}
+            />
+          </div>
         </div>
-      </div>
+      </li>
     );
   }
   return <ImageDefault {...props} />;
 };
 
-export const Default = (props: ImageTextListProps): JSX.Element => {
-  
-  const styles = `component ${props.params.styles}`.trimEnd();
+export const Default = (props: ImageTileListProps): JSX.Element => {
+  console.log(props);
+  const styles = `component link-list ${props.params.styles}`.trimEnd();
   const id = props.params.RenderingIdentifier;
   if (props.fields) {
     const list = props.fields.ImageList.filter(
-      (element: ResultsFieldLink) => element?.fields.Title
+      (element: ResultsFieldLink) => element?.fields.TargetUrl
     ).map((element: ResultsFieldLink, key: number) => (
-      <ImageTextListItem
+      <ImageTileListItem
         params={props.params}
         index={key}
-        key={`${key}${element.fields.Title}`}
+        key={`${key}${element.fields.TargetUrl}`}
         total={props.fields.ImageList.length}
         field={element}
       />
     ));
+
     return (
       <div className={styles} id={id ? id : undefined}>
         <div className="component-content">
           <Text tag="h1" field={props?.fields?.Heading} />
-          <div className="row g-2">{list}</div>
+          <ul>{list}</ul>
         </div>
       </div>
     );
