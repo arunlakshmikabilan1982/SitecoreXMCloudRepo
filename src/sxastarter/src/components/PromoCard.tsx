@@ -30,7 +30,6 @@ const PromoCardDefault = (props: PromoCardProps): JSX.Element => (
 
 export const Default = (props: PromoCardProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  console.log(props.fields);
   if (props.fields) {
     return (
       <div className={`component promo w-100 ${props.params.styles}`} id={id ? id : undefined}>
@@ -47,7 +46,10 @@ export const Default = (props: PromoCardProps): JSX.Element => {
             </div>
           </div>
           <div className="field-promolink">
-            <JssLink className='p-4 text-light border text-decoration-none' field={props.fields.PromoCardLink} />
+            <JssLink
+              className={'p-4 text-light border text-decoration-none'}
+              field={props.fields.PromoCardLink}
+            />
           </div>
         </div>
       </div>
