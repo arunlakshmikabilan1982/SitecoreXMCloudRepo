@@ -1,6 +1,10 @@
 import React from 'react';
 import { Field, RichText as JssRichText } from '@sitecore-jss/sitecore-jss-nextjs';
 import { useEffect } from 'react';
+import Link from 'next/link';
+/* eslint-disable */
+import * as FEAAS from '@sitecore-feaas/clientside/react';
+/* eslint-enable */
 
 interface Fields {
   Title: Field<string>;
@@ -41,14 +45,12 @@ export function FEAASGiftCard({ data, children }: { data: any; children?: React.
   }, []);
   return (
     <>
-      <link
+      <Link
         rel="preload"
         as="script"
         href="https://feaasstatic.blob.core.windows.net/packages/clientside/latest/browser/index.esm.js"
-        crossorigin="anonymous"
       />
       <feaas-component
-        preload="true"
         src="26MAXx0TD44CQoHma6fhIn/9ZeWCeEqqN"
         data={data ? JSON.stringify(data) : '{}'}
       >
