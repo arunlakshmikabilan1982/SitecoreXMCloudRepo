@@ -66,7 +66,7 @@ export const Default = (props: ImageProps): JSX.Element => {
               field={props.fields.Title}
             />
           </h1>
-            <JssRichText field={props.fields.Description} />
+          <JssRichText field={props.fields.Description} />
           {sitecoreContext.pageState === 'edit' ? <Image /> : <Image />}
         </div>
       </div>
