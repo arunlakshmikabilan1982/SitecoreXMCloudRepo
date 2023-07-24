@@ -30,25 +30,31 @@ const ActiveCardDefault = (props: ActiveCardProps): JSX.Element => (
 
 export const Default = (props: ActiveCardProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  console.log(props.fields);
   if (props.fields) {
     return (
-      <div className={`component promo ${props.params.styles}`} id={id ? id : undefined}>
-        <div className="component-content">
-          <div className="field-promoicon">
-            <JssImage field={props.fields.ActiveCardImage} />
-          </div>
-          <div className="promo-text">
-            <div>
-              <div className="field-promotext">
-                <JssRichText field={props.fields.ActiveCardHeading} />
+      <div className={`component promo w-100 ${props.params.styles}`} id={id ? id : undefined}>
+        <div className="row g-2">
+          <div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div className="promo-text position-absolute top-50 w-50">
+              <div>
+                <div className="field-promotext">
+                  <JssRichText tag="h1" field={props.fields.ActiveCardHeading} />
+                </div>
+                <div className="field-promotext mb-5">
+                  <JssRichText tag="span" field={props.fields.ActiveCardDesc} />
+                </div>
               </div>
-              <div className="field-promotext">
-                <JssRichText field={props.fields.ActiveCardDesc} />
+              <div className="field-promolink text-center">
+                <JssLink
+                  className="p-4 text-white bg-dark text-decoration-none"
+                  field={props.fields.ActiveCardLink}
+                />
               </div>
             </div>
-            <div className="field-promolink">
-              <JssLink field={props.fields.ActiveCardLink} />
+          </div>
+          <div className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div className="field-promoicon">
+              <JssImage field={props.fields.ActiveCardImage} />
             </div>
           </div>
         </div>

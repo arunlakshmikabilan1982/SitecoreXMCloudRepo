@@ -13,10 +13,10 @@ interface Fields {
   ImageList: ResultsFieldLink[];
 }
 
-type ImageTextListProps = {
+interface ImageTextListProps {
   params: { [key: string]: string };
   fields: Fields;
-};
+}
 
 type ImageTextListItemProps = {
   params: { [key: string]: string };
@@ -37,36 +37,26 @@ const ImageDefault = (props: ImageTextListItemProps): JSX.Element => (
 const ImageTextListItem = (props: ImageTextListItemProps) => {
   if (props.field.fields) {
     const Image = () => <JssImage field={props.field.fields.Image} />;
-    const id = props.params.RenderingIdentifier;
-    let className = `item${props.index}`;
-    className += (props.index + 1) % 2 == 0 ? ' even' : ' odd';
-    if (props.index == 0) {
-      className += ' first';
-    }
-    if (props.index + 1 == props.total) {
-      className += ' last';
-    }
     return (
-      <li className={className}>
-        <div className={`component image ${props.params.styles}`} id={id ? id : undefined}>
-          <div className="component-content">
-            <Image />
-            <Text
-              tag="span"
-              className="image-caption field-imagecaption"
-              field={props.field.fields.Title}
-            />
-          </div>
+      <div
+        className={`component-content col-12 col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 `}
+      >
+        <div className={'p-5'}>
+          <Image />
+          <Text
+            tag="p"
+            className="image-caption field-imagecaption"
+            field={props.field.fields.Title}
+          />
         </div>
-      </li>
+      </div>
     );
   }
   return <ImageDefault {...props} />;
 };
 
 export const Default = (props: ImageTextListProps): JSX.Element => {
-  console.log(props);
-  const styles = `component link-list ${props.params.styles}`.trimEnd();
+  const styles = `component ${props.params.styles}`.trimEnd();
   const id = props.params.RenderingIdentifier;
   if (props.fields) {
     const list = props.fields.ImageList.filter(
@@ -84,7 +74,7 @@ export const Default = (props: ImageTextListProps): JSX.Element => {
       <div className={styles} id={id ? id : undefined}>
         <div className="component-content">
           <Text tag="h1" field={props?.fields?.Heading} />
-          <ul>{list}</ul>
+          <div className="row g-2">{list}</div>
         </div>
       </div>
     );
