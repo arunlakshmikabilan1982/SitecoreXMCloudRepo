@@ -1,0 +1,11 @@
+@import '@sass/abstracts/vars';
+
+.font-white {
+    a {
+        color: $text-white !important;
+    }
+}
+
+.font-black {
+    color: $text-black;
+}

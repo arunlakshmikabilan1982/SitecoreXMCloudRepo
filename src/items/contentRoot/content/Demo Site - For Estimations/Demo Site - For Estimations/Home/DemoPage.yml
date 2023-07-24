@@ -7,7 +7,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{10E085A7-3865-4B26-B5CC-87468979F3B8}" />
+    <image mediaid="{742F3717-D317-41AD-A928-F7894337068C}" />
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -16,8 +16,16 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
-          uid="{FCD3B78A-32C8-4A45-A35C-065A69499A34}"
+          uid="{727245DB-998F-4833-A1AB-E1A73244DE4C}"
           p:before="*"
+          s:ds="{E39AF615-855F-49E3-A89E-89C809A7EE6C}"
+          s:id="{1900A3A8-0EC5-4BB3-AFE6-E94E26444540}"
+          s:par="GridParameters&amp;FieldNames=%7B4F64CD9D-0300-40E1-BE6E-563F9C66AE80%7D&amp;Styles=%7B9E059B8A-6714-459B-83AD-32D33F52BBD9%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+          s:ph="headless-main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{FCD3B78A-32C8-4A45-A35C-065A69499A34}"
+          p:after="r[@uid='{727245DB-998F-4833-A1AB-E1A73244DE4C}']"
           s:ds="{F48E685C-C4A7-49DB-8319-989991809C69}"
           s:id="{CE9ECA69-CC1F-4606-A35B-3C9D87C81629}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B3DC91543-36F8-452A-BACD-F98B0C21BCF9%7D%7C%7B6F83979B-4C3F-4EEC-8C64-F8DA29D83961%7D%7C%7B959FDFBB-4691-4A17-816F-7A5330B8216A%7D%7C%7B271DE3B1-089F-4977-95EC-B5E51446FC01%7D%7C%7B1B189E02-FFC9-4ADC-84E5-D2AB5F6EC0FB%7D&amp;FieldNames=%7B244B82C6-E244-48AD-908C-D4749861CA62%7D&amp;Styles=%7BC324FDD9-08CA-4D9C-B018-614EA9779E8D%7D%7C%7B450EFF33-C1D2-4123-9529-BA7B8BC7671F%7D%7C%7B44AD0D4A-481F-4AF7-A853-D5AFDB6F8C9D%7D%7C%7B051F91FD-314F-40BF-BB3F-6756D87B9E73%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
@@ -68,11 +76,11 @@ Languages:
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0647a715-2ebf-4b8c-8c19-bc02cd6d1f86"
+      Value: "4c64f7de-05f2-4859-92bd-cf582f5fbae6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\manish.yadav7@concentrix.com
+        sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230720T121540Z
+      Value: 20230724T110520Z
