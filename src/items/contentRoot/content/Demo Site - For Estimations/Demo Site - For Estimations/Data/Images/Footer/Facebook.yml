@@ -21,7 +21,7 @@ Languages:
     - ID: "57caf172-ce57-4e48-b3a1-46f8aea71c08"
       Hint: Image
       Value: |
-        <image mediaid="{62AA9E32-65FB-4ABD-8A37-70A8344EF04F}" alt="Facebook" height="24px" width="24px" hspace="" vspace="" />
+        <image mediaid="{62AA9E32-65FB-4ABD-8A37-70A8344EF04F}" alt="Facebook" height="24" width="24" hspace="" vspace="" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -32,11 +32,11 @@ Languages:
         <link text="Facebook" linktype="external" url="https://www.facebook.com/MallOfTheEmirates" anchor="" target="_blank" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6c639d80-3c18-4395-ba4a-e9ff4c4bab47"
+      Value: "c442c371-d809-4eb6-b452-88df6b64026b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230725T091447Z
+      Value: 20230725T140902Z

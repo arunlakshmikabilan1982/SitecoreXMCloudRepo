@@ -21,18 +21,18 @@ Languages:
     - ID: "57caf172-ce57-4e48-b3a1-46f8aea71c08"
       Hint: Image
       Value: |
-        <image mediaid="{CBB502EF-A32F-4DB8-912D-992A39C0C1BF}" alt="Master" height="24" width="36" hspace="" vspace="" />
+        <image mediaid="{CBB502EF-A32F-4DB8-912D-992A39C0C1BF}" alt="Master" height="20" width="30" hspace="" vspace="" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "088259b2-7edf-4f01-a3d9-af7d7bb2d272"
+      Value: "e3a1a7e8-d9fe-47b8-bb27-8808c4f7e4dc"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230725T113727Z
+      Value: 20230725T141047Z
