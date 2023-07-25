@@ -13,7 +13,7 @@ Languages:
       Value: 20230724T124534Z
     - ID: "2f172595-49db-4924-a6e7-1edadf4262ea"
       Hint: CardDescription
-      Value: Curate your style
+      Value: Curate your styles
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,14 +31,14 @@ Languages:
         <image mediaid="{D5C583A9-B5E9-486A-9FD3-F2167A845C38}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "768eb2e2-598f-4dbf-bb05-ce50cdf92fe3"
+      Value: "b031d4d2-29cb-4d6f-91c1-9330fc4c2de3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230724T140142Z
+      Value: 20230725T062645Z
     - ID: "dc4295a2-328b-4895-bdcb-4e9b085bb3f7"
       Hint: CardLink
       Value: |
