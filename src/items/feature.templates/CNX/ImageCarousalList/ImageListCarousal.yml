@@ -1,18 +1,12 @@
 ﻿---
-ID: "984a2ab3-fa5f-41fa-a454-56a6911b81eb"
-Parent: "10a4d369-602e-4af1-a406-3f0f89a64cb6"
-Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
-Path: "/sitecore/content/Demo Site - For Estimations/Demo Site - For Estimations/Presentation/Available Renderings/CNX"
+ID: "8971a4ab-a661-48ff-b6c4-2c39b01637a0"
+Parent: "e067a81e-5bff-4bec-9734-b24182e16d23"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/CNX/ImageCarousalList/ImageListCarousal
 SharedFields:
-- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
-  Hint: Renderings
-  Value: |
-    {CE9ECA69-CC1F-4606-A35B-3C9D87C81629}
-    {EA7DC2B6-66FA-465F-877C-76F0C5F36152}
-    {F63C0C75-5727-493C-981F-7AB00DA37B84}
-    {06DEE963-A435-40E5-92B4-9EEBB47CE3D2}
-    {9B74C2BA-66F6-4D42-92EA-9A939772A201}
-    {1900A3A8-0EC5-4BB3-AFE6-E94E26444540}
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
 Languages:
 - Language: en
   Versions:
@@ -20,7 +14,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230718T051036Z
+      Value: 20230717T095011Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,11 +25,11 @@ Languages:
         sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d27d4e03-eb0e-486b-82f0-dec700650ab3"
+      Value: "ccc07f93-9837-4256-9834-535785b60fc7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\amruta.kulkarni@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230719T105357Z
+      Value: 20230724T064117Z
