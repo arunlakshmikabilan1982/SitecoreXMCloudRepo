@@ -85,3 +85,38 @@ export const Default = (props: LinkListProps): JSX.Element => {
     </div>
   );
 };
+
+export const Vertical = (props: LinkListProps): JSX.Element => {
+  const datasource = props.fields?.data?.datasource;
+  const styles = `component link-list ${props.params.styles}`.trimEnd();
+  const id = props.params.RenderingIdentifier;
+
+  if (datasource) {
+    const list = datasource.children.results
+      .filter((element: ResultsFieldLink) => element?.field?.link)
+      .map((element: ResultsFieldLink, key: number) => (
+        <LinkListItem
+          index={key}
+          key={`${key}${element.field.link}`}
+          total={datasource.children.results.length}
+          field={element.field.link}
+        />
+      ));
+
+    return (
+      <div className={styles} id={id ? id : undefined}>
+        <div className="component-content">
+          <ul>{list}</ul>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className={styles} id={id ? id : undefined}>
+      <div className="component-content">
+        <h3>Link List</h3>
+      </div>
+    </div>
+  );
+};

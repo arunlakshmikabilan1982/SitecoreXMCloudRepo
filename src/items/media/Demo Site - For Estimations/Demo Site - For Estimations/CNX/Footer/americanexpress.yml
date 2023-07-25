@@ -1,0 +1,57 @@
+﻿---
+ID: "d95f0769-6e59-43fa-8fb3-d84e014a8e4b"
+Parent: "5e6bcc8a-0e59-46da-b634-717ebee5184b"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/Demo Site - For Estimations/Demo Site - For Estimations/CNX/Footer/americanexpress"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/D95F07696E5943FA8FB3D84E014A8E4B.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 74
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "79ec184b-ccc7-4e6f-9380-800e2fb7a295"
+  Value: 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
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 2185
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 74 x 48
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 48
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230725T113019Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c26c5fa5-82d9-473e-aada-07d703977c4a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230725T113019Z
