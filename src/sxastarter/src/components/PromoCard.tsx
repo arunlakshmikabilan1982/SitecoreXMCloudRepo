@@ -58,3 +58,34 @@ export const Default = (props: PromoCardProps): JSX.Element => {
 
   return <PromoCardDefault {...props} />;
 };
+
+export const VerticalCard = (props: PromoCardProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  if (props.fields) {
+    return (
+      <div className={`component promo w-100 ${props.params.styles}`} id={id ? id : undefined}>
+        <div className="field-promoicon">
+          <JssImage field={props.fields.PromoCardimage} />
+        </div>
+        <div className="promo-text position-absolute top-50 start-50 translate-middle">
+          <div>
+            <div className="field-promotext fw-bolder fs-1 text-light">
+              <JssRichText field={props.fields.PromoCardTitle} />
+            </div>
+            <div className="mb-4 field-promotext fst-normal fs-3 text-light">
+              <JssRichText field={props.fields.PromoCardDesc} />
+            </div>
+          </div>
+          <div className="field-promolink">
+            <JssLink
+              className={'p-4 text-light border text-decoration-none'}
+              field={props.fields.PromoCardLink}
+            />
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  return <PromoCardDefault {...props} />;
+};
