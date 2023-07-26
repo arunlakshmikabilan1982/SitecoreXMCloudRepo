@@ -55,24 +55,27 @@ const ImageTileListItem = (props: ImageTileListItemProps) => {
       className += ' last1';
     }
     return (
-        <div className={`component image col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3 pt-4`} id={id ? id : undefined}>
-          <div className="component-content">
-            {props.field.fields.TargetUrl ? (
-              <Link field={props.field.fields.TargetUrl} className='w-100'>
-                <Image />
-              </Link>
-            ) : (
+      <div
+        className={`component image ${className} col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3 pt-4`}
+        id={id ? id : undefined}
+      >
+        <div className="component-content">
+          {props.field.fields.TargetUrl ? (
+            <Link field={props.field.fields.TargetUrl} className="w-100">
               <Image />
-            )}
-          </div>
-          <div className="component-content position-absolute b-15p w-100">
-            <Text
-                tag="span"
-                className="image-caption field-imagecaption anchor-font text-white text-uppercase fs-1 fst-normal text-center"
-                field={props.field.fields.ImageTitle}
-              />
-          </div>
+            </Link>
+          ) : (
+            <Image />
+          )}
         </div>
+        <div className="component-content position-absolute b-15p w-100">
+          <Text
+            tag="span"
+            className="image-caption field-imagecaption anchor-font text-white text-uppercase fs-1 fst-normal text-center"
+            field={props.field.fields.ImageTitle}
+          />
+        </div>
+      </div>
     );
   }
   return <ImageDefault {...props} />;
@@ -97,9 +100,16 @@ export const Default = (props: ImageTileListProps): JSX.Element => {
     return (
       <div className={styles} id={id ? id : undefined}>
         <div className="component-content">
-          <Text tag="h1" className="anchor-font border-0 fst-normal fw-normal mb-5 text-black text-center" field={props?.fields?.Heading} />
-          <p className='subheading-font fs-3 mb-5 text-center'>Shop everything from the best fashion and accessories to homeware, electronics, and much more</p>
-          <div className='row'>{list}</div>
+          <Text
+            tag="h1"
+            className="anchor-font border-0 fst-normal fw-normal mb-5 text-black text-center"
+            field={props?.fields?.Heading}
+          />
+          <p className="subheading-font fs-3 mb-5 text-center">
+            Shop everything from the best fashion and accessories to homeware, electronics, and much
+            more
+          </p>
+          <div className="row">{list}</div>
         </div>
       </div>
     );
