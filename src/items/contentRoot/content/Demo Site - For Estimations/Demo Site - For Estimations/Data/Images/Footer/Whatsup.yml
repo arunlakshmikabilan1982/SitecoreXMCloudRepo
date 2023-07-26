@@ -8,6 +8,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230725T085156Z
@@ -18,7 +21,7 @@ Languages:
     - ID: "57caf172-ce57-4e48-b3a1-46f8aea71c08"
       Hint: Image
       Value: |
-        <image mediaid="{CC498087-D75C-4DCE-A3FA-CFAACB62DC1C}" alt="Whatsup" height="" width="" hspace="" vspace="" />
+        <image mediaid="{CC498087-D75C-4DCE-A3FA-CFAACB62DC1C}" alt="Whatsup" height="24" width="24" hspace="" vspace="" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -29,11 +32,11 @@ Languages:
         <link text="Whatsup" linktype="external" url="https://bit.ly/3xFtERW" anchor="" target="_blank" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2f1c4536-6e81-45d0-a1b7-fc792fdae47c"
+      Value: "a45cdc56-0c0a-452a-a9ce-48f91d2e15a0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230725T085244Z
+      Value: 20230725T140902Z

@@ -21,18 +21,18 @@ Languages:
     - ID: "57caf172-ce57-4e48-b3a1-46f8aea71c08"
       Hint: Image
       Value: |
-        <image mediaid="{D95F0769-6E59-43FA-8FB3-D84E014A8E4B}" alt="american express" height="24" width="37" hspace="" vspace="" />
+        <image mediaid="{D95F0769-6E59-43FA-8FB3-D84E014A8E4B}" alt="american express" height="20" width="30" hspace="" vspace="" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4468ba19-0ec4-422b-9b24-dfab78311be8"
+      Value: "fbc17195-b7a5-4d27-8a3b-219d8fbaa021"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230725T113727Z
+      Value: 20230725T141047Z
