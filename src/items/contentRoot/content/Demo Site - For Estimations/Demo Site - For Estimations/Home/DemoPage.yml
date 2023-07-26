@@ -7,7 +7,15 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
+<<<<<<< Updated upstream
     <image mediaid="{10E085A7-3865-4B26-B5CC-87468979F3B8}" />
+=======
+<<<<<<< Updated upstream
+    <image mediaid="{02422205-80F9-409F-8E33-F6B0147D7BBD}" />
+=======
+    <image mediaid="{2EDB73D9-5C9F-4470-9B23-0AB710373E1A}" />
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -84,11 +92,30 @@ Languages:
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
+<<<<<<< Updated upstream
       Value: "0647a715-2ebf-4b8c-8c19-bc02cd6d1f86"
+=======
+<<<<<<< Updated upstream
+      Value: "c0b4c165-d639-475f-a4f1-80d40cd40457"
+>>>>>>> Stashed changes
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\manish.yadav7@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
+<<<<<<< Updated upstream
       Value: 20230720T121540Z
+=======
+      Value: 20230725T132722Z
+=======
+      Value: "f73b1527-113f-4e41-ac7b-24666b23d6e2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230725T095742Z
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
