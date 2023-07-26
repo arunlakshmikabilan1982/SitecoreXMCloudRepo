@@ -77,3 +77,21 @@ export const Default = (props: ImageProps): JSX.Element => {
 
   return <ImageDefault {...props} />;
 };
+
+export const Logo = (props: ImageProps): JSX.Element => {
+  const { sitecoreContext } = useSitecoreContext();
+
+  if (props.fields) {
+    const Image = () => <JssImage field={props.fields.Image} />;
+    const id = props.params.RenderingIdentifier;
+
+    return (
+      <div className={`component image ${props.params.styles}`} id={id ? id : undefined}>
+        <div className="component-content">
+          {sitecoreContext.pageState === 'edit' ? <Image /> : <Image />}
+        </div>
+      </div>
+    );
+  }
+  return <ImageDefault {...props} />;
+};
