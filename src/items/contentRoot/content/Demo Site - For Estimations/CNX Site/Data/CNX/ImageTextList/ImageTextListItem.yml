@@ -1,0 +1,43 @@
+﻿---
+ID: "9e4ff5ab-392e-4e42-9eb7-bdf6b030949e"
+Parent: "e83fcbe0-7aa7-47cb-be91-17991c0329d4"
+Template: "f49cc5f0-a3bf-42db-90c3-e7863af09f32"
+Path: "/sitecore/content/Demo Site - For Estimations/CNX Site/Data/CNX/ImageTextList/ImageTextListItem"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11e662a1-d68e-48e6-82b2-9e41620e70a8"
+      Hint: Heading
+      Value: Amenities & Facilities
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230717T095951Z
+    - ID: "2e310ac4-c3cb-4bc2-8406-329b56ddcace"
+      Hint: ImageList
+      Value: |
+        {AE33BBC6-0F26-420A-9F71-5F0A04B734BD}
+        {DC500C07-D0F1-4900-A214-C8B875B08558}
+        {DE6B4984-1760-442D-826B-7F115379057B}
+        {F64F3248-C240-4B6F-B6EB-D85118969F87}
+        {EAC477D8-1E2E-4090-B1E1-9D3574B61E30}
+        {67D5C247-D56B-4E93-98CB-0E7F005E948E}
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a6010248-d2e5-46b8-b37c-f4fbd4ea597c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230726T083954Z

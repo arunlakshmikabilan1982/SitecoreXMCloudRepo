@@ -1,0 +1,38 @@
+﻿---
+ID: "ae33bbc6-0f26-420a-9f71-5f0a04b734bd"
+Parent: "ec1b309f-ecba-4b51-a462-8cb6759da8f7"
+Template: "4e92ccd0-1272-4b4a-b727-ca3054c38cf1"
+Path: "/sitecore/content/Demo Site - For Estimations/CNX Site/Data/CNX/ImageTextList/ImageTextListData/ImageDetail1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00f739ff-7082-4f3b-9074-5e4386f67840"
+      Hint: Image
+      Value: |
+        <image mediaid="{5CA541F9-4679-42FE-B575-4324F2D61071}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230717T095246Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d823c27d-0369-4f07-a615-e9b0ab0bc3cc"
+    - ID: "a1c8aa28-a598-4868-b865-a7240d163f72"
+      Hint: Title
+      Value: "Complimentary Wi-Fi"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230726T084016Z

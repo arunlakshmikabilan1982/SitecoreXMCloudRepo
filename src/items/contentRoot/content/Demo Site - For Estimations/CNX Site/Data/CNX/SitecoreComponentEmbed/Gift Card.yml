@@ -1,0 +1,34 @@
+﻿---
+ID: "ce28db43-5755-4320-bae9-23e21e46343f"
+Parent: "6a2891cc-7be6-4916-83e6-ee87aaf3a8c7"
+Template: "49b8d2e1-df3f-4a14-b4af-93a59c101db8"
+Path: "/sitecore/content/Demo Site - For Estimations/CNX Site/Data/CNX/SitecoreComponentEmbed/Gift Card"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230720T133357Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "6e56d628-1af1-483a-aa61-4a73c0e6f13c"
+      Hint: Title
+      Value: Buy Mall Gift Card
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e7d2d018-6054-4713-bd37-c9d186d322df"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230720T133646Z
