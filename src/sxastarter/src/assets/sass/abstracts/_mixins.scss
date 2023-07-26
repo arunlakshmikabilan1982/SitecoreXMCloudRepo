@@ -119,3 +119,11 @@ $break-mobile-large: 992px;
       background: $bg-light-gray;
   }
 }
+
+@mixin tiroFont() {
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+@mixin subHeadingFont() {
+    font-family: 'Jost', sans-serif;
+}

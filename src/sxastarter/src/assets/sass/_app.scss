@@ -100,3 +100,15 @@ ul li {
   color:#fff;
   max-width: 500px;
 }
+
+.anchor-font {
+  @include tiroFont();
+}
+
+.subheading-font {
+  @include subHeadingFont();
+}
+
+.b-15p {
+  bottom: 15px;
+}
