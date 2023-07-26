@@ -56,7 +56,6 @@ const ImageTextListItem = (props: ImageTextListItemProps) => {
 };
 
 export const Default = (props: ImageTextListProps): JSX.Element => {
-  
   const styles = `component ${props.params.styles}`.trimEnd();
   const id = props.params.RenderingIdentifier;
   if (props.fields) {

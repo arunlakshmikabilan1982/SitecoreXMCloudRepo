@@ -30,7 +30,6 @@ const ActiveCardDefault = (props: ActiveCardProps): JSX.Element => (
 
 export const Default = (props: ActiveCardProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  console.log(props.fields);
   if (props.fields) {
     return (
       <div className={`component promo w-100 ${props.params.styles}`} id={id ? id : undefined}>
@@ -39,14 +38,17 @@ export const Default = (props: ActiveCardProps): JSX.Element => {
             <div className="promo-text position-absolute top-50 w-50">
               <div>
                 <div className="field-promotext">
-                  <JssRichText tag='h1' field={props.fields.ActiveCardHeading} />
+                  <JssRichText tag="h1" field={props.fields.ActiveCardHeading} />
                 </div>
                 <div className="field-promotext mb-5">
-                  <JssRichText tag='span' field={props.fields.ActiveCardDesc} />
+                  <JssRichText tag="span" field={props.fields.ActiveCardDesc} />
                 </div>
               </div>
-              <div data-style={'width: 48%'} className="field-promolink text-center">
-                <JssLink className='p-4 text-white bg-dark text-decoration-none' field={props.fields.ActiveCardLink} />
+              <div className="field-promolink text-center">
+                <JssLink
+                  className="p-4 text-white bg-dark text-decoration-none"
+                  field={props.fields.ActiveCardLink}
+                />
               </div>
             </div>
           </div>

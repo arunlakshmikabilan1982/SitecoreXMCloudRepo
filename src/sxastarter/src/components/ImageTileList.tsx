@@ -79,7 +79,6 @@ const ImageTileListItem = (props: ImageTileListItemProps) => {
 };
 
 export const Default = (props: ImageTileListProps): JSX.Element => {
-  console.log(props);
   const styles = `component link-list ${props.params.styles}`.trimEnd();
   const id = props.params.RenderingIdentifier;
   if (props.fields) {
