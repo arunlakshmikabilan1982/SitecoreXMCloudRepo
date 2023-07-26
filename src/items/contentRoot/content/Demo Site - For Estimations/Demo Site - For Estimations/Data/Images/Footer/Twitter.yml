@@ -8,6 +8,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230725T085404Z
@@ -18,7 +21,7 @@ Languages:
     - ID: "57caf172-ce57-4e48-b3a1-46f8aea71c08"
       Hint: Image
       Value: |
-        <image mediaid="{DB4DBFA9-D1DF-423D-9D49-9075B6E7C622}" alt="Twitter" height="" width="" hspace="" vspace="" />
+        <image mediaid="{DB4DBFA9-D1DF-423D-9D49-9075B6E7C622}" alt="Twitter" height="24" width="24" hspace="" vspace="" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -29,11 +32,11 @@ Languages:
         <link text="Twitter" linktype="external" url="https://www.twitter.com/MallofEmirates" anchor="" target="_blank" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "591aed73-ac02-4da6-a7ef-601acd570cdb"
+      Value: "c4b4fa99-4c0b-47ee-876e-7edd533d8252"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230725T085445Z
+      Value: 20230725T140902Z
