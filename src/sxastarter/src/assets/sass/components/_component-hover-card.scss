@@ -1,0 +1,77 @@
+.hover-component {
+    .component-wrapper {
+        background-color: #262626;
+        color: white;
+        overflow-x: hidden;
+        background-image: linear-gradient(to right, #000000, #181818, #202020, #000000, #000000);
+        padding-top: 76px;
+        padding-bottom: 152px;
+        max-width: 1440px;
+    }
+    .component-container-size {
+        width: 896px;
+    }
+    .heading-title {
+        font-weight: 300;
+        font-size: 7.20rem;
+        line-height: 110%;
+        letter-spacing: -0.04em;
+        font-family: times-light, gess-light;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .content-wrapper {
+        margin-top: 156px;
+    }
+    .transition-all {
+        transition-duration: 1000ms;
+        transition-property: all;
+        transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+    .zoom-on-hover:hover {
+        transform: scale(1.42);
+        margin-left: 7.5rem;
+        margin-right: 7.5rem;
+        margin-top: -2rem;
+    }
+    .hover-image-card {
+        width: 364px;
+        height: 364px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .component-content-cardtitle {
+        font-family: Roboto;// futura-heavy, gess-bold;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .component-content-carddescription {
+        font-size: 4.8rem;
+        letter-spacing: -0.02em;
+        line-height: 110%;
+        margin-bottom: 1rem;
+        font-weight: 400;
+        font-family: futura-heavy, gess-bold;
+        overflow-wrap: break-word;
+        text-align: center;
+    }
+    .action-sec {
+        padding-top: 7.5rem;
+    }
+    .act-btn {
+        font-family: futura-medium, gess-light;
+        font-size: 1.4rem;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        transition: border-color .35s ease 0s,color .35s ease 0s;
+        height: 5.6rem;
+        width: 34.3rem;
+        font-weight: 500;
+        padding: 0px;
+    }
+}

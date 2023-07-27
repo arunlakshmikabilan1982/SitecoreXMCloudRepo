@@ -50,24 +50,40 @@ export const Banner = (props: ImageProps): JSX.Element => {
 };
 
 export const Default = (props: ImageProps): JSX.Element => {
-  const { sitecoreContext } = useSitecoreContext();
+  // const { sitecoreContext } = useSitecoreContext();
 
   if (props.fields) {
-    const Image = () => <JssImage field={props.fields.BannerImage} />;
+    // const Image = () => <JssImage field={props.fields.BannerImage} />;
+    const bgImg = `linear-gradient(360deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%),
+      url(${props.fields.BannerImage.value?.src})`;
     const id = props.params.RenderingIdentifier;
 
     return (
-      <div className={`component image ${props.params.styles}`} id={id ? id : undefined}>
-        <div className="component-content">
-          <h1 className="pagebanner-header">
-            <Text
-              tag="span"
-              className="field-imagecaption pagebanner-title"
-              field={props.fields.Title}
+      <div
+        className={`component col-12 page-banner-component ${props.params.styles}`}
+        id={id ? id : undefined}
+      >
+        <div
+          className="component-content page-banner-content align-content-center align-items-center d-flex flex-column flex-wrap justify-content-center text-center text-white w-100"
+          style={{
+            backgroundImage: bgImg,
+          }}
+        >
+          <div className="position-absolute">
+            <h1 className="pagebanner-header text-capitalize">
+              <Text
+                tag="span"
+                className="field-imagecaption pagebanner-title"
+                field={props.fields.Title}
+              />
+            </h1>
+            <JssRichText
+              field={props.fields.Description}
+              tag="p"
+              className="mx-auto pagebanner-description"
             />
-          </h1>
-          <JssRichText field={props.fields.Description} />
-          {sitecoreContext.pageState === 'edit' ? <Image /> : <Image />}
+          </div>
+          {/* {sitecoreContext.pageState === 'edit' ? <Image /> : <Image />} */}
         </div>
       </div>
     );
