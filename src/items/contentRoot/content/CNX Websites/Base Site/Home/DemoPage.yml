@@ -1,0 +1,119 @@
+﻿---
+ID: "8931a9c3-1ed9-4572-bfe6-8ba7d7e012de"
+Parent: "a90da1ec-e382-410f-a464-3889766c440c"
+Template: "010163da-00a6-4599-a7c9-9ca4c79e562d"
+Path: /sitecore/content/CNX Websites/Base Site/Home/DemoPage
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{742F3717-D317-41AD-A928-F7894337068C}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{727245DB-998F-4833-A1AB-E1A73244DE4C}"
+          p:before="*"
+          s:ds="{E39AF615-855F-49E3-A89E-89C809A7EE6C}"
+          s:id="{1900A3A8-0EC5-4BB3-AFE6-E94E26444540}"
+          s:par="GridParameters&amp;FieldNames=%7B4F64CD9D-0300-40E1-BE6E-563F9C66AE80%7D&amp;Styles=%7B9E059B8A-6714-459B-83AD-32D33F52BBD9%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+          s:ph="headless-main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{FCD3B78A-32C8-4A45-A35C-065A69499A34}"
+          p:after="r[@uid='{727245DB-998F-4833-A1AB-E1A73244DE4C}']"
+          s:ds="{F48E685C-C4A7-49DB-8319-989991809C69}"
+          s:id="{CE9ECA69-CC1F-4606-A35B-3C9D87C81629}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B3DC91543-36F8-452A-BACD-F98B0C21BCF9%7D%7C%7B6F83979B-4C3F-4EEC-8C64-F8DA29D83961%7D%7C%7B959FDFBB-4691-4A17-816F-7A5330B8216A%7D%7C%7B271DE3B1-089F-4977-95EC-B5E51446FC01%7D%7C%7B1B189E02-FFC9-4ADC-84E5-D2AB5F6EC0FB%7D&amp;FieldNames=%7B244B82C6-E244-48AD-908C-D4749861CA62%7D&amp;Styles=%7BC324FDD9-08CA-4D9C-B018-614EA9779E8D%7D%7C%7B450EFF33-C1D2-4123-9529-BA7B8BC7671F%7D%7C%7B44AD0D4A-481F-4AF7-A853-D5AFDB6F8C9D%7D%7C%7B051F91FD-314F-40BF-BB3F-6756D87B9E73%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{9A58ED6D-5FEA-4B49-A040-05F45DC7024E}"
+          p:after="r[@uid='{FCD3B78A-32C8-4A45-A35C-065A69499A34}']"
+          s:ds="{2B6453B4-D83E-491B-B819-B140F56A9DAC}"
+          s:id="{EA7DC2B6-66FA-465F-877C-76F0C5F36152}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles=%7BC324FDD9-08CA-4D9C-B018-614EA9779E8D%7D%7C%7B450EFF33-C1D2-4123-9529-BA7B8BC7671F%7D%7C%7B44AD0D4A-481F-4AF7-A853-D5AFDB6F8C9D%7D%7C%7B051F91FD-314F-40BF-BB3F-6756D87B9E73%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{2740AE3A-5CBD-4657-8494-27AAE8D158CB}"
+          p:after="r[@uid='{9A58ED6D-5FEA-4B49-A040-05F45DC7024E}']"
+          s:ds="{0C733242-B699-4187-B11C-CD62BCC58E71}"
+          s:id="{92C40DD0-4376-4C1F-98A7-82A947D32133}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B3DC91543-36F8-452A-BACD-F98B0C21BCF9%7D%7C%7B6F83979B-4C3F-4EEC-8C64-F8DA29D83961%7D%7C%7B959FDFBB-4691-4A17-816F-7A5330B8216A%7D%7C%7B271DE3B1-089F-4977-95EC-B5E51446FC01%7D%7C%7B1B189E02-FFC9-4ADC-84E5-D2AB5F6EC0FB%7D&amp;FieldNames=%7B9616F51A-12F6-492F-92B9-7370DA2CE5CD%7D&amp;Styles=%7BC324FDD9-08CA-4D9C-B018-614EA9779E8D%7D%7C%7B450EFF33-C1D2-4123-9529-BA7B8BC7671F%7D%7C%7B44AD0D4A-481F-4AF7-A853-D5AFDB6F8C9D%7D%7C%7B051F91FD-314F-40BF-BB3F-6756D87B9E73%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+          s:ph="headless-main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{2D17C05D-C80A-44DC-993D-362E1E41275A}"
+          p:after="r[@uid='{2740AE3A-5CBD-4657-8494-27AAE8D158CB}']"
+          s:ds="{C24AA843-2B62-4BF7-87BD-7011DDBE9AD9}"
+          s:id="{06DEE963-A435-40E5-92B4-9EEBB47CE3D2}"
+          s:par="GridParameters&amp;FieldNames=%7B384A2A31-1FE1-4219-864B-7B26F6E023EE%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+          s:ph="headless-main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{D956B952-6926-469F-B8E1-745B19E4F715}"
+          p:after="*[1=2]"
+          s:ds="{A34E9665-8BEE-4B42-BB7D-548D8BC59CC3}"
+          s:id="{F63C0C75-5727-493C-981F-7AB00DA37B84}"
+          s:par="GridParameters&amp;FieldNames=%7BD9CABEB0-864B-473F-872C-6C50523B066C%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=6"
+          s:ph="headless-main"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D481EF54-CB3D-4477-AB5B-718350C33436}"
+              p:after="*[1=2]"
+              s:ds="{041D75E9-A6AF-41EA-9E71-FD257B2806D6}"
+              s:id="{9B74C2BA-66F6-4D42-92EA-9A939772A201}"
+              s:par="GridParameters&amp;FieldNames&amp;Styles&amp;CSSStyles"
+              s:ph="headless-main"
+              s:ccb="Clear on publish" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221221T134055Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: DemoPage
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "595f52d5-223b-4143-afa6-73415b86f877"
+      Hint: Title
+      Value: DemoPage
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0e681599-916b-41d9-be7d-3285340a9b96"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230727T150519Z

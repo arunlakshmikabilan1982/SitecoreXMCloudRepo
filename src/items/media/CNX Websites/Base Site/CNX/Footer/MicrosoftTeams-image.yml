@@ -1,0 +1,57 @@
+﻿---
+ID: "cbb502ef-a32f-4db8-912d-992a39c0c1bf"
+Parent: "5e6bcc8a-0e59-46da-b634-717ebee5184b"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/CNX Websites/Base Site/CNX/Footer/MicrosoftTeams-image"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/CBB502EFA32F4DB8912D992A39C0C1BF.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 72
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "9442a10b-8a88-49f0-b237-ca5104bd995b"
+  Value: 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
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1543
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 72 x 48
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 48
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230725T113019Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "887f7092-9c9f-48fb-b3b4-b7e158145b19"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230725T113020Z
