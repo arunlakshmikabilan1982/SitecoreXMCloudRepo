@@ -67,18 +67,18 @@ export const VerticalCard = (props: PromoCardProps): JSX.Element => {
         <div className="field-promoicon">
           <JssImage field={props.fields.PromoCardimage} />
         </div>
-        <div className="promo-text position-absolute top-50 start-50 translate-middle">
+        <div className="promo-text mt-4 text-black">
           <div>
-            <div className="field-promotext fw-bolder fs-1 text-light">
+            <div className="field-promotext anchor-font fs-1 pt-4 pb-4">
               <JssRichText field={props.fields.PromoCardTitle} />
             </div>
-            <div className="mb-4 field-promotext fst-normal fs-3 text-light">
+            <div className="mb-4 field-promotext fst-normal fs-3 subheading-font pb-4 pt-4">
               <JssRichText field={props.fields.PromoCardDesc} />
             </div>
           </div>
           <div className="field-promolink">
             <JssLink
-              className={'p-4 text-light border text-decoration-none'}
+              className={'p-4 border-none text-decoration-none text-black subheading-font'}
               field={props.fields.PromoCardLink}
             />
           </div>
