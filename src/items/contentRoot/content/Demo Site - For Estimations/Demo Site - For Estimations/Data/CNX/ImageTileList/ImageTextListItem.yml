@@ -20,6 +20,8 @@ Languages:
         {E06B53C8-9A16-4B85-9CFA-7374C9D8D3B0}
         {B679D5F0-8B97-467C-8C8E-D61513C748B9}
         {83C32329-E32E-4A7D-9DE0-87AB43E31D57}
+        {ADF27E25-F3F8-4C09-AEE9-3AD9AAF1922E}
+        {438EF046-8F03-46EF-8008-7BFECB67E78E}
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -30,14 +32,14 @@ Languages:
         sitecore\manish.yadav7@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1a6727f6-bde2-4eaa-82c7-111adc291f4a"
+      Value: "12438fae-1c31-41c2-9a5c-d1044c590b79"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\HJmOiqSpvZ
+        sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "d65b748e-5420-46af-a3d9-5c0dc948eb5b"
       Hint: Heading
       Value: Shop By Category
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230720T122059Z
+      Value: 20230727T120146Z
