@@ -108,16 +108,24 @@ export const ImageRight = (props: ActiveCardProps): JSX.Element => {
           <div className="float-start h-auto position-absolute promo-text top-50 w-50">
             <div className="text-center">
               <div className="field-promotext">
-                <JssRichText className="anchor-font fs-1 pb-1" field={props.fields.ActiveCardHeading} />
+                <JssRichText
+                  className="anchor-font fs-1 pb-1"
+                  field={props.fields.ActiveCardHeading}
+                />
               </div>
               <div className="field-promotext">
-                <JssRichText className="pb-5 pt-2 subheading-font" field={props.fields.ActiveCardDesc} />
+                <JssRichText
+                  className="pb-5 pt-2 subheading-font"
+                  field={props.fields.ActiveCardDesc}
+                />
               </div>
               <div className="bg-black field-promolink me-5 ms-5 p-4">
-                <JssLink className="p-4 text-decoration-none subheading-font text-white" field={props.fields.ActiveCardLink} />
+                <JssLink
+                  className="p-4 text-decoration-none subheading-font text-white"
+                  field={props.fields.ActiveCardLink}
+                />
               </div>
             </div>
-            
           </div>
         </div>
       </div>
