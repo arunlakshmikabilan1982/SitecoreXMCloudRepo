@@ -7,7 +7,7 @@ BranchID: "2d3805b9-3089-44f3-b952-d45c44add7f8"
 SharedFields:
 - ID: "102b58da-2a86-4953-b3cd-c9f91256b657"
   Hint: PlaceholderSettingsFolder
-  Value: "{268FAAEF-64D6-45E4-94CD-8E4849AFE726}"
+  Value: "{4CE17442-9A10-495C-9514-9501304472DB}"
 - ID: "1230d2cb-4948-4d43-8a3b-b39978f6f1b3"
   Hint: Modules
   Value: |
@@ -20,6 +20,9 @@ SharedFields:
     {D912C30C-7A98-4A8D-A094-611D9AF9605D}
     {6DE1F4E9-815D-491D-923D-D5038100DBEE}
     {02CD7086-1F87-41EC-B40F-B92C1226895B}
+- ID: "7d29b525-8118-45c6-a89b-773a6a576ec7"
+  Hint: SharedSites
+  Value: "{2A9EFEA5-26AE-4902-BBB3-EB788644DD63}"
 - ID: "800dc4ed-0846-45ba-b112-19902af240f6"
   Hint: SharedMediaLibrary
   Value: "{5AB5AB05-29B4-43F3-BA6A-CC0439297815}"
@@ -53,11 +56,11 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "036cfd81-a98d-4218-9f14-b978d57ff780"
+      Value: "680dbf86-c943-472f-bd27-020c76d35a23"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230727T144650Z
+      Value: 20230727T154234Z

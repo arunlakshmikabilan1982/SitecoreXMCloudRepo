@@ -16,10 +16,10 @@ SharedFields:
   Value: *
 - ID: "9eaf6dc9-b811-4cda-9edd-9697faba628a"
   Hint: POS
-  Value: "*=DemoSite-ForEstimations"
+  Value: *=Base%20Site
 - ID: "cb4e9e2e-2b66-43dc-ad3f-9caf363d28d3"
   Hint: SiteName
-  Value: "Demo Site - For Estimations"
+  Value: Base Site
 - ID: "da06d09e-02b6-464a-80fc-9d8d7fc875e3"
   Hint: Environment
   Value: *
@@ -44,11 +44,11 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "93125720-0838-4b89-a78b-05af74a9fe40"
+      Value: "d59821ba-f1b4-405e-89ed-6a2563329ffa"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230727T145303Z
+      Value: 20230727T154336Z
