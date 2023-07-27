@@ -1,0 +1,42 @@
+﻿---
+ID: "08a3b044-07d7-4686-9e29-2dbb1a5b10aa"
+Parent: "0b534673-bdf5-46ac-861e-dff4e9819858"
+Template: "c3b4bd18-9a07-457b-92d4-040cdada15a9"
+Path: /sitecore/content/CNX Websites/CNX Site/Data/CNX/ImageTileList/ImageTileListData/Image3
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230719T141140Z
+    - ID: "3e67ace4-c601-4324-ade2-e5907d84369e"
+      Hint: Image
+      Value: |
+        <image mediaid="{4A6876D3-9EA0-4217-BAE6-F6EA465108EB}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\manish.yadav7@concentrix.com
+    - ID: "56eea0af-3232-42a7-a7ef-a0593614ff8b"
+      Hint: TargetUrl
+      Value: |
+        <link linktype="external" url="https://www.malloftheemirates.com/en/beauty-wellness" anchor="" target="_blank" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manish.yadav7@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "592813d2-4687-412c-821c-fe392ff40898"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230726T084016Z
+    - ID: "e53018d9-09a6-4104-9374-b02fcda4a010"
+      Hint: ImageTitle
+      Value: Beauty And Wellness

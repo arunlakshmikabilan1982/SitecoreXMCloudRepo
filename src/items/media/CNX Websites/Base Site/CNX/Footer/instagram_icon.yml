@@ -1,0 +1,57 @@
+﻿---
+ID: "ce9b6056-4054-4894-9532-f501defab033"
+Parent: "5e6bcc8a-0e59-46da-b634-717ebee5184b"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/Project/CNX Websites/Base Site/CNX/Footer/instagram_icon
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/CE9B6056405448949532F501DEFAB033.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 32
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "3bea5ff8-77b6-4d43-a323-bd94b2373ac3"
+  Value: iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMMSURBVHgBxVfLcRpBEB0WDnyKEkSgJQLkCLQ+wBUUATgCyQfOkIEgAokIDBFoHYFQBKAI2Cr+FB+/h3rxFl7YWYzsV9XMMDvd09PTn5mIContdpuZTqdWJBK5Rj/LMfSH6/X6LRaLDRKJxCCMvIjOJC46n8/v0a2ybxiGvdls3tF3RIEMKI//N/g2QNvBcDusMr4Lz2azOqiPXTfRWkE8nDOZTJ7RbkFPIFOdg9FoZLkLUxEVElxYFOlTVhheRXOTUWfHGopYIquuxbBYLOrCYKoLgbLEmg8nJ7pmv+Tih0ocPQ53wiXMfkKJ3Qa9PrUPQzoMQmiL0Pl2yCjRUHHjPgjMC6CuXxiKUzupVKqxV0BM3gflDpnk2wsE9phslB5MzC9h/l06nba9H4bDYSYej7+CvmCO4y7SYMz6SaLjHPt2CuPxuArezhGZTVi8wb7BH5iktFqt2n6TaX5mPaWHcrFYpCUr0Wh0gB1e+U3CeAfHXdkpQBPjj3loqiBAMQt0L2TKcKZQKJhBvDhmmxvbpXX8N9HpqRDAfCaVH6Cc0IuMPddqNTpqO0gG68lyubyNsYDgv65zKdltFUQnGshYE80r2p8Ys3XkyLHmDDGFo/RRBnXdxQnpc9c3ukK4pnsE/xUGY5H1PAQP/aXicTz3WEqgjq4QuUM49AGGixWCkR7cUh+O15VhhlTLeywacvII/Y4BT7ThkbcqBMDcQPNVfWRP0p2MaYPOzytcLJvNOsgFDqtUmFwgu22pM8CiRMsz7btO2EbmKqt/BIRg1T2+GH9wA2qyQGCwsS8QAiYMNE+wkE2T6SyAs2UxegRv8/CbFDf6DBPY73LMggQFrpLJ5HcfpqowmUoDklfakPWHAkfLPsvkWRfIEAi8cXkukKb6BNCSgTcu+MPDZyqhBbmgXOQ4xOwVFRae4zjrdSPPuce/uuh6Xje7Z5aORThHnnF9iayTdUbrcSoWYPJgwWGM99B/8z5OEVrXSDCW5JE28krzMKecrYCPMlQij1vv7pqOLMrn+Tvi3tZZ1Itf0UZ2/UI5CxsAAAAASUVORK5CYIINCg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 889
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 32 x 32
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 32
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230725T082725Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9d8e661e-7085-45a2-a6bd-a8914c9859f0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230725T082726Z

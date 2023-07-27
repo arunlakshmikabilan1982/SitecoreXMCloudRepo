@@ -35,7 +35,7 @@
       },
       {
         "name": "media",
-        "path": "/sitecore/media library/Project/Demo Site - For Estimations",
+        "path": "/sitecore/media library/Project/CNX Websites",
         "allowedPushOperations": "CreateUpdateAndDelete"
       }
 

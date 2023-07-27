@@ -1,0 +1,35 @@
+﻿---
+ID: "129816f5-ee75-425a-a9fc-61dc25488516"
+Parent: "a5b1cfcf-dfa1-45dd-abbd-438b5c3b4e5f"
+Template: "6f108e3c-5d57-42f8-a910-c22920269b0a"
+Path: "/sitecore/content/CNX Websites/Demo Site - For Estimations/Data/Link Lists/Footer/IMMERSE/VOX Cinemas"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230725T095228Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
+      Hint: Link
+      Value: |
+        <link text="VOX Cinemas" anchor="VOX Cinemas" linktype="internal" class="" title="VOX Cinemas" target="" querystring="" id="{A90DA1EC-E382-410F-A464-3889766C440C}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dc2b7101-1eb9-4ebd-89b0-3f6fe21e23d4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230725T095242Z

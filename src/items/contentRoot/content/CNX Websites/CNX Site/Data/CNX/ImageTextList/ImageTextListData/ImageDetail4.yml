@@ -1,0 +1,38 @@
+﻿---
+ID: "f64f3248-c240-4b6f-b6eb-d85118969f87"
+Parent: "ec1b309f-ecba-4b51-a462-8cb6759da8f7"
+Template: "4e92ccd0-1272-4b4a-b727-ca3054c38cf1"
+Path: /sitecore/content/CNX Websites/CNX Site/Data/CNX/ImageTextList/ImageTextListData/ImageDetail4
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00f739ff-7082-4f3b-9074-5e4386f67840"
+      Hint: Image
+      Value: |
+        <image mediaid="{4219D988-B6D8-48AA-B3A4-60F410FD83B7}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230717T095246Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5c5e49c1-2655-4d90-ac2c-31464d65f3f0"
+    - ID: "a1c8aa28-a598-4868-b865-a7240d163f72"
+      Hint: Title
+      Value: Free Shuttle Service To Beach Park
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230726T084016Z

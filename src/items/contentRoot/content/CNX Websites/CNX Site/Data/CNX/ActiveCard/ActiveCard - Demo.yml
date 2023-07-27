@@ -1,0 +1,45 @@
+﻿---
+ID: "42320e73-7ba5-4aff-8c9f-1f33aab396b1"
+Parent: "8d584159-6f3b-4f01-bdad-0f7aebb6e1aa"
+Template: "dc478cbc-42ba-4d78-a096-26d830b5b9a2"
+Path: "/sitecore/content/CNX Websites/CNX Site/Data/CNX/ActiveCard/ActiveCard - Demo"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "232aaa6f-4bf4-4a85-b5bb-8eb4d0d4f368"
+      Hint: ActiveCardDesc
+      Value: Scan the QR code or click the link below to chat with us on WhatsApp
+    - ID: "2503abe7-2f3f-4ea2-b727-4613003a6f98"
+      Hint: ActiveCardImage
+      Value: |
+        <image mediaid="{ED389B33-3DE8-4CFB-95E0-8A47A82BBFFB}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230719T142443Z
+    - ID: "296154f9-5a98-431f-ac67-c58b5f33f5f2"
+      Hint: ActiveCardLink
+      Value: |
+        <link text="START SHOPPING" linktype="external" url="https://www.malloftheemirates.com/en/digital-concierge" anchor="" target="" />
+    - ID: "2e1f41f0-7d7a-4b42-a9f3-87ffa2bde9f1"
+      Hint: ActiveCardHeading
+      Value: "Let Us Help You Shop!"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2c9aa827-700f-47eb-9f61-bb58e7be8a72"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230726T084015Z

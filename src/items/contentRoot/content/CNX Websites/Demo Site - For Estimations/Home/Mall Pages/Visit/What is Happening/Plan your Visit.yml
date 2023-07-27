@@ -1,0 +1,45 @@
+﻿---
+ID: "444a4ce3-c3d0-4826-a344-e06624b23e6a"
+Parent: "28011329-0f9c-4f4e-8c1a-0619bc7f1a33"
+Template: "010163da-00a6-4599-a7c9-9ca4c79e562d"
+Path: "/sitecore/content/CNX Websites/Demo Site - For Estimations/Home/Mall Pages/Visit/What is Happening/Plan your Visit"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{4813FCFE-3728-49D8-9FEC-0B66190882D3}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230725T140300Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Plan your Visit
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "595f52d5-223b-4143-afa6-73415b86f877"
+      Hint: Title
+      Value: Plan your Visit
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "773b822d-1361-4d72-8a5d-9364a84eea2c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230725T140328Z
