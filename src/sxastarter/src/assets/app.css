@@ -1,3 +1,31 @@
+@font-face {
+  font-family: 'FuturaBook';
+  src: url('./font/FuturaStd-Book.otf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'FuturaHeavy';
+  src: url('./font/FuturaStd-Heavy.otf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'FuturaLight';
+  src: url('./font/FuturaStd-Light.otf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'FuturaMedium';
+  src: url('./font/FuturaStd-Medium.otf');
+  font-style: normal;
+  font-weight: normal;
+}
+
 a[target='_blank']:after {
   content: '\1F5D7'
 }

@@ -15,6 +15,67 @@
 
 header {
   #header {
+    > div:nth-child(1) {
+      height: 9.15rem;
+      background-color: #000;
+      div {        
+        .component-content {
+          height: 9.15rem;
+          vertical-align: middle;
+          display: table-cell;  
+          ul {
+            padding: 0 !important;
+            margin: 0 !important;
+            li {
+              height: 9.15rem;
+              padding-left: 1rem;
+              padding-right: 1rem;
+              display: table;
+              div {
+                display: table-cell;
+                vertical-align: middle;
+                a {
+                  border: none !important;
+                  color: #8b8b8b;
+                  &:hover {
+                    color: #fff;
+                  }
+                }
+              }
+            }
+            li.submenu {
+              div {
+                // display: block;
+                a {
+                  &:after {
+                    content: '' !important;
+                  }
+                }
+              }
+              ul {
+                border: none;
+                background-color: #181818;
+                li {
+                  height: auto;
+                  padding: 0;
+                  margin: 0;
+                  display: block;
+                  &:hover {
+                    background: #181818 !important;
+                  }
+                  div {
+                    display: block;
+                  }
+                }
+              }
+            }
+          }      
+        }
+        // .menu-mobile-navigate-wrapper {
+        //   display: grid;
+        // }
+      }
+    }
     .bs-title {
       padding-left: 50px;
 

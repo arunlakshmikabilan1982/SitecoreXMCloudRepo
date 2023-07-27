@@ -102,7 +102,6 @@ const HoverCardListItem = (props: HoverCardListItemProps) => {
 };
 
 export const Default = (props: HoverCardProps): JSX.Element => {
-  console.log(props);
   const styles = `component col-12 hover-component ${props.params.styles}`.trimEnd();
   const id = props.params.RenderingIdentifier;
   if (props.fields) {
