@@ -1,0 +1,27 @@
+﻿---
+ID: "df071dc5-6596-4fa4-93f4-7596c7443df2"
+Parent: "55fab876-6f09-4086-b67f-68f719291216"
+Template: "55fab876-6f09-4086-b67f-68f719291216"
+Path: /sitecore/templates/Feature/CNX/ImageTileList/Rendering Parameters/Image/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211012T120926Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "36f9ece4-9ee7-4399-9bb1-58ccfab67699"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\manish.yadav7@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230719T135539Z

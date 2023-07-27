@@ -18,33 +18,7 @@ Languages:
       Value: <r />
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
       Hint: __Final Renderings
-      Value: |
-        <r xmlns:p="p" xmlns:s="s"
-          p:p="1">
-          <d
-            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-            <r
-              uid="{1CD2AA8A-730D-49E6-89CB-0592FD1AD29B}"
-              p:before="*"
-              s:id="{C5F905F8-FD1F-444E-A9E5-AC6B774FF0DE}"
-              s:par="GridParameters={7465D855-992E-4DC2-9855-A03250DFA74B}|{C7D9D2E1-A59A-4D78-8FA4-C27EE0AAAAE3}|{F6DC3445-7028-4709-B9E0-D5C8CB4AB6EF}&amp;FieldNames={000F52CA-6DB6-4E81-8CD9-F6CE8F288C40}&amp;Styles={C324FDD9-08CA-4D9C-B018-614EA9779E8D}&amp;CacheClearingBehavior=Clear on publish&amp;RenderingIdentifier=&amp;DynamicPlaceholderId=3"
-              s:ph="headless-main" />
-            <r
-              uid="{C4725F70-B6E5-423D-82D8-A5CFAFA095B9}"
-              p:after="r[@uid='{1CD2AA8A-730D-49E6-89CB-0592FD1AD29B}']"
-              s:ds="02e31754-f078-4313-ae63-bfe91d725b35"
-              s:id="{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
-              s:par="GridParameters={7465D855-992E-4DC2-9855-A03250DFA74B}&amp;FieldNames={7B0E5778-D449-4CB4-977B-019EFA30324A}&amp;Styles={8DFEDD1B-C95A-45D8-AFD8-58E18D5FABF4}|{C324FDD9-08CA-4D9C-B018-614EA9779E8D}&amp;CacheClearingBehavior=Clear on publish&amp;RenderingIdentifier=&amp;DynamicPlaceholderId=2"
-              s:ph="headless-main" />
-            <r
-              uid="{8A37C22F-1DC7-4332-BE63-4C49D8DB28B3}"
-              p:after="*[1=2]"
-              s:ds="local:/Data/Image 1"
-              s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
-              s:par="GridParameters={7465D855-992E-4DC2-9855-A03250DFA74B}&amp;FieldNames={B9A50FB1-210B-4119-B69F-57F3EA6FAE5D}&amp;Styles=&amp;CacheClearingBehavior=Clear on publish&amp;RenderingIdentifier=&amp;DynamicPlaceholderId=1"
-              s:ph="headless-main" />
-          </d>
-        </r>
+      Value: 
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20221205T062835Z
@@ -64,11 +38,11 @@ Languages:
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7e9f930f-942c-4327-8f65-7d0618a19ae7"
+      Value: "e1273c62-dc04-43d4-ac12-b97ae3df8b30"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230530T133519Z
+      Value: 20230721T105237Z

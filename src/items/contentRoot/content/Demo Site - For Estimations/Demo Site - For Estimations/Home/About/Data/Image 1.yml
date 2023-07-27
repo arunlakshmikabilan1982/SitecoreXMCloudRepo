@@ -14,6 +14,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20221201T092634Z
+    - ID: "4d7b05d0-0300-486f-8f87-57de34a9b793"
+      Hint: ImageCaption
+      Value: test
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,18 +24,22 @@ Languages:
     - ID: "57caf172-ce57-4e48-b3a1-46f8aea71c08"
       Hint: Image
       Value: |
-        <image mediaid="0d9c2383-bc1f-48ef-81e4-dd8307bc6e55" />
+        <image mediaid="{2FFDEDA6-5DE2-40F5-A7E3-BF3986E8291B}" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\karthick.deenadayalanpurushothaman@concentrix.com
+    - ID: "75fbf1b1-e7c5-494b-9633-693909f79425"
+      Hint: TargetUrl
+      Value: |
+        <link linktype="external" url="https://www.malloftheemirates.com/en/sale" anchor="" target="_blank" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f25d8629-e9ee-457b-9371-fa73abeb0a98"
+      Value: "ce1b9b3c-c0c3-4191-8f30-e7c09e0edde1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\karthick.deenadayalanpurushothaman@concentrix.com
+        sitecore\manish.yadav7@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20221201T092700Z
+      Value: 20230720T071142Z

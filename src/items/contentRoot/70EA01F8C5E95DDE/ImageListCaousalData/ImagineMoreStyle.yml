@@ -1,0 +1,41 @@
+﻿---
+ID: "0cf6b318-78c7-4469-a30d-af4824a21787"
+Parent: "687b291e-33ec-4187-b682-7b042be655ef"
+Template: "4e92ccd0-1272-4b4a-b727-ca3054c38cf1"
+Path: "/sitecore/content/Demo Site - For Estimations/Demo Site - For Estimations/Data/CNX/ImageCarousalList/ImageListCaousalData/ImagineMoreStyle"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00f739ff-7082-4f3b-9074-5e4386f67840"
+      Hint: Image
+      Value: |
+        <image mediaid="{E6CE5831-0C23-4F60-9F85-20517D620B51}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230724T075616Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "70290898-2524-448c-a2f2-29e0b2b592bd"
+      Hint: Description
+      Value: Revamp your wardrobe combinations and push your style to the next limit at our retail stores.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0b07a62d-0870-4e4b-8586-14130dee0f22"
+    - ID: "a1c8aa28-a598-4868-b865-a7240d163f72"
+      Hint: Title
+      Value: Imagine more style
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230724T094841Z
