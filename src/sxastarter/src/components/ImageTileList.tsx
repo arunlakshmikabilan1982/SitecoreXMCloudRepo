@@ -26,7 +26,7 @@ type ImageTileListProps = {
   fields: Fields;
 };
 
-type ImageTextListItemProps = {
+type ImageTileListItemProps = {
   params: { [key: string]: string };
   key: string;
   index: number;
@@ -34,7 +34,7 @@ type ImageTextListItemProps = {
   field: ResultsFieldLink;
 };
 
-const ImageDefault = (props: ImageTextListItemProps): JSX.Element => (
+const ImageDefault = (props: ImageTileListItemProps): JSX.Element => (
   <div className={`component image ${props.params.styles}`.trimEnd()}>
     <div className="component-content">
       <span className="is-empty-hint">Image</span>
@@ -42,37 +42,40 @@ const ImageDefault = (props: ImageTextListItemProps): JSX.Element => (
   </div>
 );
 
-const ImageTileListItem = (props: ImageTextListItemProps) => {
+const ImageTileListItem = (props: ImageTileListItemProps) => {
   if (props.field.fields) {
-    const Image = () => <JssImage field={props.field.fields.Image} />;
+    const Image = () => <JssImage field={props.field.fields.Image} className="w-100" />;
     const id = props.params.RenderingIdentifier;
     let className = `item${props.index}`;
     className += (props.index + 1) % 2 == 0 ? ' even' : ' odd';
     if (props.index == 0) {
-      className += ' first';
+      className += ' first1';
     }
     if (props.index + 1 == props.total) {
-      className += ' last';
+      className += ' last1';
     }
     return (
-      <li className={className}>
-        <div className={`component image ${props.params.styles}`} id={id ? id : undefined}>
-          <div className="component-content">
-            {props.field.fields.TargetUrl ? (
-              <Link field={props.field.fields.TargetUrl}>
-                <Image />
-              </Link>
-            ) : (
+      <div
+        className={`component image ${className} col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3 pt-4`}
+        id={id ? id : undefined}
+      >
+        <div className="component-content">
+          {props.field.fields.TargetUrl ? (
+            <Link field={props.field.fields.TargetUrl} className="w-100">
               <Image />
-            )}
-            <Text
-              tag="span"
-              className="image-caption field-imagecaption"
-              field={props.field.fields.ImageTitle}
-            />
-          </div>
+            </Link>
+          ) : (
+            <Image />
+          )}
         </div>
-      </li>
+        <div className="component-content position-absolute b-15p w-100">
+          <Text
+            tag="span"
+            className="image-caption field-imagecaption anchor-font text-white text-uppercase fs-1 fst-normal text-center"
+            field={props.field.fields.ImageTitle}
+          />
+        </div>
+      </div>
     );
   }
   return <ImageDefault {...props} />;
@@ -97,8 +100,16 @@ export const Default = (props: ImageTileListProps): JSX.Element => {
     return (
       <div className={styles} id={id ? id : undefined}>
         <div className="component-content">
-          <Text tag="h1" field={props?.fields?.Heading} />
-          <ul>{list}</ul>
+          <Text
+            tag="h1"
+            className="anchor-font border-0 fst-normal fw-normal mb-5 text-black text-center"
+            field={props?.fields?.Heading}
+          />
+          <p className="subheading-font fs-3 mb-5 text-center">
+            Shop everything from the best fashion and accessories to homeware, electronics, and much
+            more
+          </p>
+          <div className="row">{list}</div>
         </div>
       </div>
     );
