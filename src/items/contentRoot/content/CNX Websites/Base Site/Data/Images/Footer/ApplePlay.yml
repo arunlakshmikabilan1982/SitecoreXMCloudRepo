@@ -1,0 +1,38 @@
+﻿---
+ID: "a39df70e-b21a-413b-a852-5c03900f0fc6"
+Parent: "cdea805b-6d28-464b-9fb2-52641834be53"
+Template: "d885df8c-b2d6-4007-b34b-2bbafb527304"
+Path: /sitecore/content/CNX Websites/Base Site/Data/Images/Footer/ApplePlay
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230725T112902Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "57caf172-ce57-4e48-b3a1-46f8aea71c08"
+      Hint: Image
+      Value: |
+        <image mediaid="{9624EC04-E527-4EE9-901B-C0765A059823}" alt="Apple Play" height="20" width="30" hspace="" vspace="" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cc9396d5-085a-475f-a3d5-ca3f2dc3263c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230725T141047Z
