@@ -66,7 +66,6 @@ export const Default = (props: ActiveCardProps): JSX.Element => {
 };
 export const ImageLeft = (props: ActiveCardProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  console.log(props.fields);
   if (props.fields) {
     return (
       <div className={`component promo ${props.params.styles}`} id={id ? id : undefined}>
@@ -97,7 +96,6 @@ export const ImageLeft = (props: ActiveCardProps): JSX.Element => {
 };
 export const ImageRight = (props: ActiveCardProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  console.log(props.fields);
   if (props.fields) {
     return (
       <div className={`component promo ${props.params.styles} w-100`} id={id ? id : undefined}>
@@ -136,7 +134,6 @@ export const ImageRight = (props: ActiveCardProps): JSX.Element => {
 };
 export const ImageTop = (props: ActiveCardProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  console.log(props.fields);
   if (props.fields) {
     return (
       <div className={`component promo ${props.params.styles}`} id={id ? id : undefined}>
