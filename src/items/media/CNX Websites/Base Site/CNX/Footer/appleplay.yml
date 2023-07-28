@@ -1,0 +1,57 @@
+﻿---
+ID: "9624ec04-e527-4ee9-901b-c0765a059823"
+Parent: "5e6bcc8a-0e59-46da-b634-717ebee5184b"
+Template: "daf085e8-602e-43a6-8299-038ff171349f"
+Path: /sitecore/media library/Project/CNX Websites/Base Site/CNX/Footer/appleplay
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/9624EC04E5274EE9901BC0765A059823.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 72
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "515f6ccd-4a5b-49fe-a3a3-6919a82ae3d2"
+  Value: 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
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 2638
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/jpeg
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: jpeg
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 72 x 48
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 48
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230725T113018Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "362549c9-0a1f-4830-870f-ca149b52c58f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230725T113019Z
