@@ -28,7 +28,7 @@ SharedFields:
   Value: "{5AB5AB05-29B4-43F3-BA6A-CC0439297815}"
 - ID: "853b245f-53e4-4ebe-bab5-299f9de314b6"
   Hint: RenderingsFolder
-  Value: "{1B76ECF5-43CB-45CE-BF15-9F79474E3853}"
+  Value: "{BD3FD661-5008-4F06-A51C-495ADCAF4092}"
 - ID: "9c596379-f8d4-45d1-a064-cdf1ede2e7c7"
   Hint: Templates
   Value: "{EE85F940-4337-4D9D-B24B-D987A6820A53}"
@@ -56,11 +56,11 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "680dbf86-c943-472f-bd27-020c76d35a23"
+      Value: "4c94df0c-91ea-44ce-a9dc-8137739b5f7a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230727T154234Z
+      Value: 20230728T095205Z
