@@ -1,0 +1,38 @@
+﻿---
+ID: "675f62bc-0db8-4fb7-83f4-da0969653ba1"
+Parent: "e709a74c-50de-48c3-b6be-41bf6356c2ba"
+Template: "5f4c471d-8aef-4a54-a134-f21f595094a7"
+Path: /sitecore/content/CNX Websites/CNX Site/Data/CNX Site/PageBanner/Contact Us
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02b46569-fb85-4ee7-b6cd-35dda766c894"
+      Hint: Title
+      Value: Contact Us
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230727T072547Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\prasanth.gajulapalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\prasanth.gajulapalli@concentrix.com
+    - ID: "85067331-f68a-49d4-b5db-3c15fdbcd073"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="{216CAB15-CD39-493C-974B-2DDA2AF99C6B}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c2c09a58-7928-4a84-8714-ba83d1af4ca8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230728T083522Z

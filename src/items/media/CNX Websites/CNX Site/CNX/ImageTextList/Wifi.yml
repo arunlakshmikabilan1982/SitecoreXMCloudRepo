@@ -1,0 +1,60 @@
+﻿---
+ID: "19e8b397-637d-4ca8-b656-15dd7f1b3cd0"
+Parent: "3fb16234-ba91-419c-8c1c-61fe89e59662"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/Project/CNX Websites/CNX Site/CNX/ImageTextList/Wifi
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/72685BEB52254F209BACFA1504D0B9A8.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 32
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "4debf98f-9882-4f88-90ac-1c7a1b1b41c4"
+  Value: iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGmSURBVHgB7ZaxVcMwEIZ/oKEMEyAmwBugktIbEDq6eAO8AdkgYQLYwKajhAlsSiqygbl7PqF7IcSysQ2Fv/f+JyvvdHc+n6QAE3/MQQtbS4pIFzLORJoXUkl6IuUy/1UCHGBBSuR5I05fJdBmy9aQzlWCbLMm3ctzMLz4lvQhWqKuwKyFDyvBK9FKEmxkoQKnLYPuwoifQpTsM8xQZ7vsIfAu/2vxn2GrGpHK0GJYrIoVuSbkcr+RYoQ1i4FvNEcJ36Qh6x+gqmDRXHK2WUqy1R7xm63QXEmOFyEAC98bhSQR43tHRyrJQtnP0RGjAmdo3xtWrQ/egg5+Qy51H005h2+6OGQBH0CcNTdJX1vRiD/2mzQZP6I+OIYgRf05vmhzGWks6nKewleJ7wdOPseAWPjG4h7hsq7kN935BgOwQPOOsCqRK/RIDH9HhJCKvW0yPEIYl6R30k2gfU46IR2TnvGfCa3AT1jUn4fftMTIuAPL6Q4jEknQVOaJzINuN80huuEOn7WMuYwGI8EJ8EHkys5j1SWBrhXgfz7X8JU4k3mJiYmWfAL2QXY0yLEOHwAAAABJRU5ErkJggg0K
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 531
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 32 x 32
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 32
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230717T100741Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: Wifi
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e5d471a-b14e-42c2-acfb-ed382a8a4640"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230717T100833Z

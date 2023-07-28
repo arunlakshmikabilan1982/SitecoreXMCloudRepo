@@ -1,0 +1,45 @@
+﻿---
+ID: "0aa60ce3-00ac-429c-ad1e-26707fc633d8"
+Parent: "4fcb4e71-a2b4-428d-ad39-b98f2f02d3d3"
+Template: "40f478dc-80e0-48ac-88d4-5637085d8523"
+Path: /sitecore/content/CNX Websites/CNX Site/Data/CNX Site/ImageTileList/ImageTextListItem
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230719T142956Z
+    - ID: "2cfd2f20-3b68-4b6e-a1cb-403096e79b18"
+      Hint: ImageList
+      Value: |
+        {EAAE9B05-784A-40F9-A8C1-E265704FA780}
+        {AF6B8ABC-A409-4E90-9A0F-0D0866917155}
+        {DE5950ED-213D-4C73-BA36-B06C6DB91DAC}
+        {18AAA484-9657-4651-B0F8-3D0F47234FBB}
+        {1FC98410-1E47-4484-B81F-AB1E0FA69FB8}
+        {4F722AA4-7E18-4D2E-B32B-0D6A5742AE5F}
+        {03F9010D-CD7E-412B-8378-87B642A6645E}
+        {A3920E6F-DF4D-46BC-AD0F-B0715E201673}
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\manish.yadav7@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manish.yadav7@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9acaa147-c154-400a-8588-27c170499d24"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d65b748e-5420-46af-a3d9-5c0dc948eb5b"
+      Hint: Heading
+      Value: Shop By Category
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230728T083505Z
