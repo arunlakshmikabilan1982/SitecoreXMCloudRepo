@@ -62,14 +62,14 @@ Languages:
       Value: 20120321T151732
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9055d081-a72f-4556-b7cc-527d7af06a63"
+      Value: "c310df23-fe53-4c4b-ad22-4e2a289fee5f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230724T110418Z
+      Value: 20230727T082912Z
     - ID: "fa622538-0c13-4130-a001-45984241aa00"
       Hint: Enable Language Fallback
       Value: 1

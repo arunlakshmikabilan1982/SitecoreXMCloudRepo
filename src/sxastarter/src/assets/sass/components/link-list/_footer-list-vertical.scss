@@ -1,0 +1,14 @@
+@import '@sass/abstracts/vars';
+@import '@sass/abstracts/mixins';
+
+.footer-list-vertical {
+    .first {
+        a {
+            cursor: pointer;
+            text-decoration-line: underline !important;
+            font-size: 1.6rem !important;
+            font-weight: 600 !important;
+        }
+    }
+}
+
