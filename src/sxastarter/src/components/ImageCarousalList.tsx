@@ -45,27 +45,30 @@ const CarousalListItem = (props: CarousalListItemProps) => {
     // props.field.fields.Title.value = 'Imagine more comfort';
     // props.field.fields.Description.value = 'Accentuate your home with accessories and comfort by visiting our furniture stores.';
     const Image = () => <JssImage field={props.field.fields.Image} />;
-    let captionSec = () => (<></>);
-    if(props.field.fields.Title) {
-      captionSec = () => (<section className='p-4'>
-        <Text
-          tag="h2"
-          className="h2-card-title image-caption field-imagecaption"
-          field={props.field.fields.Title}
-        />
-        <Text
-          tag="p"
-          className="p-card-description image-caption field-imagecaption"
-          field={props.field.fields.Description}
-        />
-      </section>);
+    let captionSec = <></>;
+    if (props.field.fields.Title.value || props.field.fields.Description.value) {
+      captionSec = (
+        <section className="p-4">
+          <Text
+            tag="h2"
+            className="h2-card-title image-caption field-imagecaption"
+            field={props.field.fields.Title}
+          />
+          <Text
+            tag="p"
+            className="p-card-description image-caption field-imagecaption"
+            field={props.field.fields.Description}
+          />
+        </section>
+      );
     }
+    console.log(props.field.fields, captionSec);
     return (
       <div className={'mx-3 my-card'}>
-        <figure className='m-0'>
+        <figure className="m-0">
           <Image />
         </figure>
-        {<captionSec />}
+        {captionSec}
       </div>
     );
   }
@@ -78,13 +81,13 @@ export const Default = (props: CarousalListProps): JSX.Element => {
   if (props.fields) {
     // props.fields.Heading.value = 'My dummy Heading';
     const sliderSettings: Settings = {
-      dots: true,
+      dots: false,
       arrows: true,
       infinite: true,
       speed: 500,
       slidesToShow: 3,
       slidesToScroll: 1,
-      draggable: true
+      draggable: true,
     };
     const list = props.fields.ImageCarousalList.filter(
       (element: ResultsFieldLink) => element?.fields.Title
@@ -102,9 +105,7 @@ export const Default = (props: CarousalListProps): JSX.Element => {
         <div className="component-content">
           <Text tag="h1" field={props?.fields?.Heading} />
           <div className="row mb-5 px-3">
-            <Slider {...sliderSettings}>
-              {list}
-            </Slider>
+            <Slider {...sliderSettings}>{list}</Slider>
           </div>
         </div>
       </div>
