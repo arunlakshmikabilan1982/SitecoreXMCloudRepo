@@ -26,13 +26,17 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "75fbf1b1-e7c5-494b-9633-693909f79425"
+      Hint: TargetUrl
+      Value: |
+        <link text="Home" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{788D80AD-BEA0-4DF3-A035-B41115C47D7F}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f141f2ee-92d9-4043-94a7-f67d28098e60"
+      Value: "946d3978-77b4-4ae6-88f7-0c2ddf03fb84"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
+        sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230728T133747Z
+      Value: 20230731T115109Z
