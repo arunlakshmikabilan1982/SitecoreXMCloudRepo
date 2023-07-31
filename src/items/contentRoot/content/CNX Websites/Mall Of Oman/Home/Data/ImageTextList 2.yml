@@ -1,0 +1,31 @@
+﻿---
+ID: "d4837977-7b4a-40d5-8673-7bc33adc2fff"
+Parent: "fec2193c-3aa1-48b6-b33f-3e1f7979c7ad"
+Template: "40f478dc-80e0-48ac-88d4-5637085d8523"
+Path: /sitecore/content/CNX Websites/Mall Of Oman/Home/Data/ImageTextList 2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230731T113637Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\HJmOiqSpvZ
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\HJmOiqSpvZ
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2eaea888-8b79-450f-9834-c412d01a498b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\HJmOiqSpvZ
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230731T113637Z

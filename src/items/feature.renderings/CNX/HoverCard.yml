@@ -15,7 +15,7 @@ SharedFields:
   Value: "{7E838534-B2F3-4C43-AD14-351707DDCC2B}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='HoverCardFolder']"
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='Folder']/*[@@templatename='HoverCardFolder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Folder']/*[@@templatename='HoverCardFolder']"
 Languages:
 - Language: en
   Versions:
@@ -34,11 +34,11 @@ Languages:
         sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7381d39a-60df-4f2b-b5e0-d538ce0143f7"
+      Value: "f003dc38-07a5-4fa0-badc-eddb8e337c3e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\prasanth.gajulapalli@concentrix.com
+        sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230724T142019Z
+      Value: 20230731T093125Z

@@ -45,6 +45,14 @@
       {
         "fieldID": "{F57099A3-526A-49F2-AEBD-635453E48875}",
         "description": "Predefined application rendering host"
+      },
+      {
+        "fieldID": "{E5B5CCB5-17A1-429D-BD3E-6122B3216E52}",
+        "description": "Site Definition Item TargetHostName"
+      },
+      {
+        "fieldID": "{8E0DD914-9AFB-4D45-BF8B-7FF5D6E5337E}",
+        "description": "Site Definition Item HostName"
       }
     ]
   }
