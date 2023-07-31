@@ -13,7 +13,7 @@ SharedFields:
   Value: 
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: basesite.localhost
+  Value: cnxbasesite.vercel.app
 - ID: "9eaf6dc9-b811-4cda-9edd-9697faba628a"
   Hint: POS
   Value: *=Base%20Site
@@ -28,7 +28,7 @@ SharedFields:
   Value: *
 - ID: "e5b5ccb5-17a1-429d-bd3e-6122b3216e52"
   Hint: TargetHostName
-  Value: basesite.localhost
+  Value: cnxbasesite.vercel.app
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{23E42340-77BE-49FC-A7C4-77D3CB545223}"
@@ -50,11 +50,11 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "986ef0ab-da07-48a2-b999-3530efc12288"
+      Value: "833d6392-952e-4eaa-8f53-bcc503cb346b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230728T104621Z
+      Value: 20230728T131040Z
