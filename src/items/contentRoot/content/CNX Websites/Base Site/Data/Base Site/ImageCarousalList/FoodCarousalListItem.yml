@@ -17,10 +17,10 @@ Languages:
         sitecore\nqfSPumMms
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "aa579c9d-d9ad-46fc-a9ba-20fcc61e2094"
+      Value: "21cef26b-4b20-42f8-bc67-b800bbdbe2ea"
     - ID: "999bc1b4-710f-44c6-909b-2545625bd9ea"
       Hint: Heading
-      Value: Food & Clothes
+      Value: المواد الغذائية والملابس
     - ID: "b5ce3587-fd0b-45f8-814f-7d4098fb91b4"
       Hint: ImageCarousalList
       Value: |
@@ -34,7 +34,7 @@ Languages:
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230801T123709Z
+      Value: 20230801T140440Z
 - Language: en
   Versions:
   - Version: 1

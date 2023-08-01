@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "232aaa6f-4bf4-4a85-b5bb-8eb4d0d4f368"
       Hint: ActiveCardDesc
-      Value: "Create your Magic Planet account and recharge your card online to enjoy free games and double bonus points on your first top-up!"
+      Value: "قم بإنشاء حساب ماجيك بلانيت الخاص بك وأعد شحن بطاقتك عبر الإنترنت للاستمتاع بألعاب مجانية ومضاعفة نقاط المكافأة على أول تعبئة للرصيد!"
     - ID: "2503abe7-2f3f-4ea2-b727-4613003a6f98"
       Hint: ActiveCardImage
       Value: |
@@ -24,21 +24,21 @@ Languages:
         <link text="Register Card" linktype="external" url="https://mallofoman.vercel.app/Mall/Gallery" anchor="" target="" />
     - ID: "2e1f41f0-7d7a-4b42-a9f3-87ffa2bde9f1"
       Hint: ActiveCardHeading
-      Value: Register Your Card
+      Value: سجل بطاقتك
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\nqfSPumMms
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "118e1e20-c655-4f72-8d30-d400f26246d0"
+      Value: "a7e7967e-4e06-4a60-8e83-cb842299a730"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230801T123708Z
+      Value: 20230801T140633Z
 - Language: en
   Versions:
   - Version: 1

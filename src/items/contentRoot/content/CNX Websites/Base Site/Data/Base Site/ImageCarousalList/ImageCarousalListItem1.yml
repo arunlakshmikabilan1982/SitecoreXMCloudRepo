@@ -17,10 +17,10 @@ Languages:
         sitecore\amruta.kulkarni@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ede32f12-9e85-4278-9b5d-9203aa9ba201"
+      Value: "7557ecb8-3ebf-4dea-a2c9-86f5a7eb9045"
     - ID: "999bc1b4-710f-44c6-909b-2545625bd9ea"
       Hint: Heading
-      Value: Find Your Fun
+      Value: اعثر على متعتك
     - ID: "b5ce3587-fd0b-45f8-814f-7d4098fb91b4"
       Hint: ImageCarousalList
       Value: |
@@ -35,7 +35,7 @@ Languages:
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230801T123705Z
+      Value: 20230801T135721Z
 - Language: en
   Versions:
   - Version: 1

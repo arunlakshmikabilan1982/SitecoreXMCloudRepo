@@ -28,17 +28,17 @@ Languages:
         sitecore\manish.yadav7@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bee9e684-03f1-4502-9102-78eabfa978e1"
+      Value: "63d8a4e6-87fb-4e25-af03-61e002d3662e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d65b748e-5420-46af-a3d9-5c0dc948eb5b"
       Hint: Heading
-      Value: Shop By Category
+      Value: تسوق حسب الفئة
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230801T123704Z
+      Value: 20230801T135830Z
 - Language: en
   Versions:
   - Version: 1

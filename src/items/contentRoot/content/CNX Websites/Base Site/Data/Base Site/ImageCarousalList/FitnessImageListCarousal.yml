@@ -17,10 +17,10 @@ Languages:
         sitecore\nqfSPumMms
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "922c0278-5db5-499e-ac39-597be2d4a608"
+      Value: "25cc7ba9-b42f-4761-84c2-44cfbd5bdabf"
     - ID: "999bc1b4-710f-44c6-909b-2545625bd9ea"
       Hint: Heading
-      Value: Footwear & Fitness
+      Value: الأحذية واللياقة البدنية
     - ID: "b5ce3587-fd0b-45f8-814f-7d4098fb91b4"
       Hint: ImageCarousalList
       Value: |
@@ -33,7 +33,7 @@ Languages:
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230801T123707Z
+      Value: 20230801T140514Z
 - Language: en
   Versions:
   - Version: 1
