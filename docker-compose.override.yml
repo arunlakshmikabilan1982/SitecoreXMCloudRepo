@@ -80,6 +80,7 @@ services:
       SITECORE_EDITING_HOST_PUBLIC_HOST: "${RENDERING_HOST}"
       SITECORE_Pages_Client_Host: ${SITECORE_Pages_Client_Host}
       SITECORE_Pages_CORS_Allowed_Origins: ${SITECORE_Pages_CORS_Allowed_Origins}
+      SITECORE_SPE_ELEVATION: "Allow"
       ## Development Environment Optimizations
       SITECORE_DEVELOPMENT_PATCHES: DevEnvOn,CustomErrorsOff,DebugOn,DiagnosticsOff,InitMessagesOff
       Sitecore_AppSettings_exmEnabled:define: "no" # remove to turn on EXM
