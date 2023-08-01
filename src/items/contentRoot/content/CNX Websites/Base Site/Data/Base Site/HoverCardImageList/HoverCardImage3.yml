@@ -1,0 +1,84 @@
+﻿---
+ID: "adf0b1b8-c3f7-4529-8bad-18224a0ef77f"
+Parent: "95aafc1f-c835-4742-b779-2220d1ff087d"
+Template: "700284fa-3e46-4661-869c-88375ff74644"
+Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/HoverCardImageList/HoverCardImage3
+Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230724T124553Z
+    - ID: "2f172595-49db-4924-a6e7-1edadf4262ea"
+      Hint: CardDescription
+      Value: Dining Directory
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\prasanth.gajulapalli@concentrix.com
+    - ID: "70348e3c-d5ba-42af-9c0e-7b033cfb99da"
+      Hint: CardImage
+      Value: |
+        <image mediaid="{C13A4246-C38B-40E5-BAED-25B0FD018072}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b07c3b0d-4455-4f9a-b057-6005a47e3d25"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T130303Z
+    - ID: "dc4295a2-328b-4895-bdcb-4e9b085bb3f7"
+      Hint: CardLink
+      Value: |
+        <link linktype="external" url="https://www.mallofoman.net/en/contact-us" anchor="" target="_blank" />
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230724T124553Z
+    - ID: "2f172595-49db-4924-a6e7-1edadf4262ea"
+      Hint: CardDescription
+      Value: Dining Directory
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\prasanth.gajulapalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\prasanth.gajulapalli@concentrix.com
+    - ID: "6bfbfaca-dc74-4ed0-bf0b-fd11a8e7137b"
+      Hint: CardTitle
+      Value: 
+    - ID: "70348e3c-d5ba-42af-9c0e-7b033cfb99da"
+      Hint: CardImage
+      Value: |
+        <image mediaid="{C13A4246-C38B-40E5-BAED-25B0FD018072}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ea3d554e-8a79-4bd0-8274-ef059c7b2fa2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230731T135514Z
+    - ID: "dc4295a2-328b-4895-bdcb-4e9b085bb3f7"
+      Hint: CardLink
+      Value: |
+        <link linktype="external" url="https://www.mallofoman.net/en/contact-us" anchor="" target="_blank" />

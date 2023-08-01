@@ -4,6 +4,27 @@ Parent: "fc468e4d-f924-40c0-bad3-572a3b620786"
 Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
 Path: /sitecore/content/CNX Websites/CNX Site/Data/Texts/Footer/Download the App
 Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230725T103612Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2c32adf8-e293-4108-a0c6-bdaa76bc4c4a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T130630Z
 - Language: en
   Versions:
   - Version: 1

@@ -62,6 +62,9 @@ SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 1
 Languages:
 - Language: en
   Versions:
@@ -122,11 +125,11 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "532ff143-c36b-48a3-9fcd-a203fae2d0c7"
+      Value: "ea33558e-bc31-4b1a-9683-f291653b8eab"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230721T105001Z
+      Value: 20230731T125222Z

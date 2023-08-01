@@ -1,0 +1,83 @@
+﻿---
+ID: "9986de65-1de7-4fc7-ab8a-5341f9a85b88"
+Parent: "b1d8bdf3-7de1-4d95-820c-9dc5793c4f12"
+Template: "dc478cbc-42ba-4d78-a096-26d830b5b9a2"
+Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/ActiveCard/Register Card
+Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "232aaa6f-4bf4-4a85-b5bb-8eb4d0d4f368"
+      Hint: ActiveCardDesc
+      Value: "Create your Magic Planet account and recharge your card online to enjoy free games and double bonus points on your first top-up!"
+    - ID: "2503abe7-2f3f-4ea2-b727-4613003a6f98"
+      Hint: ActiveCardImage
+      Value: |
+        <image mediaid="{BC379F2B-4259-44E1-A087-CA1E06ECFB10}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230801T095611Z
+    - ID: "296154f9-5a98-431f-ac67-c58b5f33f5f2"
+      Hint: ActiveCardLink
+      Value: |
+        <link text="Register Card" linktype="external" url="https://mallofoman.vercel.app/Mall/Gallery" anchor="" target="" />
+    - ID: "2e1f41f0-7d7a-4b42-a9f3-87ffa2bde9f1"
+      Hint: ActiveCardHeading
+      Value: Register Your Card
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "118e1e20-c655-4f72-8d30-d400f26246d0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T123708Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "232aaa6f-4bf4-4a85-b5bb-8eb4d0d4f368"
+      Hint: ActiveCardDesc
+      Value: "Create your Magic Planet account and recharge your card online to enjoy free games and double bonus points on your first top-up!"
+    - ID: "2503abe7-2f3f-4ea2-b727-4613003a6f98"
+      Hint: ActiveCardImage
+      Value: |
+        <image mediaid="{BC379F2B-4259-44E1-A087-CA1E06ECFB10}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230801T095611Z
+    - ID: "296154f9-5a98-431f-ac67-c58b5f33f5f2"
+      Hint: ActiveCardLink
+      Value: |
+        <link text="Register Card" linktype="external" url="https://mallofoman.vercel.app/Mall/Gallery" anchor="" target="" />
+    - ID: "2e1f41f0-7d7a-4b42-a9f3-87ffa2bde9f1"
+      Hint: ActiveCardHeading
+      Value: Register Your Card
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "56cebdc2-751c-463c-9934-0ab061de6ea0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T100110Z

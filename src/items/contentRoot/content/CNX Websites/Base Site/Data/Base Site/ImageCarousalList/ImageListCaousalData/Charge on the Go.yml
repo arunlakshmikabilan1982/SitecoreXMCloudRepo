@@ -4,6 +4,41 @@ Parent: "687b291e-33ec-4187-b682-7b042be655ef"
 Template: "4e92ccd0-1272-4b4a-b727-ca3054c38cf1"
 Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/ImageCarousalList/ImageListCaousalData/Charge on the Go
 Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00f739ff-7082-4f3b-9074-5e4386f67840"
+      Hint: Image
+      Value: |
+        <image mediaid="{FD913F9D-D9B3-440A-ADCB-0F7FA86E518D}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230727T081942Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\O6y3bocRU4
+    - ID: "70290898-2524-448c-a2f2-29e0b2b592bd"
+      Hint: Description
+      Value: Create unforgettable memories in the snow. Meet our penguins, glide on the ice rink and frozen sand dunes, or enjoy the exciting rides in the region's largest snow park.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9dc6fc2d-ef0e-4b8f-a2ef-e2b874060aae"
+    - ID: "a1c8aa28-a598-4868-b865-a7240d163f72"
+      Hint: Title
+      Value: Snow Oman
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T130312Z
 - Language: en
   Versions:
   - Version: 1
@@ -23,13 +58,19 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\O6y3bocRU4
+    - ID: "70290898-2524-448c-a2f2-29e0b2b592bd"
+      Hint: Description
+      Value: Create unforgettable memories in the snow. Meet our penguins, glide on the ice rink and frozen sand dunes, or enjoy the exciting rides in the region's largest snow park.
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d5e2374e-9318-4ee7-9794-d3867813d65b"
+      Value: "1179eb16-782f-4ca4-a740-f6b0d99f32d6"
+    - ID: "a1c8aa28-a598-4868-b865-a7240d163f72"
+      Hint: Title
+      Value: Snow Oman
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\O6y3bocRU4
+        sitecore\HJmOiqSpvZ
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230727T092741Z
+      Value: 20230731T143749Z

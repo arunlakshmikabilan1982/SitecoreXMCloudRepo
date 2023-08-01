@@ -1,6 +1,6 @@
 ﻿---
-ID: "3068d134-c9f2-4ace-b82e-5e07e1c8e718"
-Parent: "369c858f-5e04-421a-8fac-44e35f275da8"
+ID: "75820854-e3b7-411b-8da7-cd4b3e65292e"
+Parent: "a8cdb0b8-4cbc-4593-9b09-e2baf1f90bfc"
 Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
 Path: /sitecore/content/CNX Websites/Mall Of Oman/Presentation/Partial Designs/Footer/Data
 BranchID: "8204a950-cbaa-4d06-878b-11ced5ddc1ad"
@@ -9,13 +9,13 @@ SharedFields:
   Hint: __Originator
   Value: "{E40DAC6C-75CE-4489-A49D-9CFC58B28EC9}"
 Languages:
-- Language: en
+- Language: "ar-AE"
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230731T081545Z
+      Value: 20221201T092122Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -23,14 +23,39 @@ Languages:
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
+        sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "40aa996b-7862-402a-ac55-79cd964f9302"
+      Value: "1d7619e8-5a93-4eb0-820e-d5f4dead3ed4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230731T081545Z
+      Value: 20230801T130630Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221201T092122Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Anonymous
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "30e2ade8-0ed6-4ac1-9c02-6c04af2df244"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221201T092122Z

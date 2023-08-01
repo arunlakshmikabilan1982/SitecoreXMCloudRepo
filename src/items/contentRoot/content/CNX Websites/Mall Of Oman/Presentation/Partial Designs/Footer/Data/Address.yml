@@ -1,6 +1,6 @@
 ﻿---
-ID: "de9adb1a-4e7b-467a-b538-156d07155cc9"
-Parent: "3068d134-c9f2-4ace-b82e-5e07e1c8e718"
+ID: "3c33d016-5b27-4668-8314-043626ce4427"
+Parent: "75820854-e3b7-411b-8da7-cd4b3e65292e"
 Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
 Path: /sitecore/content/CNX Websites/Mall Of Oman/Presentation/Partial Designs/Footer/Data/Address
 BranchID: "8204a950-cbaa-4d06-878b-11ced5ddc1ad"
@@ -9,13 +9,13 @@ SharedFields:
   Hint: __Originator
   Value: "{4408DD99-867B-4A64-AD48-0914432251CB}"
 Languages:
-- Language: en
+- Language: "ar-AE"
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230731T081545Z
+      Value: 20221201T092122Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -23,7 +23,32 @@ Languages:
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
+        sitecore\Anonymous
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "afb2fc50-8267-4344-9915-d84e788f9097"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
         sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T130630Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221201T092122Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Anonymous
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Anonymous
     - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
       Hint: Text
       Value: |
@@ -36,11 +61,11 @@ Languages:
         <div><span><br /></span></div>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "edbbb714-25bb-4eb9-9dd2-d53c294c36d4"
+      Value: "2f9f5b6e-2a08-4bc8-be06-1d26a3187a4e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
+        sitecore\Anonymous
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230731T081545Z
+      Value: 20221201T092122Z

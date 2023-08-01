@@ -1,0 +1,70 @@
+﻿---
+ID: "5cf06476-4a72-4a43-9b67-1ca11da3f3b0"
+Parent: "81960c54-a369-48ef-903c-ee455f52bb3b"
+Template: "8971a4ab-a661-48ff-b6c4-2c39b01637a0"
+Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/ImageCarousalList/GraceImageListCarousal
+Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230801T090534Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9badfda1-3e10-41f1-a13e-6bee59ce93f0"
+    - ID: "999bc1b4-710f-44c6-909b-2545625bd9ea"
+      Hint: Heading
+      Value: Radiance & Revelry
+    - ID: "b5ce3587-fd0b-45f8-814f-7d4098fb91b4"
+      Hint: ImageCarousalList
+      Value: |
+        {8E39A2BA-36B6-401C-B187-1D9A0B653FFB}
+        {B19722CD-2035-4E79-8C37-DE09B49201D6}
+        {EADE809D-1607-4889-991C-D1DB26B30BD9}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T123707Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230801T090534Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "410e3346-bdf4-4071-bfc2-6a19e9d746f0"
+    - ID: "999bc1b4-710f-44c6-909b-2545625bd9ea"
+      Hint: Heading
+      Value: Radiance & Revelry
+    - ID: "b5ce3587-fd0b-45f8-814f-7d4098fb91b4"
+      Hint: ImageCarousalList
+      Value: |
+        {8E39A2BA-36B6-401C-B187-1D9A0B653FFB}
+        {B19722CD-2035-4E79-8C37-DE09B49201D6}
+        {EADE809D-1607-4889-991C-D1DB26B30BD9}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T093742Z

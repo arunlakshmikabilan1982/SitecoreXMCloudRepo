@@ -29,18 +29,18 @@ Languages:
         sitecore\amruta.kulkarni@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5c4f0c58-e8af-44bf-a1db-a403893299b7"
+      Value: "323627da-839c-4c1d-bb1f-7b1754e0874b"
     - ID: "911178a5-5358-4f14-ac91-d38f36a0084c"
       Hint: PromoCardTitle
       Value: For Your Taste Buds
     - ID: "9200c789-37d9-4ffe-81ba-0903e1cc2431"
       Hint: PromoCardimage
       Value: |
-        <image mediaid="{0918FC49-0B6F-434B-A4BD-AF443ECE2718}" />
+        <image mediaid="{8FA4E10B-2942-4420-A995-85941ED86039}" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
+        sitecore\O6y3bocRU4
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230728T083522Z
+      Value: 20230801T074717Z

@@ -23,7 +23,7 @@ SharedFields:
     {ED6C4A9B-E3DC-413A-BEF6-337ABB7FD2C7}
 - ID: "2b2fe9fd-78a6-40eb-b9f9-28409d8d3700"
   Hint: SitemapMediaItems
-  Value: "{15C7F226-A29B-4B82-B075-ACD925272B42}"
+  Value: "{5B0056EA-37FA-4DAC-9FB5-51480BC6199B}"
 - ID: "33d9005e-1f71-415f-b107-53b965c3b037"
   Hint: SiteMediaLibrary
   Value: "{E8DBB954-AB39-41FF-B475-E18EC32BDCAB}"
@@ -31,6 +31,31 @@ SharedFields:
   Hint: __Originator
   Value: "{A0EECF65-09AD-4A10-AE46-7DF70106CFE6}"
 Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230801T045938Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7e3a6d66-499b-4a84-8c05-172a6090cda0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T045938Z
 - Language: en
   Versions:
   - Version: 1
@@ -48,11 +73,11 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "75b1b2f9-3811-42a6-bacd-66a918b6f2fb"
+      Value: "247bbdb2-66e1-4bc6-a6d0-72158118098b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\prasanth.gajulapalli@concentrix.com
+        sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230731T110505Z
+      Value: 20230801T114305Z
