@@ -7,7 +7,7 @@ BranchID: "2d3805b9-3089-44f3-b952-d45c44add7f8"
 SharedFields:
 - ID: "102b58da-2a86-4953-b3cd-c9f91256b657"
   Hint: PlaceholderSettingsFolder
-  Value: "{4CE17442-9A10-495C-9514-9501304472DB}"
+  Value: "{268FAAEF-64D6-45E4-94CD-8E4849AFE726}"
 - ID: "1230d2cb-4948-4d43-8a3b-b39978f6f1b3"
   Hint: Modules
   Value: |
@@ -56,11 +56,11 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4c94df0c-91ea-44ce-a9dc-8137739b5f7a"
+      Value: "92396303-f7ac-46ef-9d35-dd4e05584460"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230728T095205Z
+      Value: 20230731T113550Z
