@@ -13,7 +13,7 @@ Languages:
       Value: 20230724T124553Z
     - ID: "2f172595-49db-4924-a6e7-1edadf4262ea"
       Hint: CardDescription
-      Value: Dining Directory
+      Value: دليل المطاعم
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -28,14 +28,14 @@ Languages:
         <image mediaid="{C13A4246-C38B-40E5-BAED-25B0FD018072}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b07c3b0d-4455-4f9a-b057-6005a47e3d25"
+      Value: "b87c180d-ec72-4cd6-9d6e-b2885da3ca0c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230801T130303Z
+      Value: 20230801T142120Z
     - ID: "dc4295a2-328b-4895-bdcb-4e9b085bb3f7"
       Hint: CardLink
       Value: |

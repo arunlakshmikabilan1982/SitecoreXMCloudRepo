@@ -21,14 +21,17 @@ Languages:
         sitecore\manish.yadav7@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0be7d161-a447-4c14-84c9-6b2a9d446dd2"
+      Value: "34d1c720-ec1d-42d4-bf52-ecb44c4de263"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230801T130251Z
+      Value: 20230801T141841Z
+    - ID: "e53018d9-09a6-4104-9374-b02fcda4a010"
+      Hint: ImageTitle
+      Value: الألعاب والألعاب
 - Language: en
   Versions:
   - Version: 1

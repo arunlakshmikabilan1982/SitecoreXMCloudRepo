@@ -21,14 +21,17 @@ Languages:
         sitecore\manish.yadav7@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "481458fe-c63b-4996-a25c-a5cbc5f0076f"
+      Value: "ef4b1c90-322f-495c-b22e-348d52b7e17b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230801T130309Z
+      Value: 20230801T141853Z
+    - ID: "e53018d9-09a6-4104-9374-b02fcda4a010"
+      Hint: ImageTitle
+      Value: بيع
 - Language: en
   Versions:
   - Version: 1

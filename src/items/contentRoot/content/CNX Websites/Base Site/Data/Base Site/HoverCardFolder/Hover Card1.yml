@@ -30,17 +30,17 @@ Languages:
         sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "6139d86b-0ffb-450e-a0a0-26e7ceaa6c4b"
       Hint: Title
-      Value: Shopping Services
+      Value: خدمات التسوق
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1eadbc94-75be-4edc-b776-0a5ce99f4836"
+      Value: "077bdae0-2198-486d-bc5e-98174cfb4ac9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230801T130245Z
+      Value: 20230801T141951Z
 - Language: en
   Versions:
   - Version: 1

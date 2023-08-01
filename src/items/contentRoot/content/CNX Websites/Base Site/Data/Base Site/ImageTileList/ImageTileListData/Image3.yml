@@ -21,14 +21,17 @@ Languages:
         sitecore\manish.yadav7@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "42cb174c-4f8e-4680-8fda-3ec864f95f7a"
+      Value: "7ee92174-16f2-4aff-89e6-785f42e7cb08"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230801T130248Z
+      Value: 20230801T141727Z
+    - ID: "e53018d9-09a6-4104-9374-b02fcda4a010"
+      Hint: ImageTitle
+      Value: الجمال والعافية
 - Language: en
   Versions:
   - Version: 1

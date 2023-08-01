@@ -105,10 +105,10 @@ export const Default = (props: ImageTileListProps): JSX.Element => {
             className="heading3 border-0 fst-normal fw-normal mb-5 text-black text-center"
             field={props?.fields?.Heading}
           />
-          <p className="subheading fs-3 mb-5 text-center">
+          {/* <p className="subheading fs-3 mb-5 text-center">
             Shop everything from the best fashion and accessories to homeware, electronics, and much
             more
-          </p>
+          </p> */}
           <div className="container">
             <div className="row">{list}</div>
           </div>
