@@ -65,9 +65,6 @@
     <PackageReference Include="Sitecore.Assemblies.SitecoreHeadlessServicesServer" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Sitecore.Media.config">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="App_Config\Include\Sitecore.Website.Custom.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
