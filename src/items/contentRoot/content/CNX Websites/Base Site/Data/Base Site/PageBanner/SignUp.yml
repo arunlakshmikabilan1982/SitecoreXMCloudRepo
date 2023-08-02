@@ -1,0 +1,63 @@
+﻿---
+ID: "0d3e22f5-8a65-4d4e-b384-d72a2c2fd21a"
+Parent: "e34172de-28a3-4054-9fa6-33c60f71d539"
+Template: "5f4c471d-8aef-4a54-a134-f21f595094a7"
+Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/PageBanner/SignUp
+Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230727T072547Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\prasanth.gajulapalli@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "16c59fd4-b693-4d6d-8541-79ef9eff2b4a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T132736Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02b46569-fb85-4ee7-b6cd-35dda766c894"
+      Hint: Title
+      Value: Sign Up
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230727T072547Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\prasanth.gajulapalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\prasanth.gajulapalli@concentrix.com
+    - ID: "85067331-f68a-49d4-b5db-3c15fdbcd073"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="{B542A533-8386-4FE3-8D88-A9A5D8345D8E}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dbd93b55-6a0f-47bc-a597-3f3d50ff3e9c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230802T063033Z
