@@ -21,7 +21,7 @@ Languages:
     - ID: "57caf172-ce57-4e48-b3a1-46f8aea71c08"
       Hint: Image
       Value: |
-        <image height="36" mediaid="{DB815588-1FFA-4592-914B-ED4457AA7016}" vspace="" hspace="" alt="Header Logo" width="160" />
+        <image mediaid="{E9B82E67-85CF-4853-9F2F-FD98316B0F91}" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -32,11 +32,11 @@ Languages:
         <link text="Home" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{788D80AD-BEA0-4DF3-A035-B41115C47D7F}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "946d3978-77b4-4ae6-88f7-0c2ddf03fb84"
+      Value: "dd373072-4927-4e74-bf23-1b1363d8d138"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230731T115109Z
+      Value: 20230731T143322Z

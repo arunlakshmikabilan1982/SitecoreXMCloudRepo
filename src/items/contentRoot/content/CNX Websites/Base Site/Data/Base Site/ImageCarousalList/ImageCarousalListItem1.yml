@@ -1,0 +1,74 @@
+﻿---
+ID: "0eff6562-1f0a-4978-b6cb-09419c84b515"
+Parent: "81960c54-a369-48ef-903c-ee455f52bb3b"
+Template: "8971a4ab-a661-48ff-b6c4-2c39b01637a0"
+Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/ImageCarousalList/ImageCarousalListItem1
+Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230724T081341Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7557ecb8-3ebf-4dea-a2c9-86f5a7eb9045"
+    - ID: "999bc1b4-710f-44c6-909b-2545625bd9ea"
+      Hint: Heading
+      Value: اعثر على متعتك
+    - ID: "b5ce3587-fd0b-45f8-814f-7d4098fb91b4"
+      Hint: ImageCarousalList
+      Value: |
+        {2F75FC47-C876-4F0A-A2F8-8990DDB928F9}
+        {EB814A29-8EF1-49BA-BE54-AC972496121A}
+        {C512340E-ABAD-48F0-8B58-87BBA8179974}
+        {D52BCD1A-737B-4613-8626-C7569B860B31}
+        {A96567B5-2CFF-443D-BC55-C793280EC092}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T135721Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230724T081341Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "77428dcf-0728-486f-8769-fb1e2a6a2661"
+    - ID: "999bc1b4-710f-44c6-909b-2545625bd9ea"
+      Hint: Heading
+      Value: Find Your Fun
+    - ID: "b5ce3587-fd0b-45f8-814f-7d4098fb91b4"
+      Hint: ImageCarousalList
+      Value: |
+        {2F75FC47-C876-4F0A-A2F8-8990DDB928F9}
+        {EB814A29-8EF1-49BA-BE54-AC972496121A}
+        {C512340E-ABAD-48F0-8B58-87BBA8179974}
+        {D52BCD1A-737B-4613-8626-C7569B860B31}
+        {A96567B5-2CFF-443D-BC55-C793280EC092}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\HJmOiqSpvZ
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T072537Z

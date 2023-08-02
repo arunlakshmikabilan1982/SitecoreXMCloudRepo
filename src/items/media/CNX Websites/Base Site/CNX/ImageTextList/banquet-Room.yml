@@ -1,0 +1,57 @@
+﻿---
+ID: "4931a4dc-f211-40ac-be85-e5ce5f7e935b"
+Parent: "172a5489-0f55-4879-b3ca-5fa914999c51"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/CNX Websites/Base Site/CNX/ImageTextList/banquet-Room"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/4931A4DCF21140ACBE85E5CE5F7E935B.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 32
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "8917085d-3b3e-45b1-8eb1-eefea0032025"
+  Value: iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGnSURBVHgB7VXBUcMwEFyY/GMqiDogdGA6SAeECqADSAWQCkgqwKkAUwHuAKUCnAqCLl6Nz4ocw0ye2pkdK9be6nRnKUBCQkJCQouV4xeZ4fwwjh/0f4sJvvl8JM8N8ZwHa2GkBDs+K8dZECwVmTpax5rjIVjSwzgWHNexBPYqcBwEvjtuHEvO5xjGjLTKpz6VwFaJTGDkTXL8HVJmXzXBmGOjRToBWTiLiF7RtCVETr2PK4L5IojzWp3UUQKGQTsKfaksuv0Egp2gaY9eLFOaDO03JtjGErBoj9/c8QXHKB0XOI0nNG2r1TsZ+5Nl0PMNVAxecXwbMZdzvEG8JQKp2g3ZB4ueFpRo+iqLfPYEG3R3FsPE8bln7trxXntcBgIJXFNoFeV3xmCLflTUZBEPg2ZjnQ2MIia54xLdj8qi6WuJYVRMIOZxF4ovIgY/DA7x4HjFsSwgx3NPD3ku0FZH7oD1gMcBYQVyZl1Ggqeclx3KzRh+JwXnp9TEPIxaI5qAlHmJ/lLnOL4pPSZ8Lx7rEx6dVl7gf9A3X/iXXWP4hGiPhISEA34BXudx/rxe0/kAAAAASUVORK5CYIINCg==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 532
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 32 x 32
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 32
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230731T141040Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\prasanth.gajulapalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\prasanth.gajulapalli@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "48787b7c-928d-4c23-962b-fbd85cf8550e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prasanth.gajulapalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230731T141104Z

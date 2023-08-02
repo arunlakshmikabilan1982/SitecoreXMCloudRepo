@@ -15,7 +15,7 @@ SharedFields:
   Value: "{9301C680-78F3-4FA5-AC17-F314ACCB6104}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='PageBanner Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='PageBanner Folder']"
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='Folder']/*[@@templatename='PageBanner Folder']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Folder']/*[@@templatename='PageBanner Folder']"
 Languages:
 - Language: en
   Versions:
@@ -34,11 +34,11 @@ Languages:
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "eb576c8d-526a-45f0-bd94-538c23ed5674"
+      Value: "502d5b37-62e4-4245-b2a5-66b84f241925"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230724T105351Z
+      Value: 20230731T125645Z

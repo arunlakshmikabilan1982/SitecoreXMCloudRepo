@@ -4,10 +4,45 @@ Parent: "81960c54-a369-48ef-903c-ee455f52bb3b"
 Template: "8971a4ab-a661-48ff-b6c4-2c39b01637a0"
 Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/ImageCarousalList/ImageCarousalListItem
 Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230724T081341Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7b9ab2a5-4753-4559-a988-f356b8a307d4"
+    - ID: "999bc1b4-710f-44c6-909b-2545625bd9ea"
+      Hint: Heading
+      Value: اعثر على متعتك
+    - ID: "b5ce3587-fd0b-45f8-814f-7d4098fb91b4"
+      Hint: ImageCarousalList
+      Value: |
+        {D39D443A-6A85-4C59-923F-545F7308AE1B}
+        {3EA37D71-8979-4740-8B82-5576F002C7C0}
+        {65F47F1F-B5FF-4DE0-9A8B-5E1D711F402C}
+        {59F6A8A2-BA72-4B41-81F0-5D8B3D7CB9E9}
+        {C24AA843-2B62-4BF7-87BD-7011DDBE9AD9}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T140502Z
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230724T081341Z
@@ -21,10 +56,10 @@ Languages:
         sitecore\amruta.kulkarni@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "14e0c0eb-34d3-4184-ac41-3c7f2f5d0849"
+      Value: "bffb3c70-861c-4a10-a2c9-7e7e05735c34"
     - ID: "999bc1b4-710f-44c6-909b-2545625bd9ea"
       Hint: Heading
-      Value: 
+      Value: Find Your Fun
     - ID: "b5ce3587-fd0b-45f8-814f-7d4098fb91b4"
       Hint: ImageCarousalList
       Value: |
@@ -32,10 +67,11 @@ Languages:
         {3EA37D71-8979-4740-8B82-5576F002C7C0}
         {65F47F1F-B5FF-4DE0-9A8B-5E1D711F402C}
         {59F6A8A2-BA72-4B41-81F0-5D8B3D7CB9E9}
+        {C24AA843-2B62-4BF7-87BD-7011DDBE9AD9}
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\O6y3bocRU4
+        sitecore\HJmOiqSpvZ
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230727T093451Z
+      Value: 20230731T143258Z

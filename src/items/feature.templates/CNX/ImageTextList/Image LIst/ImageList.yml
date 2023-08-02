@@ -6,7 +6,7 @@ Path: /sitecore/templates/Feature/CNX/ImageTextList/Image List/ImageList
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
-  Value: "/sitecore/content/Demo Site - For Estimations/Demo Site - For Estimations/Data/CNX/ImageTextList/ImageTextListData"
+  Value: /sitecore/content/CNX Websites/Base Site/Data/Base Site/ImageTextList/ImageTextListData
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Multilist
@@ -31,11 +31,11 @@ Languages:
         sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2241abcb-d63b-4b19-b1a8-562fc10c14e4"
+      Value: "70b75b65-c3bd-418b-a011-ea286cf92337"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\mageshwari.muralidoss@concentrix.com
+        sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230718T050715Z
+      Value: 20230731T142834Z
