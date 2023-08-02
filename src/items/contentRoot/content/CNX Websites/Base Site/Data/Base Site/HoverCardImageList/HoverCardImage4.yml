@@ -22,20 +22,23 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\prasanth.gajulapalli@concentrix.com
+    - ID: "6bfbfaca-dc74-4ed0-bf0b-fd11a8e7137b"
+      Hint: CardTitle
+      Value: دليل المتجر
     - ID: "70348e3c-d5ba-42af-9c0e-7b033cfb99da"
       Hint: CardImage
       Value: |
         <image mediaid="{3C38DCAD-B536-4DDA-A62E-8EF6611D3CE7}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9e3095b7-9db1-4e06-9cba-095460eb5691"
+      Value: "d2263041-94f3-4736-bc18-ba5f1f58866b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230801T142130Z
+      Value: 20230802T051721Z
     - ID: "dc4295a2-328b-4895-bdcb-4e9b085bb3f7"
       Hint: CardLink
       Value: |

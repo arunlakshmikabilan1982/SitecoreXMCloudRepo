@@ -8,6 +8,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "1f0e6cfa-3f22-4c57-9b9e-655c5e87914e"
       Hint: CardImageList
       Value: |
@@ -25,16 +28,19 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\prasanth.gajulapalli@concentrix.com
+    - ID: "6139d86b-0ffb-450e-a0a0-26e7ceaa6c4b"
+      Hint: Title
+      Value: المزيد منا
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bd3f3c01-e872-4e3b-917c-4708536ec7c0"
+      Value: "701bc85e-75f0-448d-8999-61496a73328a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230801T123708Z
+      Value: 20230802T052521Z
 - Language: en
   Versions:
   - Version: 1
