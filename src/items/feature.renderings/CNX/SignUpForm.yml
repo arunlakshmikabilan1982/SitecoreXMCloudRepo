@@ -6,7 +6,7 @@ Path: /sitecore/layout/Renderings/Feature/CNX/SignUpForm
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: SignUp
+  Value: SignUpForm
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
   Value: "{43140569-0BB7-4041-86BD-4B7B47470B2A}"
@@ -28,11 +28,11 @@ Languages:
         sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "01ea2bf9-6ba8-4b5c-ae30-9f8edde9c9f5"
+      Value: "6baf0b2b-720f-4246-b74b-398177010b4b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230801T093634Z
+      Value: 20230802T052136Z

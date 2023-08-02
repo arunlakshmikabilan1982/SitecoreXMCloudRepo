@@ -7,7 +7,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{BB0FD111-C5EA-4233-BFF2-1809E1D18DC1}" />
+    <image mediaid="{14048B66-37EA-420D-8531-FCFE942184B9}" />
 Languages:
 - Language: en
   Versions:
@@ -24,10 +24,10 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{E37C0CD4-B395-4F57-A6D6-20D4BF3FAE76}"
+              uid="{2A2EAC8E-8D23-410E-A888-6C646DFEA012}"
               p:before="*"
               s:id="{4E4CE0C0-BF28-480C-AD9E-99C96BE7DAD6}"
-              s:par="GridParameters={7465D855-992E-4DC2-9855-A03250DFA74B}&amp;FieldNames={9D0B053A-4ADA-432F-A0A3-4C750C6B4799}&amp;Styles&amp;CacheClearingBehavior=Clear on publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B77E0F40B-1441-43C3-89BA-B3098B9B8A40%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
               s:ph="/headless-main/column-2-1" />
             <r
               uid="{C36752C3-D5F8-4E73-928D-33139B9C66F8}"
@@ -58,11 +58,11 @@ Languages:
         sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5b91e778-258b-4a36-9223-b69449a7e45c"
+      Value: "76955ace-8f8e-44a0-b1af-0a95b72d7583"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230801T094710Z
+      Value: 20230802T052956Z
