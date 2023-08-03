@@ -1,0 +1,255 @@
+﻿---
+ID: "f0f7c0d5-d5fd-4aaf-aefa-437e65d7dbeb"
+Parent: "e3d751ad-cf81-44e9-a933-d49f7f88b74a"
+Template: "010163da-00a6-4599-a7c9-9ca4c79e562d"
+Path: /sitecore/content/CNX Websites/Mall Of Oman/Home/Mall
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{4D5A0A9D-FD55-414B-87D3-6B90F64E5707}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{F777CC51-4F8E-4F90-B229-AE5FA903214F}"
+          s:ds="{0C733242-B699-4187-B11C-CD62BCC58E71}"
+          s:id="{92C40DD0-4376-4C1F-98A7-82A947D32133}"
+          s:par="GridParameters&amp;FieldNames=%7B9616F51A-12F6-492F-92B9-7370DA2CE5CD%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
+Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{F777CC51-4F8E-4F90-B229-AE5FA903214F}">
+              <p:d />
+            </r>
+            <r
+              uid="{2D4A14AC-79CF-401E-85DB-FA351742DA61}"
+              p:before="*"
+              s:ds="{6AD651D9-C7D0-4282-B74B-0A665754F152}"
+              s:id="{EA7DC2B6-66FA-465F-877C-76F0C5F36152}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BB12E4FD9-4016-4354-9FB2-56D8DF67F38A%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=12"
+              s:ph="/headless-main/container-10/column-3-9" />
+            <r
+              uid="{2906E30D-006E-4522-AFCF-DA9E578BD401}"
+              p:after="r[@uid='{2D4A14AC-79CF-401E-85DB-FA351742DA61}']"
+              s:ds="{D32BC38C-15AB-4455-81A1-D6FF54EC9D2E}"
+              s:id="{EA7DC2B6-66FA-465F-877C-76F0C5F36152}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BB12E4FD9-4016-4354-9FB2-56D8DF67F38A%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=11"
+              s:ph="/headless-main/container-10/column-2-9" />
+            <r
+              uid="{FDCFA214-238D-4591-8BBF-E4ACCA306030}"
+              p:after="r[@uid='{2906E30D-006E-4522-AFCF-DA9E578BD401}']"
+              s:ds=""
+              s:id="{15CABDFF-FFD9-48F4-826D-A4C3D7868D3A}"
+              s:par="ColumnWidth1=%7BEDCB7C39-E041-423F-8884-1440C976818E%7D&amp;ColumnWidth2=%7B6FE54025-EFB3-4F3E-A158-41EC918E98D1%7D&amp;ColumnWidth3=%7B6FE54025-EFB3-4F3E-A158-41EC918E98D1%7D&amp;ColumnWidth4=%7BEDCB7C39-E041-423F-8884-1440C976818E%7D&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3%2C4&amp;FieldNames&amp;Styles1=%7BC324FDD9-08CA-4D9C-B018-614EA9779E8D%7D&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=9"
+              s:ph="/headless-main/container-10" />
+            <r
+              uid="{F0406668-81E6-4A5A-ADC9-64C3857B421D}"
+              p:after="r[@uid='{FDCFA214-238D-4591-8BBF-E4ACCA306030}']"
+              s:ds="{A747526B-4830-4BAB-A6AD-74074FE501F6}"
+              s:id="{1900A3A8-0EC5-4BB3-AFE6-E94E26444540}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B4F64CD9D-0300-40E1-BE6E-563F9C66AE80%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=8"
+              s:ph="headless-main" />
+            <r
+              uid="{A1FA96FD-E02D-4E70-B5D8-1D87A07159E8}"
+              p:after="r[@uid='{F0406668-81E6-4A5A-ADC9-64C3857B421D}']"
+              s:ds="{0EFF6562-1F0A-4978-B6CB-09419C84B515}"
+              s:id="{06DEE963-A435-40E5-92B4-9EEBB47CE3D2}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B384A2A31-1FE1-4219-864B-7B26F6E023EE%7D&amp;Styles=%7BDB76DC88-33FA-40FA-BA19-E41E06ABD27D%7D%7C%7B242C8DCC-2563-4D91-8532-7531C26D8F3C%7D%7C%7B450EFF33-C1D2-4123-9529-BA7B8BC7671F%7D%7C%7B44AD0D4A-481F-4AF7-A853-D5AFDB6F8C9D%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=7"
+              s:ph="/headless-main/container-4"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{E47585AF-D6A8-45E9-856E-39EB3DC97471}"
+              p:after="r[@uid='{A1FA96FD-E02D-4E70-B5D8-1D87A07159E8}']"
+              s:ds=""
+              s:id="{15CABDFF-FFD9-48F4-826D-A4C3D7868D3A}"
+              s:par="ColumnWidth1=%7B0612B4CB-3657-4FB0-9632-EC1660039415%7D&amp;ColumnWidth2=%7BF2A11D85-8B09-40AC-B5D8-A9E1025F899D%7D&amp;ColumnWidth3=%7B0612B4CB-3657-4FB0-9632-EC1660039415%7D&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;FieldNames&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="/headless-main/container-4" />
+            <r
+              uid="{BC199B9D-8D0B-494F-B3AD-61B096E7A5F7}"
+              p:after="r[@uid='{E47585AF-D6A8-45E9-856E-39EB3DC97471}']"
+              s:ds="{3DBD8308-954C-4C2E-BA5E-A207D8AE27B2}"
+              s:id="{9B74C2BA-66F6-4D42-92EA-9A939772A201}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BC481E227-D09F-431E-9057-85E1A3CB701A%7D&amp;Styles=%7BDB76DC88-33FA-40FA-BA19-E41E06ABD27D%7D%7C%7B242C8DCC-2563-4D91-8532-7531C26D8F3C%7D%7C%7B450EFF33-C1D2-4123-9529-BA7B8BC7671F%7D%7C%7B44AD0D4A-481F-4AF7-A853-D5AFDB6F8C9D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;CSSStyles"
+              s:ph="/headless-main/container-4/container-5" />
+            <r
+              uid="{41580535-C485-408F-B330-604CA72BDA16}"
+              p:after="r[@uid='{BC199B9D-8D0B-494F-B3AD-61B096E7A5F7}']"
+              s:ds=""
+              s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+              s:ph="/headless-main/container-4" />
+            <r
+              uid="{57E7B775-B7ED-4E45-858F-DB89DD741428}"
+              p:after="r[@uid='{41580535-C485-408F-B330-604CA72BDA16}']"
+              s:ds="{0C733242-B699-4187-B11C-CD62BCC58E71}"
+              s:id="{92C40DD0-4376-4C1F-98A7-82A947D32133}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B9616F51A-12F6-492F-92B9-7370DA2CE5CD%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+              s:ph="/headless-main/container-4/column-2-2" />
+            <r
+              uid="{DDFBC0C1-FBCB-48E7-9ACA-2B62AE73ED3A}"
+              p:after="r[@uid='{57E7B775-B7ED-4E45-858F-DB89DD741428}']"
+              s:ds=""
+              s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+              s:ph="headless-main" />
+            <r
+              uid="{58A2C821-AEA9-4B37-A8AC-A48C166F51D6}"
+              p:after="*[1=2]"
+              s:ds=""
+              s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles=%7B5FD66534-BB66-430B-8E2F-3C519D0554C9%7D%7C%7B43B45F76-9694-4EFB-9824-17AEE6E3D16A%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=10"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230731T081515Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "595f52d5-223b-4143-afa6-73415b86f877"
+      Hint: Title
+      Value: Mall Of Oman
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "49be29ed-a8de-4b7b-a342-a936b02eefca"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230802T053343Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{F777CC51-4F8E-4F90-B229-AE5FA903214F}">
+              <p:d />
+            </r>
+            <r
+              uid="{F0406668-81E6-4A5A-ADC9-64C3857B421D}"
+              p:before="*"
+              s:ds="{A747526B-4830-4BAB-A6AD-74074FE501F6}"
+              s:id="{1900A3A8-0EC5-4BB3-AFE6-E94E26444540}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B4F64CD9D-0300-40E1-BE6E-563F9C66AE80%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=8"
+              s:ph="headless-main" />
+            <r
+              uid="{A1FA96FD-E02D-4E70-B5D8-1D87A07159E8}"
+              p:after="r[@uid='{F0406668-81E6-4A5A-ADC9-64C3857B421D}']"
+              s:ds="{0EFF6562-1F0A-4978-B6CB-09419C84B515}"
+              s:id="{06DEE963-A435-40E5-92B4-9EEBB47CE3D2}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B384A2A31-1FE1-4219-864B-7B26F6E023EE%7D&amp;Styles=%7BDB76DC88-33FA-40FA-BA19-E41E06ABD27D%7D%7C%7B242C8DCC-2563-4D91-8532-7531C26D8F3C%7D%7C%7B450EFF33-C1D2-4123-9529-BA7B8BC7671F%7D%7C%7B44AD0D4A-481F-4AF7-A853-D5AFDB6F8C9D%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=7"
+              s:ph="/headless-main/container-4"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{E47585AF-D6A8-45E9-856E-39EB3DC97471}"
+              p:after="r[@uid='{A1FA96FD-E02D-4E70-B5D8-1D87A07159E8}']"
+              s:id="{15CABDFF-FFD9-48F4-826D-A4C3D7868D3A}"
+              s:par="ColumnWidth1=%7B0612B4CB-3657-4FB0-9632-EC1660039415%7D&amp;ColumnWidth2=%7BF2A11D85-8B09-40AC-B5D8-A9E1025F899D%7D&amp;ColumnWidth3=%7B0612B4CB-3657-4FB0-9632-EC1660039415%7D&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;FieldNames&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="/headless-main/container-4" />
+            <r
+              uid="{BC199B9D-8D0B-494F-B3AD-61B096E7A5F7}"
+              p:after="r[@uid='{E47585AF-D6A8-45E9-856E-39EB3DC97471}']"
+              s:ds="{3DBD8308-954C-4C2E-BA5E-A207D8AE27B2}"
+              s:id="{9B74C2BA-66F6-4D42-92EA-9A939772A201}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BC481E227-D09F-431E-9057-85E1A3CB701A%7D&amp;Styles=%7BDB76DC88-33FA-40FA-BA19-E41E06ABD27D%7D%7C%7B242C8DCC-2563-4D91-8532-7531C26D8F3C%7D%7C%7B450EFF33-C1D2-4123-9529-BA7B8BC7671F%7D%7C%7B44AD0D4A-481F-4AF7-A853-D5AFDB6F8C9D%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;CSSStyles"
+              s:ph="/headless-main/container-4/container-5" />
+            <r
+              uid="{41580535-C485-408F-B330-604CA72BDA16}"
+              p:after="r[@uid='{BC199B9D-8D0B-494F-B3AD-61B096E7A5F7}']"
+              s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+              s:ph="/headless-main/container-4" />
+            <r
+              uid="{2551335C-8B9D-4135-9A5D-4021314D0634}"
+              p:after="r[@uid='{41580535-C485-408F-B330-604CA72BDA16}']"
+              s:ds=""
+              s:id="{CAA0C742-F052-49FB-825B-A03494798DB7}"
+              s:par="ComponentName=Gift%20Card&amp;ComponentConfiguration&amp;LibraryId=26MAXx0TD44CQoHma6fhIn&amp;ComponentId=9ZeWCeEqqN&amp;ComponentVersion=responsive&amp;ComponentRevision=staged&amp;ComponentHostName=https%3A%2F%2Ffeaas.blob.core.windows.net&amp;ComponentInstanceId=pHOuAHtpPN1YeQU&amp;ComponentDataOverride&amp;ComponentHTMLOverride&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7BDB76DC88-33FA-40FA-BA19-E41E06ABD27D%7D%7C%7B242C8DCC-2563-4D91-8532-7531C26D8F3C%7D%7C%7B450EFF33-C1D2-4123-9529-BA7B8BC7671F%7D%7C%7B44AD0D4A-481F-4AF7-A853-D5AFDB6F8C9D%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=6"
+              s:ph="/headless-main/container-4"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{57E7B775-B7ED-4E45-858F-DB89DD741428}"
+              p:after="r[@uid='{2551335C-8B9D-4135-9A5D-4021314D0634}']"
+              s:ds="{0C733242-B699-4187-B11C-CD62BCC58E71}"
+              s:id="{92C40DD0-4376-4C1F-98A7-82A947D32133}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B9616F51A-12F6-492F-92B9-7370DA2CE5CD%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+              s:ph="/headless-main/container-4/column-2-2" />
+            <r
+              uid="{DDFBC0C1-FBCB-48E7-9ACA-2B62AE73ED3A}"
+              p:after="*[1=2]"
+              s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230731T081515Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Mall Of Oman
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "595f52d5-223b-4143-afa6-73415b86f877"
+      Hint: Title
+      Value: Mall Of Oman
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f41ee1f8-a04c-4041-9e5d-2b91ce27a4bd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\HJmOiqSpvZ
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T064319Z

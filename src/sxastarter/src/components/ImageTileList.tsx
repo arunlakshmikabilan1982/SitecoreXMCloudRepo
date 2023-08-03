@@ -68,7 +68,7 @@ const ImageTileListItem = (props: ImageTileListItemProps) => {
             <Image />
           )}
         </div>
-        <div className="component-content position-absolute b-15p w-100">
+        <div className="component-content position-absolute b-15p w-100 ps-5 pe-5">
           <Text
             tag="span"
             className="image-caption field-imagecaption anchor-font text-white text-uppercase fs-1 fst-normal text-center"
@@ -102,14 +102,16 @@ export const Default = (props: ImageTileListProps): JSX.Element => {
         <div className="component-content">
           <Text
             tag="h1"
-            className="anchor-font border-0 fst-normal fw-normal mb-5 text-black text-center"
+            className="heading3 border-0 fst-normal fw-normal mb-5 text-black text-center"
             field={props?.fields?.Heading}
           />
-          <p className="subheading-font fs-3 mb-5 text-center">
+          {/* <p className="subheading fs-3 mb-5 text-center">
             Shop everything from the best fashion and accessories to homeware, electronics, and much
             more
-          </p>
-          <div className="row">{list}</div>
+          </p> */}
+          <div className="container">
+            <div className="row">{list}</div>
+          </div>
         </div>
       </div>
     );

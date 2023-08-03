@@ -11,6 +11,9 @@ SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
   Value: "{C2DC4690-AF44-48C7-BB21-90D1AD246732}"
+- ID: "1864e99d-c29a-40bf-96e0-b3e7896a013b"
+  Hint: UseLanguageSpecificLayout
+  Value: 
 - ID: "300fb7a0-b27f-44dd-9af0-b37a19723e0e"
   Hint: RouteTemplateName
   Value: Settings Route
@@ -19,16 +22,16 @@ SharedFields:
   Value: "{BC8876E7-FE0B-444A-8540-44A8495965ED}"
 - ID: "3e4f559f-8e59-4405-b50d-619811371f6c"
   Hint: Name
-  Value: "Demo Site - For Estimations"
+  Value: Base Site
 - ID: "5764d2d4-724d-4313-a81b-9246c911faff"
   Hint: AppDatasourcesPath
   Value: "{81ACB928-DE0D-48E9-8D8E-D7E2AF9F13CD}"
 - ID: "5ca117eb-8782-4a4f-9f2f-30de31fc2e34"
   Hint: PlaceholdersPath
-  Value: "{268FAAEF-64D6-45E4-94CD-8E4849AFE726}"
+  Value: "{4CE17442-9A10-495C-9514-9501304472DB}"
 - ID: "72e83c8d-3578-4e50-b4c0-93a78a1729f2"
   Hint: FilesystemPath
-  Value: "/dist/Demo Site - For Estimations"
+  Value: /dist/Base Site
 - ID: "9016141c-ff51-40f2-9135-40f5161b9784"
   Hint: ServerSideRenderingEngine
   Value: http
@@ -71,11 +74,11 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e5e40779-026e-4b11-b91b-551c2a79be38"
+      Value: "281c4a42-b171-4cad-bc68-4c5aa8f88b7c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Anonymous
+        sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20221201T092103Z
+      Value: 20230728T082411Z

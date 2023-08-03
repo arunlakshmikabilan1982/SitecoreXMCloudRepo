@@ -4,6 +4,46 @@ Parent: "36982fe0-8b7a-405d-8a26-581fc566eb6f"
 Template: "90b17141-9602-49a6-8bfb-cfc881313a75"
 Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/VerticalPromoCard/VerticalPromoCard4
 Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1fc274bd-ec68-4b20-9caa-e07b03be8a7d"
+      Hint: PromoCardLink
+      Value: |
+        <link class="" querystring="" id="{A90DA1EC-E382-410F-A464-3889766C440C}" anchor="" target="" title="" linktype="internal" text="Get Tickets" url="/CNX Websites/Base Site/Home" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230719T104631Z
+    - ID: "45ddc470-6f41-40fc-854b-b7f77957eae4"
+      Hint: PromoCardDesc
+      Value: |
+        <span style="color: #646464; letter-spacing: 0.64px;">Experience an exclusive and unique up-close and personal interaction with these remarkable birds.</span>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8696388b-6e5f-473a-8728-05d616355436"
+    - ID: "911178a5-5358-4f14-ac91-d38f36a0084c"
+      Hint: PromoCardTitle
+      Value: Penguin Encounter
+    - ID: "9200c789-37d9-4ffe-81ba-0903e1cc2431"
+      Hint: PromoCardimage
+      Value: |
+        <image mediaid="{C271DEA4-4C97-488C-84C8-F9A7A2F34455}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T130303Z
 - Language: en
   Versions:
   - Version: 1

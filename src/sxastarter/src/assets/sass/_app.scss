@@ -112,3 +112,30 @@ ul li {
 .b-15p {
   bottom: 15px;
 }
+
+.img-right {
+  width: 500px !important;
+  height: 467px !important
+}
+
+.heading3 {
+  font-family: times-light, gess-light;
+  font-size: 5rem;
+  line-height: 1;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: -0.04em;
+}
+
+.subheading {
+  font-family: futura-medium, gess-light;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-font {
+  font-family: futura-book, gess-light
+}

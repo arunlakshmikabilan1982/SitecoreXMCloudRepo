@@ -15,7 +15,7 @@ SharedFields:
   Value: "{3CD246E1-B9A1-4FE4-BEA8-88D089A45791}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='CNX']|query:$sharedSites/*[@@name='Data']/*[@@templatename='CNX']"
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='ImageTextListFolder']/*[@@templatename='ImageTextList']|query:$sharedSites/*[@@name='Data']/*[@@templatename='ImageTextListFolder']/*[@@templatename='ImageTextList']"
 Languages:
 - Language: en
   Versions:
@@ -34,11 +34,11 @@ Languages:
         sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "08e2fd93-6fa9-4fac-8053-fe06e2f4a3ef"
+      Value: "47bed849-3caa-4496-b2b6-03dd1aba5930"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\mageshwari.muralidoss@concentrix.com
+        sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230717T101733Z
+      Value: 20230801T053506Z

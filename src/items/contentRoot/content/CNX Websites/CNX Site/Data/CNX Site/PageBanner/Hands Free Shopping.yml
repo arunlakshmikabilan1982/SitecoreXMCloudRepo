@@ -1,0 +1,62 @@
+﻿---
+ID: "2284f9cd-efad-4fa6-85a8-c271977b78be"
+Parent: "e709a74c-50de-48c3-b6be-41bf6356c2ba"
+Template: "5f4c471d-8aef-4a54-a134-f21f595094a7"
+Path: /sitecore/content/CNX Websites/CNX Site/Data/CNX Site/PageBanner/Hands Free Shopping
+Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02b46569-fb85-4ee7-b6cd-35dda766c894"
+      Hint: Title
+      Value: التسوق بدون استخدام اليدين
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230801T044933Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "85067331-f68a-49d4-b5db-3c15fdbcd073"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="{9863E74D-9552-42C2-967B-478404062932}" alt="التسوق بدون استخدام اليدين" height="" width="" hspace="" vspace="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b698788e-6492-4b12-9a74-a06d7fe70206"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T045004Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02b46569-fb85-4ee7-b6cd-35dda766c894"
+      Hint: Title
+      Value: "Hands-Free Shopping"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230801T044705Z
+    - ID: "85067331-f68a-49d4-b5db-3c15fdbcd073"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="{9863E74D-9552-42C2-967B-478404062932}" alt="免提購物" height="" width="" hspace="" vspace="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c5eb604e-34e8-40c9-bdfe-b78488803c63"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T050541Z

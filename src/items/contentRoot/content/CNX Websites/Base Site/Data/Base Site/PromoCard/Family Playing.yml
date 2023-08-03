@@ -1,0 +1,86 @@
+﻿---
+ID: "6ad651d9-c7d0-4282-b74b-0a665754f152"
+Parent: "b0fcc181-fead-4290-a5e5-1f7f8187df6d"
+Template: "90b17141-9602-49a6-8bfb-cfc881313a75"
+Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/PromoCard/Family Playing
+Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1fc274bd-ec68-4b20-9caa-e07b03be8a7d"
+      Hint: PromoCardLink
+      Value: |
+        <link text="ابحث عن المتعة" linktype="external" url="http://www.mycitycentrealbarsha.com/stores?cat=Dining" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230719T104631Z
+    - ID: "45ddc470-6f41-40fc-854b-b7f77957eae4"
+      Hint: PromoCardDesc
+      Value: |
+        <span style="color: #1b1b1b; color: #1b1b1b;">&nbsp;<strong style="font-weight: bold;"></strong></span>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f4f7c4b2-7054-4c2a-88e8-69d0a16593c9"
+    - ID: "911178a5-5358-4f14-ac91-d38f36a0084c"
+      Hint: PromoCardTitle
+      Value: ابحث عن المتعة والمغامرة على مدار السنة
+    - ID: "9200c789-37d9-4ffe-81ba-0903e1cc2431"
+      Hint: PromoCardimage
+      Value: |
+        <image mediaid="{ACEDA03C-A1FF-4C63-934A-26E4514E8E76}" alt="Familly PLaying" height="400" width="400" hspace="" vspace="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230802T050704Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1fc274bd-ec68-4b20-9caa-e07b03be8a7d"
+      Hint: PromoCardLink
+      Value: |
+        <link text="Find Fun" linktype="external" url="https://www.mallofoman.net/en/entertainment" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230719T104631Z
+    - ID: "45ddc470-6f41-40fc-854b-b7f77957eae4"
+      Hint: PromoCardDesc
+      Value: |
+        <span style="color: #1b1b1b; color: #1b1b1b;">&nbsp;<strong style="font-weight: bold;"></strong></span>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fe769a33-c175-428f-a582-e845a1841430"
+    - ID: "911178a5-5358-4f14-ac91-d38f36a0084c"
+      Hint: PromoCardTitle
+      Value: Find fun and adventure all year round
+    - ID: "9200c789-37d9-4ffe-81ba-0903e1cc2431"
+      Hint: PromoCardimage
+      Value: |
+        <image mediaid="{DDD0D0B1-3DAE-4643-BC35-6A2386573CE4}" alt="Familly PLaying" height="" width="" hspace="" vspace="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230802T045127Z

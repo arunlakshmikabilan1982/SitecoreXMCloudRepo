@@ -18,7 +18,7 @@ SharedFields:
   Value: 0
 - ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
   Hint: __Read Only
-  Value: 0
+  Value: 
 - ID: "a2f5d9df-8cba-4a1d-99eb-51acb94cb057"
   Hint: Page Editor Buttons
   Value: "{9AC06576-7551-43A1-8114-2D694016B03F}"
@@ -27,7 +27,7 @@ SharedFields:
   Value: "{55FAB876-6F09-4086-B67F-68F719291216}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='ImageTileList']|query:$sharedSites/*[@@name='Data']/*[@@templatename='ImageTileList']"
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='Folder']/*[@@name='ImageTileList']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Folder']/*[@@name='ImageTileList']"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 0
@@ -80,14 +80,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5c8c5107-3457-4813-8af2-a133e3011b47"
+      Value: "89c94039-ed48-4c70-b400-60966d29322d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\manish.yadav7@concentrix.com
+        sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230719T142809Z
+      Value: 20230728T100723Z
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
