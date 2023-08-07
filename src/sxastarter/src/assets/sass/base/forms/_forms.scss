@@ -1,14 +1,14 @@
-/* 
+/*
     Apply css style rules on top of bootstrap form relavent class.
 */
 
 .mall-form {
-    form {
-        background: #eeeeeeb8;
-        border: 1px solid #8183845c;
+    .form-check {
+        min-width: 50px;
     }
     .form-control {
         font-size: 1.6rem;
+        padding: 1.2rem;
     }
     .btn {
         font-size: 1.6rem;

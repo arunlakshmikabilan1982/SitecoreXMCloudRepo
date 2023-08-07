@@ -1,0 +1,39 @@
+﻿---
+ID: "fba22172-a4be-4b23-ad24-60a47e9c1e1e"
+Parent: "54d1aae0-775b-498e-a78e-1f89d38a9292"
+Template: "d885df8c-b2d6-4007-b34b-2bbafb527304"
+Path: /sitecore/content/CNX Websites/CNX Site/Data/Images/Header/SignInLogo
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230801T092017Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "57caf172-ce57-4e48-b3a1-46f8aea71c08"
+      Hint: Image
+      Value: |
+        <image mediaid="{97A5A870-20F7-4C1B-873A-F5A1317DFFB4}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "75fbf1b1-e7c5-494b-9633-693909f79425"
+      Hint: TargetUrl
+      Value: |
+        <link text="SignUp" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{55EB2CAF-AE92-4D45-B2CC-007039EAB42A}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "114847c9-8255-4dd3-8cee-475ae070d743"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T092229Z

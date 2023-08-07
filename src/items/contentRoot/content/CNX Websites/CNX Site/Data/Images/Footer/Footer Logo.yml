@@ -13,7 +13,7 @@ Languages:
       Value: 20230725T082809Z
     - ID: "4d7b05d0-0300-486f-8f87-57de34a9b793"
       Hint: ImageCaption
-      Value: footer_logo
+      Value: 
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,18 +21,22 @@ Languages:
     - ID: "57caf172-ce57-4e48-b3a1-46f8aea71c08"
       Hint: Image
       Value: |
-        <image mediaid="{D3210490-9DBB-406C-B87B-726BB914BD56}" alt="Mall of Emirates Footer Logo" height="79px" width="156px" hspace="30%" vspace="10%" />
+        <image mediaid="{E9B82E67-85CF-4853-9F2F-FD98316B0F91}" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "75fbf1b1-e7c5-494b-9633-693909f79425"
+      Hint: TargetUrl
+      Value: |
+        <link text="Home" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{788D80AD-BEA0-4DF3-A035-B41115C47D7F}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "692d13c9-872d-4e32-8b4e-8e88a56cd46b"
+      Value: "fb4eb945-db69-462e-9e18-c7f8db3c4eac"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
+        sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230728T083522Z
+      Value: 20230731T143303Z

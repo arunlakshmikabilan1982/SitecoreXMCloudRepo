@@ -4,6 +4,9 @@ Parent: "b693ff1d-8ff7-4da1-8a25-cb41c323cb40"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Feature/CNX/PageBanner/Page Banner/Description
 SharedFields:
+- ID: "24cb32f0-e364-4f37-b400-0f2899097b5b"
+  Hint: Enable Shared Language Fallback
+  Value: 1
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Rich Text
@@ -28,11 +31,11 @@ Languages:
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f3e2b256-866d-4ed7-971b-5e73b67fc25c"
+      Value: "01bf66d2-84be-46a4-9f96-abb4276c3016"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230727T082912Z
+      Value: 20230731T125151Z

@@ -1,0 +1,39 @@
+﻿---
+ID: "73393e70-6bb0-402b-8ede-d06733481c5d"
+Parent: "6d6f18b7-5b6d-47b0-ba63-5e6027b04fe9"
+Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
+Path: /sitecore/content/CNX Websites/Mall Of Oman/Presentation/Page Designs/Mall Of Oman Default
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{A588F6D5-604E-41EB-A295-D8511BFC3682}|{A8CDB0B8-4CBC-4593-9B09-E2BAF1F90BFC}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{2689CCC9-C881-4CE9-8F2C-DF8B9FC13C8E}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230731T081544Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bda68f4f-5ad4-431d-96f0-5507bfb166bf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230731T155018Z

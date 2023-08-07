@@ -1,0 +1,72 @@
+﻿---
+ID: "53b4b3b9-43da-44d4-84b7-af7dc2b1d4b4"
+Parent: "45ec39af-8c21-4f49-8b21-2819ada2e8eb"
+Template: "40f478dc-80e0-48ac-88d4-5637085d8523"
+Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/ImageTileList/ImageTextListItem1
+Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230719T142956Z
+    - ID: "2cfd2f20-3b68-4b6e-a1cb-403096e79b18"
+      Hint: ImageList
+      Value: |
+        {85E8B868-3AD5-469F-964D-D24A393D4511}
+        {7163C55A-0C8A-42C8-B19F-ECC89B3B0A00}
+        {5CAD856D-73F8-493B-9A8B-BA059FD84048}
+        {B85A07C7-7AE8-49F9-BC02-9713403CA747}
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manish.yadav7@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "746d1615-bc1d-46b7-8ce6-60cadc2a7039"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d65b748e-5420-46af-a3d9-5c0dc948eb5b"
+      Hint: Heading
+      Value: Key Retailers
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T123707Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230719T142956Z
+    - ID: "2cfd2f20-3b68-4b6e-a1cb-403096e79b18"
+      Hint: ImageList
+      Value: |
+        {85E8B868-3AD5-469F-964D-D24A393D4511}
+        {7163C55A-0C8A-42C8-B19F-ECC89B3B0A00}
+        {5CAD856D-73F8-493B-9A8B-BA059FD84048}
+        {B85A07C7-7AE8-49F9-BC02-9713403CA747}
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\manish.yadav7@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manish.yadav7@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a01fb135-712e-44b1-9443-3ad906a63b2e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prasanth.gajulapalli@concentrix.com
+    - ID: "d65b748e-5420-46af-a3d9-5c0dc948eb5b"
+      Hint: Heading
+      Value: Key Retailers
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T095544Z

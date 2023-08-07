@@ -1,0 +1,67 @@
+﻿---
+ID: "c4890a8b-0e39-49ac-8f72-926b6ee307e3"
+Parent: "687b291e-33ec-4187-b682-7b042be655ef"
+Template: "4e92ccd0-1272-4b4a-b727-ca3054c38cf1"
+Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/ImageCarousalList/ImageListCaousalData/Food2
+Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00f739ff-7082-4f3b-9074-5e4386f67840"
+      Hint: Image
+      Value: |
+        <image mediaid="{9CC10FED-7B00-4608-9C33-E5290C9EB0DB}" alt="" height="375" width="300" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230801T070445Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dc17b029-3b34-41f8-9553-92db6aae1473"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T130307Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "00f739ff-7082-4f3b-9074-5e4386f67840"
+      Hint: Image
+      Value: |
+        <image mediaid="{9CC10FED-7B00-4608-9C33-E5290C9EB0DB}" alt="" height="375" width="300" hspace="" vspace="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230801T070445Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eac81cce-8a87-4ea1-a0d4-c33cbae434b2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T071724Z

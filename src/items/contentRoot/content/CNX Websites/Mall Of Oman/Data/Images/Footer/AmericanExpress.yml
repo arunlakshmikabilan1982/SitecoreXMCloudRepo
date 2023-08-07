@@ -1,0 +1,56 @@
+﻿---
+ID: "96a3d43d-2777-4500-b46e-c47e443e6958"
+Parent: "4be7abd1-3607-4cdd-b538-6a78dcbb907c"
+Template: "d885df8c-b2d6-4007-b34b-2bbafb527304"
+Path: /sitecore/content/CNX Websites/Mall Of Oman/Data/Images/Footer/AmericanExpress
+Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230725T112923Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5071bdcf-b086-4e39-aa8d-810df229bb92"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T123645Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230725T112923Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "57caf172-ce57-4e48-b3a1-46f8aea71c08"
+      Hint: Image
+      Value: |
+        <image mediaid="{62F303F6-7747-4AB0-832F-B5579F143D0A}" alt="american express" height="20" width="30" hspace="" vspace="" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "59f9945a-9349-4c3f-b596-5a095482cce6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230728T083522Z

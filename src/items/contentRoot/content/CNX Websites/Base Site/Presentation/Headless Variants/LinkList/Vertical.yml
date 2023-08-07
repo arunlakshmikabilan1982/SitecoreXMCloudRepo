@@ -4,6 +4,23 @@ Parent: "2282a9ac-41b6-404d-a411-2014e1f06185"
 Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
 Path: /sitecore/content/CNX Websites/Base Site/Presentation/Headless Variants/LinkList/Vertical
 Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230727T072737Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0e4d2c93-a920-4f8c-8900-6781a853c88f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230801T130347Z
 - Language: en
   Versions:
   - Version: 1
