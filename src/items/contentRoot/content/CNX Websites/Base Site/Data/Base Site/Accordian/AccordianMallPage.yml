@@ -1,0 +1,39 @@
+﻿---
+ID: "4970d1b2-dcff-4d5b-ba9b-eafc67ad016f"
+Parent: "a6eb5a29-c560-44fe-9ce3-b3ee2321b0db"
+Template: "08352d87-54ee-4ce0-ab1e-c615b079ebaf"
+Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/Accordian/AccordianMallPage
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230807T154226Z
+    - ID: "5147f69b-bfaa-41ee-bb34-9443496676a8"
+      Hint: AccordianList
+      Value: |
+        {2BAFE460-DC3A-428D-B7AD-E26ADBA19209}
+        {7D6E6FA1-299A-45FE-A929-1FAAE561E15A}
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "8bd24537-f5dd-40e7-93cc-df7ce913c326"
+      Hint: Title
+      Value: "FAQ - What you need to know"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2954a33d-6e6d-4fc5-8eb5-37e4a3ae765e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230808T120937Z
