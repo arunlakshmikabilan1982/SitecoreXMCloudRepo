@@ -89,11 +89,11 @@ Languages:
               s:ph="headless-main"
               s:ccb="Clear on publish" />
             <r
-              uid="{5385642C-984C-4858-825B-2D44F6523E06}"
+              uid="{4A65EBA1-9BCF-47A8-879B-D68A69D5F0DD}"
               p:after="*[1=2]"
-              s:ds="{B746D24E-A10E-41CD-915B-2421DAEEEE63}"
-              s:id="{29016D1B-BA7B-4E12-8C2B-84DC62F55D41}"
-              s:par="GridParameters&amp;FieldNames=%7B116625DF-8C33-474D-910C-3EB071295A0E%7D&amp;Styles&amp;CSSStyles"
+              s:ds="{2E4A6642-99E3-4F86-8D84-549C9E88F058}"
+              s:id="{06DEE963-A435-40E5-92B4-9EEBB47CE3D2}"
+              s:par="GridParameters&amp;FieldNames=%7BC226050A-CF8A-4B8C-8511-AB673DD2CBD1%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=7"
               s:ph="headless-main"
               s:ccb="Clear on publish" />
           </d>
@@ -117,11 +117,11 @@ Languages:
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "21314c2b-c741-40ef-916e-51bb735a6fca"
+      Value: "4e264535-1d42-4eb6-b605-270601bb9d02"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230807T071755Z
+      Value: 20230809T055229Z

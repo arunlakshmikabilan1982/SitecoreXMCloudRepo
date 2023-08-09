@@ -1,44 +1,9 @@
 ﻿---
 ID: "d39d443a-6a85-4c59-923f-545f7308ae1b"
 Parent: "687b291e-33ec-4187-b682-7b042be655ef"
-Template: "4e92ccd0-1272-4b4a-b727-ca3054c38cf1"
+Template: "71f0e21f-61f3-49d4-ba97-01871fe3f48e"
 Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/ImageCarousalList/ImageListCaousalData/Valet
 Languages:
-- Language: "ar-AE"
-  Versions:
-  - Version: 1
-    Fields:
-    - ID: "00f739ff-7082-4f3b-9074-5e4386f67840"
-      Hint: Image
-      Value: |
-        <image mediaid="{D3B040E9-D022-4FE3-8F68-BE18F0E97FD3}" />
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20230727T081622Z
-    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
-      Hint: __Owner
-      Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\O6y3bocRU4
-    - ID: "70290898-2524-448c-a2f2-29e0b2b592bd"
-      Hint: Description
-      Value: Create unforgettable memories in the snow. Meet our penguins, glide on the ice rink and frozen sand dunes, or enjoy the exciting rides in the region's largest snow park
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "abfd9434-46cb-4907-ac46-f7155ebba5d5"
-    - ID: "a1c8aa28-a598-4868-b865-a7240d163f72"
-      Hint: Title
-      Value: Snow Man
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20230801T130308Z
 - Language: en
   Versions:
   - Version: 1
@@ -63,14 +28,14 @@ Languages:
       Value: Create unforgettable memories in the snow. Meet our penguins, glide on the ice rink and frozen sand dunes, or enjoy the exciting rides in the region's largest snow park
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5eaaf794-1bfc-44cd-9041-413c7fe94b72"
+      Value: "c4028208-2a68-43a0-b276-4d6008a3e6dd"
     - ID: "a1c8aa28-a598-4868-b865-a7240d163f72"
       Hint: Title
       Value: Snow Man
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\HJmOiqSpvZ
+        sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230731T143933Z
+      Value: 20230808T122404Z

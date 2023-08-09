@@ -1,8 +1,14 @@
 ﻿---
-ID: "b746d24e-a10e-41cd-915b-2421daeeee63"
-Parent: "90f79d9b-786f-444b-9906-feead200aac6"
-Template: "7ee773ef-88ec-43d2-b3ea-e784b708b2d2"
-Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/Carousal/Carousal
+ID: "71f0e21f-61f3-49d4-ba97-01871fe3f48e"
+Parent: "e067a81e-5bff-4bec-9734-b24182e16d23"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/CNX/ImageCarousalList/ImageCarousalItem
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {4E92CCD0-1272-4B4A-B727-CA3054C38CF1}
 Languages:
 - Language: en
   Versions:
@@ -10,7 +16,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230807T054351Z
+      Value: 20230808T115545Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,16 +27,11 @@ Languages:
         sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cd5d5c0b-9ff7-4990-946f-d6ecc5b281ab"
+      Value: "69437c05-c674-439c-b810-8af54101acf4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\prasanth.gajulapalli@concentrix.com
-    - ID: "d303dc25-6bd9-4973-a616-0f4f77e76724"
-      Hint: CarousalItemList
-      Value: |
-        {2E47D2FA-BE94-4E18-9A18-10585EFFE5D4}
-        {BA252C3C-E469-4B1A-8BDD-02C8A729177A}
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230807T054930Z
+      Value: 20230808T115640Z
