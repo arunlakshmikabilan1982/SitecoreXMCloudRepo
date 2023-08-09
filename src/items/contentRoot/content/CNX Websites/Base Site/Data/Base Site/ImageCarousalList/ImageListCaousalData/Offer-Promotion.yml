@@ -1,38 +1,9 @@
 ﻿---
 ID: "3ea37d71-8979-4740-8b82-5576f002c7c0"
 Parent: "687b291e-33ec-4187-b682-7b042be655ef"
-Template: "4e92ccd0-1272-4b4a-b727-ca3054c38cf1"
+Template: "71f0e21f-61f3-49d4-ba97-01871fe3f48e"
 Path: "/sitecore/content/CNX Websites/Base Site/Data/Base Site/ImageCarousalList/ImageListCaousalData/Offer-Promotion"
 Languages:
-- Language: "ar-AE"
-  Versions:
-  - Version: 1
-    Fields:
-    - ID: "00f739ff-7082-4f3b-9074-5e4386f67840"
-      Hint: Image
-      Value: |
-        <image mediaid="{39AEDB76-1978-41E3-9915-87643BD6BC75}" />
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20230727T081747Z
-    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
-      Hint: __Owner
-      Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\O6y3bocRU4
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "953894fa-741a-4280-9e5a-f91312c2d7ac"
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20230801T130251Z
 - Language: en
   Versions:
   - Version: 1
@@ -54,11 +25,11 @@ Languages:
         sitecore\O6y3bocRU4
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ce49fe31-8ab7-4f6e-86ce-da18e4c4648f"
+      Value: "fae42d8a-c58b-4b3a-ae34-f6ef625660e8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\O6y3bocRU4
+        sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230727T093023Z
+      Value: 20230808T122218Z

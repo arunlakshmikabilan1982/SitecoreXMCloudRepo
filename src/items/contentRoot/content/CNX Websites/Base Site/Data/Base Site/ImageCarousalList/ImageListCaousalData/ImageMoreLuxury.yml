@@ -1,44 +1,9 @@
 ﻿---
 ID: "b36174ae-9869-4916-ae5f-518ed5829b7a"
 Parent: "687b291e-33ec-4187-b682-7b042be655ef"
-Template: "4e92ccd0-1272-4b4a-b727-ca3054c38cf1"
+Template: "71f0e21f-61f3-49d4-ba97-01871fe3f48e"
 Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/ImageCarousalList/ImageListCaousalData/ImageMoreLuxury
 Languages:
-- Language: "ar-AE"
-  Versions:
-  - Version: 1
-    Fields:
-    - ID: "00f739ff-7082-4f3b-9074-5e4386f67840"
-      Hint: Image
-      Value: |
-        <image mediaid="{B96680CE-949C-4C94-B469-8FC77622694C}" />
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20230724T075857Z
-    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
-      Hint: __Owner
-      Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\amruta.kulkarni@concentrix.com
-    - ID: "70290898-2524-448c-a2f2-29e0b2b592bd"
-      Hint: Description
-      Value: "A few more tech gadgets won’t hurt! Modernize your lifestyle with the offerings of our tech shops."
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "8f2eaf33-a88c-4418-9799-3f11945db66c"
-    - ID: "a1c8aa28-a598-4868-b865-a7240d163f72"
-      Hint: Title
-      Value: Imagine more luxury
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20230801T130304Z
 - Language: en
   Versions:
   - Version: 1
@@ -63,14 +28,14 @@ Languages:
       Value: "A few more tech gadgets won’t hurt! Modernize your lifestyle with the offerings of our tech shops."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8a5a5ea1-446a-4581-857d-a50c490a0257"
+      Value: "ebbcd5aa-1490-412a-a5d7-1ae70cadda32"
     - ID: "a1c8aa28-a598-4868-b865-a7240d163f72"
       Hint: Title
       Value: Imagine more luxury
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\amruta.kulkarni@concentrix.com
+        sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230724T094800Z
+      Value: 20230808T122047Z

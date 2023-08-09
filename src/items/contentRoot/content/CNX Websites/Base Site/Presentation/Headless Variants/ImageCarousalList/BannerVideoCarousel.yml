@@ -1,37 +1,31 @@
 ﻿---
-ID: "70f9119b-665f-4230-983f-f4d4647251d1"
-Parent: "687b291e-33ec-4187-b682-7b042be655ef"
-Template: "71f0e21f-61f3-49d4-ba97-01871fe3f48e"
-Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/ImageCarousalList/ImageListCaousalData/Shoes2
+ID: "c226050a-cf8a-4b8c-8511-ab673dd2cbd1"
+Parent: "5e5e1e27-1506-49c9-a513-c151acf9c96b"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/CNX Websites/Base Site/Presentation/Headless Variants/ImageCarousalList/BannerVideoCarousel
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
-    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
-      Hint: __Lock
-      Value: <r />
-    - ID: "00f739ff-7082-4f3b-9074-5e4386f67840"
-      Hint: Image
-      Value: 
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230801T085626Z
+      Value: 20230808T112803Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\nqfSPumMms
+        sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\nqfSPumMms
+        sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2565a5cf-161e-4fb3-93e5-b45ea166d2b6"
+      Value: "17ab919e-9b54-41df-b131-4f01d7f5ba60"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230808T122338Z
+      Value: 20230808T112803Z
