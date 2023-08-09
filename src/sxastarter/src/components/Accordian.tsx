@@ -3,8 +3,8 @@ import { Text, TextField } from '@sitecore-jss/sitecore-jss-nextjs';
 
 type ResultsFieldLink = {
   fields: {
-    	Question: TextField;
-      Answer: TextField;
+    Question: TextField;
+    Answer: TextField;
   };
 };
 
@@ -25,7 +25,6 @@ type FAQListItemProps = {
   total: number;
   field: ResultsFieldLink;
 };
-
 
 const AccordianDefault = (props: FAQListItemProps): JSX.Element => (
   <div className={`component List ${props.params.styles}`.trimEnd()}>
