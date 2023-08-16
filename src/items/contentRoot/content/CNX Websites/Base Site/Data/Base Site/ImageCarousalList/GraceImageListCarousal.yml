@@ -4,36 +4,6 @@ Parent: "81960c54-a369-48ef-903c-ee455f52bb3b"
 Template: "8971a4ab-a661-48ff-b6c4-2c39b01637a0"
 Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/ImageCarousalList/GraceImageListCarousal
 Languages:
-- Language: "ar-AE"
-  Versions:
-  - Version: 1
-    Fields:
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20230801T090534Z
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\nqfSPumMms
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "3f2e2e1a-0109-4e11-b11a-0f442e6a768f"
-    - ID: "999bc1b4-710f-44c6-909b-2545625bd9ea"
-      Hint: Heading
-      Value: التألق والصخب
-    - ID: "b5ce3587-fd0b-45f8-814f-7d4098fb91b4"
-      Hint: ImageCarousalList
-      Value: |
-        {8E39A2BA-36B6-401C-B187-1D9A0B653FFB}
-        {B19722CD-2035-4E79-8C37-DE09B49201D6}
-        {EADE809D-1607-4889-991C-D1DB26B30BD9}
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20230801T140451Z
 - Language: en
   Versions:
   - Version: 1

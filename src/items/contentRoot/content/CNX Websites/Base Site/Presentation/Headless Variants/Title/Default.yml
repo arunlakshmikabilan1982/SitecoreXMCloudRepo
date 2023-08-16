@@ -9,27 +9,6 @@ SharedFields:
   Hint: __Originator
   Value: "{17537200-43DF-4384-85AD-8C795BB461E6}"
 Languages:
-- Language: "ar-AE"
-  Versions:
-  - Version: 1
-    Fields:
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20221201T092120Z
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\Anonymous
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "931e0836-d19a-436d-920e-3ea61f71a113"
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20230801T130350Z
 - Language: en
   Versions:
   - Version: 1

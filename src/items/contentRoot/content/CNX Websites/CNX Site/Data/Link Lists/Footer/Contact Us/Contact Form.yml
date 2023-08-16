@@ -4,31 +4,6 @@ Parent: "219f87d8-86a6-4286-be28-7717d1b2d0c1"
 Template: "6f108e3c-5d57-42f8-a910-c22920269b0a"
 Path: /sitecore/content/CNX Websites/CNX Site/Data/Link Lists/Footer/Contact Us/Contact Form
 Languages:
-- Language: "ar-AE"
-  Versions:
-  - Version: 1
-    Fields:
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20230725T085802Z
-    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
-      Hint: __Owner
-      Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "0d37e369-aa54-4949-887a-ea3906554d76"
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20230801T134219Z
 - Language: en
   Versions:
   - Version: 1

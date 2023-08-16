@@ -8,18 +8,9 @@ SharedFields:
 - ID: "1ee576af-ba8e-4312-9fbd-2ccf8395baa1"
   Hint: StartItem
   Value: "{E3D751AD-CF81-44E9-A933-D49F7F88B74A}"
-- ID: "4e9e2ae5-36db-4955-9af1-5a1934a27c7d"
-  Hint: Language Embedding
-  Value: 1
 - ID: "6dd8a774-2ce5-4c9e-be7f-1eaf65789956"
   Hint: ThumbnailsRootPath
   Value: /sitecore/media library/Project/CNX Websites/Mall Of Oman
-- ID: "6e6da5b0-8d01-4514-b7dd-1940aff3e8cd"
-  Hint: FieldLanguageFallback
-  Value: 1
-- ID: "8c436235-b85d-4097-89cf-d5a4fa70cc0a"
-  Hint: ItemLanguageFallback
-  Value: 1
 - ID: "cb4e9e2e-2b66-43dc-ad3f-9caf363d28d3"
   Hint: SiteName
   Value: Mall Of Oman
@@ -47,11 +38,11 @@ Languages:
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6f8e3e67-f3dc-49d1-8712-56180a4e33b0"
+      Value: "6054cf3b-f8bf-4df0-98a4-e3d5bf089b70"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
+        sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230801T135022Z
+      Value: 20230802T103125Z

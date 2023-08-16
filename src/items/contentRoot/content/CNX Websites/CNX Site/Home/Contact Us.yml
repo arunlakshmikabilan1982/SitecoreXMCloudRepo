@@ -79,12 +79,6 @@ Languages:
         <h3 style="font-size: 25px;">Marketing</h3>
         <p style="font-size: 16px;"><span style="text-decoration: underline;"><a href="mailto:moegmarketing@maf.ae">moegmarketing@maf.ae</a></span></p>
         </div>
-        <div class="grid-4" style="width: 33.33%;">
-        <h3 style="font-size: 25px;"><strong>Photography &amp; Filming Requests</strong></h3>
-        <p style="font-size: 16px;">To submit a request for Photography or Filming<br />
-        in the mall,please visit this link:<br />
-        <a rel="noopener noreferrer" href="https://www.mallofegypt.com/media/media-request" target="_blank">https://www.mallofegypt.com/media/media-request</a></p>
-        </div>
         </section>
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
@@ -102,11 +96,11 @@ Languages:
         sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "36d9841a-782f-4740-aa50-40530edf771f"
+      Value: "9d4ef9d1-a8f2-4469-98a8-f4f545ba807f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\prasanth.gajulapalli@concentrix.com
+        sitecore\O6y3bocRU4
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230731T115326Z
+      Value: 20230814T095229Z

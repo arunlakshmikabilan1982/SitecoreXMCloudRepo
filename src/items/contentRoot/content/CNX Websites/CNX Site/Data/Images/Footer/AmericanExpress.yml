@@ -3,28 +3,11 @@ ID: "cc51afbd-083e-4fe7-9fea-a03b535b10f3"
 Parent: "5aa619dc-1c62-4e42-b9b0-fedc1b88abeb"
 Template: "d885df8c-b2d6-4007-b34b-2bbafb527304"
 Path: /sitecore/content/CNX Websites/CNX Site/Data/Images/Footer/AmericanExpress
+SharedFields:
+- ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
+  Hint: __Never publish
+  Value: 1
 Languages:
-- Language: "ar-AE"
-  Versions:
-  - Version: 1
-    Fields:
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20230725T112923Z
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "42b01dad-416c-4ec2-afbb-c278ec2ac401"
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20230801T130632Z
 - Language: en
   Versions:
   - Version: 1
@@ -46,11 +29,14 @@ Languages:
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "59f9945a-9349-4c3f-b596-5a095482cce6"
+      Value: "620cbdbf-21b6-4a07-a6d4-32960fdfafd1"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 1
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
+        sitecore\nqfSPumMms
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230728T083522Z
+      Value: 20230814T103125Z

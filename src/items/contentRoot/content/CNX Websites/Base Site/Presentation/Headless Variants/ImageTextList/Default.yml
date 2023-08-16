@@ -4,27 +4,6 @@ Parent: "7078a8df-ad6a-4583-8194-71a49be9ff5b"
 Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
 Path: /sitecore/content/CNX Websites/Base Site/Presentation/Headless Variants/ImageTextList/Default
 Languages:
-- Language: "ar-AE"
-  Versions:
-  - Version: 1
-    Fields:
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20230717T110553Z
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\mageshwari.muralidoss@concentrix.com
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "e8b829ff-2aee-4af5-bc5b-15c92cf9bc5a"
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20230801T130347Z
 - Language: en
   Versions:
   - Version: 1
