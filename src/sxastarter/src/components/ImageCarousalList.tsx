@@ -72,7 +72,6 @@ const CarousalListItem = (props: CarousalListItemProps) => {
         </section>
       );
     }
-    console.log(props.field.fields, captionSec);
     return (
       <div className={'mx-3 my-card'}>
         <figure className="m-0">
@@ -99,10 +98,9 @@ export const Default = (props: CarousalListProps): JSX.Element => {
       slidesToScroll: 1,
       draggable: true,
     };
-    const filtered = props.fields.ImageCarousalList.filter(
-      (element: ResultsFieldLink) => element.fields.IsVideo
-    );
-    console.log('filtered', filtered);
+    // const filtered = props.fields.ImageCarousalList.filter(
+    //   (element: ResultsFieldLink) => element.fields.IsVideo
+    // );
     const list = props.fields.ImageCarousalList.filter(
       (element: ResultsFieldLink) => element?.fields.Title
     ).map((element: ResultsFieldLink, key: number) => (
@@ -138,16 +136,21 @@ const BannerVideoCarousalListItem = (props: CarousalListItemProps) => {
   if (props.field.fields) {
     if (props.field.fields.Image.value) {
       props.field.fields.Image.value.width = '100%';
-      props.field.fields.Image.value.height = 'auto';
+      props.field.fields.Image.value.height = '409px';
     }
     // props.field.fields.Title.value = 'Imagine more comfort';
     // props.field.fields.Description.value = 'Accentuate your home with accessories and comfort by visiting our furniture stores.';
     const Image = () => <JssImage field={props.field.fields.Image} />;
     let captionSec = <></>;
     const Videosource = (
-      <video width="320" height="240" controls>
-        <source src={props.field.fields.VideoSourceUrl?.value} type="video/mp4" />
-      </video>
+      <iframe
+        src={props.field.fields.VideoSourceUrl?.value}
+        width={'100%'}
+        height={'409px'}
+        allow={'autoplay; encrypted-media'}
+        allowFullScreen
+        title={'video'}
+      />
     );
     if (props.field.fields.Title.value || props.field.fields.Description.value) {
       captionSec = (
@@ -165,17 +168,16 @@ const BannerVideoCarousalListItem = (props: CarousalListItemProps) => {
         </section>
       );
     }
-    console.log(props.field.fields, captionSec);
     if (props.field.fields.IsVideo.value) {
       return (
-        <div className={'mx-3 my-card'}>
+        <div className={'my-card'}>
           <figure className="m-0">{Videosource}</figure>
           {captionSec}
         </div>
       );
     } else {
       return (
-        <div className={'mx-3 my-card'}>
+        <div className={'my-card'}>
           <figure className="m-0">
             <Image />
           </figure>
@@ -216,7 +218,7 @@ export const BannerVideoCarousel = (props: CarousalListProps): JSX.Element => {
       <div className={styles} id={id ? id : undefined}>
         <div className="component-content">
           <Text tag="h1" field={props?.fields?.Heading} />
-          <div className="row mb-5 px-3">
+          <div className="row">
             <Slider {...sliderSettings}>{list}</Slider>
           </div>
         </div>
