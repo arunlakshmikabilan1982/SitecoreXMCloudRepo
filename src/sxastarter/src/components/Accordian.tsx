@@ -1,10 +1,13 @@
 import React from 'react';
 import { Text, TextField } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Accordion } from 'react-bootstrap';
 
 type ResultsFieldLink = {
+  Question: any;
+  Answer: any;
   fields: {
-    Question: TextField;
-    Answer: TextField;
+    Question: any;
+    Answer: any;
   };
 };
 
@@ -18,53 +21,43 @@ interface FAQListProps {
   fields: Fields;
 }
 
-type FAQListItemProps = {
-  params: { [key: string]: string };
-  key: string;
-  index: number;
-  total: number;
-  field: ResultsFieldLink;
-};
-
-const AccordianDefault = (props: FAQListItemProps): JSX.Element => (
+const AccordianDefault = (props: any): JSX.Element => (
   <div className={`component List ${props.params.styles}`.trimEnd()}>
     <div className="component-content">
       <span className="is-empty-hint">No Question and Answer</span>
     </div>
   </div>
 );
-const QuestionandAnswerList = (props: FAQListItemProps) => {
-  if (props.field.fields) {
-    return (
-      <div>
-        <Text field={props.field.fields.Question} />
-        <Text tag="p" field={props.field.fields.Answer} />
-      </div>
-    );
-  }
-  return <AccordianDefault {...props} />;
+const QuestionandAnswerList = (props: any) => {
+  return <Text field={props.value} />;
 };
 
 export const Default = (props: FAQListProps): JSX.Element => {
-  const styles = `component ${props.params.styles}`.trimEnd();
+  const styles = `component container col-12 my-5 ${props.params.styles}`.trimEnd();
   const id = props.params.RenderingIdentifier;
   if (props.fields) {
-    const list = props.fields.AccordianList.filter(
-      (element: ResultsFieldLink) => element?.fields.Question
-    ).map((element: ResultsFieldLink, key: number) => (
-      <QuestionandAnswerList
-        params={props.params}
-        index={key}
-        key={`${key}${element.fields.Answer}`}
-        total={props.fields.AccordianList.length}
-        field={element}
-      />
-    ));
     return (
       <div className={styles} id={id ? id : undefined}>
         <div className="component-content">
           <Text tag="h1" field={props?.fields?.Title} />
-          <div className="row g-2">{list}</div>
+          <Accordion defaultActiveKey="0">
+            {props.fields.AccordianList.length > 0 ? (
+              props.fields.AccordianList.map((item: ResultsFieldLink, key: any) => {
+                return (
+                  <Accordion.Item key={key} eventKey={key}>
+                    <Accordion.Header>
+                      <QuestionandAnswerList value={item.fields.Question} />
+                    </Accordion.Header>
+                    <Accordion.Body>
+                      <QuestionandAnswerList value={item.fields.Answer} />
+                    </Accordion.Body>
+                  </Accordion.Item>
+                );
+              })
+            ) : (
+              <AccordianDefault {...props} />
+            )}
+          </Accordion>
         </div>
       </div>
     );
