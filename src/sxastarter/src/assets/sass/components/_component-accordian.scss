@@ -1,0 +1,11 @@
+.accordion {
+    .accordion-item {
+        border: none;
+        border-bottom: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+        h2 {
+            button {
+                font-size: 2.4rem;
+            }
+        }
+    }
+}
