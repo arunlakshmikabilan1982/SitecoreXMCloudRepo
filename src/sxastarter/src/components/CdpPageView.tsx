@@ -3,7 +3,6 @@ import {
   LayoutServicePageState,
   SiteInfo,
   useSitecoreContext,
-  PosResolver,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { useEffect } from 'react';
 import config from 'temp/config';
@@ -30,7 +29,8 @@ const CdpPageView = (): JSX.Element => {
     site: SiteInfo,
     pageVariantId: string
   ) => {
-    const pointOfSale = PosResolver.resolve(site, language);
+    //const pointOfSale = PosResolver.resolve(site, language);
+    const pointOfSale = 'CNX';
     const engage = await init({
       clientKey: process.env.NEXT_PUBLIC_CDP_CLIENT_KEY || '',
       targetURL: process.env.NEXT_PUBLIC_CDP_TARGET_URL || '',
@@ -39,6 +39,8 @@ const CdpPageView = (): JSX.Element => {
       // Cookie may be created in personalize middleware (server), but if not we should create it here
       forceServerCookieMode: false,
     });
+    console.log('createpageView method in CDPpageView');
+
     engage.pageView({
       channel: 'WEB',
       currency: 'USD',
@@ -47,6 +49,9 @@ const CdpPageView = (): JSX.Element => {
       pageVariantId,
       language,
     });
+    console.log('After CDPpageView', engage);
+    console.log('bid:');
+    console.log(site.hostName);
   };
 
   /**
@@ -55,7 +60,9 @@ const CdpPageView = (): JSX.Element => {
    * By default it is disabled in development mode
    */
   const disabled = () => {
-    return process.env.NODE_ENV === 'development';
+    console.log('environment', process.env.NODE_ENV);
+    //return process.env.NODE_ENV === 'development';
+    return false;
   };
 
   useEffect(() => {
@@ -80,7 +87,7 @@ const CdpPageView = (): JSX.Element => {
     );
     createPageView(route.name, language, siteInfo, pageVariantId);
   }, [pageState, route, variantId, site]);
-
+  console.log(CdpPageView);
   return <></>;
 };
 
