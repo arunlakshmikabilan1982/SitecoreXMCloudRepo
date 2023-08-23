@@ -1,38 +1,9 @@
 ﻿---
 ID: "b19722cd-2035-4e79-8c37-de09b49201d6"
 Parent: "687b291e-33ec-4187-b682-7b042be655ef"
-Template: "4e92ccd0-1272-4b4a-b727-ca3054c38cf1"
+Template: "71f0e21f-61f3-49d4-ba97-01871fe3f48e"
 Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/ImageCarousalList/ImageListCaousalData/Entertainment1
 Languages:
-- Language: "ar-AE"
-  Versions:
-  - Version: 1
-    Fields:
-    - ID: "00f739ff-7082-4f3b-9074-5e4386f67840"
-      Hint: Image
-      Value: |
-        <image mediaid="{4A93C0D4-0A6A-454D-BA15-09560DF7B3E6}" alt="" height="375" width="300" hspace="" vspace="" />
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20230801T085647Z
-    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
-      Hint: __Owner
-      Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\nqfSPumMms
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "63584a93-5f13-4f3e-ad52-8b89b76d55bc"
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20230801T130303Z
 - Language: en
   Versions:
   - Version: 1
@@ -57,11 +28,11 @@ Languages:
         sitecore\nqfSPumMms
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7fe9c11f-dcdd-40a0-aa14-1f8eb1b21aa1"
+      Value: "171f24a5-c0f7-4135-901e-4f088ab54ee2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\nqfSPumMms
+        sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230801T093928Z
+      Value: 20230808T120550Z

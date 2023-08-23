@@ -15,7 +15,6 @@ interface ComponentProps {
 }
 
 const DefaultContainer = (props: ComponentProps): JSX.Element => {
-  console.log('entered');
   const { sitecoreContext } = useSitecoreContext();
   const containerStyles = props.params && props.params.Styles ? props.params.Styles : '';
   const styles = `${props.params.GridParameters} ${containerStyles}`.trimEnd();

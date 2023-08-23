@@ -1,0 +1,29 @@
+﻿---
+ID: "4105c3c4-2020-4a56-80c2-d6e429c000e5"
+Parent: "5c362b73-7b7c-4d13-9677-08dd8cb79e4b"
+Template: "79f9a7cb-923b-4451-8195-d2c5bf3633d5"
+Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/Contacts/David Josh
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230816T050215Z
+    - ID: "622c60c8-9a81-4f1b-9c1b-e7bc99e1cdd3"
+      Hint: Name
+      Value: Mr David Josh
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2ee6f63c-a03c-43a8-a6ea-685d0518644e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "bb8ed359-a7ca-4bf4-94e5-531fd046233b"
+      Hint: Email
+      Value: davidjosh@gmail.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230816T050254Z

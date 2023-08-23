@@ -4,33 +4,6 @@ Parent: "e34172de-28a3-4054-9fa6-33c60f71d539"
 Template: "5f4c471d-8aef-4a54-a134-f21f595094a7"
 Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/PageBanner/Gallary Banner
 Languages:
-- Language: "ar-AE"
-  Versions:
-  - Version: 1
-    Fields:
-    - ID: "02b46569-fb85-4ee7-b6cd-35dda766c894"
-      Hint: Title
-      Value: تجربة مول متعددة الأوجه
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20230801T065244Z
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\nqfSPumMms
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "135fd291-d696-463f-8738-002c64dfbd5d"
-    - ID: "b7af5574-9d44-4846-9f8d-83cb3627b618"
-      Hint: Description
-      Value: الموضة والنكهة والبراعة والمرح في وفرة واحدة لا تنسى
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20230801T135419Z
 - Language: en
   Versions:
   - Version: 1

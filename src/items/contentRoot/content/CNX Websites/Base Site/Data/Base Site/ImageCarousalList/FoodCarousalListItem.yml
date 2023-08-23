@@ -4,37 +4,6 @@ Parent: "81960c54-a369-48ef-903c-ee455f52bb3b"
 Template: "8971a4ab-a661-48ff-b6c4-2c39b01637a0"
 Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/ImageCarousalList/FoodCarousalListItem
 Languages:
-- Language: "ar-AE"
-  Versions:
-  - Version: 1
-    Fields:
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20230801T070759Z
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\nqfSPumMms
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "21cef26b-4b20-42f8-bc67-b800bbdbe2ea"
-    - ID: "999bc1b4-710f-44c6-909b-2545625bd9ea"
-      Hint: Heading
-      Value: المواد الغذائية والملابس
-    - ID: "b5ce3587-fd0b-45f8-814f-7d4098fb91b4"
-      Hint: ImageCarousalList
-      Value: |
-        {555C8F30-182A-4570-9A5D-C86442B65310}
-        {C4890A8B-0E39-49AC-8F72-926B6EE307E3}
-        {D91F2531-FF2F-42D1-A799-4E667FB9FED6}
-        {037E2E56-A992-47B5-9A08-E02F69EE79F1}
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20230801T140440Z
 - Language: en
   Versions:
   - Version: 1

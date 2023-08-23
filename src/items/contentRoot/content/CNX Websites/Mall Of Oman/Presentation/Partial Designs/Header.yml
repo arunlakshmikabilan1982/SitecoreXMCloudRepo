@@ -11,7 +11,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{CD4FECE8-5D7C-4055-8BF0-C3E767B65ACE}" />
+    <image mediaid="{ABD7855F-081C-4951-A484-77DF095739A8}" />
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -38,80 +38,6 @@ SharedFields:
   Hint: __Originator
   Value: "{D044EFED-079F-4CB1-9D22-E7BFF1DB5A8F}"
 Languages:
-- Language: "ar-AE"
-  Versions:
-  - Version: 1
-    Fields:
-    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
-      Hint: __Final Renderings
-      Value: |
-        <r xmlns:p="p" xmlns:s="s"
-          p:p="1">
-          <d
-            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-            <r
-              uid="{26DBD4D8-D8A4-48FB-BE56-31E1090AF6E4}">
-              <p:d />
-            </r>
-            <r
-              uid="{B68E0E68-8482-47F5-8BB3-1867373F7716}">
-              <p:d />
-            </r>
-            <r
-              uid="{89BE40DC-4373-44CE-A08B-8B00E2FC3319}"
-              p:before="*"
-              s:ds=""
-              s:id="{1DEB067F-0BB1-405E-94F5-2ABB537A6160}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B57F3CDFD-1118-4A5A-B453-C114CFCBDC1B%7D&amp;Styles=%7B5CA4E229-0CEC-4392-A4E4-C9C493BA64F5%7D&amp;NavigationRoot=%7BF0F7C0D5-D5FD-4AAF-AEFA-437E65D7DBEB%7D&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;Filter=%7BD063E9D1-C7B5-4B1E-B31E-69886C9C59F5%7D&amp;Flattened&amp;AddRoot&amp;SerializerFieldNames&amp;RenderingIdentifier&amp;CSSStyles"
-              s:ph="/headless-header/container-1/column-2-2"
-              s:ccb="Clear on publish" />
-            <r
-              uid="{C5FF3F6B-739D-4D8C-8DEA-7CA723BA9EA5}"
-              p:after="r[@uid='{89BE40DC-4373-44CE-A08B-8B00E2FC3319}']"
-              s:ds="{6BCCB39B-DA25-48DF-8E40-D85548A1E6AB}"
-              s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B153F2815-99CA-4BF2-B128-0587C8A87B5F%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
-              s:ph="/headless-header/container-1/column-1-2/column-2-3"
-              s:ccb="Clear on publish" />
-            <r
-              uid="{D8778E3F-0290-4918-A3E6-DA695DA96EEB}"
-              p:after="r[@uid='{C5FF3F6B-739D-4D8C-8DEA-7CA723BA9EA5}']"
-              s:id="{15CABDFF-FFD9-48F4-826D-A4C3D7868D3A}"
-              s:par="ColumnWidth1=%7B824C8D0B-5538-4E25-BAF2-82CF5E7D94FF%7D&amp;ColumnWidth2=%7BF2A11D85-8B09-40AC-B5D8-A9E1025F899D%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;FieldNames&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
-              s:ph="/headless-header/container-1/column-1-2" />
-            <r
-              uid="{45F1F3C3-001C-4C07-978C-DC805D82688B}"
-              p:after="r[@uid='{D8778E3F-0290-4918-A3E6-DA695DA96EEB}']"
-              s:ds=""
-              s:id="{15CABDFF-FFD9-48F4-826D-A4C3D7868D3A}"
-              s:par="ColumnWidth1=%7BA058EE77-647A-4B6E-A81C-4A469D9CC4EF%7D&amp;ColumnWidth2=%7B6FE54025-EFB3-4F3E-A158-41EC918E98D1%7D&amp;ColumnWidth3=%7BA058EE77-647A-4B6E-A81C-4A469D9CC4EF%7D&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;FieldNames&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
-              s:ph="/headless-header/container-1" />
-            <r
-              uid="{5992E97F-6F4D-48E6-9404-690236CC1469}"
-              p:after="*[1=2]"
-              s:ds=""
-              s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles=%7B16AF2D12-4D1E-405E-B33F-5E697B402564%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
-              s:ph="headless-header" />
-          </d>
-        </r>
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20221201T092123Z
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\Anonymous
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "9f664689-3db5-4ab1-8559-5fbda002002d"
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20230801T130631Z
 - Language: en
   Versions:
   - Version: 1
@@ -182,11 +108,11 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "669b1eca-1d3c-4ee9-b4e1-e0cc32fa4972"
+      Value: "2a829855-f350-4b26-b163-917593dc9e57"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
+        sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230801T130351Z
+      Value: 20230801T114532Z

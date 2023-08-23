@@ -15,7 +15,7 @@ SharedFields:
   Value: "{5B476B7A-B75C-4421-92AB-EF4EBF43F253}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: "query:$site/*[@@name='Data']/*[@@templatename='Folder']/*[@@name='PromoCard']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Folder']/*[@@name='PromoCard']"
+  Value: "query:$site/*[@@name='Data']/*[@@templatename='PromoCard']"
 Languages:
 - Language: en
   Versions:
@@ -34,11 +34,11 @@ Languages:
         sitecore\amruta.kulkarni@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d363f981-9a69-4e26-b039-e34e99dd857e"
+      Value: "3e15b86f-c2d6-47c2-b058-b1456f976833"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
+        sitecore\amruta.kulkarni@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230802T045857Z
+      Value: 20230719T105303Z

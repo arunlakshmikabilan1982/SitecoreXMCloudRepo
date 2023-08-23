@@ -1,0 +1,37 @@
+﻿---
+ID: "2bafe460-dc3a-428d-b7ad-e26adba19209"
+Parent: "808e7521-c8f9-4f43-89cf-e10c9ec2f03e"
+Template: "2dc3d789-3f58-4a4f-a23e-47dbd0dba8b5"
+Path: /sitecore/content/CNX Websites/Base Site/Data/Shared/AccordianData/Salon
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1002e6f1-50c2-49a3-85a5-5550e1ab499d"
+      Hint: Answer
+      Value: Yes. There are multiple.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230807T153857Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f5228fac-8fad-4588-95f5-b87776309ddb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "c0a26b22-1e4b-47ff-872f-13786746e8bc"
+      Hint: Question
+      Value: "Is there any hair salon in the mall?"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230808T113536Z
