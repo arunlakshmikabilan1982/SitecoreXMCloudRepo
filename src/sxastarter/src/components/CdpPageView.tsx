@@ -50,7 +50,6 @@ const CdpPageView = (): JSX.Element => {
       language,
     });
     console.log('After CDPpageView', engage.pageView);
-    console.log('bid:');
     console.log(site.hostName);
   };
 
