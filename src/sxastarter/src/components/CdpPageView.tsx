@@ -39,6 +39,7 @@ const CdpPageView = (): JSX.Element => {
       cookieDomain: window.location.host.replace(/^www\./, ''),
       // Cookie may be created in personalize middleware (server), but if not we should create it here
       forceServerCookieMode: false,
+      pointOfSale: pointOfSale,
       webPersonalization: true,
     });
     console.log('createpageView method in CDPpageView', engage);
@@ -52,6 +53,7 @@ const CdpPageView = (): JSX.Element => {
     });
     console.log('After CDPpageView', engage.pageView);
     console.log(site.hostName);
+    console.log('bid:', engage.getBrowserId());
   };
 
   /**
