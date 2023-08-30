@@ -30,8 +30,13 @@ const CdpPageView = (): JSX.Element => {
     site: SiteInfo,
     pageVariantId: string
   ) => {
+<<<<<<< HEAD
     // const pointOfSale = PosResolver.resolve(site, language);
     const pointOfSale="CNX";
+=======
+    console.log('site Information:', site, language);
+    const pointOfSale = PosResolver.resolve(site, language);
+>>>>>>> origin/Develop
     const engage = await init({
       clientKey: process.env.NEXT_PUBLIC_CDP_CLIENT_KEY || '',
       targetURL: process.env.NEXT_PUBLIC_CDP_TARGET_URL || '',
@@ -40,6 +45,7 @@ const CdpPageView = (): JSX.Element => {
       // Cookie may be created in personalize middleware (server), but if not we should create it here
       forceServerCookieMode: false,
     });
+<<<<<<< HEAD
     console.log("createpageView method in CDPpageView");
     
     engage.pageView({
@@ -53,6 +59,20 @@ const CdpPageView = (): JSX.Element => {
    
     console.log("After CDPpageView",engage);
     console.log("bid:");
+=======
+
+    console.log('createpageView method in CDPpageView', engage);
+    engage.pageView({
+      channel: 'WEB',
+      currency: 'USD',
+      pointOfSale,
+      page,
+      pageVariantId,
+      language,
+    });
+    console.log('After CDPpageView', engage.pageView);
+    console.log(site.hostName);
+>>>>>>> origin/Develop
   };
 
   /**
@@ -60,11 +80,17 @@ const CdpPageView = (): JSX.Element => {
    * IMPORTANT: You should implement based on your cookie consent management solution of choice.
    * By default it is disabled in development mode
    */
+<<<<<<< HEAD
   const disabled = () => {
     console.log("environment",process.env.NODE_ENV);
     // return process.env.NODE_ENV === 'development';
     return false;
   };
+=======
+  // const disabled = () => {
+  //   return process.env.NODE_ENV === 'development';
+  // };
+>>>>>>> origin/Develop
 
   useEffect(() => {
     // Do not create events in editing or preview mode or if missing route data
@@ -72,9 +98,9 @@ const CdpPageView = (): JSX.Element => {
       return;
     }
     // Do not create events if disabled (e.g. we don't have consent)
-    if (disabled()) {
-      return;
-    }
+    // if (disabled()) {
+    //   return;
+    // }
 
     const siteInfo = siteResolver.getByName(site?.name || config.jssAppName);
     const language = route.itemLanguage || config.defaultLanguage;
