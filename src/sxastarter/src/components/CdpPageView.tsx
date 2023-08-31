@@ -30,6 +30,7 @@ const CdpPageView = (): JSX.Element => {
     site: SiteInfo,
     pageVariantId: string
   ) => {
+    console.log('site Information:', site, language);
     const pointOfSale = PosResolver.resolve(site, language);
     const engage = await init({
       clientKey: process.env.NEXT_PUBLIC_CDP_CLIENT_KEY || '',
@@ -38,7 +39,10 @@ const CdpPageView = (): JSX.Element => {
       cookieDomain: window.location.host.replace(/^www\./, ''),
       // Cookie may be created in personalize middleware (server), but if not we should create it here
       forceServerCookieMode: false,
+      pointOfSale: pointOfSale,
+      webPersonalization: true,
     });
+    console.log('createpageView method in CDPpageView', engage);
     engage.pageView({
       channel: 'WEB',
       currency: 'USD',
@@ -47,6 +51,9 @@ const CdpPageView = (): JSX.Element => {
       pageVariantId,
       language,
     });
+    console.log('After CDPpageView', engage.pageView);
+    console.log(site.hostName);
+    console.log('bid:', engage.getBrowserId());
   };
 
   /**
@@ -54,9 +61,9 @@ const CdpPageView = (): JSX.Element => {
    * IMPORTANT: You should implement based on your cookie consent management solution of choice.
    * By default it is disabled in development mode
    */
-  const disabled = () => {
-    return process.env.NODE_ENV === 'development';
-  };
+  // const disabled = () => {
+  //   return process.env.NODE_ENV === 'development';
+  // };
 
   useEffect(() => {
     // Do not create events in editing or preview mode or if missing route data
@@ -64,9 +71,9 @@ const CdpPageView = (): JSX.Element => {
       return;
     }
     // Do not create events if disabled (e.g. we don't have consent)
-    if (disabled()) {
-      return;
-    }
+    // if (disabled()) {
+    //   return;
+    // }
 
     const siteInfo = siteResolver.getByName(site?.name || config.jssAppName);
     const language = route.itemLanguage || config.defaultLanguage;

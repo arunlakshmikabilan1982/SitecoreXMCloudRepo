@@ -1,15 +1,15 @@
 ﻿---
-ID: "bb8ed359-a7ca-4bf4-94e5-531fd046233b"
+ID: "622c60c8-9a81-4f1b-9c1b-e7bc99e1cdd3"
 Parent: "b17dee8f-f7ca-473a-ad51-00e843705584"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/CNX/Contact/Contact/Details/Email
+Path: /sitecore/templates/Feature/CNX/Contact/Contact/Details/First Name
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -28,11 +28,11 @@ Languages:
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "59ccd38e-9cbb-497c-9a36-41cea9a1833c"
+      Value: "dbbd8d29-37ec-4c42-9c09-0fb5e5039ed8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230816T045935Z
+      Value: 20230816T045934Z
