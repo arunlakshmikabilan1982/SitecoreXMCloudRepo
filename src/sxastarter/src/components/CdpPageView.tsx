@@ -44,7 +44,10 @@ const CdpPageView = (): JSX.Element => {
       cookieDomain: window.location.host.replace(/^www\./, ''),
       // Cookie may be created in personalize middleware (server), but if not we should create it here
       forceServerCookieMode: false,
+      pointOfSale: pointOfSale,
+      webPersonalization: true,
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
     console.log("createpageView method in CDPpageView");
     
@@ -61,6 +64,8 @@ const CdpPageView = (): JSX.Element => {
     console.log("bid:");
 =======
 
+=======
+>>>>>>> origin/Develop
     console.log('createpageView method in CDPpageView', engage);
     engage.pageView({
       channel: 'WEB',
@@ -72,6 +77,10 @@ const CdpPageView = (): JSX.Element => {
     });
     console.log('After CDPpageView', engage.pageView);
     console.log(site.hostName);
+<<<<<<< HEAD
+>>>>>>> origin/Develop
+=======
+    console.log('bid:', engage.getBrowserId());
 >>>>>>> origin/Develop
   };
 
