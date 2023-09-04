@@ -1,0 +1,13 @@
+﻿---
+ID: "fdd46b27-a44d-43f8-89c3-be8a1e797537"
+Parent: "672fa2f0-4adb-4254-b79a-594cf754fd82"
+Template: "c6dc7393-15bb-4cd7-b798-ab63e77ebac4"
+Path: /sitecore/content/PLAY/playwebsite/Presentation/Styles/Backgrounds
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "faa0f7ef-6aa9-45ac-bfbd-20af37643da4"

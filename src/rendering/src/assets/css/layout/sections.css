@@ -1,0 +1,80 @@
+.section {
+  @apply basis-full py-20 px-0;
+
+  &.section-full-left {
+    .section-content {
+      @apply max-w-[50em] my-0 mx-auto items-start;
+
+      .section-content-p {
+        @apply w-full text-left;
+      }
+    }
+  }
+
+  .section-content {
+    @include flex--center--column;
+
+    @apply w-full my-0 mx-auto box-border max-w-[1440px];
+
+    .section-content-title {
+      @apply text-2xl font-bold pb-5 m-0 text-blue-light normal-case;
+      @apply md:text-5xl;
+    }
+
+    .section-content-subtitle {
+      @apply text-center;
+    }
+
+    .section-content-p {
+      @apply pb-8 text-center text-black sm:w-full md:w-2/3 lg:w-1/2 leading-normal;
+
+      p {
+        @apply pb-3;
+      }
+    }
+
+    /* used in HeaderBanner */
+    &-left {
+      @apply items-start justify-start;
+      @apply sm:pl-10 sm:w-full;
+      @apply md:w-3/5 md:ml-0;
+    }
+
+    /* used in NewsDetail */
+    &.left-content {
+      .section-content-p {
+        @apply text-left;
+      }
+    }
+  }
+
+  &-dark {
+    @apply bg-black;
+
+    .section-content {
+      .section-content-p {
+        @apply text-white;
+      }
+
+      .section-content-title {
+        @apply text-orange;
+      }
+    }
+  }
+
+  &-light {
+    @apply bg-white;
+  }
+
+  &-dark-pattern {
+    @apply bg-pattern-gray;
+  }
+
+  &-light-pattern {
+    @apply bg-pattern-color;
+  }
+}
+
+.scEmptyPlaceholder {
+  @apply w-full h-20;
+}

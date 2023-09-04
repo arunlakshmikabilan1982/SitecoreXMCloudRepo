@@ -1,0 +1,18 @@
+html,
+body {
+  font-size: 16px;
+}
+
+@screen lg {
+  html,
+  body {
+    font-size: 18px;
+  }
+}
+
+@screen xl {
+  html,
+  body {
+    font-size: 20px;
+  }
+}

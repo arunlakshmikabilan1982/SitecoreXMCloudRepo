@@ -1,0 +1,13 @@
+﻿---
+ID: "0894a97c-6a66-4fa5-89e9-6da3d4bba56f"
+Parent: "311d3c79-3f66-4b77-96b0-408aa0c6259a"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/PLAY/playwebsite/Presentation/Headless Variants/Promo/WithColumns
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "78b62551-e683-4c98-9153-ee0cd71fb2e6"

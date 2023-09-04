@@ -1,0 +1,35 @@
+/* keeping .btn__area and .btn--main classes for Sitecore Personalize */
+
+.btn-area,
+.btn__area {
+  @apply flex items-center justify-start bg-[url(../img/btn-background.webp)] bg-cover bg-bottom p-[6%] shadow-[0_0_20px_rgba(0,0,0,0.3)];
+}
+
+.btn-base {
+  @apply font-medium text-center inline-block;
+  @apply py-2 px-6 transition-all;
+}
+
+.btn-main,
+.btn--main {
+  @apply btn-base;
+  @apply bg-yellow text-black rounded-md;
+  @apply hover:bg-yellow-dark hover:text-white;
+  @apply disabled:bg-yellow-dark disabled:cursor-not-allowed;
+}
+
+.btn-square {
+  @apply btn-base;
+  @apply bg-white-light text-blue rounded-none px-24 text-xl;
+  @apply hover:bg-white hover:text-blue;
+  @apply disabled:bg-white disabled:text-gray-dark disabled:cursor-not-allowed;
+}
+
+.btn-secondary {
+  @apply text-xl py-1 px-4 border-2 border-black rounded-[4px];
+}
+
+.btn-secondary-light {
+  @apply btn-secondary;
+  @apply border-white text-white text-base font-medium rounded-md;
+}

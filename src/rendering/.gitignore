@@ -1,0 +1,38 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# next.js
+/.next*/
+/out/
+
+# graphql code generation
+/.generated
+*.graphql.d.ts
+*.graphqls.d.ts
+
+# misc
+.DS_Store
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+*.log*
+
+# sitecore
+# DEMO TEAM CUSTOMIZATION - Keep scjssconfig.json under source control
+# scjssconfig.json
+*.deploysecret.config
+
+# vercel
+.vercel
+
+# DEMO TEAM CUSTOMIZATION - Extra ignored files
+/storybook-static
+# END CUSTOMIZATION

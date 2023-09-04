@@ -1,0 +1,13 @@
+﻿---
+ID: "63878fd4-39e0-40ea-b01a-c64294587e4c"
+Parent: "3c13bf6c-32dd-4f40-bcc9-208b47f21bb5"
+Template: "3c13bf6c-32dd-4f40-bcc9-208b47f21bb5"
+Path: /sitecore/templates/Project/PLAY/Rendering Parameters/PLAY Styling/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5acfa7b1-74ea-4f36-b21b-d1907530cea9"

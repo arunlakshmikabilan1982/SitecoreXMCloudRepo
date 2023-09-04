@@ -1,0 +1,26 @@
+﻿---
+ID: "54184a65-f144-4d6c-89ca-5cec4bb794fc"
+Parent: "e073f9a4-6376-4922-9786-580050546c22"
+Template: "1c18fef2-0603-4012-9c03-f9ed654854c4"
+Path: /sitecore/system/Modules/CMP/Config/Sponsor/SponsorLogo
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "c3101af2-0121-4011-a9e9-fb727bb40999"
+  Hint: CMP Relation
+  Value: DemoSponsorToMasterAsset
+- ID: "db99415a-fe86-4a2d-9583-db92894cb80a"
+  Hint: Sitecore Field Name
+  Value: "{079A4B3E-3819-4D92-9191-2C86BFFA049E}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{BD9C06C1-5338-4060-8FDC-91601FEACB1F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0c6c5665-acd3-4a57-ba86-a11731319929"

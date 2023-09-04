@@ -1,0 +1,17 @@
+﻿---
+ID: "cb5fd20a-f30f-4fe0-a37b-6c01623cb5e5"
+Parent: "2dc25a94-3fd5-4a15-88a5-fa038cb3d035"
+Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
+Path: /sitecore/content/PLAY/playwebsite/Presentation/Page Designs/News Page
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{E56290B7-DAEB-4355-8C07-974CEB0D7941}|{D3196B82-0D4A-420D-AE60-3FE06073E9E9}|{DEC14166-5327-4C62-A637-2F1191F38826}|{816F91B6-BDD2-4BCC-81FD-D6092F8EB3E7}|{462EFF9E-C56A-414A-9DE3-F0E913233070}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "759e749f-400c-4e9a-b707-4db9c8b96ffe"

@@ -1,0 +1,24 @@
+﻿---
+ID: "99c20bde-f312-4d46-a882-c27a7e156aa7"
+Parent: "6a77256e-9fe0-487a-981b-8ed69d148db5"
+Template: "1c18fef2-0603-4012-9c03-f9ed654854c4"
+Path: /sitecore/system/Modules/CMP/Config/Venue/Image
+BranchID: "36e36e00-9f7f-45f9-830e-26d309ac4295"
+SharedFields:
+- ID: "c3101af2-0121-4011-a9e9-fb727bb40999"
+  Hint: CMP Relation
+  Value: DemoVenueToMasterAsset
+- ID: "db99415a-fe86-4a2d-9583-db92894cb80a"
+  Hint: Sitecore Field Name
+  Value: "{0FF0000C-67BF-4BE4-A89A-52E8A1A975B1}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{BD9C06C1-5338-4060-8FDC-91601FEACB1F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c9db8c0d-5b0a-4b99-b7c1-31cf43459ac8"

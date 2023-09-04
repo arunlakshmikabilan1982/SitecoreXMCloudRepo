@@ -1,0 +1,17 @@
+﻿---
+ID: "d4621a63-690c-4aea-894e-3dfa522e50d2"
+Parent: "4808f00f-29cc-49a6-9a56-da18407a6945"
+Template: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
+Path: /sitecore/content/PLAY/playwebsite/Presentation/Placeholder Settings/Partial Design/Exclusive Offer
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "sxa-exclusive-offer"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "678e6ad9-7507-48ef-8102-f6ec81035997"

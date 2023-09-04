@@ -1,0 +1,17 @@
+﻿---
+ID: "3bf3a922-b9bd-4dc2-9081-a7dcfffb780e"
+Parent: "4808f00f-29cc-49a6-9a56-da18407a6945"
+Template: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
+Path: /sitecore/content/PLAY/playwebsite/Presentation/Placeholder Settings/Partial Design/Speaker Content
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "sxa-speaker-content"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bd081cac-d2bb-4993-8f15-ee9dda2fd846"

@@ -1,0 +1,13 @@
+﻿---
+ID: "13432675-a4ac-4380-bcf6-3952b02788d8"
+Parent: "b392fdc1-eb30-4726-aef9-9d5d3e6b750e"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: /sitecore/content/PLAY/playwebsite/Presentation/Headless Variants/Navigation
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d31d8a1a-174a-47e5-b4d6-38c678eb9eb0"

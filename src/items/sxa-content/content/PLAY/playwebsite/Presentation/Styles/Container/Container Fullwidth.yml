@@ -1,0 +1,20 @@
+﻿---
+ID: "991d310a-e240-4b14-9733-2f04ba61afa2"
+Parent: "208cc39d-86ba-414e-9a14-4e60faa62a78"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: /sitecore/content/PLAY/playwebsite/Presentation/Styles/Container/Container Fullwidth
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "container-fullwidth"
+- ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
+  Hint: Allowed Renderings
+  Value: "{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "df8057bb-2bba-4a7c-89f3-49ae896b57e2"

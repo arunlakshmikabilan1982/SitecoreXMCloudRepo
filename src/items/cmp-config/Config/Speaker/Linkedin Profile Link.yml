@@ -1,0 +1,26 @@
+﻿---
+ID: "36b058e6-74f4-4c42-9651-e894268d5444"
+Parent: "6b835483-0d83-4a75-a4f2-7743cd6d588e"
+Template: "e43e2773-7a50-4145-a266-312024f27382"
+Path: /sitecore/system/Modules/CMP/Config/Speaker/Linkedin Profile Link
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1100
+- ID: "da990633-7884-44a2-8638-94389c5cbfec"
+  Hint: CMP Field Name
+  Value: Speaker_LinkedinLink
+- ID: "db99415a-fe86-4a2d-9583-db92894cb80a"
+  Hint: Sitecore Field Name
+  Value: "{FD7BC390-6104-4990-8271-9BD50CD4115E}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b80a6b14-68a0-4ffd-9295-9bf8a895c8a6"

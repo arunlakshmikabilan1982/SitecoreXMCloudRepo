@@ -1,0 +1,19 @@
+.shop-container {
+  @apply w-full px-5 mx-auto max-w-screen-2xl;
+}
+
+div.shop-main-container {
+  @apply basis-full;
+
+  .section {
+    @apply py-6;
+  }
+}
+
+p.shop-integration-error {
+  @apply text-center text-yellow font-bold;
+}
+
+.continue-shopping-btn {
+  @apply my-3;
+}

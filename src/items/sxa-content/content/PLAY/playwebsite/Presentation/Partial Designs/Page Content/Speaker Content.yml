@@ -1,0 +1,53 @@
+﻿---
+ID: "4cb3b9c7-53cb-4cf5-a7c7-e193c2857b4a"
+Parent: "13f126f8-089c-4c94-a800-7a73c6659b16"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: /sitecore/content/PLAY/playwebsite/Presentation/Partial Designs/Page Content/Speaker Content
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "speaker-content"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B9DF1941-A49B-4E6D-AB61-D9BB55FF1296}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{5D86F425-1CED-49BE-9CDD-FFCC63F653B8}"
+          p:before="*"
+          s:ds=""
+          s:id="{68701A9B-EF54-43C4-9A95-1BE953C47BA2}"
+          s:par="FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
+          s:ph="/headless-main/jss-entity-sidebar-{E5A3CBEE-C1B0-474F-9593-D55680DA31B9}-0"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{4DD16346-2B05-4873-B216-807B2CE0DA66}"
+          p:after="r[@uid='{5D86F425-1CED-49BE-9CDD-FFCC63F653B8}']"
+          s:id="{84040441-931E-48AD-AC7F-FD0145ADEB09}"
+          s:par="CacheClearingBehavior=Clear on publish"
+          s:ph="headless-main" />
+        <r
+          uid="{E5A3CBEE-C1B0-474F-9593-D55680DA31B9}"
+          p:after="*[1=2]"
+          s:id="{3767674F-4DB9-5DF7-A52A-0FE34F8453CC}"
+          s:par="CacheClearingBehavior=Clear on publish"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "782a4660-64a5-4eb3-915d-09719ae8b70f"

@@ -1,0 +1,59 @@
+﻿---
+ID: "7dd20ecb-6ac1-49ed-a6e2-c5d5327a0833"
+Parent: "4ece011d-d40e-4f5f-9852-7c6dd65374a5"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/PLAY/Rendering Parameters/Base Rendering Parameters/Base Styling and Grid
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {8AC52852-E0FE-4C29-8FEA-09EDE899403E}
+    {FF75632A-03ED-4D31-B42A-1EEE45E5147F}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{CBB8008B-0063-4229-805E-C4993B258CEB}"
+Languages:
+- Language: "de-DE"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Grundlegende Rendering Parameter
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5b010201-7bb4-4981-a447-28c9d6b73be8"
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Base Styling and Grid
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "65b0f558-5346-47ec-a5c6-921b0e79b8e4"
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 基本のレンダリングパラメータ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "49443908-e51f-4f18-9cf2-4b1e8892beb5"
+- Language: "zh-CN"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 基本渲染参数
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7a39fe75-495c-4f5a-b53c-159441760421"

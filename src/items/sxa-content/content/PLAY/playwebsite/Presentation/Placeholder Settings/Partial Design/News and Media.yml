@@ -1,0 +1,17 @@
+﻿---
+ID: "057ad5f8-d1c4-4176-9ca3-b41a44000b98"
+Parent: "4808f00f-29cc-49a6-9a56-da18407a6945"
+Template: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
+Path: /sitecore/content/PLAY/playwebsite/Presentation/Placeholder Settings/Partial Design/News and Media
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "sxa-pre-footer"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "96c764fb-6f1f-4962-ad51-89b758dd715f"

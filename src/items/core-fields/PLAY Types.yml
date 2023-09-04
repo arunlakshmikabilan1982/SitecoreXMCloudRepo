@@ -1,0 +1,18 @@
+﻿---
+ID: "8b090819-4e51-4a50-99b1-cf2859024d27"
+Parent: "76e6d8c7-1f93-4712-872b-da3c96b808f2"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Field types/PLAY Types
+BranchID: "30235f43-6242-4107-87ab-5267e34edf0c"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{72E4178E-14EA-4A0D-927B-A62052E80C2C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "753cd4fa-1e8a-4cfa-8bdf-0c10c2295d91"

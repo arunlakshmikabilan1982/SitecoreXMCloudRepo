@@ -1,0 +1,21 @@
+﻿---
+ID: "e0c3fd67-028c-4484-9991-f22580ad2d10"
+Parent: "233cc3ab-ef68-4167-adaa-391c3ff1e907"
+Template: "ce8e28f6-c530-4bd5-9ca5-00d7d42c26c0"
+Path: /sitecore/content/PLAY/playwebsite/Data/Navigation/Footer/Pages/Landing Pages
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "04a413f9-ce8e-428e-ab69-2d1a085f1400"
+    - ID: "a277748b-2c48-44a6-a99f-c9f353933027"
+      Hint: Link
+      Value: |
+        <link class="" id="{4D587C56-3717-41CB-936C-5D0412A50B6B}" querystring="" anchor="" target="" title="" linktype="internal" text="" url="/PLAY/playwebsite/home/landing-pages" />

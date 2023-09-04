@@ -38,11 +38,11 @@ Write-Host "Preparing your Sitecore Containers environment!" -ForegroundColor Gr
 
 # Check for Sitecore Gallery
 Import-Module PowerShellGet
-$SitecoreGallery = Get-PSRepository | Where-Object { $_.SourceLocation -eq "https://sitecore.myget.org/F/sc-powershell/api/v2" }
+$SitecoreGallery = Get-PSRepository | Where-Object { $_.Name -eq "SitecoreGallery"}
 if (-not $SitecoreGallery) {
     Write-Host "Adding Sitecore PowerShell Gallery..." -ForegroundColor Green
     Unregister-PSRepository -Name SitecoreGallery -ErrorAction SilentlyContinue
-    Register-PSRepository -Name SitecoreGallery -SourceLocation https://sitecore.myget.org/F/sc-powershell/api/v2 -InstallationPolicy Trusted
+    Register-PSRepository -Name SitecoreGallery -SourceLocation https://nuget.sitecore.com/resources/v2 -InstallationPolicy Trusted
     $SitecoreGallery = Get-PSRepository -Name SitecoreGallery
 }
 
@@ -77,8 +77,8 @@ try {
     }
     Write-Host "Generating Traefik TLS certificate..." -ForegroundColor Green
     & $mkcert -install
-    & $mkcert "*.sxastarter.localhost"
-    & $mkcert "xmcloudcm.localhost"
+    # DEMO TEAM CUSTOMIZATION - Remove the sxastarter.localhost certificate
+    & $mkcert "*.xmcloudcm.localhost"
 
     # stash CAROOT path for messaging at the end of the script
     $caRoot = "$(& $mkcert -CAROOT)\rootCA.pem"
@@ -97,27 +97,13 @@ finally {
 
 Write-Host "Adding Windows hosts file entries..." -ForegroundColor Green
 
-Add-HostsEntry "xmcloudcm.localhost"
-Add-HostsEntry "www.sxastarter.localhost"
+# DEMO TEAM CUSTOMIZATION - Custom host names. "xmcloudcm.localhost" is required as it is the only valid value in XM Cloud.
+Add-HostsEntry "cm.xmcloudcm.localhost"
+Add-HostsEntry "www.xmcloudcm.localhost"
 
-###############################
-# Generate scjssconfig
-###############################
-
-Set-EnvFileVariable "JSS_DEPLOYMENT_SECRET_xmcloudpreview" -Value $xmCloudBuild.renderingHosts.xmcloudpreview.jssDeploymentSecret
-
-################################
-# Generate Sitecore Api Key
-################################
-
-$sitecoreApiKey = (New-Guid).Guid
-Set-EnvFileVariable "SITECORE_API_KEY_xmcloudpreview" -Value $sitecoreApiKey
-
-################################
-# Generate JSS_EDITING_SECRET
-################################
-$jssEditingSecret = Get-SitecoreRandomString 64 -DisallowSpecial
-Set-EnvFileVariable "JSS_EDITING_SECRET" -Value $jssEditingSecret
+# DEMO TEAM CUSTOMIZATION - Remove scjssconfig file generation as ours is already in source control.
+# DEMO TEAM CUSTOMIZATION - Remove generation of the Sitecore API key. We want a fixed key.
+# DEMO TEAM CUSTOMIZATION - Move the JSS editing secret inside the if ($InitEnv) block.
 
 ###############################
 # Populate the environment file
@@ -131,19 +117,23 @@ if ($InitEnv) {
     Set-EnvFileVariable "HOST_LICENSE_FOLDER" -Value $LicenseXmlPath
 
     # CM_HOST
-    Set-EnvFileVariable "CM_HOST" -Value "xmcloudcm.localhost"
+    # DEMO TEAM CUSTOMIZATION - Custom host name
+    Set-EnvFileVariable "CM_HOST" -Value "cm.xmcloudcm.localhost"
 
     # RENDERING_HOST
-    Set-EnvFileVariable "RENDERING_HOST" -Value "www.sxastarter.localhost"
+    # DEMO TEAM CUSTOMIZATION - Custom host name
+    Set-EnvFileVariable "RENDERING_HOST" -Value "www.xmcloudcm.localhost"
 
     # REPORTING_API_KEY = random 64-128 chars
     Set-EnvFileVariable "REPORTING_API_KEY" -Value (Get-SitecoreRandomString 128 -DisallowSpecial)
 
     # TELERIK_ENCRYPTION_KEY = random 64-128 chars
-    Set-EnvFileVariable "TELERIK_ENCRYPTION_KEY" -Value (Get-SitecoreRandomString 128)
+    # DEMO TEAM CUSTOMIZATION - Add -DisallowSpecial
+    Set-EnvFileVariable "TELERIK_ENCRYPTION_KEY" -Value (Get-SitecoreRandomString 128 -DisallowSpecial)
 
     # MEDIA_REQUEST_PROTECTION_SHARED_SECRET
-    Set-EnvFileVariable "MEDIA_REQUEST_PROTECTION_SHARED_SECRET" -Value (Get-SitecoreRandomString 64)
+    # DEMO TEAM CUSTOMIZATION - Add -DisallowSpecial
+    Set-EnvFileVariable "MEDIA_REQUEST_PROTECTION_SHARED_SECRET" -Value (Get-SitecoreRandomString 64 -DisallowSpecial)
 
     # SQL_SA_PASSWORD
     # Need to ensure it meets SQL complexity requirements
@@ -157,6 +147,26 @@ if ($InitEnv) {
 
     # SITECORE_ADMIN_PASSWORD
     Set-EnvFileVariable "SITECORE_ADMIN_PASSWORD" -Value $AdminPassword
+
+    # DEMO TEAM CUSTOMIZATION - Moved the following sections from above the if ($InitEnv) block.
+
+    ###############################
+    # Generate scjssconfig
+    ###############################
+
+    $xmCloudBuild = Get-Content "xmcloud.build.json" | ConvertFrom-Json
+    # DEMO TEAM CUSTOMIZATION - Remove scjssconfig file generation as ours is already in source control.
+
+    # DEMO TEAM CUSTOMIZATION - Custom environment variable name. Custom rendering host name.
+    Set-EnvFileVariable "JSS_DEPLOYMENT_SECRET_PlayWebsite" -Value $xmCloudBuild.renderingHosts.PlayWebsite.jssDeploymentSecret
+
+    # DEMO TEAM CUSTOMIZATION - Remove generation of the Sitecore API key. We want a fixed key.
+
+    ################################
+    # Generate JSS_EDITING_SECRET
+    ################################
+    $jssEditingSecret = Get-SitecoreRandomString 64 -DisallowSpecial
+    Set-EnvFileVariable "JSS_EDITING_SECRET" -Value $jssEditingSecret
 }
 
 Write-Host "Done!" -ForegroundColor Green

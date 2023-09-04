@@ -1,0 +1,24 @@
+﻿---
+ID: "3a1c4ca4-db3d-4b26-935a-1b7ad4e79271"
+Parent: "1a6f7d0e-f404-45bc-836f-8a16143daa16"
+Template: "cb01f9fc-c187-46b3-ab0b-97a8468d8303"
+Path: /sitecore/system/Workflows/Demo Workflow/Awaiting Approval/Reject
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/16x16/delete.png
+- ID: "dcbebc58-6124-4100-a248-fc717d6c78d5"
+  Hint: Next state
+  Value: "{F103752C-F458-47E0-B322-99785275BDB9}"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Sitecore Client Authoring|pe|+workflowCommand:execute|pd|+workflowCommand:execute|ar|sitecore\Demo Content Creator|pe|-workflowCommand:execute|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2dcb2a85-a533-4ae3-9ccc-ce8b67bfcef6"

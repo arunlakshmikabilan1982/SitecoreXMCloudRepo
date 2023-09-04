@@ -1,0 +1,17 @@
+﻿---
+ID: "f605a471-73b9-4143-aee3-6bacfa0b36dd"
+Parent: "fdd46b27-a44d-43f8-89c3-be8a1e797537"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: /sitecore/content/PLAY/playwebsite/Presentation/Styles/Backgrounds/Background Light
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "bg-white"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "34827c07-e5b5-41cb-9273-1076a5c9558a"

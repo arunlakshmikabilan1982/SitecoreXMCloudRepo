@@ -1,0 +1,17 @@
+﻿---
+ID: "348bc8e7-8b2b-419b-baf0-f2d680f1e2e7"
+Parent: "2dc25a94-3fd5-4a15-88a5-fa038cb3d035"
+Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
+Path: /sitecore/content/PLAY/playwebsite/Presentation/Page Designs/Vendor Page
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "{E56290B7-DAEB-4355-8C07-974CEB0D7941}|{7CA4A769-95B0-4277-B382-17E03234554B}|{1267BBD4-5E94-4FE4-A966-E37975D41302}|{816F91B6-BDD2-4BCC-81FD-D6092F8EB3E7}|{462EFF9E-C56A-414A-9DE3-F0E913233070}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7fdac1f3-fa5d-4f5c-a882-c68f943f43b9"

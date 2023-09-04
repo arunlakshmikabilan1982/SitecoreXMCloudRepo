@@ -1,0 +1,8 @@
+.hero-image {
+  @apply basis-full bg-black;
+
+  img {
+    @apply w-full h-48 object-cover;
+    @apply md:h-96;
+  }
+}

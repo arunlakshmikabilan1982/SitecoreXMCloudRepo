@@ -1,0 +1,17 @@
+﻿---
+ID: "d0f30c67-84cf-40f4-a925-0be88faccfd4"
+Parent: "e68553cd-b8a1-43e3-90e6-bfd9ce1966c6"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: /sitecore/content/PLAY/playwebsite/Presentation/Styles/Spacing/No Column Padding
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "!px-0"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bd8bac6c-3fec-4eca-b1bc-817cb190bc16"

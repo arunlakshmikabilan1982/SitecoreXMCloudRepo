@@ -1,0 +1,29 @@
+﻿---
+ID: "02400172-8fe0-4c35-be0b-f8c0b7aa7c53"
+Parent: "d30ddb56-a0f7-4750-8a3a-79c58bf5162b"
+Template: "49652eb6-f98e-4114-b46a-925b9815578a"
+Path: /sitecore/system/Modules/CMP/Config/Session/Timeslots
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 900
+- ID: "c3101af2-0121-4011-a9e9-fb727bb40999"
+  Hint: CMP Relation
+  Value: TimeslotToSession
+- ID: "da990633-7884-44a2-8638-94389c5cbfec"
+  Hint: CMP Field Name
+  Value: TaxonomyName
+- ID: "db99415a-fe86-4a2d-9583-db92894cb80a"
+  Hint: Sitecore Field Name
+  Value: "{5C88D198-7603-4A45-B9F6-682B908C60B9}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b5e45e3e-2ebf-452a-97e3-1f8c8a4a6b73"

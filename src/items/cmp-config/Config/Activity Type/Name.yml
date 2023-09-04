@@ -1,0 +1,23 @@
+﻿---
+ID: "ad487508-f879-48fb-8eff-24dd6b26dbdb"
+Parent: "111484ef-745d-4c33-90ab-c6f7314623b6"
+Template: "e43e2773-7a50-4145-a266-312024f27382"
+Path: /sitecore/system/Modules/CMP/Config/Activity Type/Name
+SharedFields:
+- ID: "da990633-7884-44a2-8638-94389c5cbfec"
+  Hint: CMP Field Name
+  Value: TaxonomyName
+- ID: "db99415a-fe86-4a2d-9583-db92894cb80a"
+  Hint: Sitecore Field Name
+  Value: "{E6DD8379-422C-41C1-863C-947992DF1836}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d11f32fd-6950-418c-a67e-58c8fbf5a919"

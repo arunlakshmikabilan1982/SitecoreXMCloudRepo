@@ -1,0 +1,36 @@
+﻿---
+ID: "37f3568d-8627-5cc9-8a47-f013112ec7ad"
+Parent: "42003282-4089-5022-8df0-a199796b19f0"
+Template: "95cb88e7-8068-4a9c-9eeb-05f9a22c49d4"
+Path: /sitecore/content/PLAY/playwebsite/home/media/center
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: 
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{2C060055-A03F-477F-B70D-20A89128FADB}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"></d>
+    </r>
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Center
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17707054-bc28-496c-925f-e614ba18f3e0"
+      Hint: Title
+      Value: Media Center
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3b13b965-80ed-40bd-804f-cb85986a29f0"

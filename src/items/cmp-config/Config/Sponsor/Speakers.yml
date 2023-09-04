@@ -1,0 +1,32 @@
+﻿---
+ID: "92257a7f-b895-4843-918c-dd497e7bb33f"
+Parent: "e073f9a4-6376-4922-9786-580050546c22"
+Template: "49652eb6-f98e-4114-b46a-925b9815578a"
+Path: /sitecore/system/Modules/CMP/Config/Sponsor/Speakers
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+- ID: "c3101af2-0121-4011-a9e9-fb727bb40999"
+  Hint: CMP Relation
+  Value: SpeakerToSponsor
+- ID: "da990633-7884-44a2-8638-94389c5cbfec"
+  Hint: CMP Field Name
+  Value: Name
+- ID: "db99415a-fe86-4a2d-9583-db92894cb80a"
+  Hint: Sitecore Field Name
+  Value: "{752F4B39-259C-42B8-A100-FB6123FAED7F}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{ACC03942-A7B8-4DAA-96D2-A9196A9EF547}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9e0e16f8-1169-4361-93f5-1ba341755a24"

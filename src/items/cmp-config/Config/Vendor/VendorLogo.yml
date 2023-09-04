@@ -1,0 +1,26 @@
+﻿---
+ID: "5d06e737-e416-4770-b66b-4143f9b24abd"
+Parent: "331f7a34-cb11-4ac9-b7c0-c6867eb160e9"
+Template: "1c18fef2-0603-4012-9c03-f9ed654854c4"
+Path: /sitecore/system/Modules/CMP/Config/Vendor/VendorLogo
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "c3101af2-0121-4011-a9e9-fb727bb40999"
+  Hint: CMP Relation
+  Value: DemoVendorToMasterAsset
+- ID: "db99415a-fe86-4a2d-9583-db92894cb80a"
+  Hint: Sitecore Field Name
+  Value: "{5F02C96D-6606-4508-8B81-4D4758E06291}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{BD9C06C1-5338-4060-8FDC-91601FEACB1F}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "30544a5f-76bc-4da5-be7c-7604ac07193b"

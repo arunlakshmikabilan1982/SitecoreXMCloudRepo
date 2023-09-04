@@ -1,0 +1,35 @@
+header {
+  @apply sticky top-0 w-full;
+
+  /* Use a z-index value less than 9000 to ensure React error dialog displays above */
+  z-index: 8888;
+
+  /* Required for the Experience Editor floating toolbar to display above the header when the first component below the header is selected. */
+  &.experience-editor-active {
+    position: unset;
+  }
+}
+
+footer {
+  @apply bg-gradient-to-br from-black to-black-dark;
+}
+
+.container {
+  &:not(.container-fullwidth) {
+    @media (min-width: 2490px) {
+      @apply !max-w-[51vw];
+    }
+  }
+
+  &.container-narrow {
+    @apply max-w-3xl;
+
+    @media (min-width: 2490px) {
+      @apply !max-w-[51vw] !px-[10vw];
+    }
+  }
+}
+
+.container.container-fullwidth {
+  @apply max-w-full;
+}
