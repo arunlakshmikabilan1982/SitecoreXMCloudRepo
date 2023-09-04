@@ -69,18 +69,18 @@ Languages:
         sitecore\amruta.kulkarni@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fe769a33-c175-428f-a582-e845a1841430"
+      Value: "1f06f136-7c6a-48ed-826a-843f9c70eb9a"
     - ID: "911178a5-5358-4f14-ac91-d38f36a0084c"
       Hint: PromoCardTitle
       Value: Find fun and adventure all year round
     - ID: "9200c789-37d9-4ffe-81ba-0903e1cc2431"
       Hint: PromoCardimage
       Value: |
-        <image mediaid="{DDD0D0B1-3DAE-4643-BC35-6A2386573CE4}" alt="Familly PLaying" height="" width="" hspace="" vspace="" />
+        <image mediaid="{ACEDA03C-A1FF-4C63-934A-26E4514E8E76}" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230802T045127Z
+      Value: 20230823T083604Z
