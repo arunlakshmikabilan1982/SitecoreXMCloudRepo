@@ -30,7 +30,7 @@ const nextConfig = {
   
   // Enable React Strict Mode
   reactStrictMode: true,
-
+  fastRefresh: false,
   async rewrites() {
     // When in connected mode we want to proxy Sitecore paths off to Sitecore
     return [

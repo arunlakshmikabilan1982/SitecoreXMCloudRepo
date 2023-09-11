@@ -19,6 +19,8 @@ SharedFields:
     {1900A3A8-0EC5-4BB3-AFE6-E94E26444540}
     {4E4CE0C0-BF28-480C-AD9E-99C96BE7DAD6}
     {E35604AD-A14A-4060-9107-BF01AA3E22A5}
+    {A1E0EDF1-8DC3-47F0-9F7B-8F1209D0E8FB}
+    {ECEAEBF8-5C8F-4200-99DD-1C1D9FFBD72B}
 Languages:
 - Language: en
   Versions:
@@ -37,11 +39,11 @@ Languages:
         sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8fbac252-29b4-42ca-8d89-28505b1a514a"
+      Value: "a3e28662-28a7-4299-8378-52c210bd8a8e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\O6y3bocRU4
+        sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230811T125417Z
+      Value: 20230831T044020Z

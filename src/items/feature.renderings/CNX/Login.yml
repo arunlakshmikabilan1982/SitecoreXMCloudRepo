@@ -1,15 +1,15 @@
 ﻿---
-ID: "4e4ce0c0-bf28-480c-ad9e-99c96be7dad6"
+ID: "a1e0edf1-8dc3-47f0-9f7b-8f1209d0e8fb"
 Parent: "bd3fd661-5008-4f06-a51c-495adcaf4092"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Feature/CNX/SignUpForm
+Path: /sitecore/layout/Renderings/Feature/CNX/Login
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: SignUpForm
+  Value: Login
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
-  Value: "{43140569-0BB7-4041-86BD-4B7B47470B2A}"
+  Value: "{02D68E4F-D628-4DA1-8F11-C9E4EFA725B0}"
 Languages:
 - Language: en
   Versions:
@@ -17,7 +17,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230801T093346Z
+      Value: 20230831T043511Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -28,11 +28,11 @@ Languages:
         sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "edef9cfd-f194-4821-a887-911eecee1903"
+      Value: "94aca2f1-ad22-4808-9941-7a9ab20f9399"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230904T101718Z
+      Value: 20230831T043759Z
