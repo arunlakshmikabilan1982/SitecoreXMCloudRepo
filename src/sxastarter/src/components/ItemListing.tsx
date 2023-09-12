@@ -15,7 +15,7 @@ type ResultsFieldLink = {
     Description: TextField;
     Review: TextField;
     Link: LinkField;
-    Price: TextField; 
+    Price: TextField;
   };
 };
 
@@ -38,19 +38,13 @@ const ItemListItem = (props: ItemListingProps) => {
       <div className="item-listing">
         {fields.ItemsList.map((item, index) => (
           <div key={`item-${index}`} className="item">
-            {item.fields.Image && (
-              <JssImage field={item.fields.Image} className="item-image" />
-            )}
+            {item.fields.Image && <JssImage field={item.fields.Image} className="item-image" />}
             <div className="item-details">
               {item.fields.Title && (
                 <Text tag="h3" className="item-title" field={item.fields.Title} />
               )}
               {item.fields.Description && (
-                <Text
-                  tag="p"
-                  className="item-description"
-                  field={item.fields.Description}
-                />
+                <Text tag="p" className="item-description" field={item.fields.Description} />
               )}
               {/* Add Fields */}
               {item.fields.Price && (
@@ -60,10 +54,7 @@ const ItemListItem = (props: ItemListingProps) => {
                 <Text tag="p" className="item-review" field={item.fields.Review} />
               )}
               {item.fields.Link && (
-                <Link
-                  field={item.fields.Link}
-                  className="item-link"
-                >
+                <Link field={item.fields.Link} className="item-link">
                   Read more
                 </Link>
               )}

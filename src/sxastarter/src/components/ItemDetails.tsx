@@ -1,10 +1,5 @@
 import React from 'react';
-import {
-  Image as JssImage,
-  ImageField,
-  TextField,
-  Text,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+import { Image as JssImage, ImageField, TextField, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 
 type ItemDetailsProps = {
   params: { [key: string]: string };
@@ -23,8 +18,7 @@ const ItemDetails = (props: ItemDetailsProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
 
   if (props.fields && props.fields.Image) {
-
-    const imageSrc = props.fields.Image.value?.src || '';
+    //const imageSrc = props.fields.Image.value?.src || '';
 
     return (
       <div className={styles} id={id || undefined}>
@@ -35,7 +29,11 @@ const ItemDetails = (props: ItemDetailsProps): JSX.Element => {
             <Text tag="h2" field={props.fields.Title} className="item-details-title border-0" />
             <Text tag="p" field={props.fields.Description} className="item-details-description" />
             <Text tag="p" field={props.fields.Review} className="item-details-review" />
-            <Text tag="p" field={props.fields.Specification} className="item-details-specification" />
+            <Text
+              tag="p"
+              field={props.fields.Specification}
+              className="item-details-specification"
+            />
             {/* Price */}
             {props.fields.Price && (
               <Text tag="p" field={props.fields.Price} className="item-details-price" />
