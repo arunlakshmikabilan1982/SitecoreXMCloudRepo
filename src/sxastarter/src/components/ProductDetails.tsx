@@ -32,33 +32,30 @@ const ProductDetailsContainer = (props: ComponentProps): JSX.Element => {
 
   return (
     <div className={`component product-details ${styles}`} id={id ? id : undefined}>
-  <div className="component-content" style={backgroundStyle}>
-    <div className="product-content">
-      <div className="product-layout" style={{ display: 'flex', alignItems: 'center' }}>
-        <div className="product-image" style={{ flex: '1', paddingRight: '20px' }}>
-          <img src={props.params.ProductImage} alt="Product" width={400} height={350} />
-        </div>
-        <div className="product-details" style={{ flex: '1', paddingLeft: '20px' }}>
-          <h1 className="product-title">{props.params.ProductTitle}</h1>
-          <p className="product-description">{props.params.ProductDescription}</p>
-          <div className="product-price">
-            <span>{props.params.ProductPrice}</span>
+      <div className="component-content" style={backgroundStyle}>
+        <div className="product-content">
+          <div className="product-layout" style={{ display: 'flex', alignItems: 'center' }}>
+            <div className="product-image" style={{ flex: '1', paddingRight: '20px' }}>
+              <img src={props.params.ProductImage} alt="Product" width={400} height={350} />
+            </div>
+            <div className="product-details" style={{ flex: '1', paddingLeft: '20px' }}>
+              <h1 className="product-title">{props.params.ProductTitle}</h1>
+              <p className="product-description">{props.params.ProductDescription}</p>
+              <div className="product-price">
+                <span>{props.params.ProductPrice}</span>
+              </div>
+              <div className="product-review">
+                <p>{props.params.ProductReview}</p>
+              </div>
+              <div className="product-specification">
+                <p>{props.params.ProductSpecification}</p>
+              </div>
+              <button className="add-to-cart-button">Add to Cart</button>
+            </div>
           </div>
-          <div className="product-review">
-            <p>{props.params.ProductReview}</p>
-          </div>
-          <div className="product-specification">
-            <p>{props.params.ProductSpecification}</p>
-          </div>
-          <button className="add-to-cart-button">
-                Add to Cart
-              </button>
         </div>
       </div>
     </div>
-  </div>
-</div>
-
   );
 };
 
@@ -87,8 +84,7 @@ export const LaptopProductDetailsPage = (props: ComponentProps): JSX.Element => 
             ProductImage:
               'https://images.pexels.com/photos/6446709/pexels-photo-6446709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
             ProductTitle: 'Title : Laptop Model XYZ',
-            ProductDescription:
-              'Descirption : Introducing the Laptop Model XYZ',
+            ProductDescription: 'Descirption : Introducing the Laptop Model XYZ',
             ProductPrice: 'Price : ₹1,01,888',
             ProductReview: 'Rating : Great laptop with excellent features.',
             ProductSpecification:
@@ -113,8 +109,7 @@ export const MobileProductDetailsPage = (props: ComponentProps): JSX.Element => 
             ProductImage:
               'https://images.pexels.com/photos/263564/pexels-photo-263564.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
             ProductTitle: 'Title : Mobile Phone Model ABC',
-            ProductDescription:
-              'Description : Introducing the Mobile Phone Model ABC',
+            ProductDescription: 'Description : Introducing the Mobile Phone Model ABC',
             ProductPrice: 'Price : ₹56,246',
             ProductReview: 'Rating : 4.4',
             ProductSpecification:
@@ -139,11 +134,9 @@ export const CameraProductDetailsPage = (props: ComponentProps): JSX.Element => 
             ProductImage:
               'https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
             ProductTitle: 'Title : Professional Camera Model DEF',
-            ProductDescription:
-              'Description : Introducing the Professional Camera Model DEF',
+            ProductDescription: 'Description : Introducing the Professional Camera Model DEF',
             ProductPrice: 'Price : ₹30,000',
-            ProductReview:
-              'Rating : 4.2',
+            ProductReview: 'Rating : 4.2',
             ProductSpecification:
               'Specification : The Professional Camera Model DEF features a full-frame 36.3-megapixel CMOS sensor',
           }}
