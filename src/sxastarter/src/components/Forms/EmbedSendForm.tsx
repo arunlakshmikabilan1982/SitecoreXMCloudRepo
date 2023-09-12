@@ -1,7 +1,10 @@
 import React from 'react';
 import { Field, Text, useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
-import { isEditingOrPreviewingPage, LayoutServicePageState } from '../../helpers/LayoutServiceHelper';
+import {
+  isEditingOrPreviewingPage,
+  LayoutServicePageState,
+} from '../../helpers/LayoutServiceHelper';
 
 type EmbedSendFormProps = ComponentProps & {
   fields: {
