@@ -179,6 +179,11 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
                 Sign Up
               </button>
             </div>
+            <div className="d-flex justify-content-center pt-5">
+              <label className="form-check-label" htmlFor="term-condition">
+                You already have an account? <a href="/login">Sign In</a>
+              </label>
+            </div>
           </form>
         </div>
       </div>
