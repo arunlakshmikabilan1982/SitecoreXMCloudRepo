@@ -3,13 +3,14 @@ import {
   ComponentParams,
   ComponentRendering,
   useSitecoreContext,
-  PosResolver
+  PosResolver,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import { signIn, getSession } from "next-auth/react";
+import { signIn, getSession } from 'next-auth/react';
 import config from 'temp/config';
-import { init } from "@sitecore/engage"
+import { init } from '@sitecore/engage';
 import { siteResolver } from 'lib/site-resolver';
-import { useRouter } from "next/navigation";
+import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 
 const BACKGROUND_REG_EXP = new RegExp(
   /[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}/gi
@@ -21,9 +22,11 @@ interface ComponentProps {
 }
 
 const DefaultContainer = (props: ComponentProps): JSX.Element => {
-  const { sitecoreContext: { pageState, route, variantId, site } } = useSitecoreContext();
+  const {
+    sitecoreContext: { pageState, route, site },
+  } = useSitecoreContext();
   const language = route?.itemLanguage || config.defaultLanguage;
-  const siteInfo = siteResolver.getByName(site?.name|| config.jssAppName);
+  const siteInfo = siteResolver.getByName(site?.name || config.jssAppName);
   const containerStyles = props.params && props.params.Styles ? props.params.Styles : '';
   const styles = `${props.params.GridParameters} ${containerStyles}`.trimEnd();
   /*const phKey = `container-${props.params.DynamicPlaceholderId}`;*/
@@ -38,10 +41,10 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
       backgroundImage: `url('${prefix}${backgroundImage}')`,
     };
   }
-  const emailId = useRef("");
-  const passwd= useRef("");
+  const emailId = useRef('');
+  const passwd = useRef('');
   const router = useRouter();
-  const createIdentity = async (user:any) => {
+  const createIdentity = async (user: any) => {
     const pointOfSale = PosResolver.resolve(siteInfo, language);
     const engage = await init({
       clientKey: process.env.NEXT_PUBLIC_CDP_CLIENT_KEY || '',
@@ -50,23 +53,23 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
       cookieDomain: window.location.host.replace(/^www\./, ''),
       // Cookie may be created in personalize middleware (server), but if not we should create it here
       forceServerCookieMode: false,
-      webPersonalization:true,
-      pointOfSale: pointOfSale
+      webPersonalization: true,
+      pointOfSale: pointOfSale,
     });
-    console.log("createIdentity:"+JSON.stringify(user));
+    console.log('createIdentity:' + JSON.stringify(user));
     engage.identity({
       channel: 'web',
       currency: 'USD',
       pointOfSale,
       page: window.location.host,
       language,
-      email: user?.email?user?.email:"",
+      email: user?.email ? user?.email : '',
       firstName: user?.firstName,
       lastName: user?.lastName,
       gender: user?.gender,
       identifiers: [
         {
-          id: user?.email?user?.email:"",
+          id: user?.email ? user?.email : '',
           provider: 'email',
         },
       ],
@@ -75,19 +78,18 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
   };
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    const result = await signIn("credentials", {
+    const result = await signIn('credentials', {
       email: emailId.current,
       password: passwd.current,
       redirect: false,
-      callbackUrl: "/Mall-Pages",
+      callbackUrl: '/Mall-Pages',
     });
-    if(result?.ok)
-    {
+    if (result?.ok) {
       const session = await getSession();
       console.log('Identity event loading');
       const user = session?.user;
       createIdentity(user);
-      const url=result.url?result?.url:"/Mall-Pages";
+      const url = result.url ? result?.url : '/Mall-Pages';
       router.push(url);
     }
   };
@@ -132,7 +134,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
             </div>
             <div className="d-flex justify-content-center pt-5">
               <label className="form-check-label" htmlFor="term-condition">
-                Don't have an account? <a href="/signUp">Sign Up</a>
+                Dont have an account? <Link href="/signUp">Sign Up</Link>
               </label>
             </div>
           </form>
