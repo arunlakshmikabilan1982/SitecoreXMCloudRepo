@@ -1,0 +1,34 @@
+﻿---
+ID: "970a5c95-1901-4305-9f96-5e2dcb0f4e4b"
+Parent: "5f14ad96-39a6-458f-9c1b-48da73ba7772"
+Template: "48c7045f-07cc-497e-a52c-ed17d3adb718"
+Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/EmbedSendForm/EmbedSendForm
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230907T094734Z
+    - ID: "2f7e70f5-d902-4562-9f50-3149cb020d64"
+      Hint: sendFormId
+      Value: "dd6cc6b6-a0b3-4179-854a-21937ca082cb"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\manish.yadav7@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manish.yadav7@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "043eb411-15dc-4485-8111-e339321374ea"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\manish.yadav7@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230911T062432Z
