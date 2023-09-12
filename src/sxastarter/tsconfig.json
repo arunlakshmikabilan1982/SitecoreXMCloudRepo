@@ -6,6 +6,8 @@
       "lib/*": ["src/lib/*"],
       "temp/*": ["src/temp/*"],
       "assets/*": ["src/assets/*"],
+      "helpers/*": ["src/helpers/*"],
+      "data/*": ["src/data/*"],
       "graphql-types": ["node_modules/@types/graphql-let/__generated__/__types__"]
     },
     "target": "es5",
