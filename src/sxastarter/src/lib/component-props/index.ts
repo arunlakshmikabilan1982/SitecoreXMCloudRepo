@@ -3,6 +3,7 @@ import {
   ComponentRendering,
   SitecoreContextValue,
 } from '@sitecore-jss/sitecore-jss-nextjs';
+import { PropsWithChildren } from 'react'; // DEMO TEAM CUSTOMIZATION - Add ComponentWithChildrenProps
 
 /**
  * Shared component props
@@ -21,3 +22,10 @@ export type ComponentProps = {
 export type ComponentWithContextProps = ComponentProps & {
   sitecoreContext: SitecoreContextValue;
 };
+
+// DEMO TEAM CUSTOMIZATION - Add ComponentWithChildrenProps
+/**
+ * Component props with React children
+ */
+export type ComponentWithChildrenProps = PropsWithChildren<ComponentProps>;
+// END CUSTOMIZATION

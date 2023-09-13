@@ -1,0 +1,51 @@
+﻿---
+ID: "90515023-0210-49b1-8450-96699ae48d04"
+Parent: "1d1442a7-4895-4697-85ec-938fe6695495"
+Template: "ce818943-19e0-4c95-ad2b-f5f914967a8a"
+Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/ItemsListFolder/Laptop
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230905T041425Z
+    - ID: "2b367645-458d-428e-9399-2f365e58300f"
+      Hint: Price
+      Value: Rs 1,00,000
+    - ID: "32e63d45-6ba7-484f-805e-52ca19906204"
+      Hint: Review
+      Value: 4.5
+    - ID: "3bae4242-0d1e-447d-8b1c-36b1835881ef"
+      Hint: Title
+      Value: My Laptop
+    - ID: "3e2a3378-a59f-4a8c-8af0-0095799aa8f7"
+      Hint: Image
+      Value: |
+        <image mediaid="{217E2869-7556-4176-9A4D-0ED2445AEFBE}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\kundankumar.puri@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\kundankumar.puri@concentrix.com
+    - ID: "6a2b8f87-caaa-438a-b580-0b30b5efcd3d"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{A90DA1EC-E382-410F-A464-3889766C440C}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "796f21b8-6568-4c2c-a6fd-f253989c3267"
+    - ID: "93769fb3-235d-42be-8304-b184a9230606"
+      Hint: Description
+      Value: I7 processor
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\kundankumar.puri@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230912T064355Z

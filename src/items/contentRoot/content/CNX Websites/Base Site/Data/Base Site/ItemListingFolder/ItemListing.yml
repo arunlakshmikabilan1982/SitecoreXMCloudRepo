@@ -1,0 +1,41 @@
+﻿---
+ID: "d294d0c7-af01-4d53-a9e6-e45398287c61"
+Parent: "7ed5bce8-ff32-4011-ac1a-857fcca8471a"
+Template: "12f12d6b-3f5d-40b7-84d6-05eb9505e833"
+Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/ItemListingFolder/ItemListing
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230905T041405Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\kundankumar.puri@concentrix.com
+    - ID: "532a6fc9-0120-48a0-9523-855e7b1af2e0"
+      Hint: ItemsList
+      Value: "{90515023-0210-49B1-8450-96699AE48D04}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\kundankumar.puri@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2ab2d4f1-1c1f-42f1-8f0f-a65e6fc83c48"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\kundankumar.puri@concentrix.com
+    - ID: "d0272b77-54fd-4a77-a66a-96f14eb2171a"
+      Hint: Title
+      Value: Items List
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230907T174201Z
+    - ID: "fcd9c23f-4af9-4fa5-a637-0bfcee1d7c63"
+      Hint: CTALink
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{A90DA1EC-E382-410F-A464-3889766C440C}" />
