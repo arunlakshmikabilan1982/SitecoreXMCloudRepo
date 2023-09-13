@@ -98,7 +98,7 @@ const ProductDetailsContainer = (props: ComponentProps): JSX.Element => {
                 <p>{props.params.ProductSpecification}</p>
               </div>
               {session?.user ? (
-                  <button onClick={() => addToCartEvent(siteInfo, language)}>Add To Cart</button>
+                <button onClick={() => addToCartEvent(siteInfo, language)}>Add To Cart</button>
               ) : (
                 <button onClick={() => signIn()}>SignIn To Add In Cart</button>
               )}
