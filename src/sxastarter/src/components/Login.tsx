@@ -67,6 +67,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
       firstName: user?.firstName,
       lastName: user?.lastName,
       gender: user?.gender,
+      title: user?.title,
       identifiers: [
         {
           id: user?.email ? user?.email : '',

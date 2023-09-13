@@ -11,13 +11,13 @@ import config from 'temp/config';
 import { siteResolver } from 'lib/site-resolver';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-const fs = require('fs').promises
+/*const fs = require('fs').promises*/
 
 const BACKGROUND_REG_EXP = new RegExp(
   /[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}/gi
 );
 
-let users = require('data/users.json');
+/*let users = require('data/users.json');*/
 
 interface ComponentProps {
   rendering: ComponentRendering & { params: ComponentParams };
@@ -47,7 +47,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
 
   const router = useRouter();
 
-  const CreateOrUpdateUser= async(form_values:any)=>{
+  /*const CreateOrUpdateUser= async(form_values:any)=>{
     const user = users.find(
       (u: { email: string | undefined }) =>
         u.email === form_values.email);
@@ -75,7 +75,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
       users.push(user);
     }
     fs.writeFileSync('data/users.json', JSON.stringify(users, null, 4));
-  }
+  }*/
 
   const createIdentity = async (user: any) => {
     const pointOfSale = PosResolver.resolve(siteInfo, language);
@@ -100,6 +100,8 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
       firstName: user?.firstName,
       lastName: user?.lastName,
       gender: user?.gender,
+      phone:user?.mobilenumber,
+      title: user?.title,
       identifiers: [
         {
           id: user?.email ? user?.email : '',
@@ -112,12 +114,12 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
   const onSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     var formData = new FormData(e.currentTarget);
+    console.log("form:"+JSON.stringify(formData));
     const form_values = Object.fromEntries(formData);
     console.log("form:"+JSON.stringify(form_values));
-    CreateOrUpdateUser(form_values);
     const result = await signIn('credentials', {
-      email: form_values.email,
-      password: form_values.password,
+      email: "testuser@gmail.com",
+      password: "test",
       redirect: false,
       callbackUrl: '/Mall-Pages',
     });
@@ -125,9 +127,12 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
       const session = await getSession();
       console.log('Identity event loading');
       const user = session?.user;
-      createIdentity(user);
-      const url = result.url ? result?.url : '/Mall-Pages';
-      router.push(url);
+      if(user)
+      {
+        createIdentity(form_values);
+        const url = result.url ? result?.url : '/Mall-Pages';
+        router.push(url);
+      }
     }
   };
 
@@ -141,7 +146,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
           <form className="col-9 m-auto row p-5" onSubmit={onSubmit}>
             <div className="px-4 col-12 d-flex form-group justify-content-start my-3 row">
               <div className="form-check me-4 w-auto">
-                <input type="radio" name="title" className="form-check-input" id="mr-title" />
+                <input type="radio" value="Mr" name="title" className="form-check-input" id="mr-title" />
 
                 <label className="form-check-label" htmlFor="mr-title">
                   Mr
@@ -149,7 +154,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
               </div>
 
               <div className="form-check me-4 w-auto">
-                <input type="radio" name="title" className="form-check-input" id="mrs-title" />
+                <input type="radio" value="Mrs" name="title" className="form-check-input" id="mrs-title" />
 
                 <label className="form-check-label" htmlFor="mrs-title">
                   Mrs
@@ -157,10 +162,10 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
               </div>
 
               <div className="form-check me-4 w-auto">
-                <input type="radio" name="title" className="form-check-input" id="other-title" />
+                <input type="radio" value="Ms" name="title" className="form-check-input" id="ms-title" />
 
-                <label className="form-check-label" htmlFor="other-title">
-                  Other
+                <label className="form-check-label" htmlFor="ms-title">
+                  Ms
                 </label>
               </div>
             </div>
@@ -219,7 +224,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
 
             <div className="px-4 col-10 d-flex form-group justify-content-start my-3 row">
               <div className="form-check me-4 w-auto">
-                <input type="radio" name="gender" className="form-check-input" id="male-gender" />
+                <input type="radio" value="male" name="gender" className="form-check-input" id="male-gender" />
 
                 <label className="form-check-label" htmlFor="male-gender">
                   Male
@@ -227,10 +232,18 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
               </div>
 
               <div className="form-check me-4 w-auto">
-                <input type="radio" name="gender" className="form-check-input" id="female-gender" />
+                <input type="radio" value="female" name="gender" className="form-check-input" id="female-gender" />
 
                 <label className="form-check-label" htmlFor="female-gender">
                   Female
+                </label>
+              </div>
+
+              <div className="form-check me-4 w-auto">
+                <input type="radio" value="others" name="gender" className="form-check-input" id="others-gender" />
+
+                <label className="form-check-label" htmlFor="others-gender">
+                  Others
                 </label>
               </div>
             </div>

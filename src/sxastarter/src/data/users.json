@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "title": "Mr",
         "email": "testuser@gmail.com",
         "password": "test",
         "firstName": "Test",
@@ -9,6 +10,7 @@
     },
     {
         "id": 2,
+        "title": "Ms",
         "email": "testuser1@gmail.com",
         "password": "test1",
         "firstName": "Test",
@@ -17,6 +19,7 @@
     },
     {
         "id": 3,
+        "title": "Mr",
         "email": "testuser2@gmail.com",
         "password": "test2",
         "firstName": "Test",
