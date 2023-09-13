@@ -3,7 +3,7 @@ import { init } from '@sitecore/engage';
 import { siteResolver } from 'lib/site-resolver';
 import config from 'temp/config';
 import { useSitecoreContext, SiteInfo, PosResolver } from '@sitecore-jss/sitecore-jss-nextjs';
-
+import { signIn, useSession } from 'next-auth/react';
 import { ComponentParams, ComponentRendering } from '@sitecore-jss/sitecore-jss-nextjs';
 import { useRouter } from 'next/navigation';
 
@@ -36,7 +36,7 @@ const ProductDetailsContainer = (props: ComponentProps): JSX.Element => {
   } = useSitecoreContext();
   const language = route?.itemLanguage || config.defaultLanguage;
   const siteInfo = siteResolver.getByName(site?.name || config.jssAppName);
-
+  const { data: session } = useSession();
   const router = useRouter();
   const addToCartEvent = (site: SiteInfo, language: string) => {
     console.log('AddtoEvent loading');
@@ -97,7 +97,11 @@ const ProductDetailsContainer = (props: ComponentProps): JSX.Element => {
               <div className="product-specification">
                 <p>{props.params.ProductSpecification}</p>
               </div>
-              <button onClick={() => addToCartEvent(siteInfo, language)}>Add To Cart</button>
+              {session?.user ? (
+                  <button onClick={() => addToCartEvent(siteInfo, language)}>Add To Cart</button>
+              ) : (
+                <button onClick={() => signIn()}>SignIn To Add In Cart</button>
+              )}
             </div>
           </div>
         </div>
