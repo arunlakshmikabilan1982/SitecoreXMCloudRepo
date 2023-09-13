@@ -41,41 +41,37 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
           </div>
           <form className="col-9 m-auto row p-5">
             <div className="px-4 col-12 d-flex form-group justify-content-start my-3 row">
-              {/* <label htmlFor="exampleInputEmail1" className="col-1 col-5 col-form-label">Email address</label> */}
-
               <div className="form-check me-4 w-auto">
-                <input type="checkbox" name="gender" className="form-check-input" id="mr-gender" />
+                <input type="radio" name="title" className="form-check-input" id="mr-title" />
 
-                <label className="form-check-label" htmlFor="mr-gender">
+                <label className="form-check-label" htmlFor="mr-title">
                   Mr
                 </label>
               </div>
 
               <div className="form-check me-4 w-auto">
-                <input type="checkbox" name="gender" className="form-check-input" id="mrs-gender" />
+                <input type="radio" name="title" className="form-check-input" id="mrs-title" />
 
-                <label className="form-check-label" htmlFor="mrs-gender">
+                <label className="form-check-label" htmlFor="mrs-title">
                   Mrs
                 </label>
               </div>
 
               <div className="form-check me-4 w-auto">
                 <input
-                  type="checkbox"
-                  name="gender"
+                  type="radio"
+                  name="title"
                   className="form-check-input"
-                  id="other-gender"
+                  id="other-title"
                 />
 
-                <label className="form-check-label" htmlFor="other-gender">
+                <label className="form-check-label" htmlFor="other-title">
                   Other
                 </label>
               </div>
             </div>
 
             <div className="px-3 col-6 form-group my-3 row">
-              {/* <label htmlFor="firstname" className="col-1 col-5 col-form-label">First Name</label> */}
-
               <div className="col-12">
                 <input
                   type="text"
@@ -89,8 +85,6 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
             </div>
 
             <div className="px-3 col-6 form-group my-3 row">
-              {/* <label htmlFor="lastname" className="col-1 col-5 col-form-label">Last Name</label> */}
-
               <div className="col-12">
                 <input
                   type="text"
@@ -103,21 +97,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
               </div>
             </div>
 
-            {/* <div className="col-6 form-group my-3 row">
-
-            <label htmlFor="age" className="col-1 col-5 col-form-label">Age</label>
-
-            <div className="col-7">
-
-              <input type="number" name='age' className="form-control" id="age" aria-describedby="age" placeholder="Age" />
-
-            </div>
-
-          </div> */}
-
             <div className="px-3 col-6 form-group my-3 row">
-              {/* <label htmlFor="exampleInputEmail1" className="col-1 col-5 col-form-label">Email address</label> */}
-
               <div className="col-12">
                 <input
                   type="email"
@@ -125,14 +105,12 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
                   className="form-control"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
-                  placeholder="Enter email"
+                  placeholder="Email"
                 />
               </div>
             </div>
 
             <div className="px-3 col-6 form-group my-3 row">
-              {/* <label htmlFor="sign-up-password" className="col-1 col-5 col-form-label">Password</label> */}
-
               <div className="col-12">
                 <input
                   type="password"
@@ -145,21 +123,51 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
               </div>
             </div>
 
-            {/* <div className="col-6 form-group my-3 row">
+            <div className="px-4 col-10 d-flex form-group justify-content-start my-3 row">
+              <div className="form-check me-4 w-auto">
+                <input type="radio" name="gender" className="form-check-input" id="male-gender" />
 
-            <label htmlFor="sign-up-confirm-password" className="col-1 col-5 col-form-label">Confirm Password</label>
+                <label className="form-check-label" htmlFor="male-gender">
+                  Male
+                </label>
+              </div>
 
-            <div className="col-7">
+              <div className="form-check me-4 w-auto">
+                <input type="radio" name="gender" className="form-check-input" id="female-gender" />
 
-              <input type="password" name='confirmPassword' className="form-control" id="sign-up-confirm-password" aria-describedby="confirm password" placeholder="Confirm password" />
-
+                <label className="form-check-label" htmlFor="female-gender">
+                  Female
+                </label>
+              </div>
             </div>
 
-          </div> */}
+            <div className="px-3 col-6 form-group my-3 row">
+              <div className="col-12">
+                <input
+                  type="number"
+                  name="mobilenumber"
+                  className="form-control"
+                  id="mobilenumber"
+                  aria-describedby="mobilenumber"
+                  placeholder="Mobile Number"
+                />
+              </div>
+            </div>
+
+            <div className="px-3 col-6 form-group my-3 row">
+              <div className="col-12">
+                <input
+                  type="date"
+                  name="dateofbirth"
+                  className="form-control"
+                  id="dateofbirth"
+                  aria-describedby="dateofbirth"
+                  placeholder="Date of Birth"
+                />
+              </div>
+            </div>
 
             <div className="px-4 col-12 form-group form-check my-3 row">
-              {/* <label htmlFor="exampleInputEmail1" className="col-1 col-5 col-form-label">Email address</label> */}
-
               <div className="form-check me-4 w-auto">
                 <input
                   type="checkbox"
@@ -167,7 +175,6 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
                   name="termCondition"
                   id="term-condition"
                 />
-
                 <label className="form-check-label" htmlFor="term-condition">
                   You confirm that you have read and agreed to our <a href="/">Privacy Policy</a>{' '}
                   and <a href="/">Terms & Conditions</a>.
