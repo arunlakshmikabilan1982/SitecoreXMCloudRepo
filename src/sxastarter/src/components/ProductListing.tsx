@@ -58,7 +58,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
   const products: Product[] = [
     {
       imgSrc:
-        'https://images.pexels.com/photos/6446709/pexels-photo-6446709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+        'https://img.freepik.com/free-psd/laptop-mock-up-isolated_1310-1463.jpg?w=900&t=st=1694587030~exp=1694587630~hmac=54024a72309f8029a1da45a49c3eb7c2d52a7d7bf2897a9b18a28ac6127f2cc2',
       title: 'Laptop',
       description:
         'Experience the power of productivity with our high-performance laptop. Whether you need it for work or play, this laptop has you covered. With cutting-edge features and sleek design, it is the perfect companion for your digital lifestyle.',
