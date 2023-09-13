@@ -3,18 +3,24 @@ import React from 'react';
 
 export const Default = () => {
   const { data: session } = useSession();
+  const user = session?.user as any;
   return (
-    <div className="ml-auto flex gap-2">
+    <div className="d-flex flex-row justify-content-center mt-5">
       {session?.user ? (
         <>
-          <p className="text-sky-600"> {session.user.name}</p>
-          <button type="submit" className="bg-dark btn me-5 text-bg-dark" onClick={() => signOut()}>
+          <button type="submit" className="btn me-5 text-bg-dark" onClick={() => signOut()}>
+            <p> {'Welcome ' + user.firstName + ' ' + user.lastName}</p>
             Sign Out
           </button>
         </>
       ) : (
-        <button className="bg-dark btn me-5 text-bg-dark" onClick={() => signIn()}>
-          Sign In
+        <button className="btn me-5" onClick={() => signIn()}>
+          <img
+            width="25px"
+            height="25px"
+            alt="Sign In"
+            src="https://www.pngkit.com/png/detail/808-8088160_loginsignupwishlist-transparent-login-icon.png"
+          ></img>
         </button>
       )}
     </div>

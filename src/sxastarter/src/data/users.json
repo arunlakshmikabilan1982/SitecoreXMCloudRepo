@@ -5,7 +5,7 @@
         "password": "test",
         "firstName": "Test",
         "lastName": "User",
-        "gender":"Male"
+        "gender":"male"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "password": "test1",
         "firstName": "Test",
         "lastName": "User1",
-        "gender":"Female"
+        "gender":"female"
     },
     {
         "id": 3,
@@ -21,6 +21,6 @@
         "password": "test2",
         "firstName": "Test",
         "lastName": "User2",
-        "gender":"Male"
+        "gender":"male"
     }
 ]
