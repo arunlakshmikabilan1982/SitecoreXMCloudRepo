@@ -4,13 +4,8 @@ import { siteResolver } from 'lib/site-resolver';
 import config from 'temp/config';
 import { useSitecoreContext, SiteInfo, PosResolver } from '@sitecore-jss/sitecore-jss-nextjs';
 
-import {
-  ComponentParams,
-  ComponentRendering,
-
-} from '@sitecore-jss/sitecore-jss-nextjs';
+import { ComponentParams, ComponentRendering } from '@sitecore-jss/sitecore-jss-nextjs';
 import { useRouter } from 'next/navigation';
-
 
 const BACKGROUND_REG_EXP = new RegExp(
   /[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}/gi
@@ -21,7 +16,6 @@ interface ComponentProps {
   params: ComponentParams;
 }
 
-
 const ProductDetailsContainer = (props: ComponentProps): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
   const containerStyles = props.params && props.params.Styles ? props.params.Styles : '';
@@ -29,8 +23,6 @@ const ProductDetailsContainer = (props: ComponentProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   let backgroundImage = props.params.BackgroundImage as string;
   let backgroundStyle: { [key: string]: string } = {};
-
-
 
   if (backgroundImage) {
     const prefix = `${sitecoreContext.pageState !== 'normal' ? '/sitecore/shell' : ''}/-/media/`;
@@ -47,44 +39,44 @@ const ProductDetailsContainer = (props: ComponentProps): JSX.Element => {
 
   const router = useRouter();
   const addToCartEvent = (site: SiteInfo, language: string) => {
-  console.log('AddtoEvent loading');
-  async function createAddtoCart() {
-    const pointOfSale = PosResolver.resolve(site, language);
-    const engage = await init({
-      clientKey: process.env.NEXT_PUBLIC_CDP_CLIENT_KEY || '',
-      targetURL: process.env.NEXT_PUBLIC_CDP_TARGET_URL || '',
-      // Replace with the top level cookie domain of the website that is being integrated e.g ".example.com" and not "www.example.com"
-      cookieDomain: window.location.host.replace(/^www\./, ''),
-      // Cookie may be created in personalize middleware (server), but if not we should create it here
-      forceServerCookieMode: false,
-    });
-    engage.event('ADD', {
-      channel: 'web',
-      currency: 'USD',
-      pointOfSale,
-      page: window.location.host,
-      language,
-      product: {
-        type: 'Laptop',
-        item_id: 'Laptop_90',
-        name: 'Laptop',
-        orderedAt: '2023-09-23T16:17:16.000Z',
-        quantity: 1,
-        price: '₹1,01,888',
-        productId: 'Laptop_34567',
-        currency: 'EUR',
-        originalPrice: 100.0,
-        originalCurrencyCode: 'EUR',
-        reference_id: 'Laptop_001',
-      },
-    });
+    console.log('AddtoEvent loading');
+    async function createAddtoCart() {
+      const pointOfSale = PosResolver.resolve(site, language);
+      const engage = await init({
+        clientKey: process.env.NEXT_PUBLIC_CDP_CLIENT_KEY || '',
+        targetURL: process.env.NEXT_PUBLIC_CDP_TARGET_URL || '',
+        // Replace with the top level cookie domain of the website that is being integrated e.g ".example.com" and not "www.example.com"
+        cookieDomain: window.location.host.replace(/^www\./, ''),
+        // Cookie may be created in personalize middleware (server), but if not we should create it here
+        forceServerCookieMode: false,
+      });
+      engage.event('ADD', {
+        channel: 'web',
+        currency: 'USD',
+        pointOfSale,
+        page: window.location.host,
+        language,
+        product: {
+          type: 'Laptop',
+          item_id: 'Laptop_90',
+          name: 'Laptop',
+          orderedAt: '2023-09-23T16:17:16.000Z',
+          quantity: 1,
+          price: '₹1,01,888',
+          productId: 'Laptop_34567',
+          currency: 'EUR',
+          originalPrice: 100.0,
+          originalCurrencyCode: 'EUR',
+          reference_id: 'Laptop_001',
+        },
+      });
 
-    console.log('Add TO Cart event triggered');
-  }
-  createAddtoCart();
-  const url = '/Cart';
-  router.push(url);
-};
+      console.log('Add TO Cart event triggered');
+    }
+    createAddtoCart();
+    const url = '/Cart';
+    router.push(url);
+  };
   return (
     <div className={`component product-details ${styles}`} id={id ? id : undefined}>
       <div className="component-content" style={backgroundStyle}>
@@ -113,7 +105,6 @@ const ProductDetailsContainer = (props: ComponentProps): JSX.Element => {
     </div>
   );
 };
-
 
 export const Default = (props: ComponentProps): JSX.Element => {
   const splitStyles = props.params?.Styles?.split(' ');
@@ -203,4 +194,3 @@ export const CameraProductDetailsPage = (props: ComponentProps): JSX.Element => 
 
   return <ProductDetailsContainer {...props} />;
 };
-
