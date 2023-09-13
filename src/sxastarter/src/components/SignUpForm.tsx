@@ -58,12 +58,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
               </div>
 
               <div className="form-check me-4 w-auto">
-                <input
-                  type="radio"
-                  name="title"
-                  className="form-check-input"
-                  id="other-title"
-                />
+                <input type="radio" name="title" className="form-check-input" id="other-title" />
 
                 <label className="form-check-label" htmlFor="other-title">
                   Other
