@@ -58,6 +58,43 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
   const products: Product[] = [
     {
       imgSrc:
+        'https://img.freepik.com/free-photo/t-shirt_1203-8004.jpg?w=900&t=st=1694687660~exp=1694688260~hmac=1f6a74275282c34e331b51ce0dc4c463e6e8d3307de2fae059c79e2bdc6a660e',
+      title: 'Mens Tshirt',
+      description: 'Essential Mens T-Shirts: Comfortable and Stylish',
+      price: 'Rs 1,299',
+      review: '4.5 stars',
+      productURL: '/products/mensTshirt',
+    },
+    {
+      imgSrc:
+        'https://img.freepik.com/premium-photo/autumn-style-clothes-white-background-top-view_185193-63529.jpg?w=900',
+      title: 'Womens wear',
+      description: 'The Perfect Fit for Every Occasion.',
+      price: 'Rs 2,499',
+      review: '4.5 stars',
+      productURL: '/products/womens-wear',
+    },
+    {
+      imgSrc:
+        'https://img.freepik.com/premium-photo/cheerful-young-businessman-suit-looking-camera-ai-generative_649024-11972.jpg?w=360',
+      title: 'Mens Suit',
+      description: 'Comfortable and stylish choice.',
+      price: 'Rs 10,999',
+      review: '4.5 stars',
+      productURL: '/products/mens-suit',
+    },
+    {
+      imgSrc:
+        'https://img.freepik.com/premium-photo/fashion-girl-hd-8k-wallpaper-stock-photographic-image_890746-21714.jpg?w=360',
+      title: 'Womens Collection',
+      description:
+        'Shoes designed specifically for women, offering both style and comfort for various occasions, from casual to formal.',
+      price: 'Rs 7,999',
+      review: '4.5 stars',
+      productURL: '/products/womenscollection',
+    },
+    {
+      imgSrc:
         'https://img.freepik.com/free-psd/laptop-mock-up-isolated_1310-1463.jpg?w=900&t=st=1694587030~exp=1694587630~hmac=54024a72309f8029a1da45a49c3eb7c2d52a7d7bf2897a9b18a28ac6127f2cc2',
       title: 'Laptop',
       description:
@@ -134,16 +171,6 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
       price: 'Rs 11,000',
       review: '4.4 stars',
       productURL: '/products/gaming-console',
-    },
-    {
-      imgSrc:
-        'https://img.freepik.com/free-vector/realistic-fitness-trackers-concept_23-2148515109.jpg?w=740&t=st=1692955853~exp=1692956453~hmac=52da194dd5e3e4ba12bce30633de441dfebeff66115ed0fdc331829778b1ad5c',
-      title: 'Fitness Tracker',
-      description:
-        'Stay active and monitor your health with our fitness tracker. Track your steps, heart rate, sleep patterns, and more. Set fitness goals and embark on a journey to a healthier lifestyle with the help of this wearable device.',
-      price: 'Rs 1,500',
-      review: '4.5 stars',
-      productURL: '/products/fitness-tracker',
     },
   ];
 

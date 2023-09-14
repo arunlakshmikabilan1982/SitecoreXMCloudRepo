@@ -1,13 +1,13 @@
 ﻿---
-ID: "69ad2c10-d39e-4379-9f2a-1cb230d0b96e"
+ID: "4f209268-e072-4633-8bbe-b236206ee1fd"
 Parent: "c224b392-99d2-4db8-9689-e01859d0be3d"
 Template: "010163da-00a6-4599-a7c9-9ca4c79e562d"
-Path: /sitecore/content/CNX Websites/Base Site/Home/Products List/Lapi
+Path: /sitecore/content/CNX Websites/CNX Site/Home/Mall Pages/Shop/Products List/MensTshirt
 SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{9D99FD81-99B4-415F-8115-57E00240FE73}" />
+    <image mediaid="{1D63F044-272A-4EB1-A9E9-CE8EB78118B8}" />
 Languages:
 - Language: en
   Versions:
@@ -21,38 +21,38 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{CF91AD06-48E2-4DA6-81E4-7D55124979D3}"
-              s:ds="{D04C8CB3-2972-4862-AD72-278AFF2FB068}"
-              s:id="{79699352-B418-45D3-BB65-17975D92392D}"
-              s:par="GridParameters&amp;FieldNames=%7B5E5D8D75-B462-4F0F-B07F-BF19F9070E77%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              uid="{E8450BCD-7665-4F19-A883-1B00ADB6BC76}"
+              s:ds=""
+              s:id="{6DCADDE2-FFF2-47B8-92F2-5BF83FF17D43}"
+              s:par="GridParameters&amp;FieldNames=%7BD4D40DAA-4C11-401D-9DA5-43B0D061D402%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
               s:ph="headless-main"
               s:ccb="Clear on publish" />
           </d>
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230908T043615Z
+      Value: 20230914T112123Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Lapi
+      Value: MensTshirt
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\kundankumar.puri@concentrix.com
     - ID: "595f52d5-223b-4143-afa6-73415b86f877"
       Hint: Title
-      Value: Lapi
+      Value: MensTshirt
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\kundankumar.puri@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e57217cf-9dd1-4d4b-b048-fb41afb353e8"
+      Value: "fbf47e89-711e-4429-9e74-f5ad983bc856"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\kundankumar.puri@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230908T043948Z
+      Value: 20230914T112150Z

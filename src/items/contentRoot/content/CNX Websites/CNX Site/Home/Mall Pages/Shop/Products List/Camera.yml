@@ -2,12 +2,12 @@
 ID: "e73d95f8-67c8-44d9-9ef2-32d9e236da69"
 Parent: "c224b392-99d2-4db8-9689-e01859d0be3d"
 Template: "010163da-00a6-4599-a7c9-9ca4c79e562d"
-Path: /sitecore/content/CNX Websites/Base Site/Home/Products List/Camera
+Path: /sitecore/content/CNX Websites/CNX Site/Home/Mall Pages/Shop/Products List/Camera
 SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{FECABA3D-2AB1-4054-9434-AAC847D4F02A}" />
+    <image mediaid="{8C55B5F7-3F0C-4397-87EE-F5772123CD25}" />
 Languages:
 - Language: en
   Versions:
@@ -48,11 +48,11 @@ Languages:
         sitecore\kundankumar.puri@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b9fae6cc-6874-4147-aadc-c54015bd776f"
+      Value: "5b63d218-83a7-4a07-8f97-f229e4b18ac0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\kundankumar.puri@concentrix.com
+        sitecore\Anonymous
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230824T054207Z
+      Value: 20230831T162213Z
