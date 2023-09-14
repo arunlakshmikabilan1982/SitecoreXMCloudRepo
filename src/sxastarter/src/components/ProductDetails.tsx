@@ -124,6 +124,55 @@ export const Default = (props: ComponentProps): JSX.Element => {
   return <ProductDetailsContainer {...props} />;
 };
 
+export const MensTshirt = (props: ComponentProps): JSX.Element => {
+  if (props.rendering) {
+    return (
+      <div className="menstshirt-product-details-wrapper">
+        <ProductDetailsContainer
+          {...props}
+          params={{
+            ...props.params,
+            ProductImage:
+              'https://img.freepik.com/free-photo/t-shirt_1203-8004.jpg?w=900&t=st=1694687660~exp=1694688260~hmac=1f6a74275282c34e331b51ce0dc4c463e6e8d3307de2fae059c79e2bdc6a660e',
+            ProductTitle: 'Title : Pair of Three for Mens',
+            ProductDescription: 'Description : Essential Mens T-Shirts: Comfortable and Stylish',
+            ProductPrice: 'Price : ₹1,299',
+            ProductReview: 'Rating : 4.5',
+            ProductSpecification:
+              'Specification : Mens T-Shirts pair of three: Stretchable Comfortable and Stylish',
+          }}
+        />
+      </div>
+    );
+  }
+
+  return <ProductDetailsContainer {...props} />;
+};
+export const WomensCollection = (props: ComponentProps): JSX.Element => {
+  if (props.rendering) {
+    return (
+      <div className="womenscollection-product-details-wrapper">
+        <ProductDetailsContainer
+          {...props}
+          params={{
+            ...props.params,
+            ProductImage:
+              'https://img.freepik.com/premium-photo/fashion-girl-hd-8k-wallpaper-stock-photographic-image_890746-21714.jpg?w=360',
+            ProductTitle: 'Title : Traditional Kurti',
+            ProductDescription: 'Description : The Perfect Fit for Every Occasion.',
+            ProductPrice: 'Price : ₹2,499',
+            ProductReview: 'Rating : 4.5',
+            ProductSpecification:
+              'Specification : Traditional Kurti for every occasion. Very soft and comfortable.',
+          }}
+        />
+      </div>
+    );
+  }
+
+  return <ProductDetailsContainer {...props} />;
+};
+
 export const LaptopProductDetailsPage = (props: ComponentProps): JSX.Element => {
   if (props.rendering) {
     return (
