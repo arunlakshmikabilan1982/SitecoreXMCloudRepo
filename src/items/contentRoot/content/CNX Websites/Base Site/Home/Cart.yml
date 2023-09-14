@@ -1,0 +1,58 @@
+﻿---
+ID: "094772de-3aa4-405b-8af7-27d97c852ef8"
+Parent: "a90da1ec-e382-410f-a464-3889766c440c"
+Template: "010163da-00a6-4599-a7c9-9ca4c79e562d"
+Path: /sitecore/content/CNX Websites/Base Site/Home/Cart
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{8A20FA38-90D6-4647-91E3-E30D7FD8A498}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{405CC31F-8422-4E6A-BAB0-047B0BEC1F0A}"
+          s:ds=""
+          s:id="{3556F085-DF48-4D85-BF95-ED025BB29522}"
+          s:par="CSSStyles"
+          s:ph="headless-main"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230912T124523Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Cart
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\prasanth.gajulapalli@concentrix.com
+    - ID: "595f52d5-223b-4143-afa6-73415b86f877"
+      Hint: Title
+      Value: Cart
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\prasanth.gajulapalli@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "927fda18-b31a-4e86-a2d1-49767f0af142"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230913T110721Z

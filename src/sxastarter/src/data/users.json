@@ -6,7 +6,8 @@
         "password": "test",
         "firstName": "Test",
         "lastName": "User",
-        "gender":"male"
+        "gender": "male",
+        "phone": "+918500948935"
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "password": "test1",
         "firstName": "Test",
         "lastName": "User1",
-        "gender":"female"
+        "gender": "female",
+        "phone": "+917401473180"
     },
     {
         "id": 3,
@@ -24,6 +26,7 @@
         "password": "test2",
         "firstName": "Test",
         "lastName": "User2",
-        "gender":"male"
+        "gender": "male",
+        "phone": "+919940234290"
     }
 ]

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Default = (): JSX.Element => (
   <div className="component-content">
-    <span className="is-empty-hint">Order Confirmed</span>
+    <h1>Order has been succesful placed</h1>
     <Link href="/">Continue Shopping</Link>
   </div>
 );
