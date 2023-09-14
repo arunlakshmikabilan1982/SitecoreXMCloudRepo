@@ -28,11 +28,11 @@ export const Default = (): JSX.Element => {
 
   const products: Array<CartItem> = [
     {
-      id: 'Laptop Model XYZ',
+      id: 'Mens Tshirt',
       image:
-        'https://images.pexels.com/photos/6446709/pexels-photo-6446709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      name: 'Laptop Model XYZ',
-      price: 101888,
+        'https://img.freepik.com/free-photo/t-shirt_1203-8004.jpg?w=900&t=st=1694687660~exp=1694688260~hmac=1f6a74275282c34e331b51ce0dc4c463e6e8d3307de2fae059c79e2bdc6a660e',
+      name: 'Mens Tshirt',
+      price: 1299,
       quantity: 1,
     },
   ];
@@ -79,7 +79,7 @@ export const Default = (): JSX.Element => {
       console.log('Confirm Cart Event triggered');
     };
     createConfirmCartEvent();
-    const url = '/Mall-Pages/ORDER';
+    const url = '/Order';
     router.push(url);
   };
   return (
