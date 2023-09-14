@@ -67,6 +67,16 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
     },
     {
       imgSrc:
+        'https://img.freepik.com/premium-photo/fashion-girl-hd-8k-wallpaper-stock-photographic-image_890746-21714.jpg?w=360',
+      title: 'Womens Collection',
+      description:
+        'Shoes designed specifically for women, offering both style and comfort for various occasions, from casual to formal.',
+      price: 'Rs 7,999',
+      review: '4.5 stars',
+      productURL: '/mall-pages/shop/products-list/womenscollection',
+    },
+    {
+      imgSrc:
         'https://img.freepik.com/premium-photo/autumn-style-clothes-white-background-top-view_185193-63529.jpg?w=900',
       title: 'Womens wear',
       description: 'The Perfect Fit for Every Occasion.',
@@ -82,16 +92,6 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
       price: 'Rs 10,999',
       review: '4.5 stars',
       productURL: '/mall-pages/shop/products-list/mens-suit',
-    },
-    {
-      imgSrc:
-        'https://img.freepik.com/premium-photo/fashion-girl-hd-8k-wallpaper-stock-photographic-image_890746-21714.jpg?w=360',
-      title: 'Womens Collection',
-      description:
-        'Shoes designed specifically for women, offering both style and comfort for various occasions, from casual to formal.',
-      price: 'Rs 7,999',
-      review: '4.5 stars',
-      productURL: '/mall-pages/shop/products-list/womescollection',
     },
     {
       imgSrc:
