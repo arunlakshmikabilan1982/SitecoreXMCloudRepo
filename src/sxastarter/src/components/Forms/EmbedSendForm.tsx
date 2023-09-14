@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Field, Text, useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import {
-  isEditingOrPreviewingPage,
   LayoutServicePageState,
+  isEditingOrPreviewingPage,
 } from '../../helpers/LayoutServiceHelper';
+import { loadMoosendScript } from 'src/utils/moosend-loader';
 
 type EmbedSendFormProps = ComponentProps & {
   fields: {
@@ -15,6 +16,44 @@ type EmbedSendFormProps = ComponentProps & {
 const EmbedSendForm = (props: EmbedSendFormProps): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
   const sxaStyles = `${props.params?.styles || ''}`;
+  const [formRendered, setFormRendered] = useState(false);
+
+  useEffect(() => {
+    // Define the rendering function
+    const renderForm = () => {
+      if (!formRendered) {
+        const formDiv = document.getElementById(`moosend-form-${props.fields.sendFormId.value}`);
+
+        if (formDiv) {
+          formDiv.innerHTML = '';
+
+          // Create and configure the form element
+          const form = document.createElement('form');
+          form.action = 'your-form-action-url'; // Set the form action URL
+          form.method = 'post'; // Set the form method (post or get)
+
+          // Add form fields and other elements here as needed
+
+          // Append the form to the div
+          formDiv.appendChild(form);
+
+          console.log('Form rendered successfully.');
+          setFormRendered(true);
+        } else {
+          console.error('Form div not found.');
+        }
+      }
+    };
+
+    // Load the Moosend script and then render the form
+    loadMoosendScript(props.fields.sendFormId.value)
+      .then(() => {
+        renderForm();
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  }, [formRendered, props.fields.sendFormId.value]);
 
   // Safely access pageState and provide a default value of undefined if it's not defined
   const pageState: LayoutServicePageState | undefined = sitecoreContext.pageState;
@@ -57,7 +96,10 @@ const EmbedSendForm = (props: EmbedSendFormProps): JSX.Element => {
 
   return (
     <section className="section">
-      <div data-mooform-id={props.fields.sendFormId.value} />
+      <div
+        data-mooform-id={props.fields.sendFormId.value}
+        id={`moosend-form-${props.fields.sendFormId.value}`}
+      />
     </section>
   );
 };
