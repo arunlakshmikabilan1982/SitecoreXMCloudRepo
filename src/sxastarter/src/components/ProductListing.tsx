@@ -58,13 +58,50 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
   const products: Product[] = [
     {
       imgSrc:
+        'https://img.freepik.com/free-photo/t-shirt_1203-8004.jpg?w=900&t=st=1694687660~exp=1694688260~hmac=1f6a74275282c34e331b51ce0dc4c463e6e8d3307de2fae059c79e2bdc6a660e',
+      title: 'Mens Tshirt',
+      description: 'Essential Mens T-Shirts: Comfortable and Stylish',
+      price: 'Rs 1,299',
+      review: '4.5 stars',
+      productURL: '/mall-pages/shop/products-list/menstshirt',
+    },
+    {
+      imgSrc:
+        'https://img.freepik.com/premium-photo/fashion-girl-hd-8k-wallpaper-stock-photographic-image_890746-21714.jpg?w=360',
+      title: 'Womens Collection',
+      description:
+        'Shoes designed specifically for women, offering both style and comfort for various occasions, from casual to formal.',
+      price: 'Rs 7,999',
+      review: '4.5 stars',
+      productURL: '/mall-pages/shop/products-list/womenscollection',
+    },
+    {
+      imgSrc:
+        'https://img.freepik.com/premium-photo/autumn-style-clothes-white-background-top-view_185193-63529.jpg?w=900',
+      title: 'Womens wear',
+      description: 'The Perfect Fit for Every Occasion.',
+      price: 'Rs 2,499',
+      review: '4.5 stars',
+      productURL: '/mall-pages/shop/products-list/womenswear',
+    },
+    {
+      imgSrc:
+        'https://img.freepik.com/premium-photo/cheerful-young-businessman-suit-looking-camera-ai-generative_649024-11972.jpg?w=360',
+      title: 'Mens Suit',
+      description: 'Comfortable and stylish choice.',
+      price: 'Rs 10,999',
+      review: '4.5 stars',
+      productURL: '/mall-pages/shop/products-list/mens-suit',
+    },
+    {
+      imgSrc:
         'https://img.freepik.com/free-psd/laptop-mock-up-isolated_1310-1463.jpg?w=900&t=st=1694587030~exp=1694587630~hmac=54024a72309f8029a1da45a49c3eb7c2d52a7d7bf2897a9b18a28ac6127f2cc2',
       title: 'Laptop',
       description:
         'Experience the power of productivity with our high-performance laptop. Whether you need it for work or play, this laptop has you covered. With cutting-edge features and sleek design, it is the perfect companion for your digital lifestyle.',
       price: 'Rs 1,01,888',
       review: '4.5 stars',
-      productURL: '/products-list/laptop',
+      productURL: '/mall-pages/shop/products-list/laptop',
     },
     {
       imgSrc:
@@ -74,7 +111,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
         'Stay connected on the go with our latest mobile phone. Packed with innovative features and powerful performance, this phone lets you do more than ever before. Capture memories, stay productive, and enjoy endless possibilities.',
       price: 'Rs 56,246',
       review: '4.7 stars',
-      productURL: '/products-list/mobile',
+      productURL: '/mall-pages/shop/products-list/mobile',
     },
     {
       imgSrc:
@@ -84,7 +121,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
         "Capture life's moments with precision using our advanced digital camera. From stunning landscapes to candid portraits, this camera empowers you to unleash your creativity. Explore a new world of photography.",
       price: 'Rs 30,000',
       review: '4.6 stars',
-      productURL: '/products-list/camera',
+      productURL: '/mall-pages/shop/products-list/camera',
     },
     {
       imgSrc:
@@ -94,7 +131,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
         'Elevate your entertainment experience with our smart TV. Immerse yourself in stunning visuals and crystal-clear sound. Access a world of streaming content, apps, and more. The future of television is here.',
       price: 'Rs 42,000',
       review: '4.2 stars',
-      productURL: '/products/smart-tv',
+      productURL: '/mall-pages/shop/products-list/smart-tv',
     },
     {
       imgSrc:
@@ -104,7 +141,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
         'Experience the convenience of a smart watch that complements your lifestyle. Monitor your health, receive notifications, and stay connected without missing a beat. With sleek design and advanced features, it is the perfect wearable companion.',
       price: 'Rs 5,000',
       review: '4.0 stars',
-      productURL: '/products/smart-watch',
+      productURL: '/mall-pages/shop/products-list/smart-watch',
     },
     {
       imgSrc:
@@ -114,7 +151,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
         'Immerse yourself in your favorite music with our wireless headphones. Enjoy premium sound quality and noise cancellation technology. Whether you are working, traveling, or relaxing, these headphones deliver an exceptional audio experience.',
       price: 'Rs 2,400',
       review: '4.8 stars',
-      productURL: '/products/wireless-headphones',
+      productURL: '/mall-pages/shop/products-list/wireless-headphones',
     },
     {
       imgSrc:
@@ -124,7 +161,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
         "Carry your world in the palm of your hand with our versatile tablet. From work to entertainment, this tablet does it all. With a high-resolution display and long battery life, it's perfect for productivity and play on the go.",
       price: 'Rs 60,000',
       review: '4.3 stars',
-      productURL: '/products/tablet',
+      productURL: '/mall-pages/shop/products-list/tablet',
     },
     {
       imgSrc: 'https://img.freepik.com/premium-psd/gaming-console-mockup_47987-2870.jpg?w=826',
@@ -133,17 +170,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
         "Dive into the world of gaming with our gaming console. Experience realistic graphics, immersive gameplay, and a vast library of games. Whether you're a casual player or a hardcore gamer, this console delivers endless fun.",
       price: 'Rs 11,000',
       review: '4.4 stars',
-      productURL: '/products/gaming-console',
-    },
-    {
-      imgSrc:
-        'https://img.freepik.com/free-vector/realistic-fitness-trackers-concept_23-2148515109.jpg?w=740&t=st=1692955853~exp=1692956453~hmac=52da194dd5e3e4ba12bce30633de441dfebeff66115ed0fdc331829778b1ad5c',
-      title: 'Fitness Tracker',
-      description:
-        'Stay active and monitor your health with our fitness tracker. Track your steps, heart rate, sleep patterns, and more. Set fitness goals and embark on a journey to a healthier lifestyle with the help of this wearable device.',
-      price: 'Rs 1,500',
-      review: '4.5 stars',
-      productURL: '/products/fitness-tracker',
+      productURL: '/mall-pages/shop/products-list/gaming-console',
     },
   ];
 
