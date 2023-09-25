@@ -1,4 +1,4 @@
-import React, { FormEvent } from 'react';
+import React, { FormEvent, useEffect } from 'react';
 import {
   ComponentParams,
   ComponentRendering,
@@ -47,36 +47,6 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
 
   const router = useRouter();
 
-  /*const CreateOrUpdateUser= async(form_values:any)=>{
-    const user = users.find(
-      (u: { email: string | undefined }) =>
-        u.email === form_values.email);
-    if(user)
-    {
-      user.firstName = form_values.firstName;
-      user.lastName = form_values.lastName;
-      user.gender = form_values.gender;
-      user.passwd = form_values.password;
-      user.title = form_values.title;
-      user.mobileNo = form_values.mobilenumber;
-      user.dob = form_values.dateofbirth;
-      user.email = form_values.email;
-    }
-    else{
-      user.id = users.length ? Math.max(...users.map((x: { id: any; }) => x.id)) + 1 : 1;
-      user.firstName = form_values.firstName;
-      user.lastName = form_values.lastName;
-      user.gender = form_values.gender;
-      user.passwd = form_values.password;
-      user.title = form_values.title;
-      user.mobileNo = form_values.mobilenumber;
-      user.dob = form_values.dateofbirth;
-      user.email = form_values.email;
-      users.push(user);
-    }
-    fs.writeFileSync('data/users.json', JSON.stringify(users, null, 4));
-  }*/
-
   const createIdentity = async (user: any) => {
     const pointOfSale = PosResolver.resolve(siteInfo, language);
     const engage = await init({
@@ -100,7 +70,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
       firstName: user?.firstName,
       lastName: user?.lastName,
       gender: user?.gender,
-      phone: user?.mobilenumber,
+      phone: user?.mobileNumber,
       title: user?.title,
       identifiers: [
         {
@@ -111,28 +81,43 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
     });
     console.log('Identity event triggered in signup page');
   };
-  const onSubmit = async (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const formData = new FormData(e.currentTarget);
-    console.log('form:' + JSON.stringify(formData));
-    const form_values = Object.fromEntries(formData);
-    console.log('form:' + JSON.stringify(form_values));
+
+  const loginUser = async (user:any) =>{
     const result = await signIn('credentials', {
-      email: 'testuser@gmail.com',
-      password: 'test',
+      email: user.email,
+      password: user.password,
       redirect: false,
       callbackUrl: '/Mall-Pages',
     });
     if (result?.ok) {
       const session = await getSession();
       console.log('Identity event loading');
-      const user = session?.user;
-      if (user) {
-        createIdentity(form_values);
+      const sessionUser = session?.user;
+      if (sessionUser) {
+        createIdentity(sessionUser);
         const url = result.url ? result?.url : '/Mall-Pages';
         router.push(url);
       }
     }
+  };
+
+  const createOrUpdateUser = async (user : any) =>{
+    const response = await fetch('/api/create', {
+      method: 'POST',
+      body: JSON.stringify(user)
+    });
+    if(response.ok)
+    {
+      loginUser(user);
+    }
+  };
+
+  const onSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const form_values = Object.fromEntries(formData);
+    console.log('form:' + JSON.stringify(form_values));
+    await createOrUpdateUser(form_values);
   };
 
   return (

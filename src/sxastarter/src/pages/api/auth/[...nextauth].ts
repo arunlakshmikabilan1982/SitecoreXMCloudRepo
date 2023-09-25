@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 import NextAuth from 'next-auth';
 import CredentialsProvider from 'next-auth/providers/credentials';
-const users = require('data/users.json');
+//const users = require('data/users.json');
 
 export default NextAuth({
   providers: [
@@ -12,11 +12,22 @@ export default NextAuth({
         password: { label: 'Password', type: 'password' },
       },
       async authorize(credentials) {
-        const user = users.find(
+        /*const user = users.find(
           (u: { email: string | undefined; password: string | undefined }) =>
             u.email === credentials?.email && u.password === credentials?.password
-        );
-
+        );*/
+        
+        const res = await fetch('/api/check', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            email: credentials?.email,
+            password: credentials?.password,
+          }),
+        }); 
+        const user = await res.json();
         if (user) {
           return user;
         } else {
