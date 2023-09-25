@@ -1,0 +1,40 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlserver"
+  url      = env("DATABASE_URL")
+}
+
+/// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by Prisma Client.
+model CustomerEnquiry {
+  FirstName          String  @db.VarChar(50)
+  LastName           String? @db.VarChar(50)
+  Email              String  @db.VarChar(50)
+  EnquirySubject     String  @db.VarChar(50)
+  EnquiryDescription String  @db.VarChar(Max)
+
+  @@ignore
+}
+
+model LoginDetails {
+  UserId      Int         @id(map: "PK__LoginDet__1788CC4C8B3260E4")
+  Username    String      @db.VarChar(100)
+  Password    String      @db.VarChar(50)
+  UserDetails UserDetails @relation(fields: [UserId], references: [UserId], onUpdate: NoAction, map: "FK__LoginDeta__UserI__76969D2E")
+}
+
+model UserDetails {
+  UserId       Int           @id(map: "PK__UserDeta__1788CC4C4C60C617") @default(autoincrement())
+  Title        String        @db.VarChar(5)
+  FirstName    String        @db.VarChar(255)
+  LastName     String        @db.VarChar(255)
+  Gender       String        @db.VarChar(10)
+  Email        String        @unique(map: "UQ__UserDeta__A9D105344A206566") @db.VarChar(50)
+  Dob          DateTime      @db.Date
+  MobileNumber String        @unique(map: "UQ__UserDeta__250375B13EBE4FE2") @db.VarChar(15)
+  CreatedAt    DateTime      @default(now(), map: "DF__UserDetai__Creat__73BA3083") @db.DateTime
+  UpdatedAt    DateTime?     @db.DateTime
+  LoginDetails LoginDetails?
+}
