@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useSitecoreContext, SiteInfo, PosResolver } from '@sitecore-jss/sitecore-jss-nextjs';
 import config from 'temp/config';
 import { init } from '@sitecore/engage';
@@ -184,6 +184,44 @@ export const Default = (props: FAQListProps): JSX.Element => {
   } = useSitecoreContext();
   const language = route?.itemLanguage || config.defaultLanguage;
   const siteInfo = siteResolver.getByName(site?.name || config.jssAppName);
+  const experienceTriggerMethod = (site: SiteInfo, language: string) => {
+    console.log('AddtoEvent loading');
+    const createAddtoCart = async () => {
+      const pointOfSale = PosResolver.resolve(site, language);
+      const engage = await init({
+        clientKey: process.env.NEXT_PUBLIC_CDP_CLIENT_KEY || '',
+        targetURL: process.env.NEXT_PUBLIC_CDP_TARGET_URL || '',
+        // Replace with the top level cookie domain of the website that is being integrated e.g ".example.com" and not "www.example.com"
+        cookieDomain: window.location.host.replace(/^www\./, ''),
+        // Cookie may be created in personalize middleware (server), but if not we should create it here
+        forceServerCookieMode: false,
+        webPersonalization: true,
+        pointOfSale: pointOfSale,
+      });
+      const personalization = {
+        channel: 'WEB',
+        currency: 'USD',
+        pointOfSale: pointOfSale,
+        friendlyId: 'interactiveexperience',
+        params: { 'abandonedCart.isabandoned': true },
+      };
+      const response: any = await engage.personalize(personalization, 4000);
+      console.log('response', response);
+      if (response != null && response.offers != null) {
+        const resultData = response.offers[0].attributes.OfferAmount + ' Discount';
+        const imageurl = response.offers[0].attributes.imageUrl;
+        console.log('resultData', resultData);
+        setOffers(resultData);
+        setImageurl(imageurl);
+      }
+
+      console.log('Add TO Cart event triggered');
+    };
+    createAddtoCart();
+  };
+  const [offers, setOffers] = useState<string>('');
+  const [imageurl, setImageurl] = useState<string>('');
+
   return (
     //<div  id={id ? id : undefined}>
     <div className="component-content">
@@ -193,6 +231,9 @@ export const Default = (props: FAQListProps): JSX.Element => {
       <button onClick={() => IdentityEvent(siteInfo, language)}>Identity</button>
       <button onClick={() => PaymentEvent(siteInfo, language)}>Payment</button>
       <button onClick={() => checkoutEvent(siteInfo, language)}>Checkout</button>
+      <button onClick={() => experienceTriggerMethod(siteInfo, language)}>Trigger Exprience</button>
+      <h1>{offers}</h1>
+      <img alt="" src={imageurl} />
     </div>
     //</div>
   );
