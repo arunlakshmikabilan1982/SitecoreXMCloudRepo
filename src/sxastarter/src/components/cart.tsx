@@ -63,7 +63,7 @@ export const Default = (): JSX.Element => {
         pointOfSale,
         page: window.location.host,
         language: config.defaultLanguage,
-        productItemIds: ['Laptop_90'],
+        products: [{ item_id: 'Laptop_90' }],
       });
 
       engage.event('CHECKOUT', {

@@ -76,6 +76,15 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
       ],
     });
     console.log('Identity event triggered in signup page');
+    const eventData = {
+      channel: 'WEB',
+      currency: 'USD',
+      pointOfSale,
+      language: 'EN',
+      page: 'home',
+    };
+    engage.event('GuestCreated', eventData);
+    console.log('GuestCreated event triggered');
   };
 
   const loginUser = async (user: any) => {
