@@ -1,7 +1,9 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 import NextAuth from 'next-auth';
 import CredentialsProvider from 'next-auth/providers/credentials';
-//const users = require('data/users.json');
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
 
 export default NextAuth({
   providers: [
@@ -12,22 +14,37 @@ export default NextAuth({
         password: { label: 'Password', type: 'password' },
       },
       async authorize(credentials) {
-        /*const user = users.find(
-          (u: { email: string | undefined; password: string | undefined }) =>
-            u.email === credentials?.email && u.password === credentials?.password
-        );*/
-        
-        const res = await fetch('/api/check', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json'
+        const userDetails = await prisma.loginDetails.findFirst({
+          where: {
+            AND: [
+              {
+                Username: {
+                  equals: credentials?.email,
+                },
+              },
+              {
+                Password: {
+                  equals: credentials?.password,
+                },
+              },
+            ],
           },
-          body: JSON.stringify({
-            email: credentials?.email,
-            password: credentials?.password,
-          }),
-        }); 
-        const user = await res.json();
+          include: {
+            UserDetails: true,
+          },
+        });
+        const user = JSON.parse(
+          JSON.stringify({
+            id: userDetails?.UserDetails?.UserId?.toString(),
+            email: userDetails?.UserDetails?.Email,
+            firstName: userDetails?.UserDetails?.FirstName,
+            lastName: userDetails?.UserDetails?.LastName,
+            gender: userDetails?.UserDetails?.Gender,
+            title: userDetails?.UserDetails?.Title,
+            mobileNumber: userDetails?.UserDetails?.MobileNumber,
+            dob: userDetails?.UserDetails?.Dob?.toString(),
+          })
+        );
         if (user) {
           return user;
         } else {
