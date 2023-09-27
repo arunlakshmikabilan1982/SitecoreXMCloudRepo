@@ -1,4 +1,4 @@
-import React, { FormEvent, useEffect } from 'react';
+import React, { FormEvent } from 'react';
 import {
   ComponentParams,
   ComponentRendering,
@@ -11,13 +11,10 @@ import config from 'temp/config';
 import { siteResolver } from 'lib/site-resolver';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-/*const fs = require('fs').promises*/
 
 const BACKGROUND_REG_EXP = new RegExp(
   /[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}/gi
 );
-
-/*let users = require('data/users.json');*/
 
 interface ComponentProps {
   rendering: ComponentRendering & { params: ComponentParams };
@@ -59,7 +56,6 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
       webPersonalization: true,
       pointOfSale: pointOfSale,
     });
-    console.log('createIdentity:signup:' + JSON.stringify(user));
     engage.identity({
       channel: 'web',
       currency: 'USD',
@@ -91,7 +87,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
     console.log('GuestCreated event triggered');
   };
 
-  const loginUser = async (user:any) =>{
+  const loginUser = async (user: any) => {
     const result = await signIn('credentials', {
       email: user.email,
       password: user.password,
@@ -110,13 +106,16 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
     }
   };
 
-  const createOrUpdateUser = async (user : any) =>{
-    const response = await fetch('/api/create', {
+  const createOrUpdateUser = async (user: any) => {
+    const res = await fetch('/api/user/create', {
       method: 'POST',
-      body: JSON.stringify(user)
+      body: JSON.stringify(user),
+      headers: {
+        'content-Type': 'application/json',
+      },
     });
-    if(response.ok)
-    {
+    const response = await res.json();
+    if (response == 'success') {
       loginUser(user);
     }
   };
@@ -126,7 +125,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
     const formData = new FormData(e.currentTarget);
     const form_values = Object.fromEntries(formData);
     console.log('form:' + JSON.stringify(form_values));
-    await createOrUpdateUser(form_values);
+    createOrUpdateUser(form_values);
   };
 
   return (
