@@ -10,7 +10,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
   try {
     const user = JSON.parse(req.body);
-    console.log("enquiry.ts:" + JSON.stringify(user));
+    console.log('enquiry.ts:' + JSON.stringify(user));
 
     // Ensure that the 'ArrivalDate' key exists in the user object
     if (!user.ArrivalDate) {
@@ -31,11 +31,11 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       },
     });
 
-    console.log("enquiry.ts: Enquiry created:", createUser);
+    console.log('enquiry.ts: Enquiry created:', createUser);
 
-    res.status(200).json("success");
+    res.status(200).json('success');
   } catch (err) {
-    console.error("enquiry.ts: Error creating enquiry:", err);
+    console.error('enquiry.ts: Error creating enquiry:', err);
     res.status(400).json({ message: 'Something went wrong' });
   }
 };

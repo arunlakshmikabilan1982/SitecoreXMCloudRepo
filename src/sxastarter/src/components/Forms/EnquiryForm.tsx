@@ -10,12 +10,7 @@ import { init } from '@sitecore/engage';
 import config from 'temp/config';
 import { siteResolver } from 'lib/site-resolver';
 import { useRouter } from 'next/navigation';
-import Link from 'next/link';
-import handler from 'src/pages/api/healthz';
-import { handleClientScriptLoad } from 'next/script';
-import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-import moment from 'moment';
 
 const BACKGROUND_REG_EXP = new RegExp(
   /[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}/gi
@@ -135,7 +130,15 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
     const departureDate = formData.get('DepartureDate') as string;
 
     // Check if required fields are filled
-    if (!firstName || !lastName || !email || !roomType || !numberOfGuest || !arrivalDate || !departureDate) {
+    if (
+      !firstName ||
+      !lastName ||
+      !email ||
+      !roomType ||
+      !numberOfGuest ||
+      !arrivalDate ||
+      !departureDate
+    ) {
       alert('Please fill in all required fields.');
       return;
     }
