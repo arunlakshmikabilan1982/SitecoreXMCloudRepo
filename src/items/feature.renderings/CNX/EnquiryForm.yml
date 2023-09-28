@@ -1,0 +1,38 @@
+﻿---
+ID: "6730c6a0-80e7-4b4a-9b65-e626e6728da1"
+Parent: "bd3fd661-5008-4f06-a51c-495adcaf4092"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: /sitecore/layout/Renderings/Feature/CNX/EnquiryForm
+SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: EnquiryForm
+- ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
+  Hint: Parameters Template
+  Value: "{9443C6DD-B8D5-4C51-B9E8-45C20DE59383}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230801T093346Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9206fa60-634c-4cc9-93b6-9d32d285e083"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\manish.yadav7@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230926T091759Z
