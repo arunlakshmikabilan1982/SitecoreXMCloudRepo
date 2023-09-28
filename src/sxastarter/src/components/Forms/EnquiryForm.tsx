@@ -10,7 +10,6 @@ import { init } from '@sitecore/engage';
 import config from 'temp/config';
 import { siteResolver } from 'lib/site-resolver';
 import { useRouter } from 'next/navigation';
-import 'react-datepicker/dist/react-datepicker.css';
 
 const BACKGROUND_REG_EXP = new RegExp(
   /[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}/gi
