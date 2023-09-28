@@ -12,33 +12,33 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   try {
     const { email, password } = req.body;
     const userDetails = await prisma.loginDetails.findFirst({
-            where: {
-              AND: [
-                {
-                  Username: {
-                    equals: email,
-                  },
-                },
-                {
-                  Password: {
-                    equals: password,
-                  },
-                },
-              ],
+      where: {
+        AND: [
+          {
+            Username: {
+              equals: email,
             },
-            include: {
-              UserDetails:true
-            }
+          },
+          {
+            Password: {
+              equals: password,
+            },
+          },
+        ],
+      },
+      include: {
+        UserDetails: true,
+      },
     });
     res.status(200).json({
-      id : userDetails?.UserDetails.UserId,
-      email : userDetails?.UserDetails.Email,
-      firstName : userDetails?.UserDetails.FirstName,
-      lastName : userDetails?.UserDetails.LastName,
-      gender : userDetails?.UserDetails.Gender,
-      title : userDetails?.UserDetails.Title,
-      mobileNumber : userDetails?.UserDetails.MobileNumber,
-      dob : userDetails?.UserDetails.Dob,
+      id: userDetails?.UserDetails.UserId,
+      email: userDetails?.UserDetails.Email,
+      firstName: userDetails?.UserDetails.FirstName,
+      lastName: userDetails?.UserDetails.LastName,
+      gender: userDetails?.UserDetails.Gender,
+      title: userDetails?.UserDetails.Title,
+      mobileNumber: userDetails?.UserDetails.MobileNumber,
+      dob: userDetails?.UserDetails.Dob,
     });
   } catch (err) {
     res.status(400).json({ message: 'Something went wrong' });

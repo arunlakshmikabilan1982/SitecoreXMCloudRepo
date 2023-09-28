@@ -91,7 +91,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
     console.log('GuestCreated event triggered');
   };
 
-  const loginUser = async (user:any) =>{
+  const loginUser = async (user: any) => {
     const result = await signIn('credentials', {
       email: user.email,
       password: user.password,
@@ -110,13 +110,12 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
     }
   };
 
-  const createOrUpdateUser = async (user : any) =>{
+  const createOrUpdateUser = async (user: any) => {
     const response = await fetch('/api/create', {
       method: 'POST',
-      body: JSON.stringify(user)
+      body: JSON.stringify(user),
     });
-    if(response.ok)
-    {
+    if (response.ok) {
       loginUser(user);
     }
   };

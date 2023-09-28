@@ -16,17 +16,17 @@ export default NextAuth({
           (u: { email: string | undefined; password: string | undefined }) =>
             u.email === credentials?.email && u.password === credentials?.password
         );*/
-        
+
         const res = await fetch('/api/check', {
           method: 'POST',
           headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
           },
           body: JSON.stringify({
             email: credentials?.email,
             password: credentials?.password,
           }),
-        }); 
+        });
         const user = await res.json();
         if (user) {
           return user;
