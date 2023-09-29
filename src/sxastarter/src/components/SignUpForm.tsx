@@ -107,15 +107,11 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
   };
 
   const createOrUpdateUser = async (user: any) => {
-    const res = await fetch('/api/user/create', {
+    const response = await fetch('/api/create', {
       method: 'POST',
       body: JSON.stringify(user),
-      headers: {
-        'content-Type': 'application/json',
-      },
     });
-    const response = await res.json();
-    if (response == 'success') {
+    if (response.ok) {
       loginUser(user);
     }
   };

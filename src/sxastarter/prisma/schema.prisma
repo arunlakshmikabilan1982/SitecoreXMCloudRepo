@@ -9,11 +9,7 @@ datasource db {
 
 /// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by Prisma Client.
 model CustomerEnquiry {
-  FirstName          String  @db.VarChar(50)
-  LastName           String? @db.VarChar(50)
-  Email              String  @db.VarChar(50)
-  EnquirySubject     String  @db.VarChar(50)
-  EnquiryDescription String  @db.VarChar(Max)
+  CustomerEnquiryID Int @id(map: "PK__Customer__8D4F8F10C7391710") @unique(map: "UQ__Customer__8D4F8F112B12568E") @default(autoincrement())
 
   @@ignore
 }
@@ -37,4 +33,17 @@ model UserDetails {
   CreatedAt    DateTime      @default(now(), map: "DF__UserDetai__Creat__73BA3083") @db.DateTime
   UpdatedAt    DateTime?     @db.DateTime
   LoginDetails LoginDetails?
+}
+
+model Enquiry {
+  EnquiryID      Int       @id(map: "PK__Enquiry__0A019B9D81509497") @default(autoincrement())
+  FirstName      String    @db.VarChar(50)
+  LastName       String?   @db.VarChar(50)
+  Email          String?   @db.VarChar(255)
+  NumberOfGuest  String?   @db.VarChar(2)
+  RoomType       String?   @db.VarChar(50)
+  FreePickup     String?   @db.VarChar(50)
+  ArrivalDate    DateTime? @db.Date
+  DepartureDate  DateTime? @db.Date
+  SpecialRequest String?   @db.VarChar(255)
 }
