@@ -193,7 +193,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
                   </label>
                   <select
                     id="roomType"
-                    name="roomType"
+                    name="enquiryType"
                     className="form-control"
                     aria-describedby="roomType"
                     required // Required field
