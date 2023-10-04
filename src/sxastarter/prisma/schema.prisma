@@ -47,3 +47,13 @@ model Enquiry {
   DepartureDate  DateTime? @db.Date
   SpecialRequest String?   @db.VarChar(255)
 }
+
+model MallEnquiry {
+  EnquiryID      Int      @id(map: "PK__MallEnqu__0A019B9DA734489A") @default(autoincrement())
+  FirstName      String   @db.VarChar(50)
+  LastName       String?  @db.VarChar(50)
+  Email          String?  @db.VarChar(255)
+  EnquiryType    String?  @db.VarChar(255)
+  EnquiryDetails String?  @db.VarChar(255)
+  CreatedAt      DateTime @db.DateTime
+}

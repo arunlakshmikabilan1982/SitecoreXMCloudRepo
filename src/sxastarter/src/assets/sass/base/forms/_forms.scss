@@ -10,6 +10,14 @@
         font-size: 1.6rem;
         padding: 1.2rem;
     }
+    .custom-height {
+        height: 100px;
+    }
+    .custom-textarea {
+        white-space: normal;
+        resize: both;
+        height: 100px;
+    }
     .btn {
         font-size: 1.6rem;
         padding: 0.6rem 1rem;
