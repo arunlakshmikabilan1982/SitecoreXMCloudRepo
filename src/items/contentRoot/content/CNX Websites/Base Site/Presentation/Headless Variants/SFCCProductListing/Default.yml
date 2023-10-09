@@ -1,0 +1,23 @@
+﻿---
+ID: "b6db4dd8-4fd0-4fa7-9c3b-9c59648186aa"
+Parent: "1089169e-13dd-494f-ba9d-9fca0287e9e1"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/CNX Websites/Base Site/Presentation/Headless Variants/SFCCProductListing/Default
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231004T125306Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "69b0312d-f3a5-401a-820b-632185f5004d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231004T125306Z
