@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 import { useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
 import ProductCard from './ProductCard';
+import { getSession } from 'next-auth/react';
 // import getProducts from 'src/pages/api/salesforcecommercecloud/sfcc';
 
 type ComponentProps = {
@@ -9,13 +10,25 @@ type ComponentProps = {
 };
 
 export const Default = (props: ComponentProps): JSX.Element => {
+  
   const getSearchProducts = async () => {
+    const session = await getSession();
+    const sessionUser = session?.user as any;
+    const gender = sessionUser?.gender;
+    let searchword = "";
+    if(gender === "Male" || gender === "male")
+    {
+      searchword = "mens";
+    }
+    else{
+      searchword = "womens";
+    }
     const res = await fetch('/api/salesforcecommercecloud/getsearchproducts', {
       method: 'POST',
       headers: {
         'content-Type': 'application/json',
       },
-      body: JSON.stringify('womens'),
+      body: JSON.stringify(searchword),
     });
     const response = await res.json();
     return { response };

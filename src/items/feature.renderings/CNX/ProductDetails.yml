@@ -9,7 +9,7 @@ SharedFields:
   Value: ProductDetails
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
-  Value: "{F3C9A2BB-2460-4833-9B31-3857C262DFDC}"
+  Value: "{25BF9635-4BBA-4D3C-8F73-9DC50B65FBF5}"
 Languages:
 - Language: en
   Versions:
@@ -28,11 +28,11 @@ Languages:
         sitecore\kundankumar.puri@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "15a3c43d-608f-4367-8660-9a4ead6c8369"
+      Value: "788e4afa-9db7-4e65-ad4a-57d652180ffb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\kundankumar.puri@concentrix.com
+        sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230824T080933Z
+      Value: 20231011T053413Z

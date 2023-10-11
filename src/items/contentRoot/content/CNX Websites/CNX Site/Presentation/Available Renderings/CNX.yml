@@ -21,7 +21,60 @@ SharedFields:
     {4E4CE0C0-BF28-480C-AD9E-99C96BE7DAD6}
     {A1E0EDF1-8DC3-47F0-9F7B-8F1209D0E8FB}
     {ECEAEBF8-5C8F-4200-99DD-1C1D9FFBD72B}
+    {BB4DEACB-AAF0-4A8B-9E1E-4A64E1EFE95F}
+    {827FA0E2-EDA3-46AE-96CD-A900E46A4F9D}
 Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230718T051036Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "82000323-2fc5-4400-b049-9867ebacf46a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230914T064518Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230718T051036Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d492e1ad-8092-4d44-b3c3-fb5b93c18a83"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230914T073336Z
 - Language: en
   Versions:
   - Version: 1
@@ -39,11 +92,11 @@ Languages:
         sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "900fc36a-6243-44b2-b981-8b612277abd9"
+      Value: "f77b48c1-20a7-4ef1-822a-deae9199b5a9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\mageshwari.muralidoss@concentrix.com
+        sitecore\O6y3bocRU4
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230904T061046Z
+      Value: 20230914T070827Z

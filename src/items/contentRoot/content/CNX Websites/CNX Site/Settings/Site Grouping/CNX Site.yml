@@ -22,7 +22,7 @@ SharedFields:
   Value: 1
 - ID: "9eaf6dc9-b811-4cda-9edd-9697faba628a"
   Hint: POS
-  Value: 
+  Value: en=CNXSitePOS
 - ID: "b59e43ab-84da-49f3-87a1-d2fcf648365b"
   Hint: Scheme
   Value: 
@@ -53,11 +53,11 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1e3bdf11-5fc4-435e-9585-764f79289857"
+      Value: "d5633fca-2107-48ec-b82b-82d754084ae0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230731T124807Z
+      Value: 20230828T113132Z

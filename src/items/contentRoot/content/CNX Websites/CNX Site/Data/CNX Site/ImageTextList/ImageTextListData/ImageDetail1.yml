@@ -4,6 +4,71 @@ Parent: "8e499cb3-3bb0-4101-8c0d-ea93845c1493"
 Template: "4e92ccd0-1272-4b4a-b727-ca3054c38cf1"
 Path: /sitecore/content/CNX Websites/CNX Site/Data/CNX Site/ImageTextList/ImageTextListData/ImageDetail1
 Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00f739ff-7082-4f3b-9074-5e4386f67840"
+      Hint: Image
+      Value: |
+        <image mediaid="{19E8B397-637D-4CA8-B656-15DD7F1B3CD0}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230717T095246Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b33b2234-1d0b-4066-abce-3b8f17f99d05"
+    - ID: "a1c8aa28-a598-4868-b865-a7240d163f72"
+      Hint: Title
+      Value: "Complimentary Wi-Fi"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230914T061340Z
+  - Version: 2
+    Fields:
+    - ID: "00f739ff-7082-4f3b-9074-5e4386f67840"
+      Hint: Image
+      Value: |
+        <image mediaid="{19E8B397-637D-4CA8-B656-15DD7F1B3CD0}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230717T095246Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "da3849c8-d6c6-487e-9426-5654cd1f09b5"
+    - ID: "a1c8aa28-a598-4868-b865-a7240d163f72"
+      Hint: Title
+      Value: خدمة الواي فاي المجانية
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230914T140517Z
 - Language: en
   Versions:
   - Version: 1

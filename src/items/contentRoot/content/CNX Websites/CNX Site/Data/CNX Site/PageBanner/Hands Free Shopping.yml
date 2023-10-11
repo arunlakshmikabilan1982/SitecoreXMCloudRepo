@@ -36,6 +36,105 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20230801T045004Z
+  - Version: 2
+    Fields:
+    - ID: "02b46569-fb85-4ee7-b6cd-35dda766c894"
+      Hint: Title
+      Value: "Hands-Free Shopping"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230801T044705Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "85067331-f68a-49d4-b5db-3c15fdbcd073"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="{9863E74D-9552-42C2-967B-478404062932}" alt="免提購物" height="" width="" hspace="" vspace="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c11f85c1-9c11-4422-9115-1a1c02e6e50f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230914T061330Z
+  - Version: 3
+    Fields:
+    - ID: "02b46569-fb85-4ee7-b6cd-35dda766c894"
+      Hint: Title
+      Value: "Hands-Free Shopping"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230801T044705Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "85067331-f68a-49d4-b5db-3c15fdbcd073"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="{9863E74D-9552-42C2-967B-478404062932}" alt="免提購物" height="" width="" hspace="" vspace="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4e2e4d1c-15e2-4551-9fe5-e1f3938eb625"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230914T073428Z
+  - Version: 4
+    Fields:
+    - ID: "02b46569-fb85-4ee7-b6cd-35dda766c894"
+      Hint: Title
+      Value: التسوق بدون استخدام اليدين
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230801T044705Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "85067331-f68a-49d4-b5db-3c15fdbcd073"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="{9863E74D-9552-42C2-967B-478404062932}" alt="免提購物" height="" width="" hspace="" vspace="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7f717768-5b5e-4025-a92c-3d07d8c4fb22"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230914T141530Z
 - Language: en
   Versions:
   - Version: 1

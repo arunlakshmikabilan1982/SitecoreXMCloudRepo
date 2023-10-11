@@ -7,7 +7,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{F0A773E9-FE08-46BE-B700-9CC8B21055B5}" />
+    <image mediaid="{A169DB44-97F7-45E4-BD72-AF558C9C194B}" />
 Languages:
 - Language: en
   Versions:
@@ -30,7 +30,7 @@ Languages:
             <r
               uid="{647F8BFB-4F75-4042-8A28-200CE338914F}"
               p:after="r[@uid='{5EE00473-857D-46DB-8B0C-B4724191FB44}']"
-              s:ds="{675F62BC-0DB8-4FB7-83F4-DA0969653BA1}"
+              s:ds="{8965867C-95B8-4113-9F21-A5274D9A3FF4}"
               s:id="{1900A3A8-0EC5-4BB3-AFE6-E94E26444540}"
               s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BDDCBFCB5-EB02-4878-8DB7-D25F9E4ABFA1%7D&amp;Styles=%7B4A2B459D-4793-40E3-BAA7-B1C4F8BB7FEC%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
               s:ph="headless-main"
@@ -72,11 +72,11 @@ Languages:
         sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0bee3ddc-f00d-4c23-ad32-dbda48cdaf7f"
+      Value: "f333feb2-1ad4-4b37-8b5c-020ec4b2a8f2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\manish.yadav7@concentrix.com
+        sitecore\HJmOiqSpvZ
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231003T084032Z
+      Value: 20231005T053954Z

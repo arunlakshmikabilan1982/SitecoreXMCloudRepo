@@ -4,6 +4,31 @@ Parent: "4be7abd1-3607-4cdd-b538-6a78dcbb907c"
 Template: "d885df8c-b2d6-4007-b34b-2bbafb527304"
 Path: /sitecore/content/CNX Websites/Mall Of Oman/Data/Images/Footer/Footer Logo
 Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230725T082809Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "696bc955-45cb-48c7-a8be-8d550d4795a4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230914T073058Z
 - Language: en
   Versions:
   - Version: 1
@@ -20,8 +45,7 @@ Languages:
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "57caf172-ce57-4e48-b3a1-46f8aea71c08"
       Hint: Image
-      Value: |
-        <image mediaid="{EB35E229-B18A-43A6-88EE-CD7CB03B3000}" />
+      Value: 
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -32,11 +56,11 @@ Languages:
         <link text="Home" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{F0F7C0D5-D5FD-4AAF-AEFA-437E65D7DBEB}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c73d5f7e-aa83-4adb-8c4e-bd3b5d70c947"
+      Value: "1fc427ee-f6a7-43fc-916d-4f961b60e597"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\mageshwari.muralidoss@concentrix.com
+        sitecore\nqfSPumMms
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230731T154808Z
+      Value: 20230914T123227Z

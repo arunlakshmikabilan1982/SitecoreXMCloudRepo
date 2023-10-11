@@ -4,6 +4,79 @@ Parent: "95aafc1f-c835-4742-b779-2220d1ff087d"
 Template: "700284fa-3e46-4661-869c-88375ff74644"
 Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/HoverCardImageList/HoverCardImage3
 Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230724T124553Z
+    - ID: "2f172595-49db-4924-a6e7-1edadf4262ea"
+      Hint: CardDescription
+      Value: دليل تناول الطعام
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\prasanth.gajulapalli@concentrix.com
+    - ID: "70348e3c-d5ba-42af-9c0e-7b033cfb99da"
+      Hint: CardImage
+      Value: |
+        <image mediaid="{C13A4246-C38B-40E5-BAED-25B0FD018072}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "049b12d4-a500-4357-b282-d85b42e8e540"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230913T212314Z
+    - ID: "dc4295a2-328b-4895-bdcb-4e9b085bb3f7"
+      Hint: CardLink
+      Value: |
+        <link linktype="external" url="https://www.mallofoman.net/en/contact-us" anchor="" target="_blank" />
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230724T124553Z
+    - ID: "2f172595-49db-4924-a6e7-1edadf4262ea"
+      Hint: CardDescription
+      Value: دليل تناول الطعام
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\prasanth.gajulapalli@concentrix.com
+    - ID: "70348e3c-d5ba-42af-9c0e-7b033cfb99da"
+      Hint: CardImage
+      Value: |
+        <image mediaid="{C13A4246-C38B-40E5-BAED-25B0FD018072}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2f0bef99-f566-41f6-942e-7aa83d112bc8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230913T213604Z
+    - ID: "dc4295a2-328b-4895-bdcb-4e9b085bb3f7"
+      Hint: CardLink
+      Value: |
+        <link linktype="external" url="https://www.mallofoman.net/en/contact-us" anchor="" target="_blank" />
 - Language: en
   Versions:
   - Version: 1

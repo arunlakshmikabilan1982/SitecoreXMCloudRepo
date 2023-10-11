@@ -4,6 +4,125 @@ Parent: "45ec39af-8c21-4f49-8b21-2819ada2e8eb"
 Template: "40f478dc-80e0-48ac-88d4-5637085d8523"
 Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/ImageTileList/ImageTextListItem
 Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230719T142956Z
+    - ID: "2cfd2f20-3b68-4b6e-a1cb-403096e79b18"
+      Hint: ImageList
+      Value: |
+        {006396BC-2E59-4D8D-9518-80E0FE39895C}
+        {219F1018-A7A3-44B8-8A06-EA1532D1D534}
+        {0A9CD813-DD88-4316-A79E-4716ACB1C186}
+        {E06B53C8-9A16-4B85-9CFA-7374C9D8D3B0}
+        {B679D5F0-8B97-467C-8C8E-D61513C748B9}
+        {83C32329-E32E-4A7D-9DE0-87AB43E31D57}
+        {ADF27E25-F3F8-4C09-AEE9-3AD9AAF1922E}
+        {438EF046-8F03-46EF-8008-7BFECB67E78E}
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manish.yadav7@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5f17c89e-03cf-47e8-9ad7-b1d909349fdc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "d65b748e-5420-46af-a3d9-5c0dc948eb5b"
+      Hint: Heading
+      Value: Shop By Category
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230913T101211Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230719T142956Z
+    - ID: "2cfd2f20-3b68-4b6e-a1cb-403096e79b18"
+      Hint: ImageList
+      Value: |
+        {006396BC-2E59-4D8D-9518-80E0FE39895C}
+        {219F1018-A7A3-44B8-8A06-EA1532D1D534}
+        {0A9CD813-DD88-4316-A79E-4716ACB1C186}
+        {E06B53C8-9A16-4B85-9CFA-7374C9D8D3B0}
+        {B679D5F0-8B97-467C-8C8E-D61513C748B9}
+        {83C32329-E32E-4A7D-9DE0-87AB43E31D57}
+        {ADF27E25-F3F8-4C09-AEE9-3AD9AAF1922E}
+        {438EF046-8F03-46EF-8008-7BFECB67E78E}
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manish.yadav7@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6342ea94-2761-42fe-958b-667d9f6835fb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d65b748e-5420-46af-a3d9-5c0dc948eb5b"
+      Hint: Heading
+      Value: تسوق حسب الاقسام
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230913T215338Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230719T142956Z
+    - ID: "2cfd2f20-3b68-4b6e-a1cb-403096e79b18"
+      Hint: ImageList
+      Value: |
+        {006396BC-2E59-4D8D-9518-80E0FE39895C}
+        {219F1018-A7A3-44B8-8A06-EA1532D1D534}
+        {0A9CD813-DD88-4316-A79E-4716ACB1C186}
+        {E06B53C8-9A16-4B85-9CFA-7374C9D8D3B0}
+        {B679D5F0-8B97-467C-8C8E-D61513C748B9}
+        {83C32329-E32E-4A7D-9DE0-87AB43E31D57}
+        {ADF27E25-F3F8-4C09-AEE9-3AD9AAF1922E}
+        {438EF046-8F03-46EF-8008-7BFECB67E78E}
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manish.yadav7@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0f6d3b10-cafb-455f-b4dd-08c971dbf253"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prasanth.gajulapalli@concentrix.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d65b748e-5420-46af-a3d9-5c0dc948eb5b"
+      Hint: Heading
+      Value: تسوق حسب الاقسام
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231010T134924Z
 - Language: en
   Versions:
   - Version: 1

@@ -84,15 +84,15 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
       email: emailId.current,
       password: passwd.current,
       redirect: false,
-      callbackUrl: 'https://cnxsite.localhost/Mall-Pages',
+      callbackUrl: '/Mall-Pages',
     });
     if (result?.ok) {
       const session = await getSession();
       console.log('Identity event loading');
       const user = session?.user;
       createIdentity(user);
-      // const url = result.url ? result?.url : '/Mall-Pages';
-      const url = 'https://cnxsite.localhost/Mall-Pages';
+      const url = result.url ? result?.url : '/Mall-Pages';
+      //const url = 'https://cnxsite.localhost/Mall-Pages';
       router.push(url);
     }
   };
