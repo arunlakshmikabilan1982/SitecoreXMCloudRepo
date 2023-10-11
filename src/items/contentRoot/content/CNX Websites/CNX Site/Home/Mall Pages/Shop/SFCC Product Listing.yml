@@ -1,13 +1,13 @@
 ﻿---
-ID: "cda79729-7b7c-4c68-b83f-43dac4820dff"
-Parent: "7b486e43-3275-4461-9799-f2a897cc404b"
+ID: "d6bd3c20-15d3-4fe0-b67d-e78ebf648922"
+Parent: "1c8063b1-6b39-4dff-8377-95ad3c5efc1e"
 Template: "010163da-00a6-4599-a7c9-9ca4c79e562d"
-Path: /sitecore/content/CNX Websites/CNX Site/Home/Wishlist
+Path: /sitecore/content/CNX Websites/CNX Site/Home/Mall Pages/Shop/SFCC Product Listing
 SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{D8D0CB66-19C0-4FA8-9924-FB12935D941F}" />
+    <image mediaid="{403B2BA6-E37F-4C62-86C1-F4EFD3A2424D}" />
 Languages:
 - Language: en
   Versions:
@@ -21,36 +21,36 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{E0512C7F-04D1-422B-8455-1817E3E59CEE}"
-              s:id="{97347FFC-1A1B-436C-A839-0971176F3FFA}"
+              uid="{CF3D6A68-74F1-476D-83C9-8F430E0BE2F1}"
+              s:id="{4AFB8A5A-643D-458C-B5F5-A2A9075DAB05}"
               s:par="GridParameters&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
               s:ph="headless-main" />
           </d>
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231010T052135Z
+      Value: 20231011T095741Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: Wishlist
+      Value: SFCC Product Listing
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "595f52d5-223b-4143-afa6-73415b86f877"
       Hint: Title
-      Value: Wishlist
+      Value: SFCC Product Listing
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a054f184-de6e-4299-ade8-d5b608a41b9c"
+      Value: "a6c92a02-0755-4bdc-bb8b-3194b0dd4cce"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231010T052243Z
+      Value: 20231011T095756Z

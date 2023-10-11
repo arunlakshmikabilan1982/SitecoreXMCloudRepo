@@ -4,10 +4,13 @@ Parent: "1c8063b1-6b39-4dff-8377-95ad3c5efc1e"
 Template: "010163da-00a6-4599-a7c9-9ca4c79e562d"
 Path: /sitecore/content/CNX Websites/CNX Site/Home/Mall Pages/Shop/Products List
 SharedFields:
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{EB64B47E-EE2A-4BF7-8D52-A6A0538F19B9}" />
+    <image mediaid="{41C21E1C-AFBB-4C50-BD67-AAD9B8F21638}" />
 Languages:
 - Language: "ar-AE"
   Versions:
@@ -95,11 +98,11 @@ Languages:
         sitecore\kundankumar.puri@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "64aa3bc5-c8cc-4327-b41e-5654b7ddc088"
+      Value: "7f1532a3-032c-4ce4-bb9b-b6f73b0e0628"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\O6y3bocRU4
+        sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230914T053504Z
+      Value: 20231011T095907Z

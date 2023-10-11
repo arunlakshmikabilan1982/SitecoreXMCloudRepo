@@ -55,14 +55,14 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link text="English" linktype="external" url="https://cnxsite.vercel.app/en/Mall-Pages" anchor="" title="English" target="" />
+        <link text="English" linktype="external" url="https://cnxsite.localhost/en/Mall-Pages" anchor="" title="English" target="" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ead538c4-e1e7-4c02-94ae-8bec79261a96"
+      Value: "846c35e4-6ae5-4f6e-901b-513c77811978"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230914T085150Z
+      Value: 20231011T111950Z

@@ -7,7 +7,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{C861327A-95B4-4415-BA75-A6788CF3D22F}" />
+    <image mediaid="{CEDA5A01-90E7-4D80-8934-DED016EC877D}" />
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -94,14 +94,14 @@ Languages:
         sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "73dde988-2516-4014-a242-707cfcb31a50"
+      Value: "bfd44a9e-692f-4180-af33-a834e6ed9408"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\nqfSPumMms
+        sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230914T092347Z
+      Value: 20231010T103619Z
 - Language: en
   Versions:
   - Version: 1
@@ -121,21 +121,19 @@ Languages:
               <p:d />
             </r>
             <r
-              uid="{9C86794D-6CFE-4E29-8635-F13F98D30AA6}"
+              uid="{ED28AFC9-D8F7-4EA4-9A2E-191E020C4DDD}"
               p:before="*"
               s:ds=""
               s:id="{827FA0E2-EDA3-46AE-96CD-A900E46A4F9D}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BD2E93EB5-0619-4130-B08C-0A726C229BA5%7D&amp;Styles&amp;CSSStyles"
-              s:ph="/headless-main/column-2-2"
-              s:ccb="Clear on publish" />
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BD2E93EB5-0619-4130-B08C-0A726C229BA5%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;CSSStyles"
+              s:ph="/headless-main/column-2-3" />
             <r
-              uid="{0B8DB131-BCA6-4D9F-BE1F-B40A1A7D54D8}"
-              p:after="r[@uid='{9C86794D-6CFE-4E29-8635-F13F98D30AA6}']"
+              uid="{39980CE0-B483-4BB5-B68B-B64156789E8F}"
+              p:after="r[@uid='{ED28AFC9-D8F7-4EA4-9A2E-191E020C4DDD}']"
               s:ds=""
               s:id="{15CABDFF-FFD9-48F4-826D-A4C3D7868D3A}"
-              s:par="ColumnWidth1=%7B824C8D0B-5538-4E25-BAF2-82CF5E7D94FF%7D&amp;ColumnWidth2=%7B824C8D0B-5538-4E25-BAF2-82CF5E7D94FF%7D&amp;ColumnWidth3=%7B824C8D0B-5538-4E25-BAF2-82CF5E7D94FF%7D&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;FieldNames&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles&amp;Styles8&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
-              s:ph="headless-main"
-              s:ccb="Clear on publish" />
+              s:par="ColumnWidth1=%7B0612B4CB-3657-4FB0-9632-EC1660039415%7D&amp;ColumnWidth2=%7BF2A11D85-8B09-40AC-B5D8-A9E1025F899D%7D&amp;ColumnWidth3=%7B0612B4CB-3657-4FB0-9632-EC1660039415%7D&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;FieldNames&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles&amp;Styles8&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+              s:ph="headless-main" />
             <r
               uid="{5EE00473-857D-46DB-8B0C-B4724191FB44}"
               p:after="*[1=2]"
@@ -177,11 +175,11 @@ Languages:
         sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f1d87566-975f-48f5-ae5d-cc5b77806952"
+      Value: "a37ba329-0fbc-4ede-aa28-f032eedd4ff0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\O6y3bocRU4
+        sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230914T071223Z
+      Value: 20231011T074000Z

@@ -83,6 +83,9 @@ Languages:
       Value: 20230914T073327Z
   - Version: 4
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230725T103612Z
@@ -94,19 +97,22 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: <a>قم بتحميل التطبيق</a>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9a12d3b0-ed16-4ab9-89f8-bb391aa66a6b"
+      Value: "917b7590-be08-430b-a71a-1657178aaa25"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\nqfSPumMms
+        sitecore\parvathi.somanahalli@concentrix.com
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230914T073432Z
+      Value: 20231011T114508Z
 - Language: en
   Versions:
   - Version: 1

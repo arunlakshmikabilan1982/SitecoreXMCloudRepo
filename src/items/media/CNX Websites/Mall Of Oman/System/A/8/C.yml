@@ -1,15 +1,8 @@
 ﻿---
-ID: "0083a493-ed8d-4250-9a7b-c9a57b35493c"
-Parent: "bd3fd661-5008-4f06-a51c-495adcaf4092"
-Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Feature/CNX/WishListAndCart
-SharedFields:
-- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
-  Hint: componentName
-  Value: WishListAndCart
-- ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
-  Hint: Parameters Template
-  Value: "{C851575C-15E4-4658-B1E0-4697FEE921FD}"
+ID: "fad6e42b-403b-4db0-9811-a0ffa7752868"
+Parent: "c1499b9c-9376-4851-83b0-effe90fc3434"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/CNX Websites/Mall Of Oman/System/A/8/C
 Languages:
 - Language: en
   Versions:
@@ -17,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231010T052034Z
+      Value: 20231011T114513Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -28,11 +21,11 @@ Languages:
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9a54e0b8-e795-4eab-ab6e-857906ecf940"
+      Value: "7ee51011-32d3-4f8a-92b5-2a63ed5fbb7a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231010T062549Z
+      Value: 20231011T114513Z

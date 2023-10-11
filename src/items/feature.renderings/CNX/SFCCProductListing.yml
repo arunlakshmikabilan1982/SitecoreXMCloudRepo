@@ -1,15 +1,15 @@
 ﻿---
-ID: "0083a493-ed8d-4250-9a7b-c9a57b35493c"
+ID: "4afb8a5a-643d-458c-b5f5-a2a9075dab05"
 Parent: "bd3fd661-5008-4f06-a51c-495adcaf4092"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Feature/CNX/WishListAndCart
+Path: /sitecore/layout/Renderings/Feature/CNX/SFCCProductListing
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: WishListAndCart
+  Value: SFCCProductListing
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
-  Value: "{C851575C-15E4-4658-B1E0-4697FEE921FD}"
+  Value: "{C2227B8C-C001-4CA5-A97F-61D7882EE716}"
 Languages:
 - Language: en
   Versions:
@@ -17,7 +17,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231010T052034Z
+      Value: 20231004T125058Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -28,11 +28,11 @@ Languages:
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9a54e0b8-e795-4eab-ab6e-857906ecf940"
+      Value: "f71e6a63-885a-49e3-b6e8-954742229602"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231010T062549Z
+      Value: 20231004T125140Z
