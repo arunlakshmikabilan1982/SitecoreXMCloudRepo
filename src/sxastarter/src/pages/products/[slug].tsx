@@ -30,9 +30,12 @@ export default function Product({ product }) {
             </p>
           </div>
           <div className="mt-10 mb-5 border-t border-gray-200 pt-10 font-bold">
-              
-            <p><button id="addtowishlist" onClick={()=>addToCart(product.variants[2].productId)} >Add to Cart</button></p>
-            </div>
+            <p>
+              <button id="addtowishlist" onClick={() => addToCart(product.variants[2].productId)}>
+                Add to Cart
+              </button>
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -53,8 +56,8 @@ const addToWishlist = async (productId: any) => {
   console.log('addToWishLIst:', response);
 };
 
-const addToCart = async (productId:any) =>{
-  console.log("productID:",productId);
+const addToCart = async (productId: any) => {
+  console.log('productID:', productId);
   const res = await fetch('/api/salesforcecommercecloud/addproducttocart', {
     method: 'POST',
     headers: {
@@ -62,9 +65,9 @@ const addToCart = async (productId:any) =>{
     },
     body: JSON.stringify(productId),
   });
-  console.log(JSON.stringify(productId))
+  console.log(JSON.stringify(productId));
   const response = await res.json();
-  console.log("addToWishLIst:",response);
+  console.log('addToWishLIst:', response);
 };
 
 export const getServerSideProps = async ({ params }) => {

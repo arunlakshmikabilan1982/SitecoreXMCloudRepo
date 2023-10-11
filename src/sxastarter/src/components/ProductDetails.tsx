@@ -38,6 +38,19 @@ const ProductDetailsContainer = (props: ComponentProps): JSX.Element => {
   const siteInfo = siteResolver.getByName(site?.name || config.jssAppName);
   const { data: session } = useSession();
   const router = useRouter();
+  const addToCart = async (productId: any) => {
+    console.log('productID:', productId);
+    const res = await fetch('/api/salesforcecommercecloud/addproducttocart', {
+      method: 'POST',
+      headers: {
+        'content-Type': 'application/json',
+      },
+      body: JSON.stringify(productId),
+    });
+    console.log(JSON.stringify(productId));
+    const response = await res.json();
+    console.log('addToWishLIst:', response);
+  };
   const addToCartEvent = (site: SiteInfo, language: string) => {
     console.log('AddtoEvent loading');
     async function createAddtoCart() {
@@ -57,22 +70,23 @@ const ProductDetailsContainer = (props: ComponentProps): JSX.Element => {
         page: window.location.host,
         language,
         product: {
-          type: 'Laptop',
-          item_id: 'Laptop_90',
-          name: 'Laptop',
-          orderedAt: '2023-09-23T16:17:16.000Z',
+          type: 'Clothing',
+          item_id: 'Floral_Cardigan',
+          name: 'Clothing',
+          orderedAt: '2023-10-15T16:17:16.000Z',
           quantity: 1,
-          price: '₹1,01,888',
-          productId: 'Laptop_34567',
-          currency: 'EUR',
-          originalPrice: 100.0,
-          originalCurrencyCode: 'EUR',
-          reference_id: 'Laptop_001',
+          price: '500',
+          productId: '701644052522M',
+          currency: 'DOLLAR',
+          originalPrice: 600.0,
+          originalCurrencyCode: 'DOLLAR',
+          reference_id: 'Floral_Cardigan_001',
         },
       });
 
       console.log('Add TO Cart event triggered');
     }
+    addToCart('701644052515M');
     createAddtoCart();
     const url = '/Cart';
     router.push(url);
@@ -157,13 +171,14 @@ export const WomensCollection = (props: ComponentProps): JSX.Element => {
           params={{
             ...props.params,
             ProductImage:
-              'https://img.freepik.com/premium-photo/fashion-girl-hd-8k-wallpaper-stock-photographic-image_890746-21714.jpg?w=360',
-            ProductTitle: 'Title : Traditional Kurti',
-            ProductDescription: 'Description : The Perfect Fit for Every Occasion.',
-            ProductPrice: 'Price : ₹2,499',
+              'https://zybl-005.dx.commercecloud.salesforce.com/on/demandware.static/-/Sites-apparel-m-catalog/default/dw42ea2eaa/images/large/PG.10235098.JJZ01XX.PZ.jpg',
+            ProductTitle: 'Floral Cardigan',
+            ProductDescription:
+              'Wear this over a classic shell with jeans for a perfect weekend look!',
+            ProductPrice: '109',
             ProductReview: 'Rating : 4.5',
             ProductSpecification:
-              'Specification : Traditional Kurti for every occasion. Very soft and comfortable.',
+              'Specification : Shirt for every occasion. Very soft and comfortable.',
           }}
         />
       </div>

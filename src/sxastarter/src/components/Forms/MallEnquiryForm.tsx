@@ -3,13 +3,13 @@ import {
   ComponentParams,
   ComponentRendering,
   useSitecoreContext,
-  PosResolver,
+  // PosResolver,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import { signIn, getSession } from 'next-auth/react';
-import { init } from '@sitecore/engage';
-import config from 'temp/config';
-import { siteResolver } from 'lib/site-resolver';
-import { useRouter } from 'next/navigation';
+// import { signIn, getSession } from 'next-auth/react';
+// import { init } from '@sitecore/engage';
+// import config from 'temp/config';
+// import { siteResolver } from 'lib/site-resolver';
+// import { useRouter } from 'next/navigation';
 
 const BACKGROUND_REG_EXP = new RegExp(
   /[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}/gi
@@ -22,10 +22,11 @@ interface ComponentProps {
 
 const DefaultContainer = (props: ComponentProps): JSX.Element => {
   const {
-    sitecoreContext: { pageState, route, site },
+    // sitecoreContext: { pageState, route, site },
+    sitecoreContext: { pageState },
   } = useSitecoreContext();
-  const language = route?.itemLanguage || config.defaultLanguage;
-  const siteInfo = siteResolver.getByName(site?.name || config.jssAppName);
+  // const language = route?.itemLanguage || config.defaultLanguage;
+  // const siteInfo = siteResolver.getByName(site?.name || config.jssAppName);
   const containerStyles = props.params && props.params.Styles ? props.params.Styles : '';
   const styles = `${props.params.GridParameters} ${containerStyles}`.trimEnd();
   const id = props.params.RenderingIdentifier;
@@ -40,77 +41,77 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
     };
   }
 
-  const router = useRouter();
+  // const router = useRouter();
 
-  const createIdentity = async (user: any) => {
-    const pointOfSale = PosResolver.resolve(siteInfo, language);
-    const engage = await init({
-      clientKey: process.env.NEXT_PUBLIC_CDP_CLIENT_KEY || '',
-      targetURL: process.env.NEXT_PUBLIC_CDP_TARGET_URL || '',
-      cookieDomain: window.location.host.replace(/^www\./, ''),
-      forceServerCookieMode: false,
-      webPersonalization: true,
-      pointOfSale: pointOfSale,
-    });
-    console.log('createIdentity:signup:' + JSON.stringify(user));
-    engage.identity({
-      channel: 'web',
-      currency: 'USD',
-      pointOfSale,
-      page: window.location.host,
-      language,
-      email: user?.email ? user?.email : '',
-      firstName: user?.firstName,
-      lastName: user?.lastName,
-      gender: user?.gender,
-      phone: user?.mobileNumber,
-      title: user?.title,
-      identifiers: [
-        {
-          id: user?.email ? user?.email : '',
-          provider: 'email',
-        },
-      ],
-    });
-    console.log('Identity event triggered in signup page');
-    const eventData = {
-      channel: 'WEB',
-      currency: 'USD',
-      pointOfSale,
-      language: 'EN',
-      page: 'home',
-    };
-    engage.event('GuestCreated', eventData);
-    console.log('GuestCreated event triggered');
-  };
+  // const createIdentity = async (user: any) => {
+  //   const pointOfSale = PosResolver.resolve(siteInfo, language);
+  //   const engage = await init({
+  //     clientKey: process.env.NEXT_PUBLIC_CDP_CLIENT_KEY || '',
+  //     targetURL: process.env.NEXT_PUBLIC_CDP_TARGET_URL || '',
+  //     cookieDomain: window.location.host.replace(/^www\./, ''),
+  //     forceServerCookieMode: false,
+  //     webPersonalization: true,
+  //     pointOfSale: pointOfSale,
+  //   });
+  //   console.log('createIdentity:signup:' + JSON.stringify(user));
+  //   engage.identity({
+  //     channel: 'web',
+  //     currency: 'USD',
+  //     pointOfSale,
+  //     page: window.location.host,
+  //     language,
+  //     email: user?.email ? user?.email : '',
+  //     firstName: user?.firstName,
+  //     lastName: user?.lastName,
+  //     gender: user?.gender,
+  //     phone: user?.mobileNumber,
+  //     title: user?.title,
+  //     identifiers: [
+  //       {
+  //         id: user?.email ? user?.email : '',
+  //         provider: 'email',
+  //       },
+  //     ],
+  //   });
+  //   console.log('Identity event triggered in signup page');
+  //   const eventData = {
+  //     channel: 'WEB',
+  //     currency: 'USD',
+  //     pointOfSale,
+  //     language: 'EN',
+  //     page: 'home',
+  //   };
+  //   engage.event('GuestCreated', eventData);
+  //   console.log('GuestCreated event triggered');
+  // };
 
-  const loginUser = async (user: any) => {
-    const result = await signIn('credentials', {
-      email: user.email,
-      password: user.password,
-      redirect: false,
-      callbackUrl: '/Mall-Pages',
-    });
-    if (result?.ok) {
-      const session = await getSession();
-      console.log('Identity event loading');
-      const sessionUser = session?.user;
-      if (sessionUser) {
-        createIdentity(sessionUser);
-        const url = result.url ? result?.url : '/Mall-Pages';
-        router.push(url);
-      }
-    }
-  };
+  // const loginUser = async (user: any) => {
+  //   const result = await signIn('credentials', {
+  //     email: user.email,
+  //     password: user.password,
+  //     redirect: false,
+  //     callbackUrl: 'https://cnxsite.localhost/Mall-Pages',
+  //   });
+  // if (result?.ok) {
+  //   const session = await getSession();
+  //   console.log('Identity event loading');
+  //   const sessionUser = session?.user;
+  //   if (sessionUser) {
+  //     createIdentity(sessionUser);
+  //     const url = result.url ? result?.url : 'https://cnxsite.localhost/Mall-Pages';
+  //     router.push(url);
+  //   }
+  // }
+  // };
 
   const createOrUpdateUser = async (user: any) => {
-    const response = await fetch('/api/mallenquiry', {
+    await fetch('/api/mallenquiry', {
       method: 'POST',
       body: JSON.stringify(user),
     });
-    if (response.ok) {
-      loginUser(user);
-    }
+    // if (response.ok) {
+    //   loginUser(user);
+    // }
   };
 
   const [isFormSubmitted, setIsFormSubmitted] = useState(false); // State to track form submission

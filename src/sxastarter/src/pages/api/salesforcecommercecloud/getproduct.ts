@@ -1,5 +1,5 @@
-import { Customer, Product, Search } from 'commerce-sdk';
 import type { NextApiRequest, NextApiResponse } from 'next';
+import { Customer, Product } from 'commerce-sdk';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'POST') {
@@ -35,30 +35,21 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       ...clientConfig,
       headers: { authorization: `Bearer ${shopperToken.access_token}` },
     };
-    const searchQuery = JSON.parse(JSON.stringify(req.body));
-    const searchClient = new Search.ShopperSearch(configWithAuth);
-    const searchResults = await searchClient.productSearch({
-      parameters: { q: searchQuery },
-    });
-
-    const results: any = [];
-
+    let product: any = [];
+    const productId = JSON.parse(JSON.stringify(req.body));
     const productsClient = new Product.ShopperProducts(configWithAuth);
-    await Promise.all(
-      searchResults.hits.map(async (product) => {
-        const productResults = await productsClient.getProduct({
-          parameters: {
-            organizationId: clientConfig.parameters.organizationId,
-            siteId: clientConfig.parameters.siteId,
-            id: product.productId,
-          },
-        });
 
-        results.push(productResults);
-      })
-    );
-    if (results !== null) {
-      res.status(200).json(results);
+    product = await productsClient.getProduct({
+      parameters: {
+        organizationId: clientConfig.parameters.organizationId,
+        siteId: clientConfig.parameters.siteId,
+        id: productId,
+      },
+    });
+    if (product.id !== null && product !== null) {
+      res.status(200).json({
+        Product: product,
+      });
     } else {
       res.status(400).json('Having Issue');
     }
