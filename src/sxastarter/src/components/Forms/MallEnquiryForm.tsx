@@ -218,7 +218,6 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
                     id="EnquiryDetails"
                     aria-describedby="EnquiryDetails"
                     placeholder="EnquiryDetails"
-                    aria-rowcount={4}
                   />
                 </div>
               </div>

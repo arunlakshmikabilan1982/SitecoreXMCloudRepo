@@ -36,22 +36,15 @@ export default function WishlistCartProduct({ product }) {
   console.log('Wishlist Product', productItem);
   return (
     <div className="col-md-6 col-lg-4 col-xl-3">
-    <div id={product.id} className="wishlist-single-product">
-  
+      <div id={product.id} className="wishlist-single-product">
         <div className="part-2">
-        <img
-  src={productItem.imageLink}
-  width={250}
-  height={250}
-/>
-            <h3 className="product-title">{productItem.name}</h3>
-            <h4 className="product-price">{productItem.description}</h4>
-            <h4 className="product-price">${productItem.price}</h4>
-            
+          <img src={productItem.imageLink} width={250} height={250} />
+          <h3 className="product-title">{productItem.name}</h3>
+          <h4 className="product-price">{productItem.description}</h4>
+          <h4 className="product-price">${productItem.price}</h4>
         </div>
+      </div>
     </div>
-  
-</div>
   );
 }
 const getProduct = async (productId: any) => {

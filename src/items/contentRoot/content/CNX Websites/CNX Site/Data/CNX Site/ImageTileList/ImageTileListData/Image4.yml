@@ -76,21 +76,21 @@ Languages:
     - ID: "56eea0af-3232-42a7-a7ef-a0593614ff8b"
       Hint: TargetUrl
       Value: |
-        <link linktype="external" url="https://www.malloftheemirates.com/en/women" anchor="" target="" />
+        <link text="Womens Shopping" anchor="Womens Shopping" linktype="internal" class="" title="Womens Shopping" target="|Custom" querystring="" id="{851D9221-4913-403A-94A5-1DA20F48EEF1}" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\manish.yadav7@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a1fc001c-f11e-46bb-ade1-0b1823f79d11"
+      Value: "58ab1c7a-8e28-4579-9970-516e4fa151be"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230728T083521Z
+      Value: 20231016T053412Z
     - ID: "e53018d9-09a6-4104-9374-b02fcda4a010"
       Hint: ImageTitle
       Value: Women

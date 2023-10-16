@@ -27,7 +27,7 @@ export default function CartProducts({ product }) {
     };
 
     response();
-  }, []);
+  });
   console.log('Wishlist Product', productItem);
   return (
     <tr key={productItem.productId} className="border-b">

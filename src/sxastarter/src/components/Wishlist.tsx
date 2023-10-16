@@ -32,31 +32,30 @@ export const Default = (props: ComponentProps): JSX.Element => {
     );
   }
   return (
-     <div
-     className={`component sffcc-productlisting ${props.params.styles}`}
-     id={id ? id : undefined}
-   >
-     <div className="component-content">
-     <section className="section-products">
-<div className="container">
-<div className="row justify-content-center text-center">
-                       <div className="col-md-8 col-lg-6">
-                               <div className="header">
-               <h1>WISHLISTED PRODUCTS</h1>
-                               </div>
-                       </div>
-               </div>
-   <div className="row">
-   {wishlistitems &&
-            wishlistitems.map((product: any) => (
-              <WishlistCartProduct product={product.productId} key={product.id} />
-            ))}
-   </div>
-</div>
-</section>
-       
-     </div>
-   </div>
+    <div
+      className={`component sffcc-productlisting ${props.params.styles}`}
+      id={id ? id : undefined}
+    >
+      <div className="component-content">
+        <section className="section-products">
+          <div className="container">
+            <div className="row justify-content-center text-center">
+              <div className="col-md-8 col-lg-6">
+                <div className="header">
+                  <h1>WISHLISTED PRODUCTS</h1>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              {wishlistitems &&
+                wishlistitems.map((product: any) => (
+                  <WishlistCartProduct product={product.productId} key={product.id} />
+                ))}
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
   );
 };
 const getwishlistcartitems = async () => {

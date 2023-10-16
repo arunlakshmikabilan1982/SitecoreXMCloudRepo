@@ -3,12 +3,13 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { Heart, ShoppingCart } from 'react-feather';
 import { useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
-
+import { useSession } from 'next-auth/react';
 type ComponentProps = {
   params: { [key: string]: string };
 };
 
 export const Default = (props: ComponentProps): JSX.Element => {
+  const { data: session } = useSession();
   const [basket, setCartItems] = useState({ basketcount: 0, basketid: 0 });
   const [wishlist, setWishlistItems] = useState({ wishlistcount: 0, wishlistid: 0 });
   useEffect(() => {
@@ -54,7 +55,13 @@ export const Default = (props: ComponentProps): JSX.Element => {
             className="text-white"
           >
             <Heart />
-            <span className="block text-white">{wishlist.wishlistcount}</span>
+            {session?.user ? (
+              <>
+                <span className="block text-white">{wishlist.wishlistcount}</span>
+              </>
+            ) : (
+              <span className="block text-white">0</span>
+            )}
           </Link>
         </div>
         <div className="block text-white col-6">
@@ -63,7 +70,13 @@ export const Default = (props: ComponentProps): JSX.Element => {
             className="text-white"
           >
             <ShoppingCart />
-            <span className="block text-white">{basket.basketcount}</span>
+            {session?.user ? (
+              <>
+                <span className="block text-white">{basket.basketcount}</span>
+              </>
+            ) : (
+              <span className="block text-white">0</span>
+            )}
           </Link>
         </div>
       </div>
