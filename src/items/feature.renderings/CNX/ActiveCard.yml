@@ -19,6 +19,9 @@ SharedFields:
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
   Value: "query:$site/*[@@name='Data']/*[@@templatename='Folder']/*[@@name='ActiveCard']|query:$sharedSites/*[@@name='Data']/*[@@templatename='Folder']/*[@@name='ActiveCard']"
+- ID: "e441abe7-2ca3-4640-ae26-3789967925d7"
+  Hint: Compatible Renderings
+  Value: "{EA7DC2B6-66FA-465F-877C-76F0C5F36152}"
 Languages:
 - Language: en
   Versions:
@@ -37,11 +40,11 @@ Languages:
         sitecore\amruta.kulkarni@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e876da88-3acb-4d78-9907-f5b1d920bc59"
+      Value: "85a01348-03e1-4a02-9bb2-b92178256276"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230731T092907Z
+      Value: 20230823T082655Z

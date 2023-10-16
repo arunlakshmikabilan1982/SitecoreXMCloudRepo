@@ -92,6 +92,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
       const user = session?.user;
       createIdentity(user);
       const url = result.url ? result?.url : '/Mall-Pages';
+      //const url = 'https://cnxsite.localhost/Mall-Pages';
       router.push(url);
     }
   };

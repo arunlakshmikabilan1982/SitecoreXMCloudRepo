@@ -286,7 +286,6 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
                     id="specialRequest"
                     aria-describedby="specialRequest"
                     placeholder="Special Request"
-                    aria-rowcount={4}
                   />
                 </div>
               </div>

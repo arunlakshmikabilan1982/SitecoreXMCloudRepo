@@ -4,6 +4,104 @@ Parent: "033c0981-98d4-4a40-9d65-2626bbe3b76d"
 Template: "8971a4ab-a661-48ff-b6c4-2c39b01637a0"
 Path: /sitecore/content/CNX Websites/CNX Site/Data/CNX Site/ImageCarousalList/ImageCarousalListItem
 Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230724T081341Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8255ad85-cc14-4dd4-8b8c-99ab04b85cd8"
+    - ID: "b5ce3587-fd0b-45f8-814f-7d4098fb91b4"
+      Hint: ImageCarousalList
+      Value: |
+        {4B01050C-7FE0-48DA-B955-08DD5DCA5258}
+        {2F84CFFE-24FA-4709-ABE3-E8925B7BC623}
+        {8A617446-5101-4D21-9E2B-33263B533CFA}
+        {98E20E7A-1DBB-40C2-8843-903CDA37267B}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230914T061338Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230724T081341Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ad80e16d-bfff-463c-bc5d-6105c1e2f7db"
+    - ID: "b5ce3587-fd0b-45f8-814f-7d4098fb91b4"
+      Hint: ImageCarousalList
+      Value: |
+        {4B01050C-7FE0-48DA-B955-08DD5DCA5258}
+        {2F84CFFE-24FA-4709-ABE3-E8925B7BC623}
+        {8A617446-5101-4D21-9E2B-33263B533CFA}
+        {98E20E7A-1DBB-40C2-8843-903CDA37267B}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230914T073435Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230724T081341Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\amruta.kulkarni@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0773f9bf-ffa2-4021-aa40-08f4bb3f3a0f"
+    - ID: "b5ce3587-fd0b-45f8-814f-7d4098fb91b4"
+      Hint: ImageCarousalList
+      Value: |
+        {4B01050C-7FE0-48DA-B955-08DD5DCA5258}
+        {2F84CFFE-24FA-4709-ABE3-E8925B7BC623}
+        {8A617446-5101-4D21-9E2B-33263B533CFA}
+        {98E20E7A-1DBB-40C2-8843-903CDA37267B}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230914T092349Z
 - Language: en
   Versions:
   - Version: 1

@@ -4,6 +4,63 @@ Parent: "5f14ad96-39a6-458f-9c1b-48da73ba7772"
 Template: "48c7045f-07cc-497e-a52c-ed17d3adb718"
 Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/EmbedSendForm/EmbedSendForm
 Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230907T094734Z
+    - ID: "2f7e70f5-d902-4562-9f50-3149cb020d64"
+      Hint: sendFormId
+      Value: "e09e4fc5-bccc-460a-a392-1f5253702b86"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manish.yadav7@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2aed8051-eb8a-419e-b49d-f35e2d12038b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230913T212634Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230907T094734Z
+    - ID: "2f7e70f5-d902-4562-9f50-3149cb020d64"
+      Hint: sendFormId
+      Value: "912a3ebc-1a00-4b6a-a8e1-10542970fabc"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manish.yadav7@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7d1ff044-18f9-4d65-9115-5b725bf371e6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230914T092350Z
 - Language: en
   Versions:
   - Version: 1
@@ -13,7 +70,7 @@ Languages:
       Value: 20230907T094734Z
     - ID: "2f7e70f5-d902-4562-9f50-3149cb020d64"
       Hint: sendFormId
-      Value: "dd6cc6b6-a0b3-4179-854a-21937ca082cb"
+      Value: "912a3ebc-1a00-4b6a-a8e1-10542970fabc"
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -24,11 +81,11 @@ Languages:
         sitecore\manish.yadav7@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "043eb411-15dc-4485-8111-e339321374ea"
+      Value: "4e86a0d8-b3df-4414-b5e0-6189c6b561bf"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\manish.yadav7@concentrix.com
+        sitecore\HJmOiqSpvZ
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230911T062432Z
+      Value: 20230914T074448Z

@@ -115,19 +115,19 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
               <div className="col-2 my-3 row">
                 <ul>
                   <li>
-                    <Link href="/Mall-Pages/Shop/Products-List">T-Shirt</Link>
+                    <Link href="/Mall-Pages/Shop/SFCC-Product-Listing">T-Shirt</Link>
                   </li>
                   <li>
-                    <Link href="/Mall-Pages/Shop/Products-List">Womens Wear</Link>
+                    <Link href="/Mall-Pages/Shop/SFCC-Product-Listing">Womens Wear</Link>
                   </li>
                   <li>
-                    <Link href="/Mall-Pages/Shop/Products-List">Mens Wear</Link>
+                    <Link href="/Mall-Pages/Shop/SFCC-Product-Listing">Mens Wear</Link>
                   </li>
                   <li>
-                    <Link href="/Mall-Pages/Shop/Products-List">Smart Watch</Link>
+                    <Link href="/Mall-Pages/Shop/SFCC-Product-Listing">Smart Watch</Link>
                   </li>
                   <li>
-                    <Link href="/Mall-Pages/Shop/Products-List">Hearphones</Link>
+                    <Link href="/Mall-Pages/Shop/SFCC-Product-Listing">Hearphones</Link>
                   </li>
                 </ul>
               </div>

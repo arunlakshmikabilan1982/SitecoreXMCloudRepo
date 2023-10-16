@@ -18,7 +18,9 @@ const nextConfig = {
   env: {
     PUBLIC_URL: publicUrl,
   },
-
+  images: {
+    domains: ['zybl-005.dx.commercecloud.salesforce.com'],
+  },
   i18n: {
     // These are all the locales you want to support in your application.
     // These should generally match (or at least be a subset of) those in Sitecore.
@@ -39,6 +41,11 @@ const nextConfig = {
         source: '/sitecore/api/:path*',
         destination: `${jssConfig.sitecoreApiHost}/sitecore/api/:path*`,
       },
+      //  // products paths
+      //  {
+      //   source: '/sitecore/products/:path*',
+      //   destination: `${jssConfig.sitecoreApiHost}/sitecore/products/:path*`,
+      // },
       // media items
       {
         source: '/-/:path*',
@@ -65,8 +72,17 @@ const nextConfig = {
     ];
   },
 };
-
 module.exports = () => {
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+        config.node = {
+            net: 'empty'
+        };
+    }
+
+    return config;
+}
   // Run the base config through any configured plugins
   return Object.values(plugins).reduce((acc, plugin) => plugin(acc), nextConfig);
+
 }

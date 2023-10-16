@@ -4,6 +4,60 @@ Parent: "6e6a3c8b-6438-43d8-a94c-4acaf1fe6c88"
 Template: "c3b4bd18-9a07-457b-92d4-040cdada15a9"
 Path: /sitecore/content/CNX Websites/CNX Site/Data/CNX Site/ImageTileList/ImageTileListData/Image5
 Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230719T141140Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manish.yadav7@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6501dd90-6df7-4f4e-ba7b-230f195e1275"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230914T061347Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230719T141140Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manish.yadav7@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b37d8cde-705d-4926-b123-a0dad8d0430e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230914T141428Z
+    - ID: "e53018d9-09a6-4104-9374-b02fcda4a010"
+      Hint: ImageTitle
+      Value: رجال
 - Language: en
   Versions:
   - Version: 1
@@ -22,21 +76,21 @@ Languages:
     - ID: "56eea0af-3232-42a7-a7ef-a0593614ff8b"
       Hint: TargetUrl
       Value: |
-        <link linktype="external" url="https://www.malloftheemirates.com/en/men" anchor="" target="" />
+        <link text="Mens Shopping" anchor="Mens Shopping" linktype="internal" class="" title="Mens Shopping" target="|Custom" querystring="" id="{D6BD3C20-15D3-4FE0-B67D-E78EBF648922}" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\manish.yadav7@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "02c31032-0898-468d-9c97-cb5bdb85e5c7"
+      Value: "47f22600-c0b8-4a7a-ae0b-c9f5bb9898fe"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230728T083521Z
+      Value: 20231016T053447Z
     - ID: "e53018d9-09a6-4104-9374-b02fcda4a010"
       Hint: ImageTitle
       Value: Men

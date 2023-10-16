@@ -4,6 +4,41 @@ Parent: "687b291e-33ec-4187-b682-7b042be655ef"
 Template: "71f0e21f-61f3-49d4-ba97-01871fe3f48e"
 Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/ImageCarousalList/ImageListCaousalData/Valet
 Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00f739ff-7082-4f3b-9074-5e4386f67840"
+      Hint: Image
+      Value: |
+        <image mediaid="{D3B040E9-D022-4FE3-8F68-BE18F0E97FD3}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230727T081622Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\O6y3bocRU4
+    - ID: "70290898-2524-448c-a2f2-29e0b2b592bd"
+      Hint: Description
+      Value: اصنع ذكريات لا تنسى في الثلج. التقِ بطيور البطريق لدينا، وانزلق على حلبة التزلج على الجليد والكثبان الرملية المتجمدة، أو استمتع بالجولات المثيرة في أكبر حديقة ثلجية في المنطقة.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "164d90c5-2043-47a8-88e1-c28f4426e80c"
+    - ID: "a1c8aa28-a598-4868-b865-a7240d163f72"
+      Hint: Title
+      Value: الرجل الثلجي
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230913T214416Z
 - Language: en
   Versions:
   - Version: 1

@@ -85,7 +85,40 @@ Languages:
               s:par="Styles=%7B72840DAE-0192-45FF-B297-C0DEEB9DC4CC%7D&amp;FieldNames=%7B50C8D063-CC8D-43FD-A938-67B964C798BA%7D&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B3DC91543-36F8-452A-BACD-F98B0C21BCF9%7D%7C%7B6F83979B-4C3F-4EEC-8C64-F8DA29D83961%7D%7C%7B959FDFBB-4691-4A17-816F-7A5330B8216A%7D%7C%7B271DE3B1-089F-4977-95EC-B5E51446FC01%7D%7C%7B1B189E02-FFC9-4ADC-84E5-D2AB5F6EC0FB%7D%7C%7B175CB6DA-CF89-4D56-888C-EB79F514D12F%7D%7C%7B94BCE55D-68FC-4020-A364-176EF1AAAFFB%7D%7C%7BF4BC7C4C-175F-4EA4-A6D9-EFCD92507276%7D%7C%7B7DF615F7-0A53-42E1-A164-2B36D6126314%7D%7C%7B1FEC5EDD-5489-43F1-8C19-A092206E130D%7D%7C%7BB706790E-8CB2-4A93-B341-6E7171734B61%7D" />
             <r
               uid="{AA1DA26F-F998-46C3-8E8C-EC5FB42D48D0}"
-              s:par="DynamicPlaceholderId=2&amp;FieldNames=%7BF5675071-78C3-498D-8A1C-90788D7788A2%7D&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D" />
+              s:par="DynamicPlaceholderId=2&amp;FieldNames=%7BF5675071-78C3-498D-8A1C-90788D7788A2%7D&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D"
+              s:pt="personalizationTest"
+              s:uid="{AA1DA26F-F998-46C3-8E8C-EC5FB42D48D0}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{A1B0DC0D-9508-43B7-BA0E-E4D72D32CF3E}"
+                    s:name="fbf6edc412104313a9a53d9aedd2c120">
+                    <conditions>
+                      <condition
+                        uid="8DC971889527420A8AAE1B736F1E6E4D"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="fbf6edc412104313a9a53d9aedd2c120" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{EAE1A041-8461-4F0A-AC50-D06A2CB53F44}"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="00eabb7e-d992-4c52-82c8-cbecae1accad" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="20918E20E5A34C58B590E6438A7A6203"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r
               uid="{D4EC40E2-5B54-410C-B79F-88AA49D64C2C}"
               s:par="DynamicPlaceholderId=1&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D" />
@@ -93,8 +126,39 @@ Languages:
               uid="{78505784-D544-4423-B18F-4C5E7D5E8862}"
               p:after="r[@uid='{D4EC40E2-5B54-410C-B79F-88AA49D64C2C}']"
               s:id="{CAA0C742-F052-49FB-825B-A03494798DB7}"
+              s:pt="personalizationTest"
               s:par="ComponentName=Gift%20Card&amp;ComponentConfiguration&amp;LibraryId=26MAXx0TD44CQoHma6fhIn&amp;ComponentId=9ZeWCeEqqN&amp;ComponentVersion=responsive&amp;ComponentRevision=staged&amp;ComponentHostName=https%3A%2F%2Ffeaas.blob.core.windows.net&amp;ComponentInstanceId=xAlJjzHxloDOUHM&amp;ComponentDataOverride&amp;ComponentHTMLOverride&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
-              s:ph="headless-main" />
+              s:ph="headless-main">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{D006D6B0-A094-4D7B-A376-960D9771250B}"
+                    s:name="fbf6edc412104313a9a53d9aedd2c120">
+                    <conditions>
+                      <condition
+                        uid="F735AD7BC9564ABDBDF93DA6709AD706"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="fbf6edc412104313a9a53d9aedd2c120" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{56AC28C8-8A7C-44AD-AED9-B95BA1F14C93}"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="E51A0ABDF6C94B9A9649E7F8C95CDCDF"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r
               uid="{256194F2-69A1-4F86-B9CC-722D40574059}"
               s:par="Styles=%7BB290C888-495F-465E-B770-7A4EBDCFBA8A%7D&amp;FieldNames=%7B50C8D063-CC8D-43FD-A938-67B964C798BA%7D&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B959FDFBB-4691-4A17-816F-7A5330B8216A%7D%7C%7B271DE3B1-089F-4977-95EC-B5E51446FC01%7D%7C%7B1B189E02-FFC9-4ADC-84E5-D2AB5F6EC0FB%7D" />
@@ -125,11 +189,11 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ea33558e-bc31-4b1a-9683-f291653b8eab"
+      Value: "66d9f79a-eca0-444e-a4c8-ef1b962a5483"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230731T125222Z
+      Value: 20230823T075429Z

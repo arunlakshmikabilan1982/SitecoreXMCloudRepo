@@ -11,44 +11,65 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   try {
     const user = JSON.parse(JSON.stringify(req.body));
+
+    const userData = JSON.parse(user);
+
     const upsertUser = await prisma.userDetails.upsert({
       where: {
-        Email: user.email,
+        Email: userData.email,
       },
+
       update: {
-        FirstName: user.firstName,
-        LastName: user.lastName,
-        Gender: user.gender,
-        MobileNumber: user.mobilenumber,
-        Title: user.title,
-        Dob: new Date(user.dateofbirth).toISOString(),
+        FirstName: userData.firstName,
+
+        LastName: userData.lastName,
+
+        Gender: userData.gender,
+
+        MobileNumber: userData.mobilenumber,
+
+        Title: userData.title,
+
+        Dob: new Date(userData.dateofbirth).toISOString(),
+
         UpdatedAt: new Date(Date.now()).toISOString(),
+
         LoginDetails: {
-          update: { Password: user.password },
+          update: { Password: userData.password },
         },
       },
+
       create: {
-        FirstName: user.firstName,
-        LastName: user.lastName,
-        Gender: user.gender,
-        MobileNumber: user.mobilenumber,
-        Title: user.title,
-        Dob: new Date(user.dateofbirth).toISOString(),
-        Email: user.email,
+        FirstName: userData.firstName,
+
+        LastName: userData.lastName,
+
+        Gender: userData.gender,
+
+        MobileNumber: userData.mobilenumber,
+
+        Title: userData.title,
+
+        Dob: new Date(userData.dateofbirth).toISOString(),
+
+        Email: userData.email,
+
         LoginDetails: {
           create: {
-            Username: user.email,
-            Password: user.password,
+            Username: userData.email,
+
+            Password: userData.password,
           },
         },
       },
     });
+
     if (upsertUser?.UserId !== null || upsertUser?.UserId !== undefined) {
       res.status(200).json('success');
     } else {
       res.status(400).json('Record not updated or created');
     }
   } catch (err) {
-    res.status(400).json({ message: 'Something went wrong' + err });
+    res.status(400).json({ message: 'Something went wrong:' + err });
   }
 }

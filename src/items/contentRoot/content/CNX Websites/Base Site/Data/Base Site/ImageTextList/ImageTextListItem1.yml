@@ -4,6 +4,83 @@ Parent: "bafa108c-9b7c-4c35-9bf4-d7c50323c00a"
 Template: "f49cc5f0-a3bf-42db-90c3-e7863af09f32"
 Path: /sitecore/content/CNX Websites/Base Site/Data/Base Site/ImageTextList/ImageTextListItem1
 Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11e662a1-d68e-48e6-82b2-9e41620e70a8"
+      Hint: Heading
+      Value: وسائل الراحة والمرافق
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230717T095951Z
+    - ID: "2e310ac4-c3cb-4bc2-8406-329b56ddcace"
+      Hint: ImageList
+      Value: |
+        {EDB6A723-868A-4940-A58C-B31A6A1BE033}
+        {95B53CCF-3747-49E2-A488-BB0527D30D30}
+        {2C5C6785-D8A3-47DC-ADA7-4E9B3210A6EF}
+        {3DB30C19-9F83-422F-BCD2-594BBEADF21A}
+        {770C7C30-3512-480A-AC07-3784AC0C8FC4}
+        {6564494C-FE6E-4DD8-8E8D-AC895138E356}
+        {010AA854-5D02-455E-91B8-0D207D3B1606}
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "23033124-7d53-4c32-bb61-ba573e000e61"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230913T214949Z
+  - Version: 2
+    Fields:
+    - ID: "11e662a1-d68e-48e6-82b2-9e41620e70a8"
+      Hint: Heading
+      Value: وسائل الراحة والمرافق
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230717T095951Z
+    - ID: "2e310ac4-c3cb-4bc2-8406-329b56ddcace"
+      Hint: ImageList
+      Value: |
+        {EDB6A723-868A-4940-A58C-B31A6A1BE033}
+        {95B53CCF-3747-49E2-A488-BB0527D30D30}
+        {2C5C6785-D8A3-47DC-ADA7-4E9B3210A6EF}
+        {3DB30C19-9F83-422F-BCD2-594BBEADF21A}
+        {770C7C30-3512-480A-AC07-3784AC0C8FC4}
+        {6564494C-FE6E-4DD8-8E8D-AC895138E356}
+        {010AA854-5D02-455E-91B8-0D207D3B1606}
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\nqfSPumMms
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mageshwari.muralidoss@concentrix.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d63b85b4-50bd-4a04-9cd1-738bc0ba6a45"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\prasanth.gajulapalli@concentrix.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231010T141454Z
 - Language: en
   Versions:
   - Version: 1

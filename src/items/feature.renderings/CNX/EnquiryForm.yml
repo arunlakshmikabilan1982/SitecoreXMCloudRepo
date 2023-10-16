@@ -6,7 +6,7 @@ Path: /sitecore/layout/Renderings/Feature/CNX/EnquiryForm
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: EnquiryForm
+  Value: MallEnquiryForm
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
   Value: "{9443C6DD-B8D5-4C51-B9E8-45C20DE59383}"
@@ -28,11 +28,11 @@ Languages:
         sitecore\mageshwari.muralidoss@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9206fa60-634c-4cc9-93b6-9d32d285e083"
+      Value: "901ad288-fbdc-43d9-88a0-2fd15717574a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\manish.yadav7@concentrix.com
+        sitecore\HJmOiqSpvZ
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230926T091759Z
+      Value: 20231005T061934Z

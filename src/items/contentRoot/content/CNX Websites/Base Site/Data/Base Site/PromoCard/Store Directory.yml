@@ -14,7 +14,7 @@ Languages:
     - ID: "1fc274bd-ec68-4b20-9caa-e07b03be8a7d"
       Hint: PromoCardLink
       Value: |
-        <link text="ابحث عن متجر" linktype="external" url="https://www.mallofoman.net/en/find-a-store" anchor="" target="" />
+        <link text="Find Fun" linktype="external" url="https://www.mallofoman.net/en/entertainment" anchor="" target="" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230719T104631Z
@@ -32,21 +32,21 @@ Languages:
         sitecore\amruta.kulkarni@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cf4a279b-d50b-4528-8f5b-28e998436e61"
+      Value: "f1653ead-478f-48fd-80cb-66806029c904"
     - ID: "911178a5-5358-4f14-ac91-d38f36a0084c"
       Hint: PromoCardTitle
-      Value: استكشف المتاجر في مول عمان
+      Value: اكتشف المتاجر في مول عمان
     - ID: "9200c789-37d9-4ffe-81ba-0903e1cc2431"
       Hint: PromoCardimage
       Value: |
-        <image mediaid="{F855EC25-4DC6-4816-A887-725F3ED66901}" alt="دليل المتجر" height="" width="" hspace="" vspace="" />
+        <image mediaid="{F855EC25-4DC6-4816-A887-725F3ED66901}" alt="Store Directory" height="" width="" hspace="" vspace="" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
+        sitecore\nqfSPumMms
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230802T050413Z
+      Value: 20230913T220835Z
 - Language: en
   Versions:
   - Version: 1
