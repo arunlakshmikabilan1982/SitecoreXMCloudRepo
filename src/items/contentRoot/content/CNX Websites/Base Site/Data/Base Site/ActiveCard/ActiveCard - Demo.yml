@@ -95,7 +95,7 @@ Languages:
     - ID: "2503abe7-2f3f-4ea2-b727-4613003a6f98"
       Hint: ActiveCardImage
       Value: |
-        <image mediaid="{8A0096EA-2AED-42FC-80CC-2578E965ADBE}" />
+        <image mediaid="{38F7C897-061C-4311-9E8D-E98022D05BAA}" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230719T142443Z
@@ -116,11 +116,11 @@ Languages:
         sitecore\amruta.kulkarni@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6cac8eae-22a7-4708-9cc0-a51e415893da"
+      Value: "d8834147-5ccd-4075-9689-60f6a2a6e3b6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\amruta.kulkarni@concentrix.com
+        sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230719T145544Z
+      Value: 20231016T123042Z

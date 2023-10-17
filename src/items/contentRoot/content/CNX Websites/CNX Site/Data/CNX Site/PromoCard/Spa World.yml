@@ -1,0 +1,42 @@
+﻿---
+ID: "70882907-dc3d-4782-aea2-b7017cea498a"
+Parent: "e683fa4b-624a-4fb8-ab54-79185a948998"
+Template: "90b17141-9602-49a6-8bfb-cfc881313a75"
+Path: /sitecore/content/CNX Websites/CNX Site/Data/CNX Site/PromoCard/Spa World
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1fc274bd-ec68-4b20-9caa-e07b03be8a7d"
+      Hint: PromoCardLink
+      Value: |
+        <link text="Explore our spa Experiences" linktype="external" url="https://www.tripadvisor.in/Attractions-g297628-Activities-c40-Bengaluru_Bangalore_District_Karnataka.html" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231016T125614Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\O6y3bocRU4
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\O6y3bocRU4
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9ebb1ee6-b508-4df7-9a12-6987bb019131"
+    - ID: "911178a5-5358-4f14-ac91-d38f36a0084c"
+      Hint: PromoCardTitle
+      Value: Relaxation Mode
+    - ID: "9200c789-37d9-4ffe-81ba-0903e1cc2431"
+      Hint: PromoCardimage
+      Value: |
+        <image mediaid="{D9DA317A-6F2B-4EE1-8223-601E2027A9B1}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\O6y3bocRU4
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231016T134428Z

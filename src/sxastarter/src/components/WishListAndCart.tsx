@@ -55,7 +55,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
             className="text-white"
           >
             <Heart />
-            {session?.user ? (
+            {session?.user?.email == 'parvathi.somanahalli6459@gmail.com' ? (
               <>
                 <span className="block text-white">{wishlist.wishlistcount}</span>
               </>
@@ -70,7 +70,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
             className="text-white"
           >
             <ShoppingCart />
-            {session?.user ? (
+            {session?.user?.email == 'parvathi.somanahalli6459@gmail.com' ? (
               <>
                 <span className="block text-white">{basket.basketcount}</span>
               </>

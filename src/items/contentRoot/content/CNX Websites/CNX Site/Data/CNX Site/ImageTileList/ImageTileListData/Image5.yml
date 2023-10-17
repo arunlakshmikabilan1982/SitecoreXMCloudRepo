@@ -76,21 +76,21 @@ Languages:
     - ID: "56eea0af-3232-42a7-a7ef-a0593614ff8b"
       Hint: TargetUrl
       Value: |
-        <link text="Mens Shopping" anchor="Mens Shopping" linktype="internal" class="" title="Mens Shopping" target="|Custom" querystring="" id="{D6BD3C20-15D3-4FE0-B67D-E78EBF648922}" />
+        <link text="Mens Shopping List" anchor="Mens" linktype="internal" class="" title="Mens Shopping List" target="" querystring="" id="{D6BD3C20-15D3-4FE0-B67D-E78EBF648922}" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\manish.yadav7@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "47f22600-c0b8-4a7a-ae0b-c9f5bb9898fe"
+      Value: "c02fba79-33df-4354-99a2-7968ab77563a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231016T053447Z
+      Value: 20231017T122511Z
     - ID: "e53018d9-09a6-4104-9374-b02fcda4a010"
       Hint: ImageTitle
       Value: Men

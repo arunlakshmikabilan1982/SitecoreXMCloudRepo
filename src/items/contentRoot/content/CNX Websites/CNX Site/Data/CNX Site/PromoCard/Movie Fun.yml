@@ -1,0 +1,42 @@
+﻿---
+ID: "79441c0b-2cbf-4bfe-84c8-eecf4af69d7e"
+Parent: "e683fa4b-624a-4fb8-ab54-79185a948998"
+Template: "90b17141-9602-49a6-8bfb-cfc881313a75"
+Path: /sitecore/content/CNX Websites/CNX Site/Data/CNX Site/PromoCard/Movie Fun
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1fc274bd-ec68-4b20-9caa-e07b03be8a7d"
+      Hint: PromoCardLink
+      Value: |
+        <link text="Movie Experience" linktype="external" url="https://www.bing.com/images/search?view=detailV2&amp;ccid=wd3CgywL&amp;id=14F11AAB8228E7424741B0D07A740877449E41F5&amp;thid=OIP.wd3CgywLmE5WNqVDZCcVfgHaE8&amp;mediaurl=https%3A%2F%2F1.bp.blogspot.com%2F-2b-QQqTQtVA%2FXfrubAi09hI%2FAAAAAAADxfc%2FaDCAVRifSa0Y6phOFAcjUmTic_vzpsgaACLcBGAsYHQ%2Fs1600%2FAurum-Theatre-GSC-Malaysia-Mid-Valley-Southkey-Johor-Bahru-Luxury-Cinema-Dining-Experience-0637.JPG&amp;exph=1067&amp;expw=1600&amp;q=Luxury+theature+experience&amp;simid=608043764838896308&amp;form=IRPRST&amp;ck=5F498BF1F61C6020872AF61B2D4EC2DA&amp;selectedindex=80&amp;ajaxhist=0&amp;ajaxserp=0&amp;vt=0&amp;sim=11" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231016T132505Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\O6y3bocRU4
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\O6y3bocRU4
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bb107812-9f13-44e6-9285-7909fba59038"
+    - ID: "911178a5-5358-4f14-ac91-d38f36a0084c"
+      Hint: PromoCardTitle
+      Value: Luxury Movie Experience
+    - ID: "9200c789-37d9-4ffe-81ba-0903e1cc2431"
+      Hint: PromoCardimage
+      Value: |
+        <image mediaid="{F2E684E9-6815-4851-A8D4-AD0EAD9A48EB}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\O6y3bocRU4
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231016T132650Z

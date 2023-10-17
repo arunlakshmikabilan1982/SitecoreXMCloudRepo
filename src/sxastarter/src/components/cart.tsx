@@ -102,7 +102,7 @@ export const Default = (): JSX.Element => {
           </thead>
           <tbody>
             {basketItems.map((item: any) => (
-              <CartProducts product={item.productId} key={item.productId} />
+              <CartProducts product={item.productId} itemid = {item.itemId} key={item.productId} />
             ))}
           </tbody>
         </table>
@@ -110,7 +110,7 @@ export const Default = (): JSX.Element => {
           <ul>
             <li>
               <div className="pb-3 text-xl">
-                Subtotal ({basketItems.reduce((a, c: any) => a + c.quantity, 0)}) :{totalAmount} INR
+                Subtotal ({basketItems.reduce((a, c: any) => a + c.quantity, 0)}) :{totalAmount} $
               </div>
             </li>
             <li>

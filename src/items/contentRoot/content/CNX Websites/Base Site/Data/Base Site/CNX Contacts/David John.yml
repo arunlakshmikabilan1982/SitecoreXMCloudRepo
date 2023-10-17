@@ -11,6 +11,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230914T081447Z
+    - ID: "2f1258dc-d66a-46dd-8bf6-1f02365084f2"
+      Hint: Email
+      Value: david@gmail.com
     - ID: "622c60c8-9a81-4f1b-9c1b-e7bc99e1cdd3"
       Hint: First Name
       Value: David
@@ -22,7 +25,7 @@ Languages:
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "bb8ed359-a7ca-4bf4-94e5-531fd046233b"
-      Hint: Email
+      Hint: Last Name
       Value: John
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated

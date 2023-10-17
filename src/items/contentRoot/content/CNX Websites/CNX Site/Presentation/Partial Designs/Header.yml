@@ -11,7 +11,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{C66B8DB3-D7BD-4CEB-8161-BCC41E5E11C9}" />
+    <image mediaid="{ABD7855F-081C-4951-A484-77DF095739A8}" />
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -141,14 +141,14 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "59b8dec8-a3d5-445f-b3e6-5c17ecbefa8d"
+      Value: "193b937b-18fb-4fc3-b397-810bc138a12d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\parvathi.somanahalli@concentrix.com
+        sitecore\Anonymous
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231011T112924Z
+      Value: 20231016T063757Z
 - Language: en
   Versions:
   - Version: 1
@@ -267,11 +267,11 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "85782c78-e79f-4fb3-bddd-dedfe4bfecaa"
+      Value: "05414eca-a37a-4ffa-a70d-25e56b93f280"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231016T055627Z
+      Value: 20231016T062754Z
