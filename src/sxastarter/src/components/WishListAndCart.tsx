@@ -91,9 +91,7 @@ const getwishlistcartitems = async () => {
     },
   });
   const response = await res.json();
-  console.log('Wishlist and Cart Items', response);
   const wishlist = response.WishlistItems;
   const basket = response.BasketItems;
-  console.log('wishlist:', wishlist);
   return { wishlist, basket };
 };

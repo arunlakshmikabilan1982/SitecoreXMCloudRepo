@@ -7,6 +7,7 @@ export default function CartProducts({ product }) {
     name: '',
     price: 0,
     description: '',
+    itemId: '',
   });
   useEffect(() => {
     const response = async () => {
@@ -18,6 +19,7 @@ export default function CartProducts({ product }) {
         name: response.name,
         price: response.price,
         decription: response.longDescription,
+        itemId: response.itemId,
       };
 
       setProduct((productItem) => ({
@@ -28,7 +30,6 @@ export default function CartProducts({ product }) {
 
     response();
   });
-  console.log('Wishlist Product', productItem);
   return (
     <tr key={productItem.productId} className="border-b">
       <td>
@@ -41,6 +42,7 @@ export default function CartProducts({ product }) {
             style={{
               maxWidth: '100%',
               height: 'auto',
+              marginRight: '12px',
             }}
           />
           {productItem.name}
@@ -56,11 +58,13 @@ export default function CartProducts({ product }) {
         </select>
       </td>
       <td className="p-5 text-right">INR {productItem.price}</td>
+      <td>
+        <button onClick={() => removeFromCart(productItem.itemId)}>Remove</button>
+      </td>
     </tr>
   );
 }
 const getProduct = async (productId: any) => {
-  console.log('productID:', productId);
   const res = await fetch('/api/salesforcecommercecloud/getproduct', {
     method: 'POST',
     headers: {
@@ -68,9 +72,22 @@ const getProduct = async (productId: any) => {
     },
     body: JSON.stringify(productId),
   });
-  console.log(JSON.stringify(productId));
   const responseProduct = await res.json();
   const response = responseProduct.Product;
-  console.log('Product:', response);
+  return { response };
+};
+
+const removeFromCart = async (itemId: any) => {
+  console.log('ItemID:', itemId);
+  const res = await fetch('/api/salesforcecommercecloud/removeproductfromcart', {
+    method: 'POST',
+    headers: {
+      'content-Type': 'application/json',
+    },
+    body: JSON.stringify(itemId),
+  });
+  console.log(JSON.stringify(itemId));
+  const responseProduct = await res.json();
+  const response = responseProduct.Product;
   return { response };
 };
