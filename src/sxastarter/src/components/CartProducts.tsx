@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-export default function CartProducts({ product }) {
+export default function CartProducts({ product , itemid }) {
   const [productItem, setProduct] = useState({
     productId: 0,
     imageLink: '',
@@ -19,7 +19,7 @@ export default function CartProducts({ product }) {
         name: response.name,
         price: response.price,
         decription: response.longDescription,
-        itemId: response.itemId,
+        itemId: itemid,
       };
 
       setProduct((productItem) => ({
@@ -57,7 +57,7 @@ export default function CartProducts({ product }) {
           ))}
         </select>
       </td>
-      <td className="p-5 text-right">INR {productItem.price}</td>
+      <td className="p-5 text-right">$ {productItem.price}</td>
       <td>
         <button onClick={() => removeFromCart(productItem.itemId)}>Remove</button>
       </td>
@@ -87,6 +87,7 @@ const removeFromCart = async (itemId: any) => {
     body: JSON.stringify(itemId),
   });
   console.log(JSON.stringify(itemId));
+  window.location.reload();
   const responseProduct = await res.json();
   const response = responseProduct.Product;
   return { response };

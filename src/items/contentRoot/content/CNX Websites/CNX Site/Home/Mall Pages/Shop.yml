@@ -16,6 +16,50 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{67CCBD52-C946-4475-B5BC-16D0E35E50DE}"
+              p:before="*"
+              s:ds="{8F1EFB41-75A4-4ED3-9342-6DD6ED6DC4BF}"
+              s:id="{1900A3A8-0EC5-4BB3-AFE6-E94E26444540}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BDDCBFCB5-EB02-4878-8DB7-D25F9E4ABFA1%7D&amp;Styles=%7B4A2B459D-4793-40E3-BAA7-B1C4F8BB7FEC%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="headless-main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{92F4E202-2B76-4409-BC97-B90A258E2643}"
+              p:after="r[@uid='{67CCBD52-C946-4475-B5BC-16D0E35E50DE}']"
+              s:ds="{68BD40D3-EA57-4A17-9B57-061C03ECFE3C}"
+              s:id="{9B74C2BA-66F6-4D42-92EA-9A939772A201}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BAFEF02AF-AA7B-41FE-B0BC-1BF1AF60D2DF%7D&amp;Styles=%7B3F103346-5651-46DC-825D-969D5B81E6B9%7D%7C%7B4A2B459D-4793-40E3-BAA7-B1C4F8BB7FEC%7D&amp;CSSStyles"
+              s:ph="headless-main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{9E874F22-2400-4035-833F-4FEEECA9FA87}"
+              p:after="r[@uid='{92F4E202-2B76-4409-BC97-B90A258E2643}']"
+              s:ds="{0AA60CE3-00AC-429C-AD1E-26707FC633D8}"
+              s:id="{92C40DD0-4376-4C1F-98A7-82A947D32133}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BEA9A04B2-0661-4B5B-939D-6ED8222536A5%7D&amp;Styles=%7B3F103346-5651-46DC-825D-969D5B81E6B9%7D%7C%7B4A2B459D-4793-40E3-BAA7-B1C4F8BB7FEC%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{645D1084-1213-4CDF-9B37-7178F6E84A70}"
+              p:after="*[1=2]"
+              s:ds="{8E0FE759-FEB5-4A9C-B067-20ED797C4D43}"
+              s:id="{F63C0C75-5727-493C-981F-7AB00DA37B84}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BB19DB2AA-1F3E-4835-AD4D-CF9D237B8D6A%7D&amp;Styles=%7B3F103346-5651-46DC-825D-969D5B81E6B9%7D%7C%7B4A2B459D-4793-40E3-BAA7-B1C4F8BB7FEC%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+              s:ph="headless-main"
+              s:ccb="Clear on publish" />
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230725T140101Z
@@ -35,14 +79,14 @@ Languages:
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0e60b8a4-4981-498b-b2ae-a9122a6ccb92"
+      Value: "99e01d2e-b419-413f-b0dd-7797bcf4b5c2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\nqfSPumMms
+        sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230914T130212Z
+      Value: 20231011T095037Z
 - Language: en
   Versions:
   - Version: 1
@@ -58,9 +102,25 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{DC16D6AB-8FF3-4F74-A247-36B8C04D9D73}"
+              uid="{2BD5E9E7-7A4C-4672-B11B-2344B2A08C79}"
               p:before="*"
-              s:ds="{8F1EFB41-75A4-4ED3-9342-6DD6ED6DC4BF}"
+              s:ds=""
+              s:id="{CAA0C742-F052-49FB-825B-A03494798DB7}"
+              s:par="ComponentName=Gift%20Card&amp;ComponentConfiguration&amp;LibraryId=26MAXx0TD44CQoHma6fhIn&amp;ComponentId=9ZeWCeEqqN&amp;ComponentVersion=responsive&amp;ComponentRevision=staged&amp;ComponentHostName=https%3A%2F%2Ffeaas.blob.core.windows.net&amp;ComponentInstanceId=C1YlyyVnQ0aILPM&amp;ComponentDataOverride&amp;ComponentHTMLOverride&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7B3F103346-5651-46DC-825D-969D5B81E6B9%7D%7C%7B4A2B459D-4793-40E3-BAA7-B1C4F8BB7FEC%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+              s:ph="/headless-main/column-2-6"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{0A929411-24DC-4149-9B8F-4F6CB92537FD}"
+              p:after="r[@uid='{2BD5E9E7-7A4C-4672-B11B-2344B2A08C79}']"
+              s:ds="{601E54CE-9AB3-4376-90E6-68E489937A85}"
+              s:id="{F63C0C75-5727-493C-981F-7AB00DA37B84}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BB19DB2AA-1F3E-4835-AD4D-CF9D237B8D6A%7D&amp;Styles=%7B472A9FBF-20D2-4B3F-A4A2-93F20314A7FA%7D%7C%7B3F103346-5651-46DC-825D-969D5B81E6B9%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+              s:ph="/headless-main/column-2-5"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{DC16D6AB-8FF3-4F74-A247-36B8C04D9D73}"
+              p:after="r[@uid='{0A929411-24DC-4149-9B8F-4F6CB92537FD}']"
+              s:ds="{C8498076-FEBC-4208-A47B-7E43D1609348}"
               s:id="{1900A3A8-0EC5-4BB3-AFE6-E94E26444540}"
               s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BDDCBFCB5-EB02-4878-8DB7-D25F9E4ABFA1%7D&amp;Styles=%7B4A2B459D-4793-40E3-BAA7-B1C4F8BB7FEC%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
               s:ph="headless-main"
@@ -74,19 +134,19 @@ Languages:
               s:ph="headless-main"
               s:ccb="Clear on publish" />
             <r
-              uid="{0A929411-24DC-4149-9B8F-4F6CB92537FD}"
+              uid="{1C6F64DD-A441-4A1B-A3FB-BD2175DFB682}"
               p:after="r[@uid='{8172BCCE-B289-4FDD-9BFF-DCE32A7BCF23}']"
-              s:ds="{A34E9665-8BEE-4B42-BB7D-548D8BC59CC3}"
-              s:id="{F63C0C75-5727-493C-981F-7AB00DA37B84}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BB19DB2AA-1F3E-4835-AD4D-CF9D237B8D6A%7D&amp;Styles=%7B3F103346-5651-46DC-825D-969D5B81E6B9%7D%7C%7B4A2B459D-4793-40E3-BAA7-B1C4F8BB7FEC%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
+              s:ds=""
+              s:id="{15CABDFF-FFD9-48F4-826D-A4C3D7868D3A}"
+              s:par="ColumnWidth1=%7BEDCB7C39-E041-423F-8884-1440C976818E%7D&amp;ColumnWidth2=%7B9D32E42C-BA64-44DC-9908-D85BEFD0AA28%7D&amp;ColumnWidth3=%7BEDCB7C39-E041-423F-8884-1440C976818E%7D&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C3&amp;FieldNames&amp;Styles1=%7B3F103346-5651-46DC-825D-969D5B81E6B9%7D%7C%7B4A2B459D-4793-40E3-BAA7-B1C4F8BB7FEC%7D&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles&amp;Styles8&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=5"
               s:ph="headless-main"
               s:ccb="Clear on publish" />
             <r
-              uid="{2BD5E9E7-7A4C-4672-B11B-2344B2A08C79}"
+              uid="{841F7737-3F94-47BB-985E-D8B54D51F20D}"
               p:after="*[1=2]"
               s:ds=""
-              s:id="{CAA0C742-F052-49FB-825B-A03494798DB7}"
-              s:par="ComponentName=Gift%20Card&amp;ComponentConfiguration&amp;LibraryId=26MAXx0TD44CQoHma6fhIn&amp;ComponentId=9ZeWCeEqqN&amp;ComponentVersion=responsive&amp;ComponentRevision=staged&amp;ComponentHostName=https%3A%2F%2Ffeaas.blob.core.windows.net&amp;ComponentInstanceId=C1YlyyVnQ0aILPM&amp;ComponentDataOverride&amp;ComponentHTMLOverride&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7B3F103346-5651-46DC-825D-969D5B81E6B9%7D%7C%7B4A2B459D-4793-40E3-BAA7-B1C4F8BB7FEC%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+              s:id="{15CABDFF-FFD9-48F4-826D-A4C3D7868D3A}"
+              s:par="ColumnWidth1=%7BEDCB7C39-E041-423F-8884-1440C976818E%7D&amp;ColumnWidth2=%7B9D32E42C-BA64-44DC-9908-D85BEFD0AA28%7D&amp;ColumnWidth3=%7B89647981-C99C-44E3-A55E-65BFF555E4C3%7D&amp;ColumnWidth4=%7BEDCB7C39-E041-423F-8884-1440C976818E%7D&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2%2C4&amp;FieldNames&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles&amp;Styles8&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=6"
               s:ph="headless-main"
               s:ccb="Clear on publish" />
           </d>
@@ -110,11 +170,11 @@ Languages:
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2adb4c4d-3efb-4757-81aa-8f447103c270"
+      Value: "55219058-66b8-4285-b63f-fd7631f2446a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\prasanth.gajulapalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231011T070019Z
+      Value: 20231016T132809Z

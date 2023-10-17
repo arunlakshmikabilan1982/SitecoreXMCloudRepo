@@ -1,0 +1,38 @@
+﻿---
+ID: "2b283e04-923e-45aa-bb0b-060546fdc737"
+Parent: "e683fa4b-624a-4fb8-ab54-79185a948998"
+Template: "90b17141-9602-49a6-8bfb-cfc881313a75"
+Path: /sitecore/content/CNX Websites/CNX Site/Data/CNX Site/PromoCard/PromoCard2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231016T071624Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\O6y3bocRU4
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\O6y3bocRU4
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d1f6f098-f40f-4fc9-bb8b-fc4ba06da7bc"
+    - ID: "911178a5-5358-4f14-ac91-d38f36a0084c"
+      Hint: PromoCardTitle
+      Value: Enjoy The Game
+    - ID: "9200c789-37d9-4ffe-81ba-0903e1cc2431"
+      Hint: PromoCardimage
+      Value: |
+        <image mediaid="{7A9DC2F9-5AB2-4D69-A6D9-D373D6B02BA3}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\O6y3bocRU4
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231016T071748Z

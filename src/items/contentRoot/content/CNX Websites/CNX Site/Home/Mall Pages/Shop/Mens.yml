@@ -7,7 +7,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{403B2BA6-E37F-4C62-86C1-F4EFD3A2424D}" />
+    <image mediaid="{1BDB0A1C-AE72-4839-80B0-EF26F04C5EAA}" />
 Languages:
 - Language: en
   Versions:
@@ -49,11 +49,11 @@ Languages:
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0db5dd4a-f752-48ae-8ce4-223ed9dcc288"
+      Value: "18b6100a-dcbf-432e-9e9f-2bcda2083336"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231016T052637Z
+      Value: 20231016T065135Z

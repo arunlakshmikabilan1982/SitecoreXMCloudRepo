@@ -68,9 +68,9 @@ const ProductDetailsContainer = (props: ComponentProps): JSX.Element => {
       const { response } = await getProduct(prodID);
       let variant;
       if (response?.variants[0] != null) {
-        variant = response?.variants[0].productId;
+        variant = response?.variants[0]?.productId;
       } else {
-        variant = response.id;
+        variant = response?.id;
       }
       let updateproductvalues = {};
       updateproductvalues = {
@@ -141,7 +141,7 @@ const ProductDetailsContainer = (props: ComponentProps): JSX.Element => {
               <h1 className="product-title">{productItem.name}</h1>
               <p className="product-description">{productItem.description}</p>
               <div className="product-price">
-                <span>Price : {productItem.price}</span>
+                <span>Price : ${productItem.price}</span>
               </div>
               <div className="product-review">
                 <p>Rating : 4.5</p>

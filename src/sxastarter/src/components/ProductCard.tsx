@@ -17,7 +17,7 @@ export default function ProductCard({ product }) {
           />
           <h3 className="product-title">{product.name}</h3>
           <h4 className="product-price">{product.shortDescription}</h4>
-          <h4 className="product-price">{product.price}</h4>
+          <h4 className="product-price">$ {product.price}</h4>
         </div>
         <Link href={{ pathname: url, query: { productid: product.id } }}>Go to Product</Link>
       </div>
