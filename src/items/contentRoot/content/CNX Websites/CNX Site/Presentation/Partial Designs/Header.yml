@@ -189,8 +189,9 @@ Languages:
               p:after="r[@uid='{D0ACB494-340A-4942-8D10-BF7B15EF7D78}']"
               s:ds=""
               s:id="{0083A493-ED8D-4250-9A7B-C9A57B35493C}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BEE37C3B5-EEA6-49B3-9A37-6CFC017BCEBD%7D&amp;Styles=%7B472A9FBF-20D2-4B3F-A4A2-93F20314A7FA%7D%7C%7B450EFF33-C1D2-4123-9529-BA7B8BC7671F%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=10"
-              s:ph="/headless-header/container-1/column-3-2/column-2-5" />
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BEFD12009-4D56-4D01-8C8D-5ECE145F823A%7D&amp;Styles=%7B472A9FBF-20D2-4B3F-A4A2-93F20314A7FA%7D%7C%7B450EFF33-C1D2-4123-9529-BA7B8BC7671F%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=10"
+              s:ph="/headless-header/container-1/column-3-2/column-2-5"
+              s:ccb="Clear on publish" />
             <r
               uid="{180A51DA-861F-4618-BD25-AA672417BFC2}"
               p:after="r[@uid='{5A0EC481-0DB2-4649-A435-3467B11ECFF6}']"
@@ -266,11 +267,11 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7eb455eb-634b-472a-9620-e8344e7eff7e"
+      Value: "85782c78-e79f-4fb3-bddd-dedfe4bfecaa"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\parvathi.somanahalli@concentrix.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231012T134026Z
+      Value: 20231016T055627Z

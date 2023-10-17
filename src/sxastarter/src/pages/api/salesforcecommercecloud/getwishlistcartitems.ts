@@ -41,7 +41,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const basketitems = await shopperBasketsClient.getBasket({
       headers: { authorization: `Bearer ${process.env.Acess_Tocken}` },
       parameters: {
-        basketId: '5fd8687ae8f401921f2dd60209',
+        basketId: '4be38bdbed0d80be55dfa04679',
       },
     });
     if (wishlistitems.id !== null && basketitems !== null) {

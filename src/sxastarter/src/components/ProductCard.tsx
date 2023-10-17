@@ -3,7 +3,7 @@ import Link from 'next/link';
 // import { useRouter } from 'next/navigation';
 
 export default function ProductCard({ product }) {
-  const url = `/mall-pages/shop/products-list/womenscollection`;
+  const url = `/mall-pages/shop/products`;
 
   return (
     <div className="col-md-6 col-lg-4 col-xl-3">
@@ -19,7 +19,7 @@ export default function ProductCard({ product }) {
           <h4 className="product-price">{product.shortDescription}</h4>
           <h4 className="product-price">{product.price}</h4>
         </div>
-        <Link href={url}>Go to Product</Link>
+        <Link href={{ pathname: url, query: { productid: product.id } }}>Go to Product</Link>
       </div>
     </div>
   );
