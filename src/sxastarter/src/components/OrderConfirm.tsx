@@ -24,7 +24,7 @@ const Default = (): JSX.Element => (
             </div>
             <div className="d-flex flex-column text-sm-right">
               <p className="mb-0">
-                Expected Arrival <span>25/10/2023</span>
+                Expected Arrival <span>05/11/2023</span>
               </p>
               <p>
                 USPS <span className="font-weight-bold">234094567242423422898</span>

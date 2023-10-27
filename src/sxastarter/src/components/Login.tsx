@@ -78,20 +78,54 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
     });
     console.log('Identity event triggered');
   };
+
+  const getPosts = async () => {
+    await fetch('https://jsonplaceholder.typicode.com/posts', {
+      method: 'POST',
+      body: JSON.stringify({
+        title: 'Peter laboriosam dolor voluptates',
+        body: 'cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut',
+        userId: Math.random().toString(36).slice(2),
+      }),
+      headers: {
+        'Content-type': 'application/json; charset=UTF-8',
+      },
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log('Posts POST CALL:', data);
+      });
+  };
+  const createUserWE = async (user: any) => {
+    const userID = user?.firstName + user?.lastName;
+    const webengageobj = (window as any).webengage;
+    console.log('Window Web engage Object:', webengageobj);
+    webengageobj.user.login(userID);
+    webengageobj.user.setAttribute('we_first_name', user?.firstName);
+    webengageobj.user.setAttribute('we_last_name', user?.lastName);
+    webengageobj.user.setAttribute('we_email', user?.email);
+    webengageobj.user.setAttribute('we_gender', user?.gender);
+    webengageobj.user.setAttribute('we_phone', user?.mobilenumber);
+    webengageobj.user.setAttribute('we_email_opt_in', true); //Email
+    webengageobj.user.setAttribute('we_sms_opt_in', true); //SMS
+    webengageobj.user.setAttribute('we_whatsapp_opt_in', true);
+  };
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     const result = await signIn('credentials', {
       email: emailId.current,
       password: passwd.current,
       redirect: false,
-      callbackUrl: '/Mall-Pages',
+      callbackUrl: '/Mall-Pages/Shop',
     });
     if (result?.ok) {
       const session = await getSession();
       console.log('Identity event loading');
       const user = session?.user;
       createIdentity(user);
-      const url = result.url ? result?.url : '/Mall-Pages';
+      createUserWE(user);
+      getPosts();
+      const url = result.url ? result?.url : '/Mall-Pages/Shop';
       //const url = 'https://cnxsite.localhost/Mall-Pages';
       router.push(url);
     }

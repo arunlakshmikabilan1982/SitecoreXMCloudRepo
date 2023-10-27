@@ -83,6 +83,29 @@ export const Default = (): JSX.Element => {
 
       console.log('Confirm Cart Event triggered');
     };
+
+    const createConfirmOrderWE = async () => {
+      const webengageobj = (window as any).webengage;
+      const baskets: any[] = basketItems;
+      console.log('basket Items:WE', baskets[0]);
+      webengageobj.track('Order Placed', {
+        Amount: totalAmount,
+        'Product 1 Name': baskets[0]?.productName,
+        'Product 1 Price': baskets[0]?.price,
+        'Product 2 Name': baskets[1]?.productName,
+        'Product 2 Price': baskets[1]?.price,
+        'Product 3 Name': baskets[2]?.productName,
+        'Product 3 Price': baskets[2]?.price,
+
+        /* Date */
+        'Delivery Date': new Date('2023-10-25T00:00:00.000Z'),
+
+        'Delivery City': 'San Francisco',
+        'Delivery ZIP': '94121',
+        'Coupon Applied': 'BOGO17',
+      });
+    };
+    createConfirmOrderWE();
     createConfirmCartEvent();
     const url = '/Order';
     router.push(url);
@@ -102,7 +125,7 @@ export const Default = (): JSX.Element => {
           </thead>
           <tbody>
             {basketItems.map((item: any) => (
-              <CartProducts product={item.productId} itemid = {item.itemId} key={item.productId} />
+              <CartProducts product={item.productId} itemid={item.itemId} key={item.productId} />
             ))}
           </tbody>
         </table>
@@ -115,6 +138,7 @@ export const Default = (): JSX.Element => {
             </li>
             <li>
               <button
+                id="check-out"
                 className="primary-button w-full"
                 onClick={() => {
                   confirmCartEvent(siteInfo, language);

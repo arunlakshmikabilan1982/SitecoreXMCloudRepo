@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-export default function CartProducts({ product , itemid }) {
+export default function CartProducts({ product, itemid }) {
   const [productItem, setProduct] = useState({
     productId: 0,
     imageLink: '',

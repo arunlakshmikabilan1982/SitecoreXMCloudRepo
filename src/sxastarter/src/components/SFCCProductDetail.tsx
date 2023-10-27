@@ -5,9 +5,9 @@ import config from 'temp/config';
 import { useSitecoreContext, SiteInfo, PosResolver } from '@sitecore-jss/sitecore-jss-nextjs';
 import { signIn, useSession } from 'next-auth/react';
 import { ComponentParams, ComponentRendering } from '@sitecore-jss/sitecore-jss-nextjs';
-import { useRouter } from 'next/navigation';
 import { useSearchParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 const BACKGROUND_REG_EXP = new RegExp(
   /[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}/gi
@@ -39,7 +39,6 @@ const ProductDetailsContainer = (props: ComponentProps): JSX.Element => {
   const language = route?.itemLanguage || config.defaultLanguage;
   const siteInfo = siteResolver.getByName(site?.name || config.jssAppName);
   const { data: session } = useSession();
-  const router = useRouter();
   const addToCart = async (productId: any) => {
     console.log('productID:', productId);
     const res = await fetch('/api/salesforcecommercecloud/addproducttocart', {
@@ -85,12 +84,29 @@ const ProductDetailsContainer = (props: ComponentProps): JSX.Element => {
         ...productItem,
         ...updateproductvalues,
       }));
+      viewEventWE(response);
     };
 
     response();
   }, []);
+  const router = useRouter();
+  const viewEventWE = async (product: any) => {
+    const webengageobj = (window as any).webengage;
+    webengageobj.track('Product Viewed', {
+      /* Numbers */
+      'Product ID': product.id,
+      Price: product.price,
+      Quantity: 1,
+
+      /* Strings */
+      Product: product.name,
+      Category: 'Clothing',
+      Currency: 'USD',
+    });
+  };
   const addToCartEvent = (site: SiteInfo, language: string) => {
     console.log('AddtoEvent loading');
+
     async function createAddtoCart() {
       const pointOfSale = PosResolver.resolve(site, language);
       const engage = await init({
@@ -124,7 +140,22 @@ const ProductDetailsContainer = (props: ComponentProps): JSX.Element => {
 
       console.log('Add TO Cart event triggered');
     }
+    const addToCartWE = async () => {
+      const webengageobj = (window as any).webengage;
+      webengageobj.track('Added To Cart', {
+        /* Numbers */
+        'Product ID': productItem.productId,
+        Price: productItem.price,
+        Quantity: 1,
+
+        /* Strings */
+        Product: productItem.name,
+        Category: 'Clothing',
+        Currency: 'USD',
+      });
+    };
     addToCart(productItem.productId);
+    addToCartWE();
     createAddtoCart();
     const url = '/Cart';
     router.push(url);
