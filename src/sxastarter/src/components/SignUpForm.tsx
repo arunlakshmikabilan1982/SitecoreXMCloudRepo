@@ -106,6 +106,20 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
     }
   };
 
+  const createUserWE = async (user: any) => {
+    const userID = user?.firstName + user?.lastName;
+    const webengageobj = (window as any).webengage;
+    console.log('Window Web engage Object:', webengageobj);
+    webengageobj.user.login(userID);
+    webengageobj.user.setAttribute('we_first_name', user?.firstName);
+    webengageobj.user.setAttribute('we_last_name', user?.lastName);
+    webengageobj.user.setAttribute('we_email', user?.email);
+    webengageobj.user.setAttribute('we_gender', user?.gender);
+    webengageobj.user.setAttribute('we_phone', user?.mobilenumber);
+    webengageobj.user.setAttribute('we_email_opt_in', true); //Email
+    webengageobj.user.setAttribute('we_sms_opt_in', true); //SMS
+    webengageobj.user.setAttribute('we_whatsapp_opt_in', true);
+  };
   const createOrUpdateUser = async (user: any) => {
     const response = await fetch('/api/user/create', {
       method: 'POST',
@@ -122,6 +136,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
     const form_values = Object.fromEntries(formData);
     console.log('form:' + JSON.stringify(form_values));
     createOrUpdateUser(form_values);
+    createUserWE(form_values);
   };
 
   return (

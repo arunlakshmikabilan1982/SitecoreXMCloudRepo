@@ -22,7 +22,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const cartAddedItem = await shopperBasketsClient.removeItemFromBasket({
       headers: { authorization: `Bearer ${process.env.Acess_Tocken}` },
       parameters: {
-        basketId: '0de01a806a0683f0f7073397fa',
+        basketId: '74954b035339417c515b0ffe4e',
         itemId: itemId,
       },
     });

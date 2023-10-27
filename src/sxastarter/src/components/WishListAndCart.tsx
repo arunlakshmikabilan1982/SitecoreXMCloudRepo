@@ -55,7 +55,8 @@ export const Default = (props: ComponentProps): JSX.Element => {
             className="text-white"
           >
             <Heart />
-            {session?.user?.email == 'parvathi.somanahalli6459@gmail.com' ? (
+            {session?.user?.email == 'parvathi.somanahalli6459@gmail.com' ||
+            session?.user?.email == 'parvathi.somanahalli6426@gmail.com' ? (
               <>
                 <span className="block text-white">{wishlist.wishlistcount}</span>
               </>
@@ -70,12 +71,27 @@ export const Default = (props: ComponentProps): JSX.Element => {
             className="text-white"
           >
             <ShoppingCart />
-            {session?.user?.email == 'parvathi.somanahalli6459@gmail.com' ? (
+            {session?.user?.email == 'parvathi.somanahalli6459@gmail.com' ||
+            session?.user?.email == 'parvathi.somanahalli6426@gmail.com' ? (
               <>
                 <span className="block text-white">{basket.basketcount}</span>
               </>
             ) : (
-              <span className="block text-white">0</span>
+              <span className="block text-white">1</span>
+            )}
+            {session?.user?.email == 'mahi140896@gmail.com' ? (
+              <>
+                <span className="block text-white">{basket.basketcount}</span>
+              </>
+            ) : (
+              <span className="block text-white"></span>
+            )}
+            {session?.user?.email == 'gajulapalliprasanth100@gmail.com' ? (
+              <>
+                <span className="block text-white">2</span>
+              </>
+            ) : (
+              <></>
             )}
           </Link>
         </div>
