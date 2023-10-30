@@ -31,17 +31,22 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const shopperCustomersClient = new Customer.ShopperCustomers(clientConfig);
     const shopperBasketsClient = new Checkout.ShopperBaskets(clientConfig);
     const wishlistitems = await shopperCustomersClient.getCustomerProductList({
-      headers: { authorization: `Bearer ${process.env.Acess_Tocken}` },
+      headers: { authorization: `Bearer ${process.env.Access_Token}` },
       parameters: {
         customerId: 'abwHpKkrJKkHsRlrgXxGYYxbg3',
         listId: '097177d5d1c94c60b288cd24cf',
       },
     });
+    let basket_Id = "";
+    if(process.env.Basket_Id != undefined)
+    {
+      basket_Id = process.env.Basket_Id;
+    }
     console.log('reaching here wishlist:', wishlistitems);
     const basketitems = await shopperBasketsClient.getBasket({
-      headers: { authorization: `Bearer ${process.env.Acess_Tocken}` },
+      headers: { authorization: `Bearer ${process.env.Access_Token}` },
       parameters: {
-        basketId: '74954b035339417c515b0ffe4e',
+        basketId: basket_Id,
       },
     });
     if (wishlistitems.id !== null && basketitems !== null) {
