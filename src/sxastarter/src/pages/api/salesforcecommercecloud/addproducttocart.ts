@@ -28,12 +28,17 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     //     grant_type: 'client_credentials',
     //   },
     // });
+    let basket_Id = "";
+    if(process.env.Basket_Id != undefined)
+    {
+      basket_Id = process.env.Basket_Id;
+    }
     const productId = JSON.parse(JSON.stringify(req.body));
     const shopperBasketsClient = new Checkout.ShopperBaskets(clientConfig);
     const cartAddedItem = await shopperBasketsClient.addItemToBasket({
-      headers: { authorization: `Bearer ${process.env.Acess_Tocken}` },
+      headers: { authorization: `Bearer ${process.env.Access_Token}` },
       parameters: {
-        basketId: '74954b035339417c515b0ffe4e',
+        basketId: basket_Id,
       },
       body: [
         {
