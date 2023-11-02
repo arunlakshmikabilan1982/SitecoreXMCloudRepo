@@ -9,7 +9,16 @@ datasource db {
 
 /// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by Prisma Client.
 model CustomerEnquiry {
-  CustomerEnquiryID Int @id(map: "PK__Customer__8D4F8F10C7391710") @unique(map: "UQ__Customer__8D4F8F112B12568E") @default(autoincrement())
+  FirstName         String    @db.VarChar(50)
+  LastName          String?   @db.VarChar(50)
+  RoomType          String?   @db.VarChar(255)
+  NumberofGuests    String?   @db.VarChar(255)
+  FreePickup        String?   @db.VarChar(255)
+  SpecialRequests   String?   @db.VarChar(255)
+  Email             String?   @unique(map: "UQ__Customer__A9D10534BDE664F3") @db.VarChar(255)
+  CustomerEnquiryID Int       @id(map: "PK__Customer__8D4F8F10C7391710") @unique(map: "UQ__Customer__8D4F8F112B12568E") @default(autoincrement())
+  ArrivalDate       DateTime? @db.DateTime
+  DepartureDate     DateTime? @db.DateTime
 
   @@ignore
 }
@@ -35,25 +44,12 @@ model UserDetails {
   LoginDetails LoginDetails?
 }
 
-model Enquiry {
-  EnquiryID      Int       @id(map: "PK__Enquiry__0A019B9D81509497") @default(autoincrement())
+model MallEnquiry {
+  EnquiryID      Int       @id(map: "PK__Customer__8D4F8F10C7391711") @unique(map: "UQ__Customer__8D4F8F112B12568F") @default(autoincrement())
   FirstName      String    @db.VarChar(50)
   LastName       String?   @db.VarChar(50)
-  Email          String?   @db.VarChar(255)
-  NumberOfGuest  String?   @db.VarChar(2)
-  RoomType       String?   @db.VarChar(50)
-  FreePickup     String?   @db.VarChar(50)
-  ArrivalDate    DateTime? @db.Date
-  DepartureDate  DateTime? @db.Date
-  SpecialRequest String?   @db.VarChar(255)
-}
-
-model MallEnquiry {
-  EnquiryID      Int      @id(map: "PK__MallEnqu__0A019B9DA734489A") @default(autoincrement())
-  FirstName      String   @db.VarChar(50)
-  LastName       String?  @db.VarChar(50)
-  Email          String?  @db.VarChar(255)
-  EnquiryType    String?  @db.VarChar(255)
-  EnquiryDetails String?  @db.VarChar(255)
-  CreatedAt      DateTime @db.DateTime
+  Email          String?   @unique(map: "UQ__Customer__A9D10534BDE664F4") @db.VarChar(255)
+  EnquiryType    String?   @db.VarChar(255)
+  EnquiryDetails String?   @db.VarChar(255)
+  CreatedAt      DateTime? @db.DateTime
 }

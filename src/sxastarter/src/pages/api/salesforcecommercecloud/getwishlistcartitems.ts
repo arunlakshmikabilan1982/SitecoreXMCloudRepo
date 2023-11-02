@@ -37,9 +37,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         listId: '097177d5d1c94c60b288cd24cf',
       },
     });
-    let basket_Id = "";
-    if(process.env.Basket_Id != undefined)
-    {
+    let basket_Id = '';
+    if (process.env.Basket_Id != undefined) {
       basket_Id = process.env.Basket_Id;
     }
     console.log('reaching here wishlist:', wishlistitems);

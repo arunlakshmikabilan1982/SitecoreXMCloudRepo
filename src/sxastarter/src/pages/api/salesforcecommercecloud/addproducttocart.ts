@@ -28,9 +28,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     //     grant_type: 'client_credentials',
     //   },
     // });
-    let basket_Id = "";
-    if(process.env.Basket_Id != undefined)
-    {
+    let basket_Id = '';
+    if (process.env.Basket_Id != undefined) {
       basket_Id = process.env.Basket_Id;
     }
     const productId = JSON.parse(JSON.stringify(req.body));
