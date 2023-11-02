@@ -16,9 +16,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       },
     };
     console.log(clientConfig);
-    let basket_Id = "";
-    if(process.env.Basket_Id != undefined)
-    {
+    let basket_Id = '';
+    if (process.env.Basket_Id != undefined) {
       basket_Id = process.env.Basket_Id;
     }
     const itemId = JSON.parse(JSON.stringify(req.body));
