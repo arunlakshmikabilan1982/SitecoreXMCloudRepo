@@ -28,5 +28,25 @@
         "lastName": "User2",
         "gender": "male",
         "phone": "+919940234290"
+    },
+    {
+        "id": 4,
+        "title": "Ms",
+        "email": "testuser3@gmail.com",
+        "password": "test3",
+        "firstName": "Test",
+        "lastName": "User3",
+        "gender": "female",
+        "phone": "+919000000000"
+    },
+    {
+        "id": 5,
+        "title": "Mr",
+        "email": "testuser4@gmail.com",
+        "password": "test4",
+        "firstName": "Test",
+        "lastName": "User4",
+        "gender": "male",
+        "phone": "+919000000001"
     }
 ]

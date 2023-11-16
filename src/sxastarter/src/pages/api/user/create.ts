@@ -18,46 +18,29 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       where: {
         Email: userData.email,
       },
-
       update: {
         FirstName: userData.firstName,
-
         LastName: userData.lastName,
-
         Gender: userData.gender,
-
         MobileNumber: userData.mobilenumber,
-
         Title: userData.title,
-
         Dob: new Date(userData.dateofbirth).toISOString(),
-
         UpdatedAt: new Date(Date.now()).toISOString(),
-
         LoginDetails: {
           update: { Password: userData.password },
         },
       },
-
       create: {
         FirstName: userData.firstName,
-
         LastName: userData.lastName,
-
         Gender: userData.gender,
-
         MobileNumber: userData.mobilenumber,
-
         Title: userData.title,
-
         Dob: new Date(userData.dateofbirth).toISOString(),
-
         Email: userData.email,
-
         LoginDetails: {
           create: {
             Username: userData.email,
-
             Password: userData.password,
           },
         },

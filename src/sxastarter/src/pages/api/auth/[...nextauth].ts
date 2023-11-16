@@ -1,9 +1,10 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 import NextAuth from 'next-auth';
 import CredentialsProvider from 'next-auth/providers/credentials';
-import { PrismaClient } from '@prisma/client';
+//import { PrismaClient } from '@prisma/client';
 
-const prisma = new PrismaClient();
+//const prisma = new PrismaClient();
+let users = require('data/users.json');
 
 export default NextAuth({
   providers: [
@@ -14,7 +15,7 @@ export default NextAuth({
         password: { label: 'Password', type: 'password' },
       },
       async authorize(credentials) {
-        const userDetails = await prisma.loginDetails.findFirst({
+        /* const userDetails = await prisma.loginDetails.findFirst({
           where: {
             AND: [
               {
@@ -44,7 +45,8 @@ export default NextAuth({
             mobileNumber: userDetails?.UserDetails?.MobileNumber,
             dob: userDetails?.UserDetails?.Dob?.toString(),
           })
-        );
+        ); */
+        const user=users.find(x => x.email === credentials?.email && x.password === credentials?.password);
         if (user) {
           return user;
         } else {
