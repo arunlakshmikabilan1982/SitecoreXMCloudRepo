@@ -2,51 +2,51 @@
     {
         "id": 1,
         "title": "Mr",
-        "email": "testuser@gmail.com",
+        "email": "magimurali273@gmail.com",
         "password": "test",
-        "firstName": "Test",
-        "lastName": "User",
+        "firstName": "Magesh",
+        "lastName": "M",
         "gender": "male",
         "phone": "+918500948935"
     },
     {
         "id": 2,
         "title": "Ms",
-        "email": "testuser1@gmail.com",
-        "password": "test1",
-        "firstName": "Test",
-        "lastName": "User1",
+        "email": "mahi140896@gmail.com",
+        "password": "test",
+        "firstName": "Mageshwari",
+        "lastName": "M",
         "gender": "female",
         "phone": "+917401473180"
     },
     {
         "id": 3,
         "title": "Mr",
-        "email": "testuser2@gmail.com",
-        "password": "test2",
-        "firstName": "Test",
-        "lastName": "User2",
+        "email": "gajulapalliprasanth100@gmail.com",
+        "password": "test",
+        "firstName": "Prasanth",
+        "lastName": "Gajulapalli",
         "gender": "male",
-        "phone": "+919940234290"
+        "phone": "+918500948935"
     },
     {
         "id": 4,
         "title": "Ms",
-        "email": "testuser3@gmail.com",
-        "password": "test3",
-        "firstName": "Test",
-        "lastName": "User3",
+        "email": "parvathi.somanahalli6426@gmail.com",
+        "password": "test",
+        "firstName": "Parvathi",
+        "lastName": "S",
         "gender": "female",
-        "phone": "+919000000000"
+        "phone": "+919346240612"
     },
     {
         "id": 5,
-        "title": "Mr",
-        "email": "testuser4@gmail.com",
-        "password": "test4",
-        "firstName": "Test",
-        "lastName": "User4",
-        "gender": "male",
-        "phone": "+919000000001"
+        "title": "Ms",
+        "email": "parvathi.somanahalli6459@gmail.com",
+        "password": "test",
+        "firstName": "Parvathi",
+        "lastName": "Somanahalli",
+        "gender": "female",
+        "phone": "+919346240612"
     }
 ]
