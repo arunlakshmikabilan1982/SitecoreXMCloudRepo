@@ -18,7 +18,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         LastName: user.lastName,
         EnquiryType: user.enquiryType,
         EnquiryDetails: user.enquiryDetails,
-        CreatedDate: new Date(Date.now()).toISOString(),
+        CreatedAt: new Date(Date.now()).toISOString(),
         Email: user.email,
       },
     });
