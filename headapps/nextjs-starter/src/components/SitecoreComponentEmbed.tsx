@@ -3,7 +3,7 @@ import { Field, RichText as JssRichText } from '@sitecore-jss/sitecore-jss-nextj
 import { useEffect } from 'react';
 import Link from 'next/link';
 /* eslint-disable */
-import * as FEAAS from '@sitecore-feaas/clientside/react';
+// import * as FEAAS from '@sitecore-feaas/clientside/react';
 /* eslint-enable */
 
 interface Fields {
