@@ -1,3 +1,5 @@
+import '../components/BYOCVideo';
+
 /**
  * You can import your own hybrid (server render + hydration) components below
  * @example

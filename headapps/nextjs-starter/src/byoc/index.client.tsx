@@ -8,6 +8,7 @@ import * as FEAAS from '@sitecore-feaas/clientside/react';
 // SitecoreForm component displays forms created in XM Forms as individual components to be embedded into Pages.
 // Sitecore Forms for Sitecore XP are still available separately via @sitecore-jss-forms package
 import '@sitecore/components/form';
+import '../components/BYOCVideo';
 
 /**
  * End of built-in JSS imports
