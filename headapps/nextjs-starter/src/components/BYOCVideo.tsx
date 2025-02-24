@@ -7,7 +7,7 @@ interface VideoProps {
   controls: boolean;
 }
 
-export const Video = (props: VideoProps): JSX.Element => {
+export const BYOCVideo = (props: VideoProps): JSX.Element => {
   return (
     <div className="video-block">
       <video
@@ -25,9 +25,9 @@ export const Video = (props: VideoProps): JSX.Element => {
   );
 };
 
-FEAAS.External.registerComponent(Video, {
-  name: 'Video',
-  title: 'Video',
+FEAAS.External.registerComponent(BYOCVideo, {
+  name: 'BYOCVideo',
+  title: 'BYOC Video',
   description: 'Video with autoplay.',
   required: ['source'],
   properties: {
