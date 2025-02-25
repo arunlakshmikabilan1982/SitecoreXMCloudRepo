@@ -9,7 +9,7 @@ interface VideoProps {
 
 export const BYOCVideo = (props: VideoProps): JSX.Element => {
   return (
-    <div className="video-block">
+    <div className="byoc-video-block">
       <video
         loop={true}
         playsInline
