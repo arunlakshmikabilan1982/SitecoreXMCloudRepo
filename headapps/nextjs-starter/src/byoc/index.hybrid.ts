@@ -1,4 +1,4 @@
-import '../components/BYOCVideo';
+import '../components/BYOCXMCloudVideo';
 
 /**
  * You can import your own hybrid (server render + hydration) components below

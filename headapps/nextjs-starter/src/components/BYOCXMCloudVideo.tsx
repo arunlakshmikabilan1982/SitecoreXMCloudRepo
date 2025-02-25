@@ -1,13 +1,13 @@
 import React from 'react';
 import * as FEAAS from '@sitecore-feaas/clientside/react';
 
-interface VideoProps {
+interface BYOCXMCloudVideoProps {
   source: string;
   autoplay: boolean;
   controls: boolean;
 }
 
-export const BYOCVideo = (props: VideoProps): JSX.Element => {
+export const BYOCXMCloudVideo = (props: BYOCXMCloudVideoProps): JSX.Element => {
   return (
     <div className="byoc-video-block">
       <video
@@ -25,9 +25,9 @@ export const BYOCVideo = (props: VideoProps): JSX.Element => {
   );
 };
 
-FEAAS.External.registerComponent(BYOCVideo, {
-  name: 'BYOCVideo',
-  title: 'BYOC Video',
+FEAAS.External.registerComponent(BYOCXMCloudVideo, {
+  name: 'BYOCXMCloudVideo',
+  title: 'BYOC XM Cloud Video',
   description: 'Video with autoplay.',
   required: ['source'],
   properties: {
@@ -43,7 +43,7 @@ FEAAS.External.registerComponent(BYOCVideo, {
     controls: {
       type: 'boolean',
       title: 'Show Controls',
-      default: false,
+      default: true,
     },
   },
   ui: {
