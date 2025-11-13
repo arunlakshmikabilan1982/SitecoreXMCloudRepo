@@ -2,6 +2,8 @@ import { useEffect } from 'react';
 import { SitecorePageProps } from 'lib/page-props';
 import { CloudSDK } from '@sitecore-cloudsdk/core/browser';
 import '@sitecore-cloudsdk/events/browser';
+import '@sitecore-cloudsdk/personalize/browser';
+import '@sitecore-cloudsdk/search/browser';
 import config from 'temp/config';
 import { LayoutServicePageState } from '@sitecore-jss/sitecore-jss-nextjs';
 
@@ -27,6 +29,8 @@ const Bootstrap = (props: SitecorePageProps): JSX.Element | null => {
         cookieDomain: window.location.hostname.replace(/^www\./, ''),
       })
         .addEvents()
+        .addPersonalize({ enablePersonalizeCookie: true, webPersonalization: true })
+        .addSearch()
         .initialize();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
