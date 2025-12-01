@@ -137,7 +137,6 @@ export default function SearchResultsPage(props: SitecorePageProps) {
             <meta name="description" content="Search results powered by Sitecore Search" />
           </Head>
           <Layout layoutData={layoutData} headLinks={[]}>
-            {/* Search content inside Layout */}
             <div
               className="container mx-auto px-4 py-8"
               style={{ position: 'relative', zIndex: 10, backgroundColor: 'white' }}

@@ -14,6 +14,7 @@ const publicUrl = config.publicUrl;
 interface LayoutProps {
   layoutData: LayoutServiceData;
   headLinks: HTMLLink[];
+  children?: React.ReactNode;
 }
 
 interface RouteFields {
@@ -21,7 +22,7 @@ interface RouteFields {
   Title?: Field;
 }
 
-const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
+const Layout = ({ layoutData, headLinks, children }: LayoutProps): JSX.Element => {
   const { route } = layoutData.sitecore;
   const fields = route?.fields as RouteFields;
   const isPageEditing = layoutData.sitecore.context.pageEditing;
@@ -44,7 +45,10 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           <div id="header">{route && <Placeholder name="headless-header" rendering={route} />}</div>
         </header>
         <main>
-          <div id="content">{route && <Placeholder name="headless-main" rendering={route} />}</div>
+          <div id="content">
+            {route && <Placeholder name="headless-main" rendering={route} />}
+            {children}
+          </div>
         </main>
         <footer>
           <div id="footer">{route && <Placeholder name="headless-footer" rendering={route} />}</div>
