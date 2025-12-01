@@ -157,7 +157,9 @@ export default function SearchResultsPage(props: SitecorePageProps) {
                       >
                         {contentItem.name || 'About'}
                       </a>
-                      <p className="text-gray-700">{contentItem.description || 'Daily description'}</p>
+                      <p className="text-gray-700">
+                        {contentItem.description || 'Daily description'}
+                      </p>
                     </li>
                   ))}
                 </ul>
