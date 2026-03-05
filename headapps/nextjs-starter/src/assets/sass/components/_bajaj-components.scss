@@ -1,0 +1,1212 @@
+// =============================================================================
+// Bajaj Components — Shared Variables
+// =============================================================================
+$bajaj-primary: #016bd0;
+$bajaj-dark: #1e2b56;
+$bajaj-darkest: #0f172a;
+$bajaj-black: #000;
+$bajaj-white: #fff;
+$bajaj-gray: #90a1b9;
+$bajaj-border: #cad5e2;
+$bajaj-font: 'Poppins', sans-serif;
+$bajaj-gradient: linear-gradient(-85deg, rgb(17, 25, 52) 0%, rgb(30, 43, 86) 73%);
+
+// =============================================================================
+// Top Bar
+// =============================================================================
+.bajaj-top-bar {
+  &__wrapper {
+    background: $bajaj-dark;
+    padding: 12px 48px;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
+  }
+
+  &__link {
+    color: $bajaj-white;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__wrapper {
+      padding: 10px 24px;
+    }
+
+    &__nav {
+      gap: 20px;
+    }
+
+    &__link {
+      font-size: 14px;
+    }
+  }
+}
+
+// =============================================================================
+// Header
+// =============================================================================
+.bajaj-header {
+  &__wrapper {
+    background: $bajaj-black;
+    padding: 12px 48px;
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1824px;
+    margin: 0 auto;
+  }
+
+  &__logo {
+    flex-shrink: 0;
+
+    img {
+      height: 40px;
+      width: auto;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  &__nav-link {
+    color: $bajaj-white;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &__cta-btn {
+    display: inline-block;
+    background: #155dfc;
+    color: $bajaj-white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    transition: background 0.2s;
+
+    &:hover {
+      background: darken(#155dfc, 10%);
+    }
+  }
+
+  @media (max-width: 1024px) {
+    &__nav {
+      gap: 20px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__wrapper {
+      padding: 12px 24px;
+    }
+
+    &__nav {
+      display: none;
+    }
+  }
+}
+
+// =============================================================================
+// Hero Banner
+// =============================================================================
+.bajaj-hero-banner {
+  &__wrapper {
+    position: relative;
+    width: 100%;
+    height: 864px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__overlay {
+    position: absolute;
+    inset: 0;
+    width: 50%;
+    background: linear-gradient(88deg, rgb(0, 0, 0) 33%, rgba(0, 0, 0, 0) 100%);
+  }
+
+  &__content {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 48px;
+  }
+
+  &__text {
+    max-width: 500px;
+  }
+
+  &__title {
+    font-family: $bajaj-font;
+    font-size: 128px;
+    line-height: 1;
+    color: $bajaj-white;
+  }
+
+  &__subtitle {
+    font-family: $bajaj-font;
+    font-size: 64px;
+    line-height: 1;
+    color: $bajaj-white;
+    margin-top: 8px;
+  }
+
+  &__cta {
+    margin-top: 24px;
+  }
+
+  &__btn {
+    display: inline-block;
+    background: $bajaj-primary;
+    color: $bajaj-white;
+    font-size: 24px;
+    padding: 16px 48px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.2s;
+
+    &:hover {
+      background: darken($bajaj-primary, 10%);
+    }
+  }
+
+  &__dots {
+    position: absolute;
+    bottom: 64px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  &__dot-arrow {
+    background: $bajaj-white;
+    border: none;
+    border-radius: 4px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s;
+
+    &:hover {
+      background: #f3f3f3;
+    }
+  }
+
+  &__dot {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #d1d5db;
+    border: none;
+    cursor: pointer;
+
+    &--active {
+      width: 32px;
+      height: 32px;
+      border: 2px solid $bajaj-white;
+      background: $bajaj-white;
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        inset: 50%;
+        transform: translate(-50%, -50%);
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: $bajaj-dark;
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    &__wrapper {
+      height: 700px;
+    }
+
+    &__title {
+      font-size: 80px;
+    }
+
+    &__subtitle {
+      font-size: 40px;
+    }
+
+    &__overlay {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__content {
+      padding: 0 24px;
+    }
+
+    &__title {
+      font-size: 56px;
+    }
+
+    &__subtitle {
+      font-size: 28px;
+    }
+
+    &__btn {
+      font-size: 18px;
+      padding: 12px 32px;
+    }
+
+    &__dots {
+      bottom: 32px;
+      gap: 16px;
+    }
+
+    &__dot-arrow {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+// =============================================================================
+// Trust Banner
+// =============================================================================
+.bajaj-trust-banner {
+  &__wrapper {
+    background: $bajaj-primary;
+    padding: 48px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__inner {
+    max-width: 1824px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__count {
+    background: $bajaj-white;
+    border-radius: 4px;
+    padding: 8px 32px;
+    color: $bajaj-primary;
+    font-size: 80px;
+    font-family: $bajaj-font;
+    font-weight: 600;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  &__main-text {
+    font-family: $bajaj-font;
+    font-size: 48px;
+    line-height: 1.2;
+    color: $bajaj-white;
+  }
+
+  &__sub-text {
+    font-family: $bajaj-font;
+    font-size: 32px;
+    line-height: 1.2;
+    color: $bajaj-white;
+  }
+
+  @media (max-width: 768px) {
+    &__wrapper {
+      padding: 32px 24px;
+    }
+
+    &__inner {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    &__count {
+      font-size: 48px;
+      padding: 8px 20px;
+    }
+
+    &__main-text {
+      font-size: 28px;
+    }
+
+    &__sub-text {
+      font-size: 20px;
+    }
+  }
+}
+
+// =============================================================================
+// Product Card
+// =============================================================================
+.bajaj-product-card {
+  &__wrapper {
+    position: relative;
+    height: 320px;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+
+    img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s;
+    }
+
+    &:hover img {
+      transform: scale(1.05);
+    }
+  }
+
+  &__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4) 50%, transparent);
+  }
+
+  &__content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 24px;
+  }
+
+  &__title {
+    font-size: 24px;
+    line-height: 1.3;
+    color: $bajaj-white;
+    font-family: $bajaj-font;
+  }
+
+  &__subtitle {
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 4px;
+    font-family: $bajaj-font;
+  }
+
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+  }
+
+  &__tag {
+    background: rgba(255, 255, 255, 0.2);
+    color: $bajaj-white;
+    font-size: 14px;
+    padding: 4px 12px;
+    border-radius: 99px;
+    font-family: $bajaj-font;
+  }
+
+  &__cta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: $bajaj-white;
+    font-size: 16px;
+    margin-top: 16px;
+    text-decoration: none;
+    transition: gap 0.2s;
+    font-family: $bajaj-font;
+
+    &:hover {
+      gap: 12px;
+    }
+  }
+}
+
+// =============================================================================
+// Finance Section
+// =============================================================================
+.bajaj-finance-section {
+  &__wrapper {
+    background: $bajaj-primary;
+    padding: 64px 48px;
+  }
+
+  &__inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__left {
+    max-width: 520px;
+  }
+
+  &__title {
+    font-size: 36px;
+    line-height: 1.3;
+    color: $bajaj-white;
+    font-family: $bajaj-font;
+  }
+
+  &__description {
+    font-size: 20px;
+    line-height: 1.4;
+    color: $bajaj-white;
+    margin-top: 16px;
+    font-family: $bajaj-font;
+  }
+
+  &__features {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 32px;
+  }
+
+  &__feature {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    color: $bajaj-white;
+    font-family: $bajaj-font;
+
+    h3 {
+      font-size: 20px;
+      line-height: 1.4;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  }
+
+  &__feature-icon {
+    background: $bajaj-dark;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  &__cta-btn {
+    display: inline-block;
+    margin-top: 32px;
+    background: $bajaj-white;
+    color: $bajaj-primary;
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    transition: background 0.2s;
+    font-family: $bajaj-font;
+
+    &:hover {
+      background: #f3f3f3;
+    }
+  }
+
+  &__offers-card {
+    background: $bajaj-white;
+    border-radius: 4px;
+    padding: 32px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+    max-width: 584px;
+    width: 100%;
+  }
+
+  &__offers-title {
+    color: $bajaj-dark;
+    font-size: 24px;
+    line-height: 1.3;
+    font-family: $bajaj-font;
+  }
+
+  &__offers-list {
+    margin-top: 24px;
+  }
+
+  &__offers-footer {
+    border-top: 1px solid #e5e7eb;
+    margin-top: 24px;
+    padding-top: 16px;
+  }
+
+  &__offers-disclaimer {
+    color: $bajaj-black;
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: $bajaj-font;
+  }
+
+  @media (max-width: 1024px) {
+    &__inner {
+      flex-direction: column;
+      gap: 40px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__wrapper {
+      padding: 40px 24px;
+    }
+  }
+}
+
+// =============================================================================
+// Exchange Steps
+// =============================================================================
+.bajaj-exchange-steps {
+  &__wrapper {
+    padding: 80px 48px;
+    background: $bajaj-gradient;
+  }
+
+  &__inner {
+    max-width: 1824px;
+    margin: 0 auto;
+  }
+
+  &__header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  &__title {
+    font-size: 48px;
+    line-height: 1.2;
+    color: $bajaj-white;
+    font-family: $bajaj-font;
+  }
+
+  &__description {
+    font-size: 24px;
+    line-height: 1.4;
+    color: $bajaj-white;
+    margin-top: 16px;
+    max-width: 823px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: $bajaj-font;
+  }
+
+  &__connector {
+    display: block;
+    max-width: 970px;
+    margin: 0 auto;
+    height: 160px;
+    margin-bottom: -132px;
+    position: relative;
+    z-index: 0;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 132px;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__card {
+    background: $bajaj-white;
+    border-radius: 4px;
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  &__step-num {
+    background: $bajaj-primary;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 1.3;
+    color: $bajaj-white;
+    font-family: $bajaj-font;
+  }
+
+  &__step-title {
+    color: $bajaj-black;
+    font-size: 20px;
+    line-height: 1.4;
+    font-family: $bajaj-font;
+  }
+
+  &__step-desc {
+    color: $bajaj-dark;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 8px;
+    font-family: $bajaj-font;
+  }
+
+  @media (max-width: 1280px) {
+    &__grid {
+      gap: 32px;
+    }
+
+    &__connector {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    &__grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+
+    &__connector {
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__wrapper {
+      padding: 48px 24px;
+    }
+
+    &__grid {
+      grid-template-columns: 1fr;
+    }
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__description {
+      font-size: 18px;
+    }
+  }
+}
+
+// =============================================================================
+// Video Section
+// =============================================================================
+.bajaj-video-section {
+  &__wrapper {
+    position: relative;
+    width: 100%;
+    height: 980px;
+    overflow: hidden;
+  }
+
+  &__image {
+    position: absolute;
+    inset: 0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+  }
+
+  &__play-wrap {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__play-btn {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: 2px solid $bajaj-white;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+    text-decoration: none;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+  }
+
+  @media (max-width: 1024px) {
+    &__wrapper {
+      height: 700px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__wrapper {
+      height: 400px;
+    }
+  }
+}
+
+// =============================================================================
+// News Card
+// =============================================================================
+.bajaj-news-card {
+  &__wrapper {
+    background: $bajaj-white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.2s;
+
+    &:hover {
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  &__image-wrap {
+    position: relative;
+    height: 192px;
+    overflow: hidden;
+
+    img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__tag {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: $bajaj-primary;
+    color: $bajaj-white;
+    font-size: 14px;
+    padding: 2px 12px;
+    border-radius: 99px;
+    font-family: $bajaj-font;
+  }
+
+  &__content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  &__date {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: $bajaj-primary;
+    font-size: 14px;
+    font-family: $bajaj-font;
+  }
+
+  &__title {
+    color: $bajaj-black;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-top: 8px;
+    font-family: $bajaj-font;
+  }
+
+  &__description {
+    color: $bajaj-dark;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 8px;
+    flex: 1;
+    font-family: $bajaj-font;
+  }
+
+  &__read-more {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: $bajaj-primary;
+    font-size: 16px;
+    margin-top: 16px;
+    text-decoration: none;
+    transition: gap 0.2s;
+    font-family: $bajaj-font;
+
+    &:hover {
+      gap: 12px;
+    }
+  }
+}
+
+// =============================================================================
+// Test Drive Form
+// =============================================================================
+.bajaj-test-drive-form {
+  &__wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 700px;
+    overflow: hidden;
+  }
+
+  &__bg {
+    position: absolute;
+    inset: 0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.46);
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 10;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 64px 48px;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  &__title-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 164px;
+    line-height: 1;
+    color: $bajaj-white;
+    font-family: $bajaj-font;
+  }
+
+  &__card {
+    background: $bajaj-white;
+    border-radius: 4px;
+    padding: 32px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    max-width: 584px;
+  }
+
+  &__form-title {
+    color: #0f172b;
+    font-size: 22px;
+    line-height: 1.3;
+    text-align: center;
+    font-family: $bajaj-font;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+  }
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    label {
+      color: #314158;
+      font-size: 14px;
+      line-height: 1.4;
+      font-weight: 500;
+      font-family: $bajaj-font;
+    }
+  }
+
+  &__input-wrap {
+    position: relative;
+  }
+
+  &__input-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: $bajaj-gray;
+    width: 20px;
+    height: 20px;
+  }
+
+  &__input {
+    width: 100%;
+    border: 1px solid $bajaj-border;
+    border-radius: 10px;
+    padding: 12px 16px 12px 40px;
+    font-size: 16px;
+    color: $bajaj-black;
+    outline: none;
+    transition: border-color 0.2s;
+    font-family: $bajaj-font;
+
+    &::placeholder {
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    &:focus {
+      border-color: $bajaj-primary;
+    }
+  }
+
+  &__select {
+    appearance: none;
+  }
+
+  &__submit {
+    background: $bajaj-primary;
+    color: $bajaj-white;
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-family: $bajaj-font;
+
+    &:hover {
+      background: darken($bajaj-primary, 10%);
+    }
+  }
+
+  &__disclaimer {
+    color: #62748e;
+    font-size: 14px;
+    text-align: center;
+    font-family: $bajaj-font;
+  }
+
+  @media (max-width: 1024px) {
+    &__inner {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__title {
+      font-size: 80px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__inner {
+      padding: 48px 24px;
+    }
+
+    &__title {
+      font-size: 56px;
+    }
+  }
+}
+
+// =============================================================================
+// Footer
+// =============================================================================
+.bajaj-footer {
+  &__wrapper {
+    background: $bajaj-darkest;
+    padding: 48px 48px 32px;
+  }
+
+  &__inner {
+    max-width: 1824px;
+    margin: 0 auto;
+  }
+
+  &__top {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    margin-bottom: 32px;
+  }
+
+  &__brand-name {
+    font-size: 24px;
+    font-weight: 700;
+    color: $bajaj-white;
+    font-family: $bajaj-font;
+  }
+
+  &__brand-desc {
+    color: $bajaj-gray;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 16px;
+    max-width: 199px;
+    font-family: $bajaj-font;
+  }
+
+  &__social-icons {
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+  }
+
+  &__social-icon {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.6);
+    }
+  }
+
+  &__col {
+    h3 {
+      color: $bajaj-white;
+      font-size: 18px;
+      line-height: 1.4;
+      font-family: $bajaj-font;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    a {
+      color: $bajaj-gray;
+      font-size: 16px;
+      line-height: 1.5;
+      text-decoration: none;
+      transition: color 0.2s;
+      font-family: $bajaj-font;
+
+      &:hover {
+        color: $bajaj-white;
+      }
+    }
+  }
+
+  &__bottom {
+    border-top: 1px solid #1d293d;
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+      color: $bajaj-gray;
+      font-size: 14px;
+      line-height: 1.4;
+      font-family: $bajaj-font;
+    }
+  }
+
+  &__legal-links {
+    display: flex;
+    gap: 24px;
+
+    a {
+      color: $bajaj-gray;
+      font-size: 14px;
+      line-height: 1.4;
+      text-decoration: none;
+      transition: color 0.2s;
+      font-family: $bajaj-font;
+
+      &:hover {
+        color: $bajaj-white;
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    &__top {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__wrapper {
+      padding: 48px 24px 32px;
+    }
+
+    &__top {
+      grid-template-columns: 1fr;
+    }
+
+    &__bottom {
+      flex-direction: column;
+      gap: 16px;
+      text-align: center;
+    }
+  }
+}
