@@ -47,14 +47,7 @@ export const Default = (props: BajajHeroBannerProps): JSX.Element => {
   const hasCMSSlides = cmsSlides.length > 0;
   const slideCount = hasCMSSlides ? cmsSlides.length : defaultSlides.length;
 
-  useEffect(() => {
-    console.log('BajajHeroBanner Render State:', {
-      hasCMSSlides,
-      slideCount,
-      cmsSlides,
-      propsFields: props.fields
-    });
-  }, [hasCMSSlides, slideCount, cmsSlides, props.fields]);
+
 
   const goTo = useCallback(
     (index: number) => {
@@ -89,9 +82,9 @@ export const Default = (props: BajajHeroBannerProps): JSX.Element => {
   if (!props.fields && !hasCMSSlides) return <FallbackComponent {...props} />;
 
   return (
-    <div className={`component bajaj-hero-banner ${props.params?.styles}`} id={id ? id : undefined}>
+    <div className={`component bajaj-hero-banner w-full ${props.params?.styles}`} id={id ? id : undefined}>
       <section
-        className="relative w-full h-[500px] md:h-[700px] lg:h-[864px] overflow-hidden"
+        className="relative w-full h-[500px] md:h-[700px] lg:h-[864px] overflow-hidden bg-[#0f172a]"
         onMouseEnter={() => setIsPaused(true)}
         onMouseLeave={() => setIsPaused(false)}
       >
@@ -107,14 +100,8 @@ export const Default = (props: BajajHeroBannerProps): JSX.Element => {
           >
             {(() => {
               const slide = hasCMSSlides ? cmsSlides[current] : null;
-
-              // Debug: log the slide object
-              console.log(`Current Slide [${current}]:`, slide);
-
               const bgValue = slide?.fields?.BackgroundImage?.value;
               const bgSrc = bgValue?.src;
-
-              console.log('Resolved bgSrc:', bgSrc);
 
               if (bgSrc) {
                 return (
@@ -122,9 +109,6 @@ export const Default = (props: BajajHeroBannerProps): JSX.Element => {
                     src={bgSrc}
                     alt={bgValue?.alt?.toString() || ''}
                     className="absolute inset-0 w-full h-full object-cover object-center"
-                    style={{ zIndex: 10, border: '5px solid red' }}
-                    onLoad={() => console.log('Image loaded successfully:', bgSrc)}
-                    onError={(e) => console.error('Image failed to load:', bgSrc, e)}
                   />
                 );
               }

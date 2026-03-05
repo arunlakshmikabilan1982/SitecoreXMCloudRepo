@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   Image as JssImage,
   ImageField,
@@ -52,6 +52,12 @@ export const Banner = (props: ImageProps): JSX.Element => {
 export const Default = (props: ImageProps): JSX.Element => {
   // const { sitecoreContext } = useSitecoreContext();
 
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
   if (props.fields) {
     // const Image = () => <JssImage field={props.fields.BannerImage} />;
     const bgImg = `linear-gradient(360deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%),
@@ -77,11 +83,13 @@ export const Default = (props: ImageProps): JSX.Element => {
                 field={props.fields.Title}
               />
             </h1>
-            <JssRichText
-              field={props.fields.Description}
-              tag="p"
-              className="mx-auto pagebanner-description"
-            />
+            {isClient && (
+              <JssRichText
+                field={props.fields.Description}
+                tag="p"
+                className="mx-auto pagebanner-description"
+              />
+            )}
           </div>
           {/* {sitecoreContext.pageState === 'edit' ? <Image /> : <Image />} */}
         </div>

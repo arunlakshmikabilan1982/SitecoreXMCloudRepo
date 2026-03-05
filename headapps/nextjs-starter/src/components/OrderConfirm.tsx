@@ -43,7 +43,7 @@ const Default = (): JSX.Element => (
           </div>
           <div className="row justify-content-between top">
             <div className="row d-flex icon-content">
-              <img className="icon" src="https://i.imgur.com/9nnc9Et.png" />
+              <img className="icon" src="https://i.imgur.com/9nnc9Et.png" alt="Order Processed" />
               <div className="d-flex flex-column">
                 <p className="font-weight-bold">
                   Order
@@ -53,7 +53,7 @@ const Default = (): JSX.Element => (
               </div>
             </div>
             <div className="row d-flex icon-content">
-              <img className="icon" src="https://i.imgur.com/u1AzR7w.png" />
+              <img className="icon" src="https://i.imgur.com/u1AzR7w.png" alt="Order Shipped" />
               <div className="d-flex flex-column">
                 <p className="font-weight-bold">
                   Order
@@ -63,7 +63,7 @@ const Default = (): JSX.Element => (
               </div>
             </div>
             <div className="row d-flex icon-content">
-              <img className="icon" src="https://i.imgur.com/TkPm63y.png" />
+              <img className="icon" src="https://i.imgur.com/TkPm63y.png" alt="Order En Route" />
               <div className="d-flex flex-column">
                 <p className="font-weight-bold">
                   Order
@@ -73,7 +73,7 @@ const Default = (): JSX.Element => (
               </div>
             </div>
             <div className="row d-flex icon-content">
-              <img className="icon" src="https://i.imgur.com/HdsziHP.png" />
+              <img className="icon" src="https://i.imgur.com/HdsziHP.png" alt="Order Delivered" />
               <div className="d-flex flex-column">
                 <p className="font-weight-bold">
                   Order
