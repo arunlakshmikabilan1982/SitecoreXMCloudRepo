@@ -182,4 +182,3 @@ export const Default = (props: BajajFinanceSectionProps): JSX.Element => {
     </div>
   );
 };
-

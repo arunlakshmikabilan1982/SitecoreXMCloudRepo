@@ -588,4 +588,3 @@ export const Default = (props: BajajDealerLocatorProps): JSX.Element => {
     </div>
   );
 };
-

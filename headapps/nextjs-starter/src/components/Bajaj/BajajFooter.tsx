@@ -164,4 +164,3 @@ export const Default = (props: BajajFooterProps): JSX.Element => {
     </div>
   );
 };
-

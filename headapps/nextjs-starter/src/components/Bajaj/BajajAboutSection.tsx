@@ -330,4 +330,3 @@ export const Default = (props: BajajAboutSectionProps): JSX.Element => {
     </div>
   );
 };
-

@@ -205,4 +205,3 @@ export const Default = (props: BajajNewsCardProps): JSX.Element => {
     </div>
   );
 };
-

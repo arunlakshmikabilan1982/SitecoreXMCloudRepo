@@ -102,4 +102,3 @@ export const Default = (props: BajajVideoSectionProps): JSX.Element => {
     </div>
   );
 };
-

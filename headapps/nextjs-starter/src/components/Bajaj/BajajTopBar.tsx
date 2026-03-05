@@ -48,4 +48,3 @@ export const Default = (props: BajajTopBarProps): JSX.Element => {
 
   return <FallbackComponent {...props} />;
 };
-

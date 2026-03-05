@@ -418,4 +418,3 @@ export const Default = (props: BajajEmiCalculatorProps): JSX.Element => {
     </div>
   );
 };
-

@@ -117,7 +117,10 @@ export const Default = (props: BajajNewsListingProps): JSX.Element => {
   if (!props.fields) return <FallbackComponent {...props} />;
 
   return (
-    <div className={`component bajaj-news-listing ${props.params?.styles}`} id={id ? id : undefined}>
+    <div
+      className={`component bajaj-news-listing ${props.params?.styles}`}
+      id={id ? id : undefined}
+    >
       {/* Hero */}
       <section className="bg-[#1e2b56] py-16 md:py-24 px-6 md:px-12">
         <div className="max-w-[1824px] mx-auto">
@@ -336,4 +339,3 @@ export const Default = (props: BajajNewsListingProps): JSX.Element => {
     </div>
   );
 };
-

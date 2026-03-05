@@ -1,7 +1,13 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { ImageField, TextField, LinkField, Image as JssImage, Text, Link as JssLink } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  ImageField,
+  TextField,
+  LinkField,
+  Text,
+  Link as JssLink,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 
 type Slide = {
   fields: {
@@ -47,8 +53,6 @@ export const Default = (props: BajajHeroBannerProps): JSX.Element => {
   const hasCMSSlides = cmsSlides.length > 0;
   const slideCount = hasCMSSlides ? cmsSlides.length : defaultSlides.length;
 
-
-
   const goTo = useCallback(
     (index: number) => {
       setDirection(index > current ? 1 : -1);
@@ -82,7 +86,10 @@ export const Default = (props: BajajHeroBannerProps): JSX.Element => {
   if (!props.fields && !hasCMSSlides) return <FallbackComponent {...props} />;
 
   return (
-    <div className={`component bajaj-hero-banner w-full ${props.params?.styles}`} id={id ? id : undefined}>
+    <div
+      className={`component bajaj-hero-banner w-full ${props.params?.styles}`}
+      id={id ? id : undefined}
+    >
       <section
         className="relative w-full h-[500px] md:h-[700px] lg:h-[864px] overflow-hidden bg-[#0f172a]"
         onMouseEnter={() => setIsPaused(true)}
@@ -148,11 +155,11 @@ export const Default = (props: BajajHeroBannerProps): JSX.Element => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.6, delay: 0.1 }}
               >
-                {hasCMSSlides ? (
-                  cmsSlides[current].fields?.Title?.value || <Text field={cmsSlides[current].fields?.Title} />
-                ) : (
-                  defaultSlides[current].title
-                )}
+                {hasCMSSlides
+                  ? cmsSlides[current].fields?.Title?.value || (
+                      <Text field={cmsSlides[current].fields?.Title} />
+                    )
+                  : defaultSlides[current].title}
               </motion.h1>
               <motion.p
                 className="text-white/90 mt-2"
@@ -161,11 +168,11 @@ export const Default = (props: BajajHeroBannerProps): JSX.Element => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.6, delay: 0.25 }}
               >
-                {hasCMSSlides ? (
-                  cmsSlides[current].fields?.Subtitle?.value || <Text field={cmsSlides[current].fields?.Subtitle} />
-                ) : (
-                  defaultSlides[current].subtitle
-                )}
+                {hasCMSSlides
+                  ? cmsSlides[current].fields?.Subtitle?.value || (
+                      <Text field={cmsSlides[current].fields?.Subtitle} />
+                    )
+                  : defaultSlides[current].subtitle}
               </motion.p>
               <motion.div
                 className="inline-block mt-6"
@@ -227,10 +234,11 @@ export const Default = (props: BajajHeroBannerProps): JSX.Element => {
               key={i}
               onClick={() => goTo(i)}
               aria-label={`Go to slide ${i + 1}`}
-              className={`rounded-full transition-all duration-300 cursor-pointer ${i === current
-                ? 'size-6 md:size-8 border-2 border-white bg-white shadow-md'
-                : 'size-4 md:size-5 bg-white/50 hover:bg-white/80'
-                }`}
+              className={`rounded-full transition-all duration-300 cursor-pointer ${
+                i === current
+                  ? 'size-6 md:size-8 border-2 border-white bg-white shadow-md'
+                  : 'size-4 md:size-5 bg-white/50 hover:bg-white/80'
+              }`}
             >
               {i === current && (
                 <div className="w-full h-full rounded-full flex items-center justify-center">
@@ -252,4 +260,3 @@ export const Default = (props: BajajHeroBannerProps): JSX.Element => {
     </div>
   );
 };
-

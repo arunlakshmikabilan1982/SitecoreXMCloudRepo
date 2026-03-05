@@ -161,4 +161,3 @@ export const Default = (props: BajajExchangeStepsProps): JSX.Element => {
     </div>
   );
 };
-

@@ -39,7 +39,10 @@ export const Default = (props: BajajProductCardProps): JSX.Element => {
   const tag = props.fields.Tag?.value ?? '';
 
   return (
-    <div className={`component bajaj-product-card ${props.params?.styles}`} id={id ? id : undefined}>
+    <div
+      className={`component bajaj-product-card ${props.params?.styles}`}
+      id={id ? id : undefined}
+    >
       <motion.div
         initial={{ y: 30, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
@@ -109,4 +112,3 @@ export const Default = (props: BajajProductCardProps): JSX.Element => {
     </div>
   );
 };
-

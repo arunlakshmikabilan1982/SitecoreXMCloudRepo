@@ -156,4 +156,3 @@ export const Default = (props: BajajHeaderProps): JSX.Element => {
 
   return <FallbackComponent {...props} />;
 };
-

@@ -69,7 +69,10 @@ export const Default = (props: BajajTrustBannerProps): JSX.Element => {
   if (!props.fields) return <FallbackComponent {...props} />;
 
   return (
-    <div className={`component bajaj-trust-banner ${props.params?.styles}`} id={id ? id : undefined}>
+    <div
+      className={`component bajaj-trust-banner ${props.params?.styles}`}
+      id={id ? id : undefined}
+    >
       <section ref={ref} className="relative bg-[#016bd0] w-full py-10 md:py-16 overflow-hidden">
         <div className="max-w-[1824px] mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 relative z-10">
           <motion.div
@@ -114,4 +117,3 @@ export const Default = (props: BajajTrustBannerProps): JSX.Element => {
     </div>
   );
 };
-

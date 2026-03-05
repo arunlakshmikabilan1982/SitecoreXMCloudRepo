@@ -355,4 +355,3 @@ export const Default = (props: BajajTestDriveFormProps): JSX.Element => {
     </div>
   );
 };
-

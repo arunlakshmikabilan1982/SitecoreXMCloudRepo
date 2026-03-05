@@ -389,4 +389,3 @@ export const Default = (props: BajajProductListingProps): JSX.Element => {
     </div>
   );
 };
-

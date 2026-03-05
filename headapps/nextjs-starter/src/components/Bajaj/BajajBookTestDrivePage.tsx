@@ -572,4 +572,3 @@ export const Default = (props: BajajBookTestDrivePageProps): JSX.Element => {
     </div>
   );
 };
-

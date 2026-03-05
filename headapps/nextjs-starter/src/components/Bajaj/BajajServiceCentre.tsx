@@ -759,4 +759,3 @@ export const Default = (props: BajajServiceCentreProps): JSX.Element => {
     </div>
   );
 };
-
