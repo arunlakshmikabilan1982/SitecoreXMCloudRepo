@@ -25,7 +25,10 @@ export const Default = (props: BajajTopBarProps): JSX.Element => {
 
   if (props.fields) {
     return (
-      <div className={`component bajaj-top-bar w-full block relative z-[60] ${props.params?.styles}`} id={id ? id : undefined}>
+      <div
+        className={`component bajaj-top-bar w-full block relative z-[60] ${props.params?.styles}`}
+        id={id ? id : undefined}
+      >
         <div className="bg-[#1e2b56] w-full py-2.5 px-6 md:px-12">
           <div className="max-w-[1920px] mx-auto flex justify-end gap-6 md:gap-8">
             <JssLink

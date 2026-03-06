@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { useState, useEffect } from 'react';
 import { Facebook, Instagram, Twitter, Youtube, ArrowUp } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
