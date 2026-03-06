@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, ShoppingCart, Search } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import {
   ImageField,
   LinkField,
-  Image as JssImage,
-  Link as JssLink,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import { BajajLogo } from './BajajLogo';
 
 const navItems = [
   { label: 'Products', path: '/products' },
@@ -61,43 +60,50 @@ export const Default = (props: BajajHeaderProps): JSX.Element => {
 
   if (props.fields) {
     return (
-      <div className={`component bajaj-header ${props.params?.styles}`} id={id ? id : undefined}>
+      <div className={`component bajaj-header w-full block ${props.params?.styles}`} id={id ? id : undefined}>
         <header
-          className={`w-full px-6 md:px-12 sticky top-0 z-50 transition-all duration-300 ${
-            scrolled ? 'bg-black/95 backdrop-blur-md shadow-lg py-2' : 'bg-black py-3'
-          }`}
+          className={`w-full px-6 md:px-12 sticky top-0 z-50 transition-all duration-300 ${scrolled ? 'bg-black/95 backdrop-blur-md shadow-lg py-2' : 'bg-black py-3'
+            }`}
         >
           <div className="max-w-[1920px] mx-auto flex items-center justify-between">
             {/* Logo */}
-            <Link href="/" className="select-none flex items-center">
-              <JssImage field={props.fields.Logo} className="h-8 md:h-10 w-auto" />
+            <Link href="/" className="select-none flex items-center !no-underline hover:!no-underline">
+              <BajajLogo className="h-14 md:h-[60px] w-auto text-white" />
             </Link>
 
             {/* Desktop Nav */}
-            <nav className="hidden md:flex items-center gap-8">
-              {navItems.map((item) => {
-                const isActive = router.pathname === item.path;
-                return (
-                  <Link
-                    key={item.label}
-                    href={item.path}
-                    className={`text-base tracking-[-0.3px] transition-colors relative group ${
-                      isActive ? 'text-[#016bd0]' : 'text-white hover:text-[#016bd0]'
-                    }`}
-                  >
-                    {item.label}
-                    <span
-                      className={`absolute -bottom-1 left-0 h-0.5 bg-[#016bd0] transition-all duration-300 ${
-                        isActive ? 'w-full' : 'w-0 group-hover:w-full'
-                      }`}
-                    />
-                  </Link>
-                );
-              })}
-              <JssLink
-                field={props.fields.CTALink}
-                className={`text-white text-base px-6 py-2 rounded-[10px] transition-colors hover:shadow-lg hover:shadow-blue-500/25 bg-[#155dfc] hover:bg-[#1248cc]`}
-              />
+            <nav className="hidden md:flex items-center gap-8 lg:gap-10">
+              <div className="flex items-center gap-6 lg:gap-8">
+                {navItems.map((item) => {
+                  const isActive = router.pathname === item.path;
+                  return (
+                    <Link
+                      key={item.label}
+                      href={item.path}
+                      className={`!no-underline hover:!no-underline text-[15px] font-medium tracking-wide transition-colors relative group ${isActive ? 'text-white' : 'text-white/80 hover:text-white'
+                        }`}
+                    >
+                      {item.label}
+                    </Link>
+                  );
+                })}
+              </div>
+              <div className="flex items-center gap-6">
+                <Link
+                  href={props.fields?.CTALink?.value?.href || "/book-test-drive"}
+                  className={`!no-underline hover:!no-underline text-white text-[15px] font-medium px-6 py-2.5 rounded-[8px] transition-colors hover:shadow-lg bg-[#2563eb] hover:bg-[#1d4ed8]`}
+                >
+                  {props.fields?.CTALink?.value?.text && props.fields.CTALink.value.text !== '/en/'
+                    ? props.fields.CTALink.value.text
+                    : "Book Test Drive"}
+                </Link>
+                <button className="text-white hover:text-white/80 transition-colors" aria-label="Cart">
+                  <ShoppingCart size={22} strokeWidth={1.5} />
+                </button>
+                <Link href="/search" className="text-white hover:text-white/80 transition-colors" aria-label="Search">
+                  <Search size={22} strokeWidth={1.5} />
+                </Link>
+              </div>
             </nav>
 
             {/* Mobile toggle */}
@@ -132,19 +138,23 @@ export const Default = (props: BajajHeaderProps): JSX.Element => {
                       >
                         <Link
                           href={item.path}
-                          className={`text-base tracking-[-0.3px] transition-colors block ${
-                            isActive ? 'text-[#016bd0]' : 'text-white hover:text-[#016bd0]'
-                          }`}
+                          className={`!no-underline hover:!no-underline text-base tracking-[-0.3px] transition-colors block ${isActive ? 'text-[#016bd0]' : 'text-white hover:text-[#016bd0]'
+                            }`}
                         >
                           {item.label}
                         </Link>
                       </motion.div>
                     );
                   })}
-                  <JssLink
-                    field={props.fields.CTALink}
-                    className="bg-[#155dfc] text-white text-base px-6 py-2.5 rounded-[10px] text-center hover:bg-[#1248cc] transition-colors"
-                  />
+                  <Link
+                    href={props.fields?.CTALink?.value?.href || "/book-test-drive"}
+                    className="!no-underline hover:!no-underline bg-[#2563eb] text-white text-[15px] font-medium px-6 py-2.5 rounded-[8px] text-center hover:bg-[#1d4ed8] transition-colors"
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    {props.fields?.CTALink?.value?.text && props.fields.CTALink.value.text !== '/en/'
+                      ? props.fields.CTALink.value.text
+                      : "Book Test Drive"}
+                  </Link>
                 </div>
               </motion.nav>
             )}

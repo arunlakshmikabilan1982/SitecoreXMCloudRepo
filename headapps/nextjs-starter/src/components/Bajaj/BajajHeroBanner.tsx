@@ -157,8 +157,8 @@ export const Default = (props: BajajHeroBannerProps): JSX.Element => {
               >
                 {hasCMSSlides
                   ? cmsSlides[current].fields?.Title?.value || (
-                      <Text field={cmsSlides[current].fields?.Title} />
-                    )
+                    <Text field={cmsSlides[current].fields?.Title} />
+                  )
                   : defaultSlides[current].title}
               </motion.h1>
               <motion.p
@@ -170,8 +170,8 @@ export const Default = (props: BajajHeroBannerProps): JSX.Element => {
               >
                 {hasCMSSlides
                   ? cmsSlides[current].fields?.Subtitle?.value || (
-                      <Text field={cmsSlides[current].fields?.Subtitle} />
-                    )
+                    <Text field={cmsSlides[current].fields?.Subtitle} />
+                  )
                   : defaultSlides[current].subtitle}
               </motion.p>
               <motion.div
@@ -185,13 +185,13 @@ export const Default = (props: BajajHeroBannerProps): JSX.Element => {
                 {hasCMSSlides ? (
                   <JssLink
                     field={cmsSlides[current].fields.CTALink}
-                    className="inline-block bg-[#016bd0] text-white px-8 md:px-12 py-3 md:py-4 rounded hover:bg-[#0155a8] transition-colors hover:shadow-lg hover:shadow-blue-600/30"
+                    className="inline-block bg-[#016bd0] text-white px-8 md:px-12 py-3 md:py-4 rounded hover:bg-[#0155a8] transition-colors hover:shadow-lg hover:shadow-blue-600/30 !no-underline hover:!no-underline"
                     style={{ fontSize: 'clamp(1rem, 2vw, 24px)' }}
                   />
                 ) : (
                   <a
                     href="#book-test-drive"
-                    className="inline-block bg-[#016bd0] text-white px-8 md:px-12 py-3 md:py-4 rounded hover:bg-[#0155a8] transition-colors hover:shadow-lg hover:shadow-blue-600/30"
+                    className="inline-block bg-[#016bd0] text-white px-8 md:px-12 py-3 md:py-4 rounded hover:bg-[#0155a8] transition-colors hover:shadow-lg hover:shadow-blue-600/30 !no-underline hover:!no-underline"
                     style={{ fontSize: 'clamp(1rem, 2vw, 24px)' }}
                   >
                     {defaultSlides[current].cta}
@@ -234,11 +234,10 @@ export const Default = (props: BajajHeroBannerProps): JSX.Element => {
               key={i}
               onClick={() => goTo(i)}
               aria-label={`Go to slide ${i + 1}`}
-              className={`rounded-full transition-all duration-300 cursor-pointer ${
-                i === current
-                  ? 'size-6 md:size-8 border-2 border-white bg-white shadow-md'
-                  : 'size-4 md:size-5 bg-white/50 hover:bg-white/80'
-              }`}
+              className={`rounded-full transition-all duration-300 cursor-pointer ${i === current
+                ? 'size-6 md:size-8 border-2 border-white bg-white shadow-md'
+                : 'size-4 md:size-5 bg-white/50 hover:bg-white/80'
+                }`}
             >
               {i === current && (
                 <div className="w-full h-full rounded-full flex items-center justify-center">

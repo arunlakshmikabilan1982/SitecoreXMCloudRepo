@@ -3,6 +3,7 @@ import { Facebook, Instagram, Twitter, Youtube, ArrowUp } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { TextField, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 import Link from 'next/link';
+import { BajajLogo } from './BajajLogo';
 
 interface Fields {
   BrandName: TextField;
@@ -67,17 +68,20 @@ export const Default = (props: BajajFooterProps): JSX.Element => {
   if (!props.fields) return <FallbackComponent {...props} />;
 
   return (
-    <div className={`component bajaj-footer ${props.params?.styles}`} id={id ? id : undefined}>
+    <div className={`component bajaj-footer w-full block ${props.params?.styles}`} id={id ? id : undefined}>
       <footer className="bg-[#0f172a] w-full px-6 md:px-12 pt-12 pb-8">
         <div className="max-w-[1824px] mx-auto">
           {/* Top Section */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
             {/* Brand Column */}
             <div>
-              <Link href="/" className="inline-block">
-                <span className="text-white text-2xl font-bold">
-                  {props.fields.BrandName ? <Text field={props.fields.BrandName} /> : 'Bajaj Auto'}
-                </span>
+              <Link href="/" className="inline-block group">
+                <div className="flex items-center gap-3">
+                  <BajajLogo className="h-8 md:h-10 w-auto text-white transition-opacity group-hover:opacity-90" />
+                  <span className="text-white text-2xl font-bold">
+                    {props.fields.BrandName ? <Text field={props.fields.BrandName} /> : 'Bajaj Auto'}
+                  </span>
+                </div>
               </Link>
               <p className="text-[#90a1b9] text-sm md:text-base tracking-[-0.31px] mt-4 max-w-[220px]">
                 {props.fields.BrandDescription ? (

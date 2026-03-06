@@ -25,20 +25,22 @@ export const Default = (props: BajajTopBarProps): JSX.Element => {
 
   if (props.fields) {
     return (
-      <div className={`component bajaj-top-bar ${props.params?.styles}`} id={id ? id : undefined}>
+      <div className={`component bajaj-top-bar w-full block relative z-[60] ${props.params?.styles}`} id={id ? id : undefined}>
         <div className="bg-[#1e2b56] w-full py-2.5 px-6 md:px-12">
           <div className="max-w-[1920px] mx-auto flex justify-end gap-6 md:gap-8">
             <JssLink
               field={props.fields.DealerLocatorLink}
-              className="flex items-center gap-1.5 text-white/90 text-sm md:text-base tracking-[-0.3px] hover:text-white transition-colors"
+              className="flex items-center gap-1.5 text-white/90 text-sm md:text-[15px] tracking-wide hover:text-white transition-colors !no-underline hover:!no-underline"
             >
-              <MapPin size={14} />
+              <MapPin size={18} />
+              <span>{props.fields.DealerLocatorLink?.value?.text || 'Dealer Locator'}</span>
             </JssLink>
             <JssLink
               field={props.fields.ServiceCentresLink}
-              className="flex items-center gap-1.5 text-white/90 text-sm md:text-base tracking-[-0.3px] hover:text-white transition-colors"
+              className="flex items-center gap-1.5 text-white/90 text-sm md:text-[15px] tracking-wide hover:text-white transition-colors !no-underline hover:!no-underline"
             >
-              <Wrench size={14} />
+              <Wrench size={18} />
+              <span>{props.fields.ServiceCentresLink?.value?.text || 'Service Centres'}</span>
             </JssLink>
           </div>
         </div>
