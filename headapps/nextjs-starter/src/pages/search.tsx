@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { useState, useEffect } from 'react';
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
@@ -123,6 +124,39 @@ export default function SearchResultsPage(props: SitecorePageProps) {
 
   if (layoutData?.sitecore?.route?.placeholders) {
     layoutData.sitecore.route.placeholders['headless-main'] = [];
+
+    // Inject Bajaj components over default generic Sitecore placeholder for the search route
+    layoutData.sitecore.route.placeholders['headless-header'] = [
+      {
+        uid: 'search-topbar',
+        componentName: 'BajajTopBar',
+        dataSource: '',
+        params: {},
+        fields: {
+          DealerLocatorLink: { value: { href: '/dealer-locator', text: 'Dealer Locator' } },
+          ServiceCentresLink: { value: { href: '/service-centres', text: 'Service Centres' } }
+        }
+      },
+      {
+        uid: 'search-header',
+        componentName: 'BajajHeader',
+        dataSource: '',
+        params: {},
+        fields: {
+          CTALink: { value: { href: '/book-test-drive', text: 'Book Test Drive' } }
+        }
+      }
+    ];
+
+    layoutData.sitecore.route.placeholders['headless-footer'] = [
+      {
+        uid: 'search-footer',
+        componentName: 'BajajFooter',
+        dataSource: '',
+        params: {},
+        fields: {}
+      }
+    ];
   }
 
   return (
