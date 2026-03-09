@@ -6,6 +6,31 @@ import clientFactory from 'lib/graphql-client-factory';
 
 const ABSOLUTE_URL_REGEXP = '^(?:[a-z]+:)?//';
 
+// Define external URLs to include in the sitemap
+const externalUrls = [
+  'https://www.bajajauto.com/bikes/dominar/dominar-250-price',
+  'https://www.bajajauto.com/bikes/avenger/avenger-street-160-price',
+  'https://www.bajajauto.com/bikes/avenger/avenger-cruise-220-price',
+  'https://www.bajajauto.com/bikes/dominar/dominar-400-price',
+  'https://www.bajajauto.com/bikes/pulsar/pulsar-125-price',
+  'https://www.bajajauto.com/bikes/pulsar/pulsar-150-price',
+  'https://www.bajajauto.com/bikes/pulsar/pulsar-n160-price',
+  'https://www.bajajauto.com/bikes/pulsar/pulsar-ns125-price',
+  'https://www.bajajauto.com/bikes/pulsar/pulsar-ns200-price',
+  'https://www.bajajauto.com/bikes/pulsar/pulsar-rs200-price',
+  'https://www.bajajauto.com/bikes/pulsar/pulsar-ns160-price',
+  'https://www.bajajauto.com/bikes/pulsar/pulsar-n250-price',
+  'https://www.bajajauto.com/bikes/pulsar/pulsar-220f-price',
+  'https://www.bajajauto.com/bikes/pulsar/pulsar-ns400z-price',
+  'https://www.bajajauto.com/careers/why-us',
+  'https://www.bajajauto.com/careers/offroad',
+  'https://www.bajajauto.com/corporate/key-policies',
+  'https://www.bajajauto.com/investors/policies-codes',
+  'https://www.bajajauto.com/corporate/corporate-social-responsibility',
+  'https://www.bajajauto.com/investors/stock-exchange-intimations',
+  'https://www.bajajauto.com/about-us/about-bajaj-group',
+];
+
 const sitemapApi = async (
   req: NextApiRequest,
   res: NextApiResponse
@@ -37,7 +62,14 @@ const sitemapApi = async (
       const fetcher = new NativeDataFetcher();
       const xmlResponse = await fetcher.fetch<string>(sitemapUrl);
 
-      return res.send(xmlResponse.data);
+      // Append external URLs to the sitemap XML
+      let modifiedXml = xmlResponse.data;
+      if (externalUrls.length > 0) {
+        const additionalUrls = externalUrls.map((url) => `<url><loc>${url}</loc></url>`).join('');
+        modifiedXml = modifiedXml.replace('</urlset>', `${additionalUrls}</urlset>`);
+      }
+
+      return res.send(modifiedXml);
     } catch (error) {
       return res.redirect('/404');
     }

@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import { GetServerSideProps } from 'next';
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 import { CloudSDK } from '@sitecore-cloudsdk/core/browser';
 import '@sitecore-cloudsdk/events/browser';
 import '@sitecore-cloudsdk/personalize/browser';
@@ -24,6 +25,7 @@ export default function SearchResultsPage(props: SitecorePageProps) {
   // Create a data state variable to store the received data:
   const [content, setContent] = useState<any[]>([]); // In production, replace `any[]` with the interface of your choice for your content
   const [isClient, setIsClient] = useState(false);
+  const router = useRouter();
 
   // Ensure we're on the client side to prevent hydration mismatch
   useEffect(() => {
@@ -32,7 +34,7 @@ export default function SearchResultsPage(props: SitecorePageProps) {
 
   // Perform the initial data request:
   useEffect(() => {
-    if (!isClient) return;
+    if (!isClient || !router.isReady) return;
 
     // Initialize Cloud SDK first
     CloudSDK({
@@ -59,6 +61,12 @@ export default function SearchResultsPage(props: SitecorePageProps) {
         const widgetRequest = new SearchWidgetItem('content', 'rfkid_7'); // Create a new widget request
         widgetRequest.content = {}; // Request all attributes for the entity
         widgetRequest.limit = 10; // Limit the number of results to 10
+
+        const keyword = router.query.q as string;
+        if (keyword) {
+          widgetRequest.query = { keyphrase: keyword };
+        }
+
         // widgetRequest.sources = ["12345"]; // Optionally, return results only from specific sources
 
         // Create a new context with the locale set to "EN" and "us".
@@ -117,7 +125,7 @@ export default function SearchResultsPage(props: SitecorePageProps) {
         ]);
       }
     }
-  }, [isClient]);
+  }, [isClient, router.isReady, router.query.q]);
 
   // Use Sitecore-provided layout data (header/footer, etc.) and clear the main placeholder
   const layoutData = props.layoutData;
@@ -175,7 +183,9 @@ export default function SearchResultsPage(props: SitecorePageProps) {
               className="container mx-auto px-4 py-8"
               style={{ position: 'relative', zIndex: 10, backgroundColor: 'white' }}
             >
-              <h1 className="text-3xl font-bold mb-6">Search Results</h1>
+              <h1 className="text-3xl font-bold mb-6">
+                {router.query.q ? `Search Results for "${router.query.q}"` : 'Search Results'}
+              </h1>
               {!isClient ? (
                 <div className="text-center py-8">
                   <p>Loading search functionality...</p>

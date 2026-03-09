@@ -39,6 +39,8 @@ export const Default = (props: BajajHeaderProps): JSX.Element => {
   const id = props.params?.RenderingIdentifier;
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
   const router = useRouter();
 
   useEffect(() => {
@@ -101,9 +103,49 @@ export const Default = (props: BajajHeaderProps): JSX.Element => {
                 <button className="text-white hover:text-white/80 transition-colors" aria-label="Cart">
                   <ShoppingCart size={22} strokeWidth={1.5} />
                 </button>
-                <Link href="/search" className="text-white hover:text-white/80 transition-colors" aria-label="Search">
-                  <Search size={22} strokeWidth={1.5} />
-                </Link>
+                <div className="relative flex items-center">
+                  <AnimatePresence>
+                    {isSearchOpen && (
+                      <motion.form
+                        initial={{ width: 0, opacity: 0 }}
+                        animate={{ width: 220, opacity: 1 }}
+                        exit={{ width: 0, opacity: 0 }}
+                        transition={{ duration: 0.2 }}
+                        className="overflow-hidden mr-2"
+                        onSubmit={(e) => {
+                          e.preventDefault();
+                          if (searchQuery.trim()) {
+                            router.push(`/search?q=${encodeURIComponent(searchQuery.trim())}`);
+                            setIsSearchOpen(false);
+                          }
+                        }}
+                      >
+                        <input
+                          type="text"
+                          placeholder="Search..."
+                          value={searchQuery}
+                          onChange={(e) => setSearchQuery(e.target.value)}
+                          className="w-full bg-white/10 text-white placeholder-white/60 border border-white/30 rounded-full px-4 py-1.5 focus:outline-none focus:border-white/60 focus:bg-white/20 text-sm transition-all shadow-inner"
+                          autoFocus
+                        />
+                      </motion.form>
+                    )}
+                  </AnimatePresence>
+                  <button
+                    onClick={() => {
+                      if (isSearchOpen && searchQuery.trim()) {
+                        router.push(`/search?q=${encodeURIComponent(searchQuery.trim())}`);
+                        setIsSearchOpen(false);
+                      } else {
+                        setIsSearchOpen(!isSearchOpen);
+                      }
+                    }}
+                    className="text-white hover:text-white/80 transition-colors z-10"
+                    aria-label="Search"
+                  >
+                    <Search size={22} strokeWidth={1.5} />
+                  </button>
+                </div>
               </div>
             </nav>
 
