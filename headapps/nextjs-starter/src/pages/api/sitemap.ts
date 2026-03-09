@@ -65,7 +65,17 @@ const sitemapApi = async (
       // Append external URLs to the sitemap XML
       let modifiedXml = xmlResponse.data;
       if (externalUrls.length > 0) {
-        const additionalUrls = externalUrls.map((url) => `<url><loc>${url}</loc></url>`).join('');
+        const additionalUrls = externalUrls
+          .map(
+            (url) =>
+              `<url>
+                <loc>${url}</loc>
+                <lastmod>2026-03-09</lastmod>
+                <changefreq>daily</changefreq>
+                <priority>0.5</priority>
+              </url>`
+          )
+          .join('');
         modifiedXml = modifiedXml.replace('</urlset>', `${additionalUrls}</urlset>`);
       }
 
