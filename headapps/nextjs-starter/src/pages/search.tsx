@@ -183,25 +183,26 @@ export default function SearchResultsPage(props: SitecorePageProps) {
               className="container mx-auto px-4 py-8"
               style={{ position: 'relative', zIndex: 10, backgroundColor: 'white' }}
             >
-              <h1 className="text-3xl font-bold mb-6 mt-8">
-                {router.query.q ? `Search Results for "${router.query.q}"` : 'Search Results'}
-              </h1>
+              <h1 className="text-3xl font-bold mb-2 mt-8">Search Listing</h1>
+              {router.query.q && (
+                <p className="text-gray-600 mb-6">Showing results for "{router.query.q}"</p>
+              )}
               {!isClient ? (
                 <div className="text-center py-8">
                   <p>Loading search functionality...</p>
                 </div>
               ) : content && content.length > 0 ? (
-                <ul className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+                <ul className="space-y-6">
                   {content.map((contentItem: any) => (
-                    <li key={contentItem.id} className="bg-white shadow rounded p-4">
+                    <li key={contentItem.id} className="border-b pb-4">
                       <a
                         href={contentItem.url || `/${contentItem.name?.toLowerCase() || 'about'}`}
                         target="_blank"
-                        className="text-blue-600 hover:underline text-xl font-semibold block mb-2"
+                        className="text-blue-600 hover:underline text-xl font-medium block mb-2"
                       >
                         {contentItem.name || 'About'}
                       </a>
-                      <p className="text-gray-700 text-sm">
+                      <p className="text-gray-700 text-lg leading-relaxed">
                         {contentItem.description || 'Daily description'}
                       </p>
                     </li>
