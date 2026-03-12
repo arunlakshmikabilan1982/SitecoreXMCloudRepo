@@ -37,7 +37,9 @@ const FallbackComponent = (props: BajajTestDriveFormProps): JSX.Element => (
 export const Default = (props: BajajTestDriveFormProps): JSX.Element => {
   const id = props.params?.RenderingIdentifier;
   const [formData, setFormData] = useState({
-    name: '',
+    firstName: '',
+    lastName: '',
+    email: '',
     phone: '',
     model: '',
     dealer: '',
@@ -49,7 +51,11 @@ export const Default = (props: BajajTestDriveFormProps): JSX.Element => {
 
   const validate = () => {
     const errs: Record<string, string> = {};
-    if (!formData.name.trim()) errs.name = 'Full name is required';
+    if (!formData.firstName.trim()) errs.firstName = 'First name is required';
+    if (!formData.lastName.trim()) errs.lastName = 'Last name is required';
+    if (!formData.email.trim()) errs.email = 'Email is required';
+    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email.trim()))
+      errs.email = 'Enter a valid email address';
     if (!formData.phone.trim()) errs.phone = 'Phone number is required';
     else if (!/^[\d+\s-]{10,15}$/.test(formData.phone.trim()))
       errs.phone = 'Enter a valid phone number';
@@ -65,9 +71,28 @@ export const Default = (props: BajajTestDriveFormProps): JSX.Element => {
     setErrors(errs);
     if (Object.keys(errs).length > 0) return;
     setSubmitting(true);
-    await new Promise((r) => setTimeout(r, 1500));
-    setSubmitting(false);
-    setSubmitted(true);
+
+    try {
+      // Submit form data through Next.js API route (server-side proxy to avoid CORS)
+      const response = await fetch('/api/sfmc/submit-test-drive', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to submit form data');
+      }
+
+      setSubmitted(true);
+    } catch (error) {
+      console.error('API Error:', error);
+      setErrors({ submit: 'Failed to submit form. Please try again.' });
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   const handleChange = (field: string, value: string) => {
@@ -151,13 +176,21 @@ export const Default = (props: BajajTestDriveFormProps): JSX.Element => {
                     Test Drive Booked!
                   </h3>
                   <p className="text-[#62748e] text-center max-w-[360px]">
-                    Thank you, {formData.name}! Our team will contact you shortly to confirm your
-                    test drive.
+                    Thank you, {formData.firstName}! Our team will contact you shortly to confirm
+                    your test drive.
                   </p>
                   <button
                     onClick={() => {
                       setSubmitted(false);
-                      setFormData({ name: '', phone: '', model: '', dealer: '', date: '' });
+                      setFormData({
+                        firstName: '',
+                        lastName: '',
+                        email: '',
+                        phone: '',
+                        model: '',
+                        dealer: '',
+                        date: '',
+                      });
                     }}
                     className="mt-4 bg-[#016bd0] text-white px-6 py-2.5 rounded hover:bg-[#0155a8] transition-colors cursor-pointer"
                   >
@@ -175,10 +208,10 @@ export const Default = (props: BajajTestDriveFormProps): JSX.Element => {
                   </h3>
 
                   <form className="flex flex-col gap-4 mt-6" onSubmit={handleSubmit}>
-                    {/* Name */}
+                    {/* First Name */}
                     <div className="flex flex-col gap-1.5">
                       <label className="text-[#314158] text-sm font-medium tracking-[-0.15px]">
-                        Full Name *
+                        First Name *
                       </label>
                       <div className="relative">
                         <User
@@ -187,17 +220,79 @@ export const Default = (props: BajajTestDriveFormProps): JSX.Element => {
                         />
                         <input
                           type="text"
-                          placeholder="Enter your name"
-                          value={formData.name}
-                          onChange={(e) => handleChange('name', e.target.value)}
+                          placeholder="Enter your first name"
+                          value={formData.firstName}
+                          onChange={(e) => handleChange('firstName', e.target.value)}
                           className={`w-full border rounded-[10px] pl-10 pr-4 py-3 text-base text-black placeholder:text-black/40 outline-none transition-colors ${
-                            errors.name
+                            errors.firstName
                               ? 'border-red-400 bg-red-50/50'
                               : 'border-[#cad5e2] focus:border-[#016bd0]'
                           }`}
                         />
                       </div>
-                      {errors.name && <span className="text-red-500 text-xs">{errors.name}</span>}
+                      {errors.firstName && (
+                        <span className="text-red-500 text-xs">{errors.firstName}</span>
+                      )}
+                    </div>
+
+                    {/* Last Name */}
+                    <div className="flex flex-col gap-1.5">
+                      <label className="text-[#314158] text-sm font-medium tracking-[-0.15px]">
+                        Last Name *
+                      </label>
+                      <div className="relative">
+                        <User
+                          size={18}
+                          className="absolute left-3 top-1/2 -translate-y-1/2 text-[#90a1b9]"
+                        />
+                        <input
+                          type="text"
+                          placeholder="Enter your last name"
+                          value={formData.lastName}
+                          onChange={(e) => handleChange('lastName', e.target.value)}
+                          className={`w-full border rounded-[10px] pl-10 pr-4 py-3 text-base text-black placeholder:text-black/40 outline-none transition-colors ${
+                            errors.lastName
+                              ? 'border-red-400 bg-red-50/50'
+                              : 'border-[#cad5e2] focus:border-[#016bd0]'
+                          }`}
+                        />
+                      </div>
+                      {errors.lastName && (
+                        <span className="text-red-500 text-xs">{errors.lastName}</span>
+                      )}
+                    </div>
+
+                    {/* Email */}
+                    <div className="flex flex-col gap-1.5">
+                      <label className="text-[#314158] text-sm font-medium tracking-[-0.15px]">
+                        Email *
+                      </label>
+                      <div className="relative">
+                        <svg
+                          width="18"
+                          height="18"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="#90a1b9"
+                          strokeWidth="2"
+                          className="absolute left-3 top-1/2 -translate-y-1/2"
+                        >
+                          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                          <polyline points="22,6 12,13 2,6" />
+                        </svg>
+                        <input
+                          type="email"
+                          placeholder="Enter your email"
+                          value={formData.email}
+                          onChange={(e) => handleChange('email', e.target.value)}
+                          className={`w-full border rounded-[10px] pl-10 pr-4 py-3 text-base text-black placeholder:text-black/40 outline-none transition-colors ${
+                            errors.email
+                              ? 'border-red-400 bg-red-50/50'
+                              : 'border-[#cad5e2] focus:border-[#016bd0]'
+                          }`}
+                        />
+                      </div>
+                      {errors.email && <span className="text-red-500 text-xs">{errors.email}</span>}
                     </div>
 
                     {/* Phone */}
