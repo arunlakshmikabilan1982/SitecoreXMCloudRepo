@@ -6,7 +6,7 @@ type FormData = {
   email: string;
   phone: string;
   model: string;
-  dealer: string;
+  areaCode: string;
   date: string;
 };
 
@@ -62,7 +62,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             InterestedModel: formData.model,
             Mobile: formData.phone,
             Email: formData.email,
-            AreaCode: formData.dealer,
+            AreaCode: formData.areaCode,
             MarketingConsent: 'False',
             Followup_On_InterestedModel: 'True',
             Timeslot: formData.date,

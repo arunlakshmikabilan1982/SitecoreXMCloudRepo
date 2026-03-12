@@ -42,7 +42,7 @@ export const Default = (props: BajajTestDriveFormProps): JSX.Element => {
     email: '',
     phone: '',
     model: '',
-    dealer: '',
+    areaCode: '',
     date: '',
   });
   const [errors, setErrors] = useState<Record<string, string>>({});
@@ -60,7 +60,7 @@ export const Default = (props: BajajTestDriveFormProps): JSX.Element => {
     else if (!/^[\d+\s-]{10,15}$/.test(formData.phone.trim()))
       errs.phone = 'Enter a valid phone number';
     if (!formData.model) errs.model = 'Please select a model';
-    if (!formData.dealer.trim()) errs.dealer = 'Dealer location is required';
+    if (!formData.areaCode.trim()) errs.areaCode = 'Area code is required';
     if (!formData.date) errs.date = 'Please select a date';
     return errs;
   };
@@ -188,7 +188,7 @@ export const Default = (props: BajajTestDriveFormProps): JSX.Element => {
                         email: '',
                         phone: '',
                         model: '',
-                        dealer: '',
+                        areaCode: '',
                         date: '',
                       });
                     }}
@@ -364,10 +364,10 @@ export const Default = (props: BajajTestDriveFormProps): JSX.Element => {
                       {errors.model && <span className="text-red-500 text-xs">{errors.model}</span>}
                     </div>
 
-                    {/* Dealer */}
+                    {/* Area Code */}
                     <div className="flex flex-col gap-1.5">
                       <label className="text-[#314158] text-sm font-medium tracking-[-0.15px]">
-                        Dealer *
+                        Area Code *
                       </label>
                       <div className="relative">
                         <MapPin
@@ -376,18 +376,18 @@ export const Default = (props: BajajTestDriveFormProps): JSX.Element => {
                         />
                         <input
                           type="text"
-                          placeholder="Enter your city, area or nearest dealership"
-                          value={formData.dealer}
-                          onChange={(e) => handleChange('dealer', e.target.value)}
+                          placeholder="Enter your area code"
+                          value={formData.areaCode}
+                          onChange={(e) => handleChange('areaCode', e.target.value)}
                           className={`w-full border rounded-[10px] pl-10 pr-4 py-3 text-base text-black placeholder:text-black/40 outline-none transition-colors ${
-                            errors.dealer
+                            errors.areaCode
                               ? 'border-red-400 bg-red-50/50'
                               : 'border-[#cad5e2] focus:border-[#016bd0]'
                           }`}
                         />
                       </div>
-                      {errors.dealer && (
-                        <span className="text-red-500 text-xs">{errors.dealer}</span>
+                      {errors.areaCode && (
+                        <span className="text-red-500 text-xs">{errors.areaCode}</span>
                       )}
                     </div>
 
