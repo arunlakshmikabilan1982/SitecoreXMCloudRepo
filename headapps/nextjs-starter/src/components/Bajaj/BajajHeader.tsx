@@ -125,7 +125,8 @@ export const Default = (props: BajajHeaderProps): JSX.Element => {
                           placeholder="Search..."
                           value={searchQuery}
                           onChange={(e) => setSearchQuery(e.target.value)}
-                          className="w-full bg-white/10 text-white placeholder-white/60 border border-white/30 rounded-full px-4 py-1.5 focus:outline-none focus:border-white/60 focus:bg-white/20 text-sm transition-all shadow-inner"
+                          className="w-full bg-white/10 text-white placeholder-white/60 border border-white/30 rounded-full px-4 py-1.5 focus:outline-none focus:border-white/60 focus:bg-white/20 transition-all shadow-inner"
+                          style={{ fontSize: '14px', lineHeight: '24px' }}
                           autoFocus
                         />
                       </motion.form>

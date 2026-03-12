@@ -185,7 +185,9 @@ export default function SearchResultsPage(props: SitecorePageProps) {
             >
               <h1 className="text-3xl font-bold mb-2 mt-8">Search Listing</h1>
               {router.query.q && (
-                <p className="text-gray-600 mb-6">Showing results for &quot;{router.query.q}&quot;</p>
+                <p className="text-gray-600 mb-6" style={{ fontSize: '14px', lineHeight: '24px' }}>
+                  Showing results for &quot;{router.query.q}&quot;
+                </p>
               )}
               {!isClient ? (
                 <div className="text-center py-8">
